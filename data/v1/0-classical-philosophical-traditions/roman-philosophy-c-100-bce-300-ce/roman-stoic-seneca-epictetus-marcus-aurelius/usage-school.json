@@ -1,0 +1,11 @@
+{
+  "input_tokens": 12075,
+  "output_tokens": 5511,
+  "cache_write_tokens": 0,
+  "cache_read_tokens": 40515,
+  "input_price_usd": "0.036225",
+  "output_price_usd": "0.082665",
+  "cache_write_price_usd": "0.000000",
+  "cache_read_price_usd": "0.012155",
+  "total_price_usd": "0.131045"
+}

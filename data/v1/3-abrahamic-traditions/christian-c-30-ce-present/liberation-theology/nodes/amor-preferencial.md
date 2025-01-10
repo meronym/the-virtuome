@@ -1,0 +1,61 @@
+---
+# Core Identification
+id: amor-preferencial
+name: Amor Preferencial por los Pobres
+tradition: liberation_theology
+
+# Original Language
+script:
+  spanish: Amor Preferencial por los Pobres
+  portuguese: Opção Preferencial pelos Pobres
+  latin: Optio Praeferentialis pro Pauperibus
+
+# Classification
+category: foundational_virtue
+subcategory: social_love
+related_concepts:
+  - solidaridad_liberadora
+  - justicia_social
+  - dignidad_humana
+
+# Historical Context
+period: modern_catholic
+source_texts:
+  - puebla_documents
+  - evangelii_gaudium
+  - teologia_de_la_liberacion
+
+# Properties
+type: virtue
+scope: universal
+orientation: active
+---
+
+# Amor Preferencial por los Pobres (Preferential Love for the Poor)
+
+## Definition
+Represents the fundamental orientation toward the marginalized and commitment to their liberation, reinterpreting Christian love through the lens of social justice.
+
+## Key Aspects
+- Priority for the marginalized
+- Active commitment to justice
+- Structural transformation focus
+- Material and spiritual dimensions
+- Collective liberation emphasis
+
+## Historical Development
+Emerged from Latin American episcopal conferences (Medellín, Puebla), developed by liberation theologians, later incorporated into broader Catholic social teaching.
+
+## Contemporary Relevance
+Central to faith-based social justice work, influences church policies and Christian social activism globally.
+
+## Notable Quotes
+> "The preferential option for the poor is much more than a way of showing our concern about poverty and the establishment of justice. It contains a spiritual and theological value." - Gustavo Gutiérrez
+> "The option for the poor is not optional." - Archbishop Helder Camara
+
+## Related Practices
+- Economic solidarity initiatives
+- Pastoral work in marginalized areas
+- Alternative economic projects
+- Social justice advocacy
+- Community development programs

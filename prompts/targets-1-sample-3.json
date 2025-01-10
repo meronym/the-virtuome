@@ -1,0 +1,30 @@
+[
+    {
+        "period": "CLASSICAL PHILOSOPHICAL TRADITIONS",
+        "traditions": [
+            {
+                "name": "Greek Philosophy (c. 600 BCE - 300 CE)",
+                "schools": [
+                    "Pre-Socratic Ethics"
+                ]
+            },
+            {
+                "name": "Roman Philosophy (c. 100 BCE - 300 CE)",
+                "schools": [
+                    "Roman Stoic (Seneca, Epictetus, Marcus Aurelius)"
+                ]
+            }
+        ]
+    },
+    {
+        "period": "ANCIENT NEAR EASTERN & MEDITERRANEAN",
+        "traditions": [
+            {
+                "name": "Egyptian",
+                "schools": [
+                    "Ma'at Philosophy"
+                ]
+            }
+        ]
+    }
+]

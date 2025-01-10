@@ -1,0 +1,261 @@
+[
+    {
+        "period": "CLASSICAL PHILOSOPHICAL TRADITIONS",
+        "traditions": [
+            {
+                "name": "Greek Philosophy (c. 600 BCE - 300 CE)",
+                "schools": [
+                    "Pre-Socratic Ethics",
+                    "Platonic",
+                    "Aristotelian",
+                    "Stoic",
+                    "Epicurean",
+                    "Cynic",
+                    "Pythagorean",
+                    "Neo-Platonic"
+                ]
+            },
+            {
+                "name": "Roman Philosophy (c. 100 BCE - 300 CE)",
+                "schools": [
+                    "Roman Stoic (Seneca, Epictetus, Marcus Aurelius)",
+                    "Roman Civic Virtues",
+                    "Neo-Stoic"
+                ]
+            }
+        ]
+    },
+    {
+        "period": "ANCIENT NEAR EASTERN & MEDITERRANEAN",
+        "traditions": [
+            {
+                "name": "Egyptian",
+                "schools": [
+                    "Ma'at Philosophy",
+                    "Ptolemaic Synthesis"
+                ]
+            },
+            {
+                "name": "Persian/Iranian",
+                "schools": [
+                    "Zoroastrian Ethics",
+                    "Manichaean Ethics"
+                ]
+            },
+            {
+                "name": "Mesopotamian",
+                "schools": [
+                    "Babylonian Ethics",
+                    "Assyrian Wisdom Literature"
+                ]
+            }
+        ]
+    },
+    {
+        "period": "ASIAN PHILOSOPHICAL-RELIGIOUS TRADITIONS",
+        "traditions": [
+            {
+                "name": "Indian (c. 1500 BCE - present)",
+                "schools": [
+                    "Vedic Ethics",
+                    "Classical Hindu",
+                    "Buddhist (Theravada, Mahayana, Vajrayana)",
+                    "Jain Ethics",
+                    "Sikh Ethics",
+                    "Yogic Traditions"
+                ]
+            },
+            {
+                "name": "Chinese (c. 1000 BCE - present)",
+                "schools": [
+                    "Early Chinese Wisdom",
+                    "Confucian (Classical, Neo-Confucian)",
+                    "Taoist",
+                    "Mohist",
+                    "Chinese Buddhist",
+                    "Chinese Folk Wisdom"
+                ]
+            },
+            {
+                "name": "Japanese",
+                "schools": [
+                    "Bushido",
+                    "Zen Buddhist",
+                    "Shinto Ethics",
+                    "Japanese Neo-Confucian"
+                ]
+            },
+            {
+                "name": "Korean",
+                "schools": [
+                    "Korean Buddhist",
+                    "Korean Neo-Confucian"
+                ]
+            }
+        ]
+    },
+    {
+        "period": "ABRAHAMIC TRADITIONS",
+        "traditions": [
+            {
+                "name": "Jewish (c. 1200 BCE - present)",
+                "schools": [
+                    "Biblical Ethics",
+                    "Rabbinic Ethics",
+                    "Maimonidean",
+                    "Mussar Movement",
+                    "Modern Jewish Ethics"
+                ]
+            },
+            {
+                "name": "Christian (c. 30 CE - present)",
+                "schools": [
+                    "Patristic Ethics",
+                    "Medieval Catholic",
+                    "Eastern Orthodox",
+                    "Protestant Ethics",
+                    "Modern Christian Ethics",
+                    "Liberation Theology"
+                ]
+            },
+            {
+                "name": "Islamic (c. 600 CE - present)",
+                "schools": [
+                    "Quranic Ethics",
+                    "Sufi Ethics",
+                    "Islamic Philosophy (falsafa)",
+                    "Islamic Jurisprudence (fiqh)",
+                    "Modern Islamic Ethics"
+                ]
+            }
+        ]
+    },
+    {
+        "period": "INDIGENOUS TRADITIONS",
+        "traditions": [
+            {
+                "name": "African",
+                "schools": [
+                    "Ubuntu Philosophy",
+                    "West African Ethics",
+                    "East African Ethics",
+                    "Traditional African Religious Ethics"
+                ]
+            },
+            {
+                "name": "Americas",
+                "schools": [
+                    "Native North American Ethics",
+                    "Mesoamerican Ethics",
+                    "Andean Ethics",
+                    "Amazonian Ethics"
+                ]
+            },
+            {
+                "name": "Pacific",
+                "schools": [
+                    "Australian Aboriginal",
+                    "Māori Ethics",
+                    "Polynesian Ethics",
+                    "Melanesian Ethics"
+                ]
+            }
+        ]
+    },
+    {
+        "period": "MEDIEVAL & RENAISSANCE",
+        "traditions": [
+            {
+                "name": "European",
+                "schools": [
+                    "Chivalric Ethics",
+                    "Scholastic Ethics",
+                    "Humanist Ethics",
+                    "Guild Ethics"
+                ]
+            },
+            {
+                "name": "Islamic Golden Age",
+                "schools": [
+                    "Andalusian Ethics",
+                    "Persian Ethics",
+                    "Arabian Ethics"
+                ]
+            }
+        ]
+    },
+    {
+        "period": "MODERN PHILOSOPHICAL FRAMEWORKS",
+        "traditions": [
+            {
+                "name": "Enlightenment (17th-18th century)",
+                "schools": [
+                    "Rationalist Ethics",
+                    "Empiricist Ethics",
+                    "Kantian Ethics",
+                    "Benjamin Franklin's Virtues"
+                ]
+            },
+            {
+                "name": "19th Century",
+                "schools": [
+                    "Utilitarian Ethics",
+                    "Transcendentalist Ethics",
+                    "Nietzschean Ethics",
+                    "Pragmatist Ethics"
+                ]
+            },
+            {
+                "name": "20th Century",
+                "schools": [
+                    "Virtue Ethics Revival",
+                    "Existentialist Ethics",
+                    "Phenomenological Ethics",
+                    "Care Ethics",
+                    "Environmental Ethics"
+                ]
+            }
+        ]
+    },
+    {
+        "period": "CONTEMPORARY FRAMEWORKS",
+        "traditions": [
+            {
+                "name": "Psychological",
+                "schools": [
+                    "Humanistic Psychology",
+                    "Positive Psychology",
+                    "Developmental Psychology",
+                    "Moral Psychology"
+                ]
+            },
+            {
+                "name": "Social-Political",
+                "schools": [
+                    "Feminist Ethics",
+                    "Critical Theory Ethics",
+                    "Post-colonial Ethics",
+                    "Global Ethics"
+                ]
+            },
+            {
+                "name": "Applied Ethics",
+                "schools": [
+                    "Professional Ethics",
+                    "Business Ethics",
+                    "Bioethics",
+                    "Digital Ethics"
+                ]
+            },
+            {
+                "name": "Modern Spiritual/Psychological",
+                "schools": [
+                    "New Age Ethics",
+                    "Transpersonal Psychology",
+                    "Integral Theory",
+                    "Contemporary Mystical Traditions"
+                ]
+            }
+        ]
+    }
+]

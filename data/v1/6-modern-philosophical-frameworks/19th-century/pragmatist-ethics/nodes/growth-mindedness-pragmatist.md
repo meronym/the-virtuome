@@ -1,0 +1,60 @@
+---
+# Core Identification
+id: growth-mindedness-pragmatist
+name: Growth-Mindedness
+tradition: pragmatist
+
+# Original Language
+script:
+  english: Growth-Mindedness
+  context: "Derived from Dewey's concept of growth and educational theory"
+
+# Classification
+category: developmental_virtue
+subcategory: learning_disposition
+related_concepts:
+  - experimental_disposition
+  - reconstructive_habit
+  - critical_intelligence
+
+# Historical Context
+period: early_20th_century
+source_texts:
+  - democracy_and_education
+  - experience_and_education
+  - human_nature_and_conduct
+
+# Properties
+type: virtue
+scope: individual
+orientation: active
+---
+
+# Growth-Mindedness
+
+## Definition
+Growth-mindedness represents the disposition to view experience as an opportunity for continuous development, combined with the capacity for self-correction and learning from experience.
+
+## Key Aspects
+- Developmental orientation
+- Learning from experience
+- Self-correction capacity
+- Continuous improvement
+- Adaptive flexibility
+
+## Historical Development
+Emerged from Dewey's educational philosophy and theory of experience, emphasizing growth as both means and end of education.
+
+## Contemporary Relevance
+Fundamental to lifelong learning, professional development, and personal growth in rapidly changing contexts.
+
+## Notable Quotes
+> "Education is not preparation for life; education is life itself." - John Dewey
+> "Growth itself is the only moral end." - John Dewey
+
+## Related Practices
+- Lifelong learning
+- Reflective practice
+- Self-directed education
+- Professional development
+- Experiential learning

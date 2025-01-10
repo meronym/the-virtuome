@@ -1,0 +1,61 @@
+---
+# Core Identification
+id: decolonial-love-postcolonial
+name: Decolonial Love
+tradition: postcolonial_ethics
+
+# Original Language
+script:
+  english: decolonial_love
+  spanish: amor decolonial
+  portuguese: amor decolonial
+
+# Classification
+category: relational_virtue
+subcategory: transformative_love
+related_concepts:
+  - radical_tenderness
+  - revolutionary_love
+  - collective_healing
+
+# Historical Context
+period: modern_postcolonial
+source_texts:
+  - black_skin_white_masks
+  - this_bridge_called_my_back
+  - light_in_the_dark
+
+# Properties
+type: virtue
+scope: personal_collective
+orientation: active
+---
+
+# Decolonial Love
+
+## Definition
+A radical form of love that heals colonial wounds while resisting ongoing colonization, encompassing self-love, communal love, and revolutionary love that transcends colonial hierarchies.
+
+## Key Aspects
+- Healing from internalized colonialism
+- Radical self-acceptance
+- Communal care and solidarity
+- Transformative relationships
+- Revolutionary potential
+
+## Historical Development
+Emerged from intersections of postcolonial theory, feminist thought, and liberation movements. Developed through writings of Gloria Anzaldúa, Chela Sandoval, and others.
+
+## Contemporary Relevance
+Central to modern decolonial movements, healing justice, and transformative social justice work.
+
+## Notable Quotes
+> "Love as a hermeneutics of social change" - Chela Sandoval
+> "The task of the artist is to make revolution irresistible" - Toni Cade Bambara
+
+## Related Practices
+- Healing circles
+- Community care networks
+- Revolutionary relationships
+- Cultural reclamation
+- Collective joy practices

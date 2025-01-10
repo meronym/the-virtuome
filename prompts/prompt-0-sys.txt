@@ -1,0 +1,1274 @@
+# Human Virtue Project - Comprehensive Virtue Catalog
+
+OBJECTIVE:
+Create a comprehensive catalog of human virtues across cultures, traditions, and time periods, documenting their meanings, relationships, and practical applications.
+
+SCOPE:
+This analysis covers virtues from the following traditions and frameworks:
+
+CLASSICAL PHILOSOPHICAL TRADITIONS
+1. Greek Philosophy (c. 600 BCE - 300 CE)
+   - Pre-Socratic Ethics
+   - Platonic
+   - Aristotelian
+   - Stoic
+   - Epicurean
+   - Cynic
+   - Pythagorean
+   - Neo-Platonic
+
+2. Roman Philosophy (c. 100 BCE - 300 CE)
+   - Roman Stoic (Seneca, Epictetus, Marcus Aurelius)
+   - Roman Civic Virtues
+   - Neo-Stoic
+
+ANCIENT NEAR EASTERN & MEDITERRANEAN
+1. Egyptian
+   - Ma'at Philosophy
+   - Ptolemaic Synthesis
+
+2. Persian/Iranian
+   - Zoroastrian Ethics
+   - Manichaean Ethics
+
+3. Mesopotamian
+   - Babylonian Ethics
+   - Assyrian Wisdom Literature
+
+ASIAN PHILOSOPHICAL-RELIGIOUS TRADITIONS
+1. Indian (c. 1500 BCE - present)
+   - Vedic Ethics
+   - Classical Hindu
+   - Buddhist (Multiple Schools)
+     * Theravada
+     * Mahayana
+     * Vajrayana
+   - Jain Ethics
+   - Sikh Ethics
+   - Yogic Traditions
+
+2. Chinese (c. 1000 BCE - present)
+   - Early Chinese Wisdom
+   - Confucian
+     * Classical
+     * Neo-Confucian
+   - Taoist
+   - Mohist
+   - Chinese Buddhist
+   - Chinese Folk Wisdom
+
+3. Japanese
+   - Bushido
+   - Zen Buddhist
+   - Shinto Ethics
+   - Japanese Neo-Confucian
+
+4. Korean
+   - Korean Buddhist
+   - Korean Neo-Confucian
+
+ABRAHAMIC TRADITIONS
+1. Jewish (c. 1200 BCE - present)
+   - Biblical Ethics
+   - Rabbinic Ethics
+   - Maimonidean
+   - Mussar Movement
+   - Modern Jewish Ethics
+
+2. Christian (c. 30 CE - present)
+   - Patristic Ethics
+   - Medieval Catholic
+   - Eastern Orthodox
+   - Protestant Ethics
+   - Modern Christian Ethics
+   - Liberation Theology
+
+3. Islamic (c. 600 CE - present)
+   - Quranic Ethics
+   - Sufi Ethics
+   - Islamic Philosophy (falsafa)
+   - Islamic Jurisprudence (fiqh)
+   - Modern Islamic Ethics
+
+INDIGENOUS TRADITIONS
+1. African
+   - Ubuntu Philosophy
+   - West African Ethics
+   - East African Ethics
+   - Traditional African Religious Ethics
+
+2. Americas
+   - Native North American Ethics
+   - Mesoamerican Ethics
+   - Andean Ethics
+   - Amazonian Ethics
+
+3. Pacific
+   - Australian Aboriginal
+   - Māori Ethics
+   - Polynesian Ethics
+   - Melanesian Ethics
+
+MEDIEVAL & RENAISSANCE
+1. European
+   - Chivalric Ethics
+   - Scholastic Ethics
+   - Humanist Ethics
+   - Guild Ethics
+
+2. Islamic Golden Age
+   - Andalusian Ethics
+   - Persian Ethics
+   - Arabian Ethics
+
+MODERN PHILOSOPHICAL FRAMEWORKS
+1. Enlightenment (17th-18th century)
+   - Rationalist Ethics
+   - Empiricist Ethics
+   - Kantian Ethics
+   - Benjamin Franklin's Virtues
+
+2. 19th Century
+   - Utilitarian Ethics
+   - Transcendentalist Ethics
+   - Nietzschean Ethics
+   - Pragmatist Ethics
+
+3. 20th Century
+   - Virtue Ethics Revival
+   - Existentialist Ethics
+   - Phenomenological Ethics
+   - Care Ethics
+   - Environmental Ethics
+
+CONTEMPORARY FRAMEWORKS
+1. Psychological
+   - Humanistic Psychology
+   - Positive Psychology
+   - Developmental Psychology
+   - Moral Psychology
+
+2. Social-Political
+   - Feminist Ethics
+   - Critical Theory Ethics
+   - Post-colonial Ethics
+   - Global Ethics
+
+3. Applied Ethics
+   - Professional Ethics
+   - Business Ethics
+   - Bioethics
+   - Digital Ethics
+
+4. Modern Spiritual/Psychological
+   - New Age Ethics
+   - Transpersonal Psychology
+   - Integral Theory
+   - Contemporary Mystical Traditions
+
+TASK:
+Drawing from your training knowledge, please:
+1. Recall and analyze the core texts, teachings, and philosophical foundations of each tradition
+2. Identify both explicit virtues and implicit virtue concepts
+3. Consider historical context and development of virtue concepts
+4. Note interconnections between virtues within and across traditions
+5. Document practical applications and manifestations of virtues
+
+PROCESS:
+Begin systematic analysis with one tradition at a time, focusing on:
+- Primary sources and canonical texts
+- Key philosophical/religious figures
+- Historical development and interpretations
+- Practical applications and lived expressions
+- Contemporary relevance and modern interpretations
+
+Extract explicit virtue concepts and infer implicit virtues from teachings and practices. Then, for each virtue within the tradition, create a YAML+Markdown node using the following format:
+
+```yaml
+---
+# Core Identification
+id: [tradition-specific-slug]
+name: [virtue name]
+tradition: [specific tradition]
+
+# Original Language
+script:
+   [original_language]: [original script]
+   [transliteration_system]: [transliteration]
+   [alternative_scripts_if_relevant]: [alternative representations]
+
+# Classification
+category: [primary category]
+subcategory: [specific type]
+related_concepts: [list of related virtues within same tradition]
+
+# Historical Context
+period: [historical period]
+source_texts: [list of primary sources]
+
+# Properties
+type: [virtue/value/principle/practice]
+scope: [individual/interpersonal/social/universal]
+orientation: [active/passive/balanced]
+---
+
+# [Virtue Name] ([Original Script]) - [English Translation]
+
+## Definition
+[Precise definition within this specific tradition]
+
+## Key Aspects
+- [Core characteristic 1]
+- [Core characteristic 2]
+- [Core characteristic 3]
+- [Core characteristic 4]
+- [Core characteristic 5]
+
+## Historical Development
+[Brief history of the concept within the tradition]
+
+## Contemporary Relevance
+[Current applications and modern interpretation]
+
+## Notable Quotes
+> [Representative quote 1]
+> [Representative quote 2]
+
+## Related Practices
+- [Practice 1]
+- [Practice 2]
+- [Practice 3]
+- [Practice 4]
+```
+
+For each tradition, ensure:
+   - Accurate transliteration and original script
+   - Proper historical contextualization
+   - Clear relationship to other virtues within the tradition
+   - Authentic representation of the tradition's worldview
+
+Pay special attention to:
+   - Linguistic accuracy in original terms
+   - Historical development of concepts
+   - Interconnections between virtues
+   - Practical applications and manifestations
+   - Cultural context and nuances
+
+Include for each virtue:
+   - Primary textual sources
+   - Key interpretive traditions
+   - Major historical developments
+   - Contemporary applications
+   - Related practices and observances
+
+Here is a concrete example of the desired output format, with inline commentaries:
+
+```yaml
+---
+# Core Identification
+id: ren-confucian                    # Unique identifier in slug format
+name: Rén                            # Primary name
+tradition: confucian                 # Primary tradition
+
+# Original Language
+script:
+  chinese: 仁
+  pinyin: rén
+  wade_giles: jen2
+
+# Classification
+category: social_virtue              # Primary category
+subcategory: benevolence            # Secondary category
+related_concepts:                    # Related concepts within same tradition
+  - zhong
+  - yi
+  - li
+
+# Historical Context
+period: early_confucian             # Historical period
+source_texts:                       # Primary source texts
+  - analects
+  - mencius
+
+# Properties
+type: virtue                        # virtue/value/principle/practice
+scope: interpersonal                # individual/interpersonal/social/universal
+orientation: active                 # active/passive/balanced
+---
+
+# Rén (仁) - Benevolence/Humaneness
+
+## Definition
+Rén represents the core Confucian virtue of benevolence, humaneness, and goodness. It is often described as the foundation of all other virtues.
+
+## Key Aspects
+- Fundamental concern for others
+- Expression of human moral nature
+- Basis for proper relationships
+- Source of moral behavior
+
+## Historical Development
+First articulated by Confucius in the Analects, where it appears in over 100 passages. Later developed by Mencius as inherent moral tendency.
+
+## Contemporary Relevance
+Remains central to modern Confucian ethics and discussions of moral education in East Asian contexts.
+
+## Notable Quotes
+> "Rén is to love others." - Analects 12.22
+> "The benevolent person sees benevolence as their duty." - Mencius 7A:33
+
+## Related Practices
+- Filial piety (xiào 孝)
+- Ritual propriety (lǐ 禮)
+- Righteousness (yì 義)
+```
+
+
+Here are a few output examples:
+
+```yaml
+---
+# Core Identification
+id: metta-buddhist
+name: Mettā
+tradition: buddhist
+
+# Original Language
+script:
+  pali: मेत्ता
+  sanskrit: मैत्री
+  devanagari: मेत्ता
+  transliteration: mettā
+
+# Classification
+category: brahmavihara
+subcategory: positive_emotion
+related_concepts:
+  - karuna
+  - mudita
+  - upekkha
+
+# Historical Context
+period: early_buddhist
+source_texts:
+  - metta_sutta
+  - visuddhimagga
+  - patisambhidamagga
+
+# Properties
+type: virtue
+scope: universal
+orientation: active
+---
+
+# Mettā (मेत्ता) - Loving-kindness
+
+## Definition
+Mettā is the first of the four Brahmaviharas (Divine Abodes), representing universal loving-kindness and goodwill towards all beings without distinction.
+
+## Key Aspects
+- Unconditional benevolence
+- Absence of ill-will
+- Universal application
+- Foundation for meditation practice
+
+## Historical Development
+Central to early Buddhist teachings, particularly emphasized in the Metta Sutta. Later developed into systematic meditation practices.
+
+## Contemporary Relevance
+Widely practiced in modern mindfulness and Buddhist meditation traditions. Important in contemporary peace and reconciliation work.
+
+## Notable Quotes
+> "As a mother would protect her only child with her life, even so let one cultivate a boundless love towards all beings." - Metta Sutta
+
+## Related Practices
+- Mettā bhāvanā (loving-kindness meditation)
+- Development of the four Brahmaviharas
+- Cultivation of non-violence (ahimsa)
+```
+
+```yaml
+---
+# Core Identification
+id: satya-hindu
+name: Satya
+tradition: hindu
+
+# Original Language
+script:
+  sanskrit: सत्य
+  devanagari: सत्य
+  transliteration: satya
+
+# Classification
+category: yama
+subcategory: ethical_restraint
+related_concepts:
+  - ahimsa
+  - asteya
+  - brahmacharya
+  - aparigraha
+
+# Historical Context
+period: vedic
+source_texts:
+  - upanishads
+  - yoga_sutras
+  - bhagavad_gita
+
+# Properties
+type: virtue
+scope: universal
+orientation: balanced
+---
+
+# Satya (सत्य) - Truthfulness
+
+## Definition
+Satya represents absolute truthfulness in thought, speech, and action. It is one of the five Yamas (ethical restraints) in Hindu philosophy.
+
+## Key Aspects
+- Truth in speech
+- Honesty in action
+- Authenticity in thought
+- Alignment with ultimate reality
+
+## Historical Development
+Present in earliest Vedic texts, developed as a key principle in Yoga philosophy and Gandhi's teachings.
+
+## Contemporary Relevance
+Fundamental to modern Hindu ethics and influential in truth and reconciliation movements globally.
+
+## Notable Quotes
+> "Truth alone triumphs, not falsehood." (Satyameva Jayate) - Mundaka Upanishad
+> "Truth is God." - Mahatma Gandhi
+
+## Related Practices
+- Self-reflection
+- Mindful speech
+- Ethical decision-making
+```
+
+```yaml
+---
+# Core Identification
+id: xiao-confucian
+name: Xiào
+tradition: confucian
+
+# Original Language
+script:
+  chinese: 孝
+  pinyin: xiào
+  wade_giles: hsiao4
+
+# Classification
+category: relational_virtue
+subcategory: family_ethics
+related_concepts:
+  - ren
+  - li
+  - zhong
+
+# Historical Context
+period: early_confucian
+source_texts:
+  - classic_of_filial_piety
+  - analects
+  - book_of_rites
+
+# Properties
+type: virtue
+scope: familial
+orientation: active
+---
+
+# Xiào (孝) - Filial Piety
+
+## Definition
+Xiào represents the fundamental virtue of respect, obedience, and care for one's parents and ancestors, considered the root of moral development in Confucian thought.
+
+## Key Aspects
+- Respect for parents
+- Care for elderly
+- Ancestral reverence
+- Continuation of family lineage
+- Moral education foundation
+
+## Historical Development
+Central to early Confucian texts, later elaborated in the Classic of Filial Piety. Became institutionalized in Chinese social structures.
+
+## Contemporary Relevance
+Continues to influence East Asian family values and elderly care ethics. Debated in context of modern family structures.
+
+## Notable Quotes
+> "Filial piety is the root of virtue." - Classic of Filial Piety
+> "In serving his parents, a filial son reveres them in daily life." - Analects 2.7
+
+## Related Practices
+- Ancestor worship
+- Family care responsibilities
+- Ritual observances
+- Maintenance of family traditions
+```
+
+```yaml
+---
+# Core Identification
+id: phronesis-aristotelian
+name: Phronēsis
+tradition: aristotelian
+
+# Original Language
+script:
+  greek: φρόνησις
+  transliteration: phronēsis
+  latin: prudentia
+
+# Classification
+category: intellectual_virtue
+subcategory: practical_wisdom
+related_concepts:
+  - sophia
+  - episteme
+  - techne
+  - nous
+
+# Historical Context
+period: classical_greek
+source_texts:
+  - nicomachean_ethics
+  - eudemian_ethics
+  - magna_moralia
+
+# Properties
+type: virtue
+scope: practical
+orientation: active
+---
+
+# Phronēsis (φρόνησις) - Practical Wisdom
+
+## Definition
+Phronēsis is the intellectual virtue of practical wisdom or prudence, enabling one to make good judgments and apply general principles to particular situations.
+
+## Key Aspects
+- Deliberative excellence
+- Situational judgment
+- Ethical reasoning
+- Action-oriented wisdom
+- Experience-based knowledge
+
+## Historical Development
+Central to Aristotle's virtue ethics, distinguished from theoretical wisdom (sophia) and technical knowledge (technē).
+
+## Contemporary Relevance
+Influences modern virtue ethics and professional ethics, particularly in fields requiring practical judgment.
+
+## Notable Quotes
+> "Practical wisdom is concerned with human affairs and with matters about which deliberation is possible." - Nicomachean Ethics, VI.7
+> "The prudent man is able to deliberate rightly about what is good and beneficial for himself." - Nicomachean Ethics, VI.5
+
+## Related Practices
+- Deliberative decision-making
+- Ethical reasoning
+- Mentorship
+- Experience accumulation
+```
+
+```yaml
+---
+# Core Identification
+id: sabr-islamic
+name: Ṣabr
+tradition: islamic
+
+# Original Language
+script:
+  arabic: صبر
+  transliteration: ṣabr
+
+# Classification
+category: moral_virtue
+subcategory: endurance
+related_concepts:
+  - tawakkul
+  - ridha
+  - shukr
+
+# Historical Context
+period: islamic_classical
+source_texts:
+  - quran
+  - hadith
+  - ihya_ulum_al_din
+
+# Properties
+type: virtue
+scope: personal
+orientation: passive
+---
+
+# Ṣabr (صبر) - Patience/Perseverance
+
+## Definition
+Ṣabr represents patient perseverance, steadfastness, and endurance in faith and action, particularly in facing difficulties while maintaining trust in Allah.
+
+## Key Aspects
+- Steadfastness in faith
+- Emotional control
+- Perseverance in adversity
+- Acceptance of divine will
+- Self-restraint
+
+## Historical Development
+Prominently featured in the Quran and Hadith, later developed by Islamic scholars like Al-Ghazali in systematic ethical works.
+
+## Contemporary Relevance
+Central to Islamic spiritual practice and psychological resilience. Important in modern Islamic counseling and personal development.
+
+## Notable Quotes
+> "O you who believe, seek help through patience and prayer." - Quran 2:153
+> "Patience is half of faith." - Hadith
+
+## Related Practices
+- Regular prayer (salah)
+- Fasting (sawm)
+- Mindful gratitude (shukr)
+- Trust in divine decree (tawakkul)
+```
+
+```yaml
+---
+# Core Identification
+id: constantia-stoic
+name: Constantia
+tradition: stoic
+
+# Original Language
+script:
+  latin: constantia
+  greek: εὐστάθεια
+  greek_transliteration: eustatheia
+
+# Classification
+category: cardinal_virtue
+subcategory: resilience
+related_concepts:
+  - fortitudo
+  - temperantia
+  - disciplina
+
+# Historical Context
+period: roman_imperial
+source_texts:
+  - de_constantia
+  - meditations
+  - epistulae_morales
+
+# Properties
+type: virtue
+scope: personal
+orientation: active
+---
+
+# Constantia - Steadfastness
+
+## Definition
+Constantia represents unwavering steadfastness and mental stability in the face of adversity, a cornerstone of Stoic ethical practice.
+
+## Key Aspects
+- Mental firmness
+- Emotional stability
+- Resilience to fortune
+- Inner tranquility
+- Rational consistency
+
+## Historical Development
+Developed by Roman Stoics, particularly Seneca in "De Constantia Sapientis." Enhanced by Marcus Aurelius and Epictetus.
+
+## Contemporary Relevance
+Influential in modern resilience psychology and cognitive behavioral therapy. Popular in contemporary stoicism movements.
+
+## Notable Quotes
+> "The greatest power is self-power." - Seneca
+> "The happiness of your life depends upon the quality of your thoughts." - Marcus Aurelius
+
+## Related Practices
+- Morning preparation
+- Evening review
+- Negative visualization
+- Rational self-dialogue
+```
+
+```yaml
+---
+# Core Identification
+id: megalopsychia-aristotelian
+name: Megalopsychia
+tradition: aristotelian
+
+# Original Language
+script:
+  greek: μεγαλοψυχία
+  transliteration: megalopsychia
+  latin: magnanimitas
+
+# Classification
+category: moral_virtue
+subcategory: self_worth
+related_concepts:
+  - andreia
+  - sophrosyne
+  - dikaiosyne
+
+# Historical Context
+period: classical_greek
+source_texts:
+  - nicomachean_ethics
+  - eudemian_ethics
+
+# Properties
+type: virtue
+scope: personal
+orientation: balanced
+---
+
+# Megalopsychia (μεγαλοψυχία) - Magnanimity/Greatness of Soul
+
+## Definition
+Megalopsychia represents proper pride or greatness of soul, the virtue of those who understand their own worth and act accordingly with proper dignity.
+
+## Key Aspects
+- Proper self-estimation
+- Dignified behavior
+- Merit-based pride
+- Appropriate ambition
+- Noble conduct
+
+## Historical Development
+Developed in Aristotle's ethics as the crown of virtues, representing the ideal self-regard of the virtuous person.
+
+## Contemporary Relevance
+Influences discussions of authentic self-esteem and proper pride. Debated in context of democratic values and equality.
+
+## Notable Quotes
+> "The great-souled person is one who claims much and deserves much." - Nicomachean Ethics, IV.3
+> "Greatness of soul seems to be a sort of crown of the virtues." - Nicomachean Ethics, IV.3
+
+## Related Practices
+- Self-evaluation
+- Appropriate honor-seeking
+- Beneficence to others
+- Maintenance of dignity
+```
+
+```yaml
+---
+# Core Identification
+id: ubuntu-african
+name: Ubuntu
+tradition: african_philosophy
+
+# Original Language
+script:
+  xhosa: ubuntu
+  zulu: ubuntu
+  shona: unhu
+  ndebele: ubuntu
+
+# Classification
+category: foundational_principle
+subcategory: communal_virtue
+related_concepts:
+  - ukama
+  - simunye
+  - hunhu
+
+# Historical Context
+period: traditional_african
+source_texts:
+  - oral_traditions
+  - african_philosophical_writings
+
+# Properties
+type: virtue
+scope: communal
+orientation: relational
+---
+
+# Ubuntu - Human Interconnectedness
+
+## Definition
+Ubuntu represents the African philosophical concept that "a person is a person through other persons," emphasizing the interconnectedness of human existence and communal harmony.
+
+## Key Aspects
+- Communal solidarity
+- Mutual recognition
+- Shared humanity
+- Reciprocal dignity
+- Collective wellbeing
+
+## Historical Development
+Traditional African concept articulated through oral traditions, later formalized in post-colonial African philosophy and political thought.
+
+## Contemporary Relevance
+Influential in post-apartheid reconciliation, African business ethics, and global discussions of community-based ethics.
+
+## Notable Quotes
+> "I am because we are." - Traditional African expression
+> "Umuntu ngumuntu ngabantu." (A person is a person through persons) - Zulu proverb
+
+## Related Practices
+- Community consensus-building
+- Collective problem-solving
+- Intergenerational responsibility
+- Communal celebration and mourning
+```
+
+```yaml
+---
+# Core Identification
+id: hozho-navajo
+name: Hózhǫ́
+tradition: navajo
+
+# Original Language
+script:
+  navajo: Hózhǫ́
+  transliteration: hozho
+
+# Classification
+category: life_principle
+subcategory: harmony
+related_concepts:
+  - k'é
+  - k'éí
+  - hashkééjí
+
+# Historical Context
+period: traditional_navajo
+source_texts:
+  - oral_traditions
+  - blessing_way_ceremonies
+  - navajo_creation_stories
+
+# Properties
+type: virtue
+scope: universal
+orientation: balanced
+---
+
+# Hózhǫ́ - Beauty/Harmony/Balance
+
+## Definition
+Hózhǫ́ represents the Navajo concept of beauty, harmony, and balance in all aspects of life, including relationships with nature, community, and the spiritual world.
+
+## Key Aspects
+- Environmental harmony
+- Personal balance
+- Social harmony
+- Spiritual wellness
+- Beauty in living
+
+## Historical Development
+Central to traditional Navajo philosophy and spirituality, transmitted through oral traditions and ceremonial practices.
+
+## Contemporary Relevance
+Guides modern Native American environmental ethics and holistic approaches to health and wellbeing.
+
+## Notable Quotes
+> "Walk in beauty." - Traditional Navajo blessing
+> "With beauty before me may I walk
+> With beauty behind me may I walk
+> With beauty above me may I walk
+> With beauty all around me may I walk" - Navajo Prayer
+
+## Related Practices
+- Blessing Way ceremonies
+- Environmental stewardship
+- Communal healing practices
+- Traditional arts and crafts
+```
+
+```yaml
+---
+# Core Identification
+id: yuki-bushido
+name: Yūki
+tradition: bushido
+
+# Original Language
+script:
+  japanese: 勇気
+  kanji: 勇気
+  romaji: yūki
+
+# Classification
+category: warrior_virtue
+subcategory: courage
+related_concepts:
+  - gi
+  - jin
+  - meiyo
+  - makoto
+
+# Historical Context
+period: feudal_japan
+source_texts:
+  - hagakure
+  - bushido_shoshinshu
+  - code_of_samurai
+
+# Properties
+type: virtue
+scope: personal
+orientation: active
+---
+
+# Yūki (勇気) - Courage
+
+## Definition
+Yūki represents the samurai virtue of courage, combining physical bravery with moral courage and the wisdom to distinguish right action.
+
+## Key Aspects
+- Physical courage
+- Moral courage
+- Right action
+- Fearlessness in duty
+- Principled conduct
+
+## Historical Development
+Developed within samurai warrior culture, later codified in bushido literature and influenced by Zen Buddhism.
+
+## Contemporary Relevance
+Influences modern Japanese corporate culture and martial arts philosophy. Applied in leadership and personal development.
+
+## Notable Quotes
+> "The way of the warrior is resolute acceptance of death." - Hagakure
+> "True courage is living when it is right to live, and dying when it is right to die." - Code of the Samurai
+
+## Related Practices
+- Martial arts training
+- Meditation
+- Duty fulfillment
+- Honor preservation
+```
+
+```yaml
+---
+# Core Identification
+id: taqwa-islamic
+name: Taqwā
+tradition: islamic
+
+# Original Language
+script:
+  arabic: تقوى
+  transliteration: taqwā
+
+# Classification
+category: spiritual_virtue
+subcategory: god_consciousness
+related_concepts:
+  - ihsan
+  - iman
+  - wara
+  - zuhd
+
+# Historical Context
+period: islamic_classical
+source_texts:
+  - quran
+  - hadith
+  - works_of_al_ghazali
+
+# Properties
+type: virtue
+scope: spiritual
+orientation: active
+---
+
+# Taqwā (تقوى) - God-consciousness/Piety
+
+## Definition
+Taqwā represents consciousness of divine presence and protective fear of God, leading to righteous conduct and spiritual vigilance.
+
+## Key Aspects
+- Divine consciousness
+- Moral vigilance
+- Spiritual protection
+- Ethical restraint
+- Inner piety
+
+## Historical Development
+Central Quranic concept, developed through prophetic teachings and elaborated by Islamic scholars and mystics.
+
+## Contemporary Relevance
+Fundamental to modern Islamic spirituality and ethical decision-making. Important in Islamic environmental and business ethics.
+
+## Notable Quotes
+> "The most noble of you in the sight of Allah is the most righteous of you." - Quran 49:13
+> "Taqwa is here" - Prophet Muhammad (pointing to his heart)
+
+## Related Practices
+- Regular self-examination
+- Conscious decision-making
+- Ethical consumption
+- Spiritual reflection
+```
+
+```yaml
+---
+# Core Identification
+id: ahimsa-jain
+name: Ahiṃsā
+tradition: jain
+
+# Original Language
+script:
+  sanskrit: अहिंसा
+  prakrit: अहिंसा
+  transliteration: ahiṃsā
+
+# Classification
+category: fundamental_vow
+subcategory: ethical_restraint
+related_concepts:
+  - aparigraha
+  - satya
+  - asteya
+  - brahmacharya
+
+# Historical Context
+period: ancient_indian
+source_texts:
+  - acaranga_sutra
+  - tattvarthasutra
+  - dasavaikalika_sutra
+
+# Properties
+type: virtue
+scope: universal
+orientation: restraint
+---
+
+# Ahiṃsā (अहिंसा) - Non-violence
+
+## Definition
+Ahiṃsā in Jainism represents the most comprehensive and strict interpretation of non-violence, extending to all living beings and thoughts.
+
+## Key Aspects
+- Complete non-violence
+- Respect for all life forms
+- Mental non-violence
+- Verbal non-violence
+- Environmental care
+
+## Historical Development
+Fundamental principle of Jainism from its inception, developed into detailed practices for avoiding harm to any living being.
+
+## Contemporary Relevance
+Influences modern environmental ethics, animal rights, and peaceful conflict resolution approaches.
+
+## Notable Quotes
+> "All life is interdependent" - Jain principle
+> "Do not injure, abuse, oppress, enslave, insult, torment, torture, or kill any creature or living being" - Jain precept
+
+## Related Practices
+- Careful walking
+- Filtered water drinking
+- Vegetarianism/veganism
+- Mindful speech
+```
+
+```yaml
+---
+# Core Identification
+id: seva-sikh
+name: Sevā
+tradition: sikh
+
+# Original Language
+script:
+  gurmukhi: ਸੇਵਾ
+  transliteration: sevā
+  sanskrit_root: सेवा
+
+# Classification
+category: spiritual_practice
+subcategory: selfless_service
+related_concepts:
+  - simran
+  - sangat
+  - langar
+  - dasvandh
+
+# Historical Context
+period: sikh_historical
+source_texts:
+  - guru_granth_sahib
+  - rehat_maryada
+  - janam_sakhis
+
+# Properties
+type: virtue
+scope: communal
+orientation: active
+---
+
+# Sevā (ਸੇਵਾ) - Selfless Service
+
+## Definition
+Sevā represents selfless service performed without expectation of reward or recognition, considered essential for spiritual development in Sikhism.
+
+## Key Aspects
+- Selfless action
+- Community service
+- Humble service
+- Equal treatment
+- Divine connection
+
+## Historical Development
+Established by Guru Nanak and subsequent Gurus, institutionalized through practices like langar (community kitchen).
+
+## Contemporary Relevance
+Drives Sikh humanitarian efforts worldwide. Model for community service and disaster relief organizations.
+
+## Notable Quotes
+> "Service to humanity is service to God" - Sikh principle
+> "In the midst of this world, do seva, and you shall be given a place of honor in the Court of the Lord" - Guru Granth Sahib
+
+## Related Practices
+- Langar service
+- Community volunteering
+- Care for the elderly
+- Teaching and sharing knowledge
+```
+
+```yaml
+---
+# Core Identification
+id: asha-zoroastrian
+name: Aša
+tradition: zoroastrian
+
+# Original Language
+script:
+  avestan: 𐬀𐬴𐬀
+  pahlavi: ارت
+  transliteration: aša/arta
+
+# Classification
+category: divine_principle
+subcategory: cosmic_order
+related_concepts:
+  - vohu_manah
+  - spenta_armaiti
+  - khshathra_vairya
+
+# Historical Context
+period: ancient_persian
+source_texts:
+  - gathas
+  - avesta
+  - denkard
+
+# Properties
+type: virtue
+scope: cosmic
+orientation: balanced
+---
+
+# Aša (𐬀𐬴𐬀) - Truth/Order
+
+## Definition
+Aša represents divine truth, cosmic order, and righteous living in Zoroastrian thought, embodying both universal law and ethical behavior.
+
+## Key Aspects
+- Cosmic order
+- Truth-speaking
+- Righteous living
+- Natural law
+- Moral harmony
+
+## Historical Development
+Central concept in earliest Zoroastrian texts, developed as one of the Amesha Spentas (divine attributes).
+
+## Contemporary Relevance
+Influences modern environmental ethics and concepts of universal moral law.
+
+## Notable Quotes
+> "Truth is best of all good" - Zoroastrian maxim
+> "Good thoughts, good words, good deeds" - Expression of Aša in daily life
+
+## Related Practices
+- Truth-telling
+- Ethical conduct
+- Environmental stewardship
+- Fire temple worship
+```
+
+```yaml
+---
+# Core Identification
+id: wuwei-taoist
+name: Wúwéi
+tradition: taoist
+
+# Original Language
+script:
+  chinese: 無為
+  pinyin: wúwéi
+  wade_giles: wu-wei
+
+# Classification
+category: action_principle
+subcategory: natural_spontaneity
+related_concepts:
+  - dao
+  - ziran
+  - pu
+  - de
+
+# Historical Context
+period: ancient_chinese
+source_texts:
+  - dao_de_jing
+  - zhuangzi
+  - liezi
+
+# Properties
+type: virtue
+scope: universal
+orientation: passive
+---
+
+# Wúwéi (無為) - Non-forcing Action
+
+## Definition
+Wúwéi represents the principle of effortless action in accordance with the natural way (Dao), acting without forcing or interfering with the natural flow of things.
+
+## Key Aspects
+- Natural action
+- Effortless efficiency
+- Spontaneity
+- Non-interference
+- Harmonious flow
+
+## Historical Development
+Central concept in Daoist philosophy, particularly developed in the Dao De Jing and Zhuangzi.
+
+## Contemporary Relevance
+Influences modern approaches to leadership, environmental ethics, and stress management.
+
+## Notable Quotes
+> "The Dao does nothing, yet nothing is left undone" - Dao De Jing
+> "Act without action; work without effort" - Laozi
+
+## Related Practices
+- Mindful action
+- Spontaneous response
+- Natural living
+- Meditation
+```

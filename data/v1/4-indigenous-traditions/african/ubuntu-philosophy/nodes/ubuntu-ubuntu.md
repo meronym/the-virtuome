@@ -1,0 +1,61 @@
+---
+# Core Identification
+id: ubuntu-ubuntu
+name: Ubuntu
+tradition: african_ubuntu
+
+# Original Language
+script:
+  nguni: ubuntu
+  shona: unhu
+  ndebele: ubuntu
+  transliteration: ubuntu
+
+# Classification
+category: foundational_virtue
+subcategory: human_essence
+related_concepts:
+  - ukuhlonipha
+  - izithunzi
+  - simunye
+
+# Historical Context
+period: traditional_african
+source_texts:
+  - oral_traditions
+  - communal_practices
+  - contemporary_philosophical_works
+
+# Properties
+type: virtue
+scope: universal
+orientation: relational
+---
+
+# Ubuntu - Human Kindness/Humaneness
+
+## Definition
+The fundamental understanding that a person becomes a person through other persons, embodying the essence of human interconnectedness and mutual becoming.
+
+## Key Aspects
+- Recognition of shared humanity
+- Mutual interdependence
+- Collective self-realization
+- Communal harmony
+- Reciprocal existence
+
+## Historical Development
+Foundational concept in African philosophy, transmitted through generations via oral tradition and communal practices. Later articulated in post-colonial African philosophical discourse.
+
+## Contemporary Relevance
+Central to African approaches to reconciliation, community building, and social justice. Influential in global discussions of humanitarian ethics and communal values.
+
+## Notable Quotes
+> "Umuntu ngumuntu ngabantu" (A person is a person through persons)
+> "I am because we are, and because we are, therefore I am"
+
+## Related Practices
+- Communal decision-making
+- Collective problem-solving
+- Shared celebration and mourning
+- Intergenerational knowledge transfer

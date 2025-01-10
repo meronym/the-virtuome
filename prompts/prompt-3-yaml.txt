@@ -1,0 +1,3 @@
+Now please generate virtue nodes for ALL the shortlisted virtues. Format each generated node as an individual, separate code block.
+
+Please cover as many of the shortlisted virtues as possible in your next response. If you need to stop due to length limitations, please finish your answer with the string "[CONTINUE]" and I'll ask you to continue with the remaining virtues in a follow up response. If you are done with all the virtues, please finish your answer with the string "[DONE]".

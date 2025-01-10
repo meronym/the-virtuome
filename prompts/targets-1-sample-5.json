@@ -1,0 +1,32 @@
+[
+    {
+        "period": "CLASSICAL PHILOSOPHICAL TRADITIONS",
+        "traditions": [
+            {
+                "name": "Greek Philosophy (c. 600 BCE - 300 CE)",
+                "schools": [
+                    "Pythagorean"
+                ]
+            }
+        ]
+    },
+    {
+        "period": "ASIAN PHILOSOPHICAL-RELIGIOUS TRADITIONS",
+        "traditions": [
+            {
+                "name": "Indian (c. 1500 BCE - present)",
+                "schools": [
+                    "Vedic Ethics",
+                    "Buddhist (Theravada, Mahayana, Vajrayana)",
+                    "Yogic Traditions"
+                ]
+            },
+            {
+                "name": "Japanese",
+                "schools": [
+                    "Zen Buddhist"
+                ]
+            }
+        ]
+    }
+]

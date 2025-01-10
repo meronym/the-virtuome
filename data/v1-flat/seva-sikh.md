@@ -1,0 +1,62 @@
+---
+# Core Identification
+id: seva-sikh
+name: Sevā
+tradition: sikh
+
+# Original Language
+script:
+  gurmukhi: ਸੇਵਾ
+  transliteration: sevā
+  sanskrit_root: सेवा
+
+# Classification
+category: foundational_practice
+subcategory: active_service
+related_concepts:
+  - simran
+  - sangat
+  - langar
+  - hukam
+
+# Historical Context
+period: gurmat
+source_texts:
+  - guru_granth_sahib
+  - vars_bhai_gurdas
+  - rehat_maryada
+
+# Properties
+type: virtue
+scope: universal
+orientation: active
+---
+
+# Sevā (ਸੇਵਾ) - Selfless Service
+
+## Definition
+Selfless service performed without expectation of reward or recognition, considered essential for spiritual development and community welfare in Sikhism.
+
+## Key Aspects
+- Selfless action without ego
+- Service to humanity as divine worship
+- Physical, mental, and material service
+- Equal treatment of all recipients
+- Integration of spiritual practice with social responsibility
+
+## Historical Development
+Established by Guru Nanak through personal example and institutions like langar, developed through subsequent Gurus, institutionalized in Khalsa tradition.
+
+## Contemporary Relevance
+Drives Sikh humanitarian efforts worldwide, provides model for social service organizations, addresses modern social welfare needs.
+
+## Notable Quotes
+> "In the midst of this world, do seva, and you shall be given a place of honor in the Court of the Lord" - Guru Granth Sahib
+> "Service is the highest form of prayer" - Sikh teaching
+
+## Related Practices
+- Langar (community kitchen) service
+- Kar seva (voluntary labor)
+- Dasvandh (tithing)
+- Teaching and sharing knowledge
+- Community care and support
