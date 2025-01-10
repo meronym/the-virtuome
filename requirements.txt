@@ -4,3 +4,6 @@ python-slugify==8.0.4
 python-frontmatter==1.1.0
 llama-index-core==0.12.10.post1
 Jinja2==3.1.5
+voyageai==0.3.2
+scikit-learn==1.6.1
+umap-learn==0.5.7
