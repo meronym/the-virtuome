@@ -51,7 +51,7 @@ def collect_and_copy_node_markdown_files(version: str):
 
 
 if __name__ == "__main__":
-    VERSION = "v1"  # This could be made configurable via command line arguments
+    VERSION = "v1-3"  # This could be made configurable via command line arguments
     
     try:
         copied_files = collect_and_copy_node_markdown_files(VERSION)

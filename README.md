@@ -139,6 +139,8 @@ The generation process includes:
 ├── src/                      # Source code
 │   ├── analysis/             # Analysis pipeline
 │   ├── generation/           # Content generation
+│   │   ├── generator.py      # Main generation workflow
+│   │   └── llm_models.py     # LLM interaction and pricing
 │   ├── utils/                # Shared utilities
 │   └── web/                  # Web visualization
 ├── requirements.txt          # Python dependencies
@@ -148,17 +150,20 @@ The generation process includes:
 ## Setup
 
 1. Create and activate a virtual environment:
+
 [code]
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 [/code]
 
 2. Install dependencies:
+
 [code]
 pip install -r requirements.txt
 [/code]
 
 3. Create a `.env` file with your API keys:
+
 [code]
 ANTHROPIC_API_KEY=your_key_here
 VOYAGE_API_KEY=your_key_here
@@ -189,11 +194,25 @@ The project consists of several stages:
 ### 1. Generate Content
 
 Generate philosophical schools and virtues:
+
 [code]
-python -m src.generation.generator
+# Generate using main target file
+python -m src.generation.generator prompts/targets/v1.json
+
+# Generate using a sample target file
+python -m src.generation.generator prompts/targets/samples/v1-3.json
+
+# Optional parameters
+python -m src.generation.generator prompts/targets/v1.json --run-id custom-run --model claude-3-opus
 [/code]
 
+The generation pipeline uses a modular architecture:
+- `generator.py`: Orchestrates the content generation workflow, inferring version from target filename
+- `llm_models.py`: Handles LLM interactions, token usage tracking, and pricing
+- `flattener.py`: Processes hierarchical content into flat structure
+
 Flatten the hierarchical structure:
+
 [code]
 python -m src.generation.flattener
 [/code]
@@ -201,6 +220,7 @@ python -m src.generation.flattener
 ### 2. Generate Embeddings
 
 Create vector embeddings for all content:
+
 [code]
 python -m src.analysis.embeddings
 [/code]
@@ -208,11 +228,13 @@ python -m src.analysis.embeddings
 ### 3. Dimensionality Reduction
 
 Generate PCA projection:
+
 [code]
 python -m src.analysis.reduction-pca
 [/code]
 
 Generate UMAP projections with different parameters:
+
 [code]
 python -m src.analysis.reduction-umap
 [/code]
@@ -220,11 +242,13 @@ python -m src.analysis.reduction-umap
 ### 4. Clustering
 
 Perform clustering on PCA results:
+
 [code]
 python -m src.analysis.clustering v1 pca.json
 [/code]
 
 Perform clustering on UMAP results:
+
 [code]
 python -m src.analysis.clustering v1 umap.json
 [/code]
@@ -234,6 +258,7 @@ python -m src.analysis.clustering v1 umap.json
 ### Target Definition
 
 Target schools are defined in JSON format:
+
 [code]
 {
   "period": "Classical Philosophical Traditions",
@@ -253,9 +278,10 @@ Target schools are defined in JSON format:
 ### Generated Content
 
 Each school generates multiple virtue nodes in markdown format with frontmatter:
+
 [code]
 ---
-id: stoic-wisdom
+id: wisdom-stoic
 school: Stoicism
 virtue: Wisdom
 category: Cardinal Virtues
@@ -267,10 +293,11 @@ Content describing the virtue...
 ### Analysis Outputs
 
 Embeddings and projections are stored in JSON format:
+
 [code]
 {
   "points": {
-    "stoic-wisdom": {
+    "wisdom-stoic": {
       "x": 0.123,
       "y": 0.456
     }
