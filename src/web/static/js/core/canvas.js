@@ -8,6 +8,7 @@ export class CanvasRenderer {
         this.selectedPoint = null;
         this.pointRadius = 4;
         this.animationFrame = null;
+        this.listeners = new Map();
         
         // Bind to transform changes
         this.transform.addListener(() => this.render());
@@ -15,6 +16,30 @@ export class CanvasRenderer {
         // Setup resize handling
         this.setupResizeHandler();
         this.resize();
+    }
+    
+    // Event emitter methods
+    on(event, callback) {
+        if (!this.listeners.has(event)) {
+            this.listeners.set(event, new Set());
+        }
+        this.listeners.get(event).add(callback);
+    }
+    
+    off(event, callback) {
+        const callbacks = this.listeners.get(event);
+        if (callbacks) {
+            callbacks.delete(callback);
+        }
+    }
+    
+    emit(event, data) {
+        const callbacks = this.listeners.get(event);
+        if (callbacks) {
+            for (const callback of callbacks) {
+                callback(data);
+            }
+        }
     }
     
     setupResizeHandler() {
@@ -37,16 +62,18 @@ export class CanvasRenderer {
         this.render();
     }
     
-    setHoveredPoint(id) {
-        if (this.hoveredPoint !== id) {
-            this.hoveredPoint = id;
+    setHoveredPoint(point) {
+        if (this.hoveredPoint !== point) {
+            this.hoveredPoint = point;
+            this.emit('pointsChanged', { type: 'hover', point });
             this.render();
         }
     }
     
-    setSelectedPoint(id) {
-        if (this.selectedPoint !== id) {
-            this.selectedPoint = id;
+    setSelectedPoint(point) {
+        if (this.selectedPoint !== point) {
+            this.selectedPoint = point;
+            this.emit('pointsChanged', { type: 'select', point });
             this.render();
         }
     }
@@ -78,21 +105,37 @@ export class CanvasRenderer {
                 
                 // Style based on state
                 if (id === this.selectedPoint) {
+                    // Selected point: bright pink fill with white border
                     this.ctx.fillStyle = '#ff4081';
                     this.ctx.lineWidth = 2;
-                    this.ctx.strokeStyle = '#fff';
+                    this.ctx.strokeStyle = '#ffffff';
                     this.ctx.fill();
                     this.ctx.stroke();
                 } else if (id === this.hoveredPoint) {
+                    // Hovered point: brighter blue fill with light blue glow
                     this.ctx.fillStyle = '#2196f3';
-                    this.ctx.lineWidth = 2;
-                    this.ctx.strokeStyle = '#fff';
+                    this.ctx.lineWidth = 2.5;
+                    this.ctx.strokeStyle = '#90caf9';
+                    
+                    // Add outer glow
+                    this.ctx.shadowColor = '#90caf9';
+                    this.ctx.shadowBlur = 8;
                     this.ctx.fill();
                     this.ctx.stroke();
+                    this.ctx.shadowBlur = 0; // Reset shadow for other points
                 } else {
+                    // Normal point: semi-transparent blue
                     this.ctx.fillStyle = 'rgba(33, 150, 243, 0.6)';
                     this.ctx.fill();
                 }
+            }
+            
+            // Debug: log states
+            if (this.hoveredPoint || this.selectedPoint) {
+                console.log('Render states:', { 
+                    hovered: this.hoveredPoint, 
+                    selected: this.selectedPoint 
+                });
             }
         });
     }

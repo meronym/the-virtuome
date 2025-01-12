@@ -11,6 +11,8 @@ class App {
         this.transform = new ViewportTransform();
         this.canvas = document.getElementById('visualization');
         this.renderer = new CanvasRenderer(this.canvas, this.transform);
+        
+        // Initialize event handler after renderer
         this.events = new EventHandler(this.canvas, this.transform, this.renderer);
         
         this.setupUI();
@@ -40,54 +42,34 @@ class App {
         this.typeSelect = document.getElementById('projection');
         this.variantSelect = document.getElementById('variant');
         this.zoomInfo = document.getElementById('zoom-info');
-        this.details = document.getElementById('details');
-        this.detailsContent = this.details.querySelector('.content');
-        this.closeDetails = this.details.querySelector('.close');
         
         // Setup event listeners
         this.providerSelect.addEventListener('change', () => {
             this.state.setProvider(this.providerSelect.value);
+            this.loadCurrentDataset();
         });
         
         this.typeSelect.addEventListener('change', () => {
             this.state.setType(this.typeSelect.value);
+            this.updateVariantSelect();
+            this.loadCurrentDataset();
         });
         
         this.variantSelect.addEventListener('change', () => {
             this.state.setVariant(this.variantSelect.value);
-        });
-        
-        this.closeDetails.addEventListener('click', () => {
-            this.hideDetails();
+            this.loadCurrentDataset();
         });
     }
     
     setupEventListeners() {
-        // State changes
-        this.state.on('providerChanged', () => this.loadCurrentDataset());
-        this.state.on('typeChanged', () => {
-            this.updateVariantSelect();
-            this.loadCurrentDataset();
-        });
-        this.state.on('variantChanged', () => this.loadCurrentDataset());
-        
-        // Point interaction
-        this.events.on('hover', (point) => {
-            this.state.setHoveredPoint(point);
-        });
-        
-        this.events.on('select', (point) => {
-            this.state.setSelectedPoint(point);
-            if (point) {
-                this.showDetails(point);
-            } else {
-                this.hideDetails();
-            }
-        });
-        
         // Transform changes
         this.transform.addListener(() => {
             this.updateZoomInfo();
+        });
+        
+        // Update renderer when points are hovered
+        this.renderer.on('pointsChanged', () => {
+            this.renderer.render();
         });
     }
     
@@ -99,10 +81,9 @@ class App {
             this.state.setPoints(data.points);
             this.renderer.setPoints(data.points);
             
-            // Fit points to canvas instead of just resetting
+            // Fit points to canvas
             const rect = this.canvas.getBoundingClientRect();
             this.transform.fitPoints(data.points, rect.width, rect.height);
-            this.hideDetails();
         } catch (error) {
             console.error('Failed to load dataset:', error);
             this.showError('Failed to load dataset');
@@ -145,28 +126,6 @@ class App {
     
     updateZoomInfo() {
         this.zoomInfo.textContent = `Zoom: ${(this.transform.scale * 100).toFixed(0)}%`;
-    }
-    
-    showDetails(pointId) {
-        const point = this.state.points[pointId];
-        if (!point) return;
-        
-        // Format point details
-        const [tradition, virtue] = pointId.split('-');
-        this.detailsContent.innerHTML = `
-            <h3>${virtue.charAt(0).toUpperCase() + virtue.slice(1)}</h3>
-            <p><strong>Tradition:</strong> ${tradition.charAt(0).toUpperCase() + tradition.slice(1)}</p>
-            <p><strong>Coordinates:</strong></p>
-            <p>x: ${point.x.toFixed(3)}</p>
-            <p>y: ${point.y.toFixed(3)}</p>
-        `;
-        
-        this.details.classList.add('visible');
-    }
-    
-    hideDetails() {
-        this.details.classList.remove('visible');
-        this.state.setSelectedPoint(null);
     }
     
     showError(message) {

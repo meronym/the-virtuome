@@ -7,6 +7,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(SCRIPT_DIR)))  # Go up 3 levels from server/
 STATIC_DIR = os.path.join(os.path.dirname(SCRIPT_DIR), 'static')
 DATA_DIR = os.path.join(PROJECT_ROOT, 'data', 'processed', 'v1')
+RAW_DATA_DIR = os.path.join(PROJECT_ROOT, 'data', 'raw', 'v1', 'flat')
 
 app = Flask(__name__, static_folder=STATIC_DIR, static_url_path='/static')
 CORS(app)
@@ -51,18 +52,36 @@ def serve_data(provider, filename):
     response.headers['Cache-Control'] = 'public, max-age=300'  # 5 minutes cache
     return response
 
+# Serve virtue content
+@app.route('/data/virtue/<virtue_id>')
+def serve_virtue(virtue_id):
+    try:
+        # Ensure no directory traversal
+        if '..' in virtue_id or '/' in virtue_id:
+            return jsonify({'error': 'Invalid virtue ID'}), 400
+            
+        virtue_path = os.path.join(RAW_DATA_DIR, f"{virtue_id}.md")
+        if not os.path.exists(virtue_path):
+            return jsonify({'error': 'Virtue not found'}), 404
+            
+        with open(virtue_path, 'r') as f:
+            content = f.read()
+            
+        return jsonify({
+            'id': virtue_id,
+            'content': content
+        })
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
 if __name__ == '__main__':
-    # Ensure data directory exists
-    if not os.path.exists(DATA_DIR):
-        print(f"Error: Data directory not found at {DATA_DIR}")
-        print("Please ensure you have the correct data structure:")
-        print("  data/")
-        print("  └── processed/")
-        print("      └── v1/")
-        print("          ├── voyage/")
-        print("          ├── openai/")
-        print("          └── cohere/")
-        exit(1)
-        
+    # Ensure data directories exist
+    for dir_path in [DATA_DIR, RAW_DATA_DIR]:
+        if not os.path.exists(dir_path):
+            print(f"Error: Directory not found at {dir_path}")
+            print("Please ensure you have the correct data structure")
+            exit(1)
+            
     print(f"Using data directory: {DATA_DIR}")
+    print(f"Using raw data directory: {RAW_DATA_DIR}")
     app.run(debug=True) 

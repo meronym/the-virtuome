@@ -2,7 +2,7 @@
 
 ## Overview
 
-The web visualization system provides an interactive 2D visualization of virtue embeddings from multiple AI providers. It allows users to explore and compare different dimensionality reduction techniques (PCA and UMAP) applied to these embeddings.
+The web visualization system provides an interactive 2D visualization of virtue embeddings from multiple AI providers. It allows users to explore and compare different dimensionality reduction techniques (PCA and UMAP) applied to these embeddings, with detailed virtue content available through an interactive side panel.
 
 ## Core Features
 
@@ -10,7 +10,8 @@ The web visualization system provides an interactive 2D visualization of virtue 
 - Multiple data provider support (Voyage AI, OpenAI, Cohere)
 - Multiple projection types (PCA, UMAP with variants)
 - Pan and zoom navigation
-- Point selection and hover effects
+- Point selection and hover effects with visual feedback
+- Detailed virtue content display in sliding panel
 - Responsive design with mobile support
 - URL state persistence
 
@@ -30,6 +31,7 @@ src/web/
 │   │   │   └── events.js      # Event handling
 │   │   ├── data/              # Data management
 │   │   │   ├── loader.js      # Data loading and caching
+│   │   │   ├── details.js     # Details panel management
 │   │   │   └── state.js       # Application state
 │   │   └── main.js            # Application entry point
 │   └── index.html             # Main HTML template
@@ -44,11 +46,13 @@ The Flask server handles:
 - Static file serving
 - Data file serving with caching
 - Dataset enumeration API
+- Virtue content serving
 
 Key endpoints:
 - `/` - Serves the main application
 - `/data/datasets` - Lists available datasets
 - `/data/<provider>/<path>` - Serves data files
+- `/data/virtue/<virtue_id>` - Serves virtue content from raw data
 
 ### Core Components
 
@@ -60,15 +64,20 @@ Key methods:
 - `zoomAt(x, y, factor)` - Zoom centered on point
 - `toScreen(x, y)` - Convert data to screen coordinates
 - `toData(x, y)` - Convert screen to data coordinates
+- `fitPoints(points, width, height)` - Fit points to viewport
 
 #### CanvasRenderer (`js/core/canvas.js`)
 Handles the canvas rendering and point visualization.
 
 Key features:
 - Point culling for performance
-- Different point styles for hover/selection
+- Different point styles for states:
+  - Normal: Semi-transparent blue
+  - Hover: Bright blue with light glow effect
+  - Selected: Pink with white border
 - High DPI support
 - Automatic resize handling
+- Event emission for state changes
 
 #### EventHandler (`js/core/events.js`)
 Manages user interactions with the canvas.
@@ -78,6 +87,7 @@ Supported interactions:
 - Mouse wheel for zooming
 - Point hover and selection
 - Touch gestures (pan, pinch zoom)
+- Click/tap detection with timing checks
 
 ### Data Management
 
@@ -89,6 +99,17 @@ Features:
 - JSON file caching
 - UMAP variant parsing
 - Provider/projection type management
+
+#### DetailsPanel (`js/data/details.js`)
+Manages the sliding details panel for virtue content.
+
+Features:
+- Async content loading
+- Markdown-like formatting
+- Frontmatter parsing
+- Loading state handling
+- Error state handling
+- Keyboard shortcuts (Esc to close)
 
 #### AppState (`js/data/state.js`)
 Manages application state and URL synchronization.
@@ -111,7 +132,7 @@ State elements:
     <main>
         <canvas id="visualization"></canvas>
         <aside id="details">
-            <!-- Point details panel -->
+            <!-- Virtue details panel -->
         </aside>
     </main>
 </div>
@@ -123,34 +144,36 @@ Key features:
 - Mobile adaptations
 - Smooth transitions
 - Theme variables
+- Details panel styling
+- Point state styling
 
 ## Data Structure
 
 Expected data directory structure:
 ```
-data/processed/v1/
-├── voyage/                   # Voyage AI embeddings & analysis
-│   ├── embeddings/
-│   ├── pca/
-│   │   └── pca.json         # PCA projection
-│   └── umap/
-│       ├── umap.json        # Default UMAP
-│       └── umap-n15-d0.0.json  # UMAP variants
-├── openai/                   # OpenAI embeddings & analysis
-└── cohere/                   # Cohere embeddings & analysis
+data/
+├── processed/v1/           # Processed embeddings & analysis
+│   ├── voyage/
+│   │   ├── embeddings/
+│   │   ├── pca/
+│   │   └── umap/
+│   ├── openai/
+│   └── cohere/
+└── raw/v1/                # Raw virtue content
+    └── flat/              # Flattened virtue files
+        └── *.md           # Individual virtue files
 ```
 
-Data file format (PCA/UMAP JSON):
-```json
-{
-  "points": {
-    "virtue-tradition": {     // Point identifier
-      "x": 0.123,            // X coordinate
-      "y": 0.456             // Y coordinate
-    },
-    // ... more points
-  }
-}
+### Virtue Content Format
+```markdown
+---
+id: virtue-identifier
+virtue: Virtue Name
+tradition: Tradition Name
+category: Category
+---
+
+# Detailed content in markdown format
 ```
 
 ## Implementation Details
@@ -172,29 +195,6 @@ Data file format (PCA/UMAP JSON):
 - Touch gesture handling
 - Performance considerations
 - Adaptive UI elements
-
-## Common Tasks
-
-### Adding a New Provider
-1. Add provider option in `index.html`
-2. Update provider labels in `loader.js`
-3. Ensure data directory structure matches
-
-### Adding a New Projection Type
-1. Add projection option in `index.html`
-2. Update data loading logic in `loader.js`
-3. Add type-specific handling in state management
-
-### Modifying Point Visualization
-1. Update point rendering in `canvas.js`
-2. Adjust point styles in `style.css`
-3. Update point interaction in `events.js`
-
-### Adding UI Features
-1. Add HTML elements in `index.html`
-2. Add corresponding styles in `style.css`
-3. Add event handling in `main.js`
-4. Update state management if needed
 
 ## Development Workflow
 
