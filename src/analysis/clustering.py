@@ -79,6 +79,7 @@ def main():
     # Parse command line arguments
     parser = argparse.ArgumentParser(description='Perform K-means clustering on 2D visualization data')
     parser.add_argument('version', help='Version string (e.g., v1)')
+    parser.add_argument('provider', help='Provider name (e.g., voyage, openai)')
     parser.add_argument('input_name', help='Input filename (e.g., pca.json or umap.json)')
     parser.add_argument('--max-clusters', type=int, default=10, 
                         help='Maximum number of clusters to try (default: 10)')
@@ -88,9 +89,9 @@ def main():
 
     # Determine input file path based on filename
     if args.input_name.startswith('pca'):
-        input_path = DataPaths.processed_dir(args.version) / "pca" / args.input_name
+        input_path = DataPaths.pca_dir(args.version, args.provider) / args.input_name
     elif args.input_name.startswith('umap'):
-        input_path = DataPaths.processed_dir(args.version) / "umap" / args.input_name
+        input_path = DataPaths.umap_dir(args.version, args.provider) / args.input_name
     else:
         print(f"Error: Input filename must start with 'pca' or 'umap'")
         sys.exit(1)

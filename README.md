@@ -123,11 +123,26 @@ The generation process includes:
 .
 ├── data/                     # Data storage
 │   ├── processed/            # Processed data outputs
-│   │   └── v1/               # Version-specific processed data
-│   │       ├── embeddings/   # Vector embeddings
-│   │       ├── pca/          # PCA dimensionality reduction
-│   │       └── umap/         # UMAP dimensionality reduction
-│   └── raw/                  # Raw generated data
+│   │   └── v1/              # Version-specific processed data
+│   │       ├── voyage/      # Voyage AI analysis
+│   │       │   ├── embeddings/
+│   │       │   ├── pca/
+│   │       │   │   └── clusters/
+│   │       │   └── umap/
+│   │       │       └── clusters/
+│   │       ├── openai/      # OpenAI analysis
+│   │       │   ├── embeddings/
+│   │       │   ├── pca/
+│   │       │   │   └── clusters/
+│   │       │   └── umap/
+│   │       │       └── clusters/
+│   │       └── cohere/      # Cohere analysis
+│   │           ├── embeddings/
+│   │           ├── pca/
+│   │           │   └── clusters/
+│   │           └── umap/
+│   │               └── clusters/
+│   └── raw/                 # Raw generated data
 │       └── v1/               # Version-specific raw data
 │           ├── flat/         # Flattened content files
 │           └── schools/      # Hierarchical school structure
@@ -167,6 +182,8 @@ pip install -r requirements.txt
 [code]
 ANTHROPIC_API_KEY=your_key_here
 VOYAGE_API_KEY=your_key_here
+OPENAI_API_KEY=your_key_here
+COHERE_API_KEY=your_key_here
 [/code]
 
 ## Pipeline Overview
@@ -219,39 +236,37 @@ python -m src.generation.flattener
 
 ### 2. Generate Embeddings
 
-Create vector embeddings for all content:
+Create vector embeddings using specified provider:
 
 [code]
-python -m src.analysis.embeddings
+python -m src.analysis.embeddings --provider voyage
+python -m src.analysis.embeddings --provider openai
+python -m src.analysis.embeddings --provider cohere
 [/code]
 
 ### 3. Dimensionality Reduction
 
-Generate PCA projection:
+Generate PCA projection for specific provider:
 
 [code]
-python -m src.analysis.reduction-pca
+python -m src.analysis.reduction-pca --provider voyage
 [/code]
 
 Generate UMAP projections with different parameters:
 
 [code]
-python -m src.analysis.reduction-umap
+python -m src.analysis.reduction-umap --provider voyage
 [/code]
 
 ### 4. Clustering
 
-Perform clustering on PCA results:
+Perform clustering on provider-specific results:
 
 [code]
-python -m src.analysis.clustering v1 pca.json
+python -m src.analysis.clustering v1 voyage pca.json
+python -m src.analysis.clustering v1 voyage umap.json
 [/code]
 
-Perform clustering on UMAP results:
-
-[code]
-python -m src.analysis.clustering v1 umap.json
-[/code]
 
 ## Data Structure
 

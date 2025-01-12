@@ -1,21 +1,33 @@
 # Project Context for Web Visualization Implementation
 
 ## Project Overview
-The Human Virtuome Project analyzes virtues across philosophical traditions using AI generation and data analysis. The web visualization component displays the results of dimensionality reduction algorithms (PCA and UMAP) applied to virtue embeddings.
+The Human Virtuome Project analyzes virtues across philosophical traditions using AI generation and data analysis. The web visualization component displays the results of dimensionality reduction algorithms (PCA and UMAP) applied to virtue embeddings from multiple providers (Voyage AI, OpenAI, and Cohere).
 
 ## Data Locations and Formats
 
 ### Input Data Directory Structure
 ```
 data/processed/v1/
-├── pca/
-│   └── pca.json
-└── umap/
-    ├── umap.json             # Default UMAP projection
-    ├── umap-n15-d0.0.json    # Parameter variations
-    ├── umap-n15-d0.1.json
-    ├── umap-n15-d0.3.json
-    └── ...
+├── voyage/                   # Voyage AI embeddings & analysis
+│   ├── embeddings/
+│   ├── pca/
+│   │   └── clusters/
+│   └── umap/
+│       ├── umap.json        # Default UMAP projection
+│       ├── umap-n15-d0.0.json
+│       └── clusters/
+├── openai/                   # OpenAI embeddings & analysis
+│   ├── embeddings/
+│   ├── pca/
+│   │   └── clusters/
+│   └── umap/
+│       └── clusters/
+└── cohere/                   # Cohere embeddings & analysis
+    ├── embeddings/
+    ├── pca/
+    │   └── clusters/
+    └── umap/
+        └── clusters/
 ```
 
 ### Data Format (PCA and UMAP files)
@@ -45,7 +57,11 @@ data/processed/v1/
 1. Display all points (~1000) on a 2D canvas
 2. Pan and zoom navigation
 3. Point selection shows identifier
-4. Switch between PCA and UMAP projections
+4. Switch between:
+   - Embedding providers (Voyage, OpenAI, Cohere)
+   - Projection methods (PCA, UMAP)
+   - Parameter variations (for UMAP)
+   - Clustering results (optional)
 
 ### User Interface
 1. Canvas takes majority of screen space
@@ -131,17 +147,27 @@ def serve_index():
 @app.route('/data/datasets')
 def list_datasets():
     base_path = '../data/processed/v1'
-    datasets = {
-        'pca': ['pca.json'],
-        'umap': [f for f in os.listdir(f'{base_path}/umap') if f.endswith('.json')]
-    }
+    datasets = {}
+    
+    # List available providers
+    providers = [d for d in os.listdir(base_path) 
+                if os.path.isdir(os.path.join(base_path, d))]
+    
+    for provider in providers:
+        provider_path = os.path.join(base_path, provider)
+        datasets[provider] = {
+            'pca': [f for f in os.listdir(f'{provider_path}/pca') 
+                   if f.endswith('.json')],
+            'umap': [f for f in os.listdir(f'{provider_path}/umap') 
+                    if f.endswith('.json')]
+        }
     return jsonify(datasets)
 
 # Serve data files with proper caching
-@app.route('/data/<path:filename>')
-def serve_data(filename):
+@app.route('/data/<provider>/<path:filename>')
+def serve_data(provider, filename):
     return send_from_directory(
-        '../data/processed/v1', 
+        f'../data/processed/v1/{provider}', 
         filename,
         cache_timeout=300
     )
@@ -166,6 +192,11 @@ if __name__ == '__main__':
 <body>
     <div id="app">
         <header id="controls">
+            <select id="provider">
+                <option value="voyage">Voyage AI</option>
+                <option value="openai">OpenAI</option>
+                <option value="cohere">Cohere</option>
+            </select>
             <select id="projection">
                 <option value="pca">PCA</option>
                 <option value="umap">UMAP</option>
@@ -342,11 +373,14 @@ project_root/
 ├── data/
 │   └── processed/
 │       └── v1/
-│           ├── pca/
-│           │   └── pca.json
-│           └── umap/
-│               ├── umap.json
-│               └── ...
+│           ├── voyage/
+│           ├── openai/
+│           └── cohere/
+│               ├── embeddings/
+│               ├── pca/
+│               └── umap/
+│                   ├── umap.json
+│                   └── ...
 └── src/
     └── web/
         ├── server/
@@ -362,7 +396,7 @@ cd src/web
 ln -s ../../data/processed data
 
 # Verify the symlink works
-ls -l data/v1/pca/pca.json  # Should show the PCA file
+ls -l data/v1/voyage/pca/pca.json  # Should show the PCA file
 ```
 
 For Windows systems:
@@ -374,10 +408,10 @@ mklink /D data ..\..\data\processed
 
 The Flask server is configured to serve files from this symlinked directory via the `/data` route:
 ```python
-@app.route('/data/<path:filename>')
-def serve_data(filename):
+@app.route('/data/<provider>/<path:filename>')
+def serve_data(provider, filename):
     return send_from_directory(
-        '../data/processed/v1',  # Note: relative to server.py location
+        f'../data/processed/v1/{provider}',  # Note: relative to server.py location
         filename,
         cache_timeout=300
     )
@@ -452,13 +486,19 @@ Create `vercel.json`:
 - Color coding by tradition
 - Cluster visualization
 - Search/filter functionality
+- Provider comparison view
+- Embedding space analysis tools
 
 2. **User Interface**
 - Dataset metadata display
 - Export/share capabilities
 - Custom color themes
+- Provider-specific settings
+- Comparative analysis tools
 
 3. **Performance**
 - WebGL rendering for larger datasets
 - Worker-based data processing
 - Progressive loading for mobile
+- Efficient provider switching
+- Cached comparative analysis

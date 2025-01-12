@@ -1,6 +1,7 @@
 import json
 import numpy as np
 from pathlib import Path
+import argparse
 from typing import Dict, List, Tuple
 import umap
 from tqdm import tqdm
@@ -14,7 +15,7 @@ warnings.filterwarnings('ignore', category=FutureWarning, module='sklearn.utils.
 warnings.filterwarnings('ignore', category=UserWarning, module='umap.umap_')
 
 
-def load_embeddings_from_directory(version: str) -> Tuple[List[str], np.ndarray]:
+def load_embeddings_from_directory(version: str, provider: str) -> Tuple[List[str], np.ndarray]:
     """
     Load embeddings from all JSON files in the specified directory.
     Returns a tuple of (file_identifiers, embeddings_array)
@@ -22,11 +23,14 @@ def load_embeddings_from_directory(version: str) -> Tuple[List[str], np.ndarray]
     file_identifiers = []
     embeddings_list = []
     
-    # Get embeddings directory
-    data_path = DataPaths.embeddings_dir(version)
+    # Get embeddings directory for specific provider
+    data_path = DataPaths.embeddings_dir(version, provider)
     
     # Get list of JSON files and create progress bar
     json_files = list(sorted(data_path.glob('*.json')))
+    
+    if not json_files:
+        raise ValueError(f"No embeddings found for provider '{provider}' in version '{version}'")
     
     # Process all JSON files in the directory with progress bar
     for json_file in tqdm(json_files, desc="Loading embeddings", unit="file"):
@@ -91,7 +95,13 @@ def create_output_payload(identifiers: List[str], coordinates: np.ndarray) -> Di
 
 
 def main():
-    VERSION = "v1"  # Could be made configurable via command line arguments
+    # Parse command line arguments
+    parser = argparse.ArgumentParser(description='Generate UMAP projections for embeddings')
+    parser.add_argument('--provider', type=str, required=True,
+                      help='Embedding provider to use (e.g., voyage, openai, cohere)')
+    parser.add_argument('--version', type=str, default="v1",
+                      help='Data version to process')
+    args = parser.parse_args()
     
     # Parameter grid for UMAP
     n_neighbors_options = [15, 30, 50]  # higher values (30-100) for more global structure
@@ -101,15 +111,15 @@ def main():
     total_combinations = len(n_neighbors_options) * len(min_dist_options)
     
     # 1. Load embeddings (do this once)
-    print("Starting embedding loading process...")
-    identifiers, embeddings = load_embeddings_from_directory(VERSION)
+    print(f"Starting embedding loading process for provider '{args.provider}'...")
+    identifiers, embeddings = load_embeddings_from_directory(args.version, args.provider)
     print(f"Successfully loaded {len(identifiers)} embeddings")
     
     # 2. Experiment with different parameter combinations
     print(f"\nStarting UMAP experiments with {total_combinations} parameter combinations...")
     
-    # Create output directory
-    output_dir = DataPaths.processed_dir(VERSION) / "umap"
+    # Create output directory for specific provider
+    output_dir = DataPaths.umap_dir(args.version, args.provider)
     output_dir.mkdir(parents=True, exist_ok=True)
     
     # Create progress bar for parameter combinations
@@ -117,6 +127,11 @@ def main():
     for n_neighbors, min_dist in tqdm(param_combinations, desc="Processing parameter combinations", unit="combination"):
         # Generate output filename based on parameters
         output_file = output_dir / f"umap-n{n_neighbors}-d{min_dist}.json"
+        
+        # Skip if file already exists
+        if output_file.exists():
+            tqdm.write(f"Skipping existing projection: n_neighbors={n_neighbors}, min_dist={min_dist}")
+            continue
         
         # Reduce dimensions with UMAP using current parameters
         reduced_embeddings = reduce_dimensions_umap(
