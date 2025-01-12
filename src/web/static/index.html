@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtuome Visualization</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div id="app">
+        <header id="controls">
+            <select id="provider">
+                <option value="voyage">Voyage AI</option>
+                <option value="openai">OpenAI</option>
+                <option value="cohere">Cohere</option>
+            </select>
+            <select id="projection">
+                <option value="pca">PCA</option>
+                <option value="umap">UMAP</option>
+            </select>
+            <select id="variant" disabled></select>
+            <div id="zoom-info"></div>
+        </header>
+        
+        <main>
+            <canvas id="visualization"></canvas>
+            <aside id="details" class="hidden">
+                <div class="content"></div>
+                <button class="close">&times;</button>
+            </aside>
+        </main>
+    </div>
+    <script type="module" src="/static/js/main.js"></script>
+</body>
+</html> 
