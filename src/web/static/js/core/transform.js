@@ -72,4 +72,44 @@ export class ViewportTransform {
             listener(this);
         }
     }
+    
+    // Fit points to canvas with padding
+    fitPoints(points, canvasWidth, canvasHeight) {
+        if (!points || Object.keys(points).length === 0) {
+            this.reset();
+            return;
+        }
+
+        // Find bounds of all points
+        let minX = Infinity;
+        let maxX = -Infinity;
+        let minY = Infinity;
+        let maxY = -Infinity;
+
+        for (const point of Object.values(points)) {
+            minX = Math.min(minX, point.x);
+            maxX = Math.max(maxX, point.x);
+            minY = Math.min(minY, point.y);
+            maxY = Math.max(maxY, point.y);
+        }
+
+        // Add 10% padding
+        const paddingX = (maxX - minX) * 0.1;
+        const paddingY = (maxY - minY) * 0.1;
+        minX -= paddingX;
+        maxX += paddingX;
+        minY -= paddingY;
+        maxY += paddingY;
+
+        // Calculate scale to fit points
+        const scaleX = canvasWidth / (maxX - minX);
+        const scaleY = canvasHeight / (maxY - minY);
+        const scale = Math.min(scaleX, scaleY);
+
+        // Calculate offset to center points
+        const offsetX = (canvasWidth - (maxX - minX) * scale) / 2 - minX * scale;
+        const offsetY = (canvasHeight - (maxY - minY) * scale) / 2 - minY * scale;
+
+        this.update(scale, offsetX, offsetY);
+    }
 } 

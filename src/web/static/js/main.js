@@ -99,8 +99,9 @@ class App {
             this.state.setPoints(data.points);
             this.renderer.setPoints(data.points);
             
-            // Reset view
-            this.transform.reset();
+            // Fit points to canvas instead of just resetting
+            const rect = this.canvas.getBoundingClientRect();
+            this.transform.fitPoints(data.points, rect.width, rect.height);
             this.hideDetails();
         } catch (error) {
             console.error('Failed to load dataset:', error);
