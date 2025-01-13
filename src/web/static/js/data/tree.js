@@ -9,6 +9,14 @@ class TreeVisualizer {
         this.treeData = await response.json();
         this.assignColors(this.treeData, 0, 360); // Full hue spectrum
         this.render();
+        
+        // Make the color map globally accessible
+        window.virtueColors = this.colorMap;
+    }
+
+    // Get color for a virtue, defaulting to a fallback color if not found
+    static getColor(virtueName) {
+        return window.virtueColors?.get(virtueName) || 'hsl(210, 70%, 70%)';
     }
 
     assignColors(nodes, startHue, endHue, depth = 0) {

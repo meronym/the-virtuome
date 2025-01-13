@@ -105,27 +105,30 @@ export class CanvasRenderer {
                 
                 // Style based on state
                 if (id === this.selectedPoint) {
-                    // Selected point: bright pink fill with white border
-                    this.ctx.fillStyle = '#ff4081';
+                    // Selected point: white border
+                    const baseColor = window.virtueColors?.get(id) || 'hsl(210, 70%, 70%)';
+                    this.ctx.fillStyle = baseColor;
                     this.ctx.lineWidth = 2;
                     this.ctx.strokeStyle = '#ffffff';
                     this.ctx.fill();
                     this.ctx.stroke();
                 } else if (id === this.hoveredPoint) {
-                    // Hovered point: brighter blue fill with light blue glow
-                    this.ctx.fillStyle = '#2196f3';
+                    // Hovered point: brighter with glow
+                    const baseColor = window.virtueColors?.get(id) || 'hsl(210, 70%, 70%)';
+                    this.ctx.fillStyle = baseColor;
                     this.ctx.lineWidth = 2.5;
-                    this.ctx.strokeStyle = '#90caf9';
+                    this.ctx.strokeStyle = 'rgba(255, 255, 255, 0.8)';
                     
                     // Add outer glow
-                    this.ctx.shadowColor = '#90caf9';
+                    this.ctx.shadowColor = 'rgba(255, 255, 255, 0.5)';
                     this.ctx.shadowBlur = 8;
                     this.ctx.fill();
                     this.ctx.stroke();
                     this.ctx.shadowBlur = 0; // Reset shadow for other points
                 } else {
-                    // Normal point: semi-transparent blue
-                    this.ctx.fillStyle = 'rgba(33, 150, 243, 0.6)';
+                    // Normal point: use tree color with some transparency
+                    const baseColor = window.virtueColors?.get(id) || 'hsl(210, 70%, 70%)';
+                    this.ctx.fillStyle = baseColor.replace(')', ', 0.7)').replace('rgb', 'rgba').replace('hsl', 'hsla');
                     this.ctx.fill();
                 }
             }
@@ -166,14 +169,6 @@ export class CanvasRenderer {
                 // Draw text
                 this.ctx.fillStyle = 'rgba(0, 0, 0, 0.8)';
                 this.ctx.fillText(labelText, screenX, screenY - this.pointRadius - 4);
-            }
-            
-            // Debug: log states
-            if (this.hoveredPoint || this.selectedPoint) {
-                console.log('Render states:', { 
-                    hovered: this.hoveredPoint, 
-                    selected: this.selectedPoint 
-                });
             }
         });
     }

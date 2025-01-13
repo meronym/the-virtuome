@@ -2,7 +2,7 @@
 
 ## Overview
 
-The web visualization system provides an interactive 2D visualization of virtue embeddings from multiple AI providers. It allows users to explore and compare different dimensionality reduction techniques (PCA and UMAP) applied to these embeddings, with detailed virtue content available through an interactive side panel.
+The web visualization system provides an interactive 2D visualization of virtue embeddings from multiple AI providers. It allows users to explore and compare different dimensionality reduction techniques (PCA and UMAP) applied to these embeddings, with detailed virtue content available through an interactive side panel. The system includes a hierarchical tree visualization that shows the organizational structure of virtues and provides color coordination between the tree and the embedding space.
 
 ## Core Features
 
@@ -13,6 +13,7 @@ The web visualization system provides an interactive 2D visualization of virtue 
 - Point selection and hover effects with visual feedback
 - Point identification labels on hover
 - Detailed virtue content display in sliding panel
+- Hierarchical tree visualization with color coordination
 - Responsive design with mobile support
 - URL state persistence
 
@@ -33,6 +34,7 @@ src/web/
 │   │   ├── data/              # Data management
 │   │   │   ├── loader.js      # Data loading and caching
 │   │   │   ├── details.js     # Details panel management
+│   │   │   ├── tree.js        # Tree visualization
 │   │   │   └── state.js       # Application state
 │   │   └── main.js            # Application entry point
 │   └── index.html             # Main HTML template
@@ -48,12 +50,14 @@ The Flask server handles:
 - Data file serving with caching
 - Dataset enumeration API
 - Virtue content serving
+- Raw data serving for tree structure
 
 Key endpoints:
 - `/` - Serves the main application
 - `/data/datasets` - Lists available datasets
 - `/data/<provider>/<path>` - Serves data files
 - `/data/virtue/<virtue_id>` - Serves virtue content from raw data
+- `/data/raw/v1/<path>` - Serves raw data files including tree structure
 
 ### Core Components
 
@@ -73,13 +77,14 @@ Handles the canvas rendering and point visualization.
 Key features:
 - Point culling for performance
 - Different point styles for states:
-  - Normal: Semi-transparent blue
-  - Hover: Bright blue with light glow effect and floating identifier label
-  - Selected: Pink with white border
+  - Normal: Semi-transparent color based on tree position
+  - Hover: Tree-assigned color with white glow effect and floating identifier label
+  - Selected: Tree-assigned color with white border
 - High DPI support
 - Automatic resize handling
 - Event emission for state changes
 - Two-pass rendering for optimal label visibility
+- Color coordination with tree hierarchy
 
 #### EventHandler (`js/core/events.js`)
 Manages user interactions with the canvas.
@@ -113,6 +118,23 @@ Features:
 - Error state handling
 - Keyboard shortcuts (Esc to close)
 
+#### TreeVisualizer (`js/data/tree.js`)
+Manages the hierarchical tree visualization and color assignment.
+
+Features:
+- Hierarchical tree rendering
+- Recursive color assignment algorithm
+- Color coordination with canvas points
+- Depth-based color adjustments
+- Global color map management
+- Fallback colors for unknown nodes
+
+Color Assignment Algorithm:
+- Uses HSL color space for intuitive color relationships
+- Recursively splits hue spectrum among siblings
+- Adjusts brightness based on tree depth
+- Maintains consistent saturation for visual cohesion
+
 #### AppState (`js/data/state.js`)
 Manages application state and URL synchronization.
 
@@ -132,6 +154,9 @@ State elements:
         <!-- Dataset selection controls -->
     </header>
     <main>
+        <div id="tree-panel">
+            <!-- Hierarchical tree visualization -->
+        </div>
         <canvas id="visualization"></canvas>
         <aside id="details">
             <!-- Virtue details panel -->
