@@ -162,9 +162,46 @@ data/
 │   ├── openai/
 │   └── cohere/
 └── raw/v1/                # Raw virtue content
-    └── flat/              # Flattened virtue files
-        └── *.md           # Individual virtue files
+    ├── flat/              # Flattened virtue files
+    │   └── *.md          # Individual virtue files
+    └── tree.json         # Complete hierarchical tree structure
 ```
+
+### Tree Structure Format
+The `tree.json` file provides a complete hierarchical view of all virtues, organized by period, tradition, and school:
+
+```json
+[
+  {
+    "type": "period",
+    "name": "CLASSICAL PHILOSOPHICAL TRADITIONS",
+    "children": [
+      {
+        "type": "tradition",
+        "name": "Greek Philosophy (c. 600 BCE - 300 CE)",
+        "children": [
+          {
+            "type": "school",
+            "name": "Stoicism",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "wisdom-stoic"
+              },
+              {
+                "type": "virtue",
+                "name": "justice-stoic"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
+```
+
+Each node in the tree has a `type` ("period", "tradition", "school", or "virtue") and a `name`. Non-leaf nodes have a `children` array containing their child nodes. This structure enables hierarchical navigation and filtering of virtues in the visualization system.
 
 ### Virtue Content Format
 ```markdown
