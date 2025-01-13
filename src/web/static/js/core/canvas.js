@@ -10,6 +10,9 @@ export class CanvasRenderer {
         this.animationFrame = null;
         this.listeners = new Map();
         
+        // Store reference to this renderer on the canvas element
+        canvas.__renderer = this;
+        
         // Bind to transform changes
         this.transform.addListener(() => this.render());
         

@@ -2,6 +2,7 @@ class TreeVisualizer {
     constructor() {
         this.treeData = null;
         this.colorMap = new Map();
+        this.nodeElements = new Map(); // Store references to node elements
     }
 
     async loadTree() {
@@ -49,8 +50,13 @@ class TreeVisualizer {
         
         return `<ul>${nodes.map(node => {
             const color = this.colorMap.get(node.name);
+            const nodeId = `tree-node-${node.name}`;
+            
+            // Store reference for later use
+            this.nodeElements.set(node.name, nodeId);
+            
             return `
-                <li>
+                <li id="${nodeId}">
                     <span class="color-dot" style="background-color: ${color}"></span>
                     <span>${node.name}</span>
                     ${node.children ? this.createTreeHTML(node.children, depth + 1) : ''}
@@ -59,10 +65,30 @@ class TreeVisualizer {
         }).join('')}</ul>`;
     }
 
+    highlightNode(nodeName) {
+        // Remove previous highlight
+        const highlighted = document.querySelector('#tree-panel .highlighted');
+        if (highlighted) {
+            highlighted.classList.remove('highlighted');
+        }
+
+        // Add new highlight
+        const nodeId = this.nodeElements.get(nodeName);
+        if (nodeId) {
+            const element = document.getElementById(nodeId);
+            if (element) {
+                element.classList.add('highlighted');
+                // Scroll into view with some padding
+                element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+        }
+    }
+
     render() {
         const panel = document.getElementById('tree-panel');
         if (!panel) return;
         
+        this.nodeElements.clear(); // Clear previous references
         panel.innerHTML = this.createTreeHTML(this.treeData);
     }
 }

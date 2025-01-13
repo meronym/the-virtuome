@@ -85,6 +85,7 @@ Key features:
 - Event emission for state changes
 - Two-pass rendering for optimal label visibility
 - Color coordination with tree hierarchy
+- Interactive point selection with tree synchronization
 
 #### EventHandler (`js/core/events.js`)
 Manages user interactions with the canvas.
@@ -128,12 +129,20 @@ Features:
 - Depth-based color adjustments
 - Global color map management
 - Fallback colors for unknown nodes
+- Interactive node highlighting and auto-scrolling
+- Visual feedback for selected nodes
 
 Color Assignment Algorithm:
 - Uses HSL color space for intuitive color relationships
 - Recursively splits hue spectrum among siblings
 - Adjusts brightness based on tree depth
 - Maintains consistent saturation for visual cohesion
+
+Interactive Features:
+- Automatic highlighting of tree nodes when points are selected on canvas
+- Smooth scrolling to bring highlighted nodes into view
+- Visual emphasis through bold text and subtle underline
+- Synchronized selection state between canvas and tree
 
 #### AppState (`js/data/state.js`)
 Manages application state and URL synchronization.

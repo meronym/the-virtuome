@@ -38,6 +38,18 @@
         document.addEventListener('DOMContentLoaded', async () => {
             const treeViz = new TreeVisualizer();
             await treeViz.loadTree();
+            
+            // Listen for point selection changes
+            const canvas = document.getElementById('visualization');
+            const renderer = canvas.__renderer; // Access the renderer instance
+            
+            if (renderer) {
+                renderer.on('pointsChanged', ({ type, point }) => {
+                    if (type === 'select' && point) {
+                        treeViz.highlightNode(point);
+                    }
+                });
+            }
         });
     </script>
 </body>

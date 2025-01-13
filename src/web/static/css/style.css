@@ -243,6 +243,7 @@ main {
     overflow-y: auto;
     padding: 20px;
     font-size: 14px;
+    scroll-behavior: smooth; /* Add smooth scrolling */
 }
 
 #tree-panel ul {
@@ -257,6 +258,7 @@ main {
 
 #tree-panel li {
     margin: 8px 0;
+    transition: font-weight 0.2s ease;
 }
 
 #tree-panel .color-dot {
@@ -266,4 +268,23 @@ main {
     border-radius: 50%;
     margin-right: 8px;
     vertical-align: middle;
+}
+
+#tree-panel .highlighted {
+    font-weight: bold;
+}
+
+#tree-panel .highlighted > span:not(.color-dot) {
+    position: relative;
+}
+
+#tree-panel .highlighted > span:not(.color-dot)::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+    height: 2px;
+    background-color: currentColor;
+    opacity: 0.3;
 } 
