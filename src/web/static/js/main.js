@@ -3,7 +3,7 @@ import { CanvasRenderer } from '/static/js/core/canvas.js';
 import { EventHandler } from '/static/js/core/events.js';
 import { DataLoader } from '/static/js/data/loader.js';
 import { AppState } from '/static/js/data/state.js';
-import TreeVisualizer from '/static/js/data/tree.js';
+import { TreeVisualizer } from '/static/js/data/tree.js';
 
 class App {
     constructor() {

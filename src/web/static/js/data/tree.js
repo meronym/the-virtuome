@@ -1,3 +1,5 @@
+import { DetailsPanel } from './details.js';
+
 class TreeVisualizer {
     constructor() {
         this.treeData = null;
@@ -18,7 +20,9 @@ class TreeVisualizer {
 
     // Get color for a virtue, defaulting to a fallback color if not found
     static getColor(virtueName) {
-        return window.virtueColors?.get(virtueName) || 'hsl(210, 70%, 70%)';
+        const color = window.virtueColors?.get(virtueName);
+        if (!color) return { h: 210, s: 70, l: 70 };
+        return color;
     }
 
     assignColors(nodes, startHue, endHue, depth = 0) {
@@ -33,7 +37,12 @@ class TreeVisualizer {
             const saturation = 70; // Base saturation
             const brightness = Math.max(85 - (depth * 10), 50); // Decrease brightness with depth
             
-            this.colorMap.set(node.name, `hsl(${nodeHue}, ${saturation}%, ${brightness}%)`);
+            // Store HSL values as an object instead of a string
+            this.colorMap.set(node.name, {
+                h: nodeHue,
+                s: saturation,
+                l: brightness
+            });
             
             if (node.children) {
                 this.assignColors(
@@ -155,6 +164,7 @@ class TreeVisualizer {
         
         return `<ul>${nodes.map(node => {
             const color = this.colorMap.get(node.name);
+            const colorStr = color ? `hsl(${color.h}, ${color.s}%, ${color.l}%)` : 'hsl(210, 70%, 70%)';
             const nodeId = `tree-node-${node.name}`;
             const isPinned = this.pinnedNodes.has(node.name);
             
@@ -163,7 +173,7 @@ class TreeVisualizer {
             
             return `
                 <li id="${nodeId}">
-                    <span class="color-dot${isPinned ? ' pinned' : ''}" style="background-color: ${color}" data-node="${node.name}">
+                    <span class="color-dot${isPinned ? ' pinned' : ''}" style="background-color: ${colorStr}" data-node="${node.name}">
                         ${isPinned ? '<i class="pin-icon">📌</i>' : ''}
                     </span>
                     <span>${node.name}</span>
@@ -208,9 +218,35 @@ class TreeVisualizer {
             });
         });
 
+        // Add click handlers for virtue names
+        panel.querySelectorAll('li').forEach(li => {
+            const nameSpan = li.querySelector('span:not(.color-dot)');
+            if (nameSpan) {
+                nameSpan.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    const virtueName = nameSpan.textContent.trim();
+                    // Only handle clicks for virtue nodes
+                    const node = this.findNode(virtueName);
+                    if (node && node.type === 'virtue') {
+                        // Highlight the node in the tree
+                        this.highlightNode(virtueName);
+                        // Trigger the same behavior as clicking on canvas
+                        const canvas = document.getElementById('visualization');
+                        const renderer = canvas.__renderer;
+                        if (renderer) {
+                            renderer.setSelectedPoint(virtueName);
+                        }
+                        // Show virtue details
+                        const details = new DetailsPanel();
+                        details.showVirtue(virtueName);
+                    }
+                });
+            }
+        });
+
         // Update highlighting for pinned nodes
         this.updatePinnedHighlights();
     }
 }
 
-export default TreeVisualizer; 
+export { TreeVisualizer }; 

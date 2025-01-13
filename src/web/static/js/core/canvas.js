@@ -1,3 +1,5 @@
+import { TreeVisualizer } from '../data/tree.js';
+
 export class CanvasRenderer {
     constructor(canvas, transform) {
         this.canvas = canvas;
@@ -115,7 +117,7 @@ export class CanvasRenderer {
                         // Draw halo
                         this.ctx.beginPath();
                         this.ctx.arc(screenX, screenY, this.pointRadius * 2.5, 0, Math.PI * 2);
-                        this.ctx.strokeStyle = haloColor.replace(')', ', 0.3)').replace('rgb', 'rgba').replace('hsl', 'hsla');
+                        this.ctx.strokeStyle = `hsla(${haloColor.h}, ${haloColor.s}%, ${haloColor.l}%, 0.3)`;
                         this.ctx.lineWidth = 3;
                         this.ctx.stroke();
                     }
@@ -138,17 +140,46 @@ export class CanvasRenderer {
                 
                 // Style based on state
                 if (id === this.selectedPoint) {
-                    // Selected point: white border
-                    const baseColor = window.virtueColors?.get(id) || 'hsl(210, 70%, 70%)';
-                    this.ctx.fillStyle = baseColor;
-                    this.ctx.lineWidth = 2;
-                    this.ctx.strokeStyle = '#ffffff';
+                    // Selected point: larger with glow and color variations
+                    const baseColor = TreeVisualizer.getColor(id);
+                    
+                    // Create color variations with more pronounced differences
+                    const glowColor = `hsl(${baseColor.h}, ${Math.min(baseColor.s + 20, 100)}%, ${Math.min(baseColor.l + 5, 90)}%)`;
+                    const fillColor = `hsl(${baseColor.h}, ${Math.min(baseColor.s + 25, 100)}%, ${baseColor.l}%)`;
+                    const borderColor = `hsl(${baseColor.h}, ${Math.min(baseColor.s + 15, 100)}%, ${Math.max(baseColor.l - 15, 20)}%)`;
+                    
+                    // Draw outer glow
+                    this.ctx.shadowColor = glowColor;
+                    this.ctx.shadowBlur = 15;
+                    this.ctx.shadowOffsetX = 0;
+                    this.ctx.shadowOffsetY = 0;
+                    
+                    // Draw larger point
+                    this.ctx.beginPath();
+                    this.ctx.arc(screenX, screenY, this.pointRadius * 1.5, 0, Math.PI * 2);
+                    
+                    // Fill with more saturated base color
+                    this.ctx.fillStyle = fillColor;
                     this.ctx.fill();
+                    
+                    // Add darker border of the same hue
+                    this.ctx.lineWidth = 2;
+                    this.ctx.strokeStyle = borderColor;
                     this.ctx.stroke();
+                    
+                    // Add subtle outer ring
+                    this.ctx.beginPath();
+                    this.ctx.arc(screenX, screenY, this.pointRadius * 1.8, 0, Math.PI * 2);
+                    this.ctx.strokeStyle = glowColor.replace(')', ', 0.3)').replace('hsl', 'hsla');
+                    this.ctx.lineWidth = 1;
+                    this.ctx.stroke();
+                    
+                    // Reset shadow for other points
+                    this.ctx.shadowBlur = 0;
                 } else if (id === this.hoveredPoint) {
                     // Hovered point: brighter with glow
-                    const baseColor = window.virtueColors?.get(id) || 'hsl(210, 70%, 70%)';
-                    this.ctx.fillStyle = baseColor;
+                    const baseColor = TreeVisualizer.getColor(id);
+                    this.ctx.fillStyle = `hsl(${baseColor.h}, ${baseColor.s}%, ${baseColor.l}%)`;
                     this.ctx.lineWidth = 2.5;
                     this.ctx.strokeStyle = 'rgba(255, 255, 255, 0.8)';
                     
@@ -160,8 +191,8 @@ export class CanvasRenderer {
                     this.ctx.shadowBlur = 0; // Reset shadow for other points
                 } else {
                     // Normal point: use tree color with some transparency
-                    const baseColor = window.virtueColors?.get(id) || 'hsl(210, 70%, 70%)';
-                    this.ctx.fillStyle = baseColor.replace(')', ', 0.7)').replace('rgb', 'rgba').replace('hsl', 'hsla');
+                    const baseColor = TreeVisualizer.getColor(id);
+                    this.ctx.fillStyle = `hsla(${baseColor.h}, ${baseColor.s}%, ${baseColor.l}%, 0.7)`;
                     this.ctx.fill();
                 }
             }

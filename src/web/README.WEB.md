@@ -14,6 +14,8 @@ The web visualization system provides an interactive 2D visualization of virtue 
 - Point identification labels on hover
 - Detailed virtue content display in sliding panel
 - Hierarchical tree visualization with color coordination
+- Symmetrical interaction between tree and canvas
+- Advanced color management for visual hierarchy
 - Pin-highlighting system for exploring virtue relationships
 - Responsive design with mobile support
 - URL state persistence
@@ -80,11 +82,17 @@ Key features:
 - Different point styles for states:
   - Normal: Semi-transparent color based on tree position
   - Hover: Tree-assigned color with white glow effect and floating identifier label
-  - Selected: Tree-assigned color with white border
+  - Selected: Enhanced visual treatment with:
+    - Increased size (1.5x)
+    - Color-coordinated glow effect
+    - Saturation-enhanced fill
+    - Darker border of the same hue
+    - Subtle outer ring
+  - Pin-highlighted: Subtle halo effect showing hierarchical relationships
 - High DPI support
 - Automatic resize handling
 - Event emission for state changes
-- Two-pass rendering for optimal label visibility
+- Three-pass rendering for optimal visual hierarchy
 - Color coordination with tree hierarchy
 - Interactive point selection with tree synchronization
 
@@ -125,13 +133,19 @@ Manages the hierarchical tree visualization, color assignment, and pin-highlight
 
 Features:
 - Hierarchical tree rendering
-- Recursive color assignment algorithm
-- Color coordination with canvas points
-- Depth-based color adjustments
-- Global color map management
-- Fallback colors for unknown nodes
+- Sophisticated color management system:
+  - HSL-based color objects for precise control
+  - Recursive color assignment algorithm
+  - Color coordination with canvas points
+  - Depth-based color adjustments
+  - Global color map management
+  - Fallback colors for unknown nodes
 - Interactive node highlighting and auto-scrolling
 - Visual feedback for selected nodes
+- Symmetrical interaction with canvas:
+  - Clicking tree nodes selects corresponding canvas points
+  - Selecting canvas points highlights corresponding tree nodes
+  - Consistent visual feedback across both views
 - Pin-highlighting system for exploring relationships:
   - Click-to-pin any node in the hierarchy
   - Visual feedback with pin icons and background highlights
@@ -140,11 +154,15 @@ Features:
   - Support for multiple simultaneous pins
   - Most-specific-ancestor rule for overlapping pins
 
-Color Assignment Algorithm:
+Color Management System:
 - Uses HSL color space for intuitive color relationships
-- Recursively splits hue spectrum among siblings
-- Adjusts brightness based on tree depth
-- Maintains consistent saturation for visual cohesion
+- Stores colors as objects with h, s, l properties
+- Enables sophisticated color transformations:
+  - Saturation enhancement for emphasis
+  - Lightness adjustments for hierarchy
+  - Opacity control for visual layering
+- Maintains color consistency across components
+- Supports dynamic color variations for different states
 
 Interactive Features:
 - Automatic highlighting of tree nodes when points are selected on canvas

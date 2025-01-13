@@ -263,6 +263,15 @@ main {
     border-radius: 4px;
 }
 
+#tree-panel li span:not(.color-dot) {
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+#tree-panel li span:not(.color-dot):hover {
+    color: #2196f3;
+}
+
 #tree-panel li.pinned {
     background-color: rgba(0, 0, 0, 0.05);
 }
@@ -307,6 +316,7 @@ main {
 
 #tree-panel .highlighted > span:not(.color-dot) {
     position: relative;
+    color: #2196f3;
 }
 
 #tree-panel .highlighted > span:not(.color-dot)::after {
