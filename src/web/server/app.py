@@ -74,6 +74,17 @@ def serve_virtue(virtue_id):
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
+# Serve raw data files including tree.json
+@app.route('/data/raw/v1/<path:filename>')
+def serve_raw_data(filename):
+    raw_dir = os.path.join(PROJECT_ROOT, 'data', 'raw', 'v1')
+    response = make_response(send_from_directory(
+        raw_dir,
+        filename
+    ))
+    response.headers['Cache-Control'] = 'public, max-age=300'  # 5 minutes cache
+    return response
+
 if __name__ == '__main__':
     # Ensure data directories exist
     for dir_path in [DATA_DIR, RAW_DATA_DIR]:

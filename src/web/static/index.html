@@ -23,6 +23,7 @@
         </header>
         
         <main>
+            <div id="tree-panel"></div>
             <canvas id="visualization"></canvas>
             <aside id="details" class="hidden">
                 <div class="content"></div>
@@ -31,5 +32,13 @@
         </main>
     </div>
     <script type="module" src="/static/js/main.js"></script>
+    <script type="module">
+        import TreeVisualizer from '/static/js/data/tree.js';
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            const treeViz = new TreeVisualizer();
+            await treeViz.loadTree();
+        });
+    </script>
 </body>
 </html> 

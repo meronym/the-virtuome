@@ -47,6 +47,7 @@ main {
     flex: 1;
     position: relative;
     overflow: hidden;
+    margin-left: 300px;
 }
 
 #visualization {
@@ -228,4 +229,41 @@ main {
     #details.visible {
         transform: translateY(0);
     }
+} 
+
+/* Tree Panel Styles */
+#tree-panel {
+    position: fixed;
+    left: 0;
+    top: 60px; /* Below the header */
+    bottom: 0;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.95);
+    border-right: 1px solid #ddd;
+    overflow-y: auto;
+    padding: 20px;
+    font-size: 14px;
+}
+
+#tree-panel ul {
+    list-style: none;
+    padding-left: 20px;
+    margin: 0;
+}
+
+#tree-panel > ul {
+    padding-left: 0;
+}
+
+#tree-panel li {
+    margin: 8px 0;
+}
+
+#tree-panel .color-dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+    vertical-align: middle;
 } 
