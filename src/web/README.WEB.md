@@ -14,6 +14,7 @@ The web visualization system provides an interactive 2D visualization of virtue 
 - Point identification labels on hover
 - Detailed virtue content display in sliding panel
 - Hierarchical tree visualization with color coordination
+- Pin-highlighting system for exploring virtue relationships
 - Responsive design with mobile support
 - URL state persistence
 
@@ -120,7 +121,7 @@ Features:
 - Keyboard shortcuts (Esc to close)
 
 #### TreeVisualizer (`js/data/tree.js`)
-Manages the hierarchical tree visualization and color assignment.
+Manages the hierarchical tree visualization, color assignment, and pin-highlighting system.
 
 Features:
 - Hierarchical tree rendering
@@ -131,6 +132,13 @@ Features:
 - Fallback colors for unknown nodes
 - Interactive node highlighting and auto-scrolling
 - Visual feedback for selected nodes
+- Pin-highlighting system for exploring relationships:
+  - Click-to-pin any node in the hierarchy
+  - Visual feedback with pin icons and background highlights
+  - Automatic highlighting of descendant nodes
+  - Canvas halos for pinned nodes' virtues
+  - Support for multiple simultaneous pins
+  - Most-specific-ancestor rule for overlapping pins
 
 Color Assignment Algorithm:
 - Uses HSL color space for intuitive color relationships
@@ -143,6 +151,8 @@ Interactive Features:
 - Smooth scrolling to bring highlighted nodes into view
 - Visual emphasis through bold text and subtle underline
 - Synchronized selection state between canvas and tree
+- Pin-based exploration of virtue relationships
+- Visual hierarchy for pinned nodes and their descendants
 
 #### AppState (`js/data/state.js`)
 Manages application state and URL synchronization.

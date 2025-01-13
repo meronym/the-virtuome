@@ -258,7 +258,17 @@ main {
 
 #tree-panel li {
     margin: 8px 0;
-    transition: font-weight 0.2s ease;
+    transition: all 0.2s ease;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+#tree-panel li.pinned {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+#tree-panel li.pinned-descendant {
+    background-color: rgba(0, 0, 0, 0.02);
 }
 
 #tree-panel .color-dot {
@@ -268,6 +278,27 @@ main {
     border-radius: 50%;
     margin-right: 8px;
     vertical-align: middle;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.2s ease;
+}
+
+#tree-panel .color-dot:hover {
+    transform: scale(1.2);
+}
+
+#tree-panel .color-dot.pinned {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.8), 0 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+#tree-panel .pin-icon {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    font-style: normal;
+    font-size: 10px;
+    filter: drop-shadow(0 1px 1px rgba(0,0,0,0.3));
 }
 
 #tree-panel .highlighted {

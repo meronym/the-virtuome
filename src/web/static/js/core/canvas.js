@@ -19,6 +19,9 @@ export class CanvasRenderer {
         // Setup resize handling
         this.setupResizeHandler();
         this.resize();
+
+        // Listen for tree pin changes
+        window.addEventListener('treePinsChanged', () => this.render());
     }
     
     // Event emitter methods
@@ -92,7 +95,34 @@ export class CanvasRenderer {
             // Clear canvas
             this.ctx.clearRect(0, 0, width, height);
             
-            // First pass: Draw all points
+            // First pass: Draw halos for pinned nodes' descendants
+            for (const [id, point] of this.points) {
+                const [screenX, screenY] = this.transform.toScreen(point.x, point.y);
+                
+                // Skip points outside viewport with padding
+                const padding = this.pointRadius * 4; // Larger padding for halos
+                if (screenX < -padding || screenX > width + padding ||
+                    screenY < -padding || screenY > height + padding) {
+                    continue;
+                }
+
+                // Check if this point is a descendant of any pinned node
+                const treeViz = document.querySelector('#tree-panel')?.__treeViz;
+                if (treeViz) {
+                    const pinnedAncestor = treeViz.getMostSpecificPinnedAncestor(id);
+                    if (pinnedAncestor) {
+                        const haloColor = treeViz.colorMap.get(pinnedAncestor.node.name);
+                        // Draw halo
+                        this.ctx.beginPath();
+                        this.ctx.arc(screenX, screenY, this.pointRadius * 2.5, 0, Math.PI * 2);
+                        this.ctx.strokeStyle = haloColor.replace(')', ', 0.3)').replace('rgb', 'rgba').replace('hsl', 'hsla');
+                        this.ctx.lineWidth = 3;
+                        this.ctx.stroke();
+                    }
+                }
+            }
+            
+            // Second pass: Draw all points
             for (const [id, point] of this.points) {
                 const [screenX, screenY] = this.transform.toScreen(point.x, point.y);
                 
@@ -135,8 +165,8 @@ export class CanvasRenderer {
                     this.ctx.fill();
                 }
             }
-            
-            // Second pass: Draw hover label on top if there's a hovered point
+
+            // Third pass: Draw hover label on top if there's a hovered point
             if (this.hoveredPoint && this.points.has(this.hoveredPoint)) {
                 const point = this.points.get(this.hoveredPoint);
                 const [screenX, screenY] = this.transform.toScreen(point.x, point.y);

@@ -3,6 +3,7 @@ import { CanvasRenderer } from '/static/js/core/canvas.js';
 import { EventHandler } from '/static/js/core/events.js';
 import { DataLoader } from '/static/js/data/loader.js';
 import { AppState } from '/static/js/data/state.js';
+import TreeVisualizer from '/static/js/data/tree.js';
 
 class App {
     constructor() {
@@ -135,7 +136,26 @@ class App {
 }
 
 // Initialize app when DOM is ready
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
     const app = new App();
-    app.initialize();
+    await app.initialize();
+    
+    const treeViz = new TreeVisualizer();
+    await treeViz.loadTree();
+    
+    // Store TreeVisualizer instance on the tree panel element
+    const treePanel = document.getElementById('tree-panel');
+    treePanel.__treeViz = treeViz;
+    
+    // Listen for point selection changes
+    const canvas = document.getElementById('visualization');
+    const renderer = canvas.__renderer; // Access the renderer instance
+    
+    if (renderer) {
+        renderer.on('pointsChanged', ({ type, point }) => {
+            if (type === 'select' && point) {
+                treeViz.highlightNode(point);
+            }
+        });
+    }
 }); 
