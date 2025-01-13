@@ -19,6 +19,8 @@ The web visualization system provides an interactive 2D visualization of virtue 
 - Pin-highlighting system for exploring virtue relationships
 - Responsive design with mobile support
 - URL state persistence
+- Dark/light theme system with system preference detection
+- Optimized tree navigation with smart scrolling behavior
 
 ## Directory Structure
 
@@ -189,6 +191,7 @@ State elements:
 <div id="app">
     <header id="controls">
         <!-- Dataset selection controls -->
+        <!-- Theme toggle control -->
     </header>
     <main>
         <div id="tree-panel">
@@ -207,9 +210,15 @@ Key features:
 - Responsive layout
 - Mobile adaptations
 - Smooth transitions
-- Theme variables
+- CSS variable-based theming system
 - Details panel styling
 - Point state styling
+- Optimized tree panel layout:
+  - Compact hierarchical indentation
+  - Smart color dot positioning
+  - Pin indicators for marked nodes
+  - Contrast-optimized text for both themes
+  - Smooth state transitions
 
 ## Data Structure
 
@@ -282,6 +291,7 @@ category: Category
 ### State Management
 - Event-based architecture using custom event emitters
 - URL state synchronization for shareable views
+- Theme preference persistence
 - Cached data loading with memory management
 
 ### Performance Optimizations
@@ -327,4 +337,6 @@ Planned features:
 - Embedding space analysis tools
 - WebGL rendering for larger datasets
 - Progressive loading for mobile
-- Cached comparative analysis 
+- Cached comparative analysis
+- Additional theme customization options
+- Enhanced accessibility features 

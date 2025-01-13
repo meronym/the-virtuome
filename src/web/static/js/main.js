@@ -4,6 +4,7 @@ import { EventHandler } from '/static/js/core/events.js';
 import { DataLoader } from '/static/js/data/loader.js';
 import { AppState } from '/static/js/data/state.js';
 import { TreeVisualizer } from '/static/js/data/tree.js';
+import { ThemeManager } from '/static/js/data/theme.js';
 
 class App {
     constructor() {
@@ -12,6 +13,7 @@ class App {
         this.transform = new ViewportTransform();
         this.canvas = document.getElementById('visualization');
         this.renderer = new CanvasRenderer(this.canvas, this.transform);
+        this.themeManager = new ThemeManager();
         
         // Initialize event handler after renderer
         this.events = new EventHandler(this.canvas, this.transform, this.renderer);

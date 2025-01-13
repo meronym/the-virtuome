@@ -196,6 +196,11 @@ class TreeVisualizer {
     }
 
     highlightNode(nodeName) {
+        // If the same node is already highlighted, don't do anything
+        if (this.highlightedNode === nodeName) {
+            return;
+        }
+
         // Remove previous highlight
         const highlighted = document.querySelector('#tree-panel .highlighted');
         if (highlighted) {
@@ -231,7 +236,7 @@ class TreeVisualizer {
                 } else {
                     element.classList.add('highlighted');
                 }
-                // Scroll into view with padding
+                // Only scroll into view when the highlighted node actually changes
                 element.scrollIntoView({ behavior: 'smooth', block: 'center' });
             }
         }
