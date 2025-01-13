@@ -89,7 +89,7 @@ export class CanvasRenderer {
             // Clear canvas
             this.ctx.clearRect(0, 0, width, height);
             
-            // Draw all points
+            // First pass: Draw all points
             for (const [id, point] of this.points) {
                 const [screenX, screenY] = this.transform.toScreen(point.x, point.y);
                 
@@ -128,6 +128,44 @@ export class CanvasRenderer {
                     this.ctx.fillStyle = 'rgba(33, 150, 243, 0.6)';
                     this.ctx.fill();
                 }
+            }
+            
+            // Second pass: Draw hover label on top if there's a hovered point
+            if (this.hoveredPoint && this.points.has(this.hoveredPoint)) {
+                const point = this.points.get(this.hoveredPoint);
+                const [screenX, screenY] = this.transform.toScreen(point.x, point.y);
+                
+                // Draw hover label
+                this.ctx.font = '14px Arial';
+                this.ctx.fillStyle = 'rgba(0, 0, 0, 0.8)';
+                this.ctx.textAlign = 'center';
+                this.ctx.textBaseline = 'bottom';
+                
+                // Draw background for label
+                const labelText = this.hoveredPoint;
+                const metrics = this.ctx.measureText(labelText);
+                const labelPadding = 4;
+                const labelWidth = metrics.width + labelPadding * 2;
+                const labelHeight = 20;
+                const labelX = screenX - labelWidth / 2;
+                const labelY = screenY - this.pointRadius - labelHeight - 2;
+                
+                // Add a subtle shadow to the label background
+                this.ctx.shadowColor = 'rgba(0, 0, 0, 0.2)';
+                this.ctx.shadowBlur = 4;
+                this.ctx.shadowOffsetY = 2;
+                
+                this.ctx.fillStyle = 'rgba(255, 255, 255, 0.95)';
+                this.ctx.fillRect(labelX, labelY, labelWidth, labelHeight);
+                
+                // Reset shadow for text
+                this.ctx.shadowColor = 'transparent';
+                this.ctx.shadowBlur = 0;
+                this.ctx.shadowOffsetY = 0;
+                
+                // Draw text
+                this.ctx.fillStyle = 'rgba(0, 0, 0, 0.8)';
+                this.ctx.fillText(labelText, screenX, screenY - this.pointRadius - 4);
             }
             
             // Debug: log states

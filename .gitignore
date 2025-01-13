@@ -3,6 +3,8 @@ venv/
 tmp/
 tree.txt
 
+.prompts
+
 __pycache__/
 *.py[cod]
 *$py.class

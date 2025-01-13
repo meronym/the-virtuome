@@ -143,23 +143,26 @@ The generation process includes:
 │   │           └── umap/
 │   │               └── clusters/
 │   └── raw/                 # Raw generated data
-│       └── v1/               # Version-specific raw data
-│           ├── flat/         # Flattened content files
-│           └── schools/      # Hierarchical school structure
-├── prompts/                  # LLM prompts and targets
-│   ├── targets/              # Target definitions
-│   │   ├── samples/          # Sample targets for testing
-│   │   └── v1.json           # Main target definitions
-│   └── templates/            # Prompt templates
-├── src/                      # Source code
-│   ├── analysis/             # Analysis pipeline
-│   ├── generation/           # Content generation
-│   │   ├── generator.py      # Main generation workflow
-│   │   └── llm_models.py     # LLM interaction and pricing
-│   ├── utils/                # Shared utilities
-│   └── web/                  # Web visualization
-├── requirements.txt          # Python dependencies
-└── README.md                 # This file
+│       └── v1/              # Version-specific raw data
+│           ├── flat/        # Flattened content files
+│           ├── tree.json    # Complete hierarchical tree structure
+│           └── schools/     # Hierarchical school structure
+│               └── nodes/   # Individual virtue nodes with tree_path.json
+├── prompts/                 # LLM prompts and targets
+│   ├── targets/            # Target definitions
+│   │   ├── samples/        # Sample targets for testing
+│   │   └── v1.json        # Main target definitions
+│   └── templates/          # Prompt templates
+├── src/                    # Source code
+│   ├── analysis/          # Analysis pipeline
+│   ├── generation/        # Content generation
+│   │   ├── generator.py   # Main generation workflow
+│   │   ├── tree_paths.py  # Tree structure generation
+│   │   └── llm_models.py  # LLM interaction and pricing
+│   ├── utils/             # Shared utilities
+│   └── web/              # Web visualization
+├── requirements.txt       # Python dependencies
+└── README.md             # This file
 [/code]
 
 ## Setup
@@ -195,13 +198,24 @@ The project consists of several stages:
    - Hierarchical structure of schools and virtues
    - Outputs markdown files with frontmatter metadata
 
-2. **Data Processing**
+2. **Tree Structure Generation**
+   - Indexes generated content using `tree_paths.py`
+   - Creates individual `tree_path.json` files for each school
+   - Generates global `tree.json` with complete hierarchy
+   - Run after content generation with:
+     ```bash
+     python -m src.generation.tree_paths prompts/targets/v1.json
+     # Optional: dry run to preview changes
+     python -m src.generation.tree_paths prompts/targets/v1.json --dry-run
+     ```
+
+3. **Data Processing**
    - Flattens hierarchical content
    - Generates embeddings using Voyage AI
    - Performs dimensionality reduction (PCA and UMAP)
    - Clusters similar concepts
 
-3. **Visualization**
+4. **Visualization**
    - Web-based interactive visualization
    - Multiple projection methods
    - Cluster analysis
@@ -303,6 +317,46 @@ category: Cardinal Virtues
 ---
 
 Content describing the virtue...
+[/code]
+
+### Tree Structure
+
+The project maintains two types of tree structure files:
+
+1. Individual `tree_path.json` files in each school's nodes directory:
+[code]
+{
+  "path": ["CLASSICAL PHILOSOPHICAL TRADITIONS", "Greek Philosophy (c. 600 BCE - 300 CE)", "Stoicism"],
+  "nodes": ["wisdom-stoic", "justice-stoic", "courage-stoic", "temperance-stoic"]
+}
+[/code]
+
+2. A global `tree.json` file containing the complete hierarchy:
+[code]
+[
+  {
+    "type": "period",
+    "name": "CLASSICAL PHILOSOPHICAL TRADITIONS",
+    "children": [
+      {
+        "type": "tradition",
+        "name": "Greek Philosophy (c. 600 BCE - 300 CE)",
+        "children": [
+          {
+            "type": "school",
+            "name": "Stoicism",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "wisdom-stoic"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
 [/code]
 
 ### Analysis Outputs

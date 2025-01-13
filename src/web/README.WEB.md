@@ -11,6 +11,7 @@ The web visualization system provides an interactive 2D visualization of virtue 
 - Multiple projection types (PCA, UMAP with variants)
 - Pan and zoom navigation
 - Point selection and hover effects with visual feedback
+- Point identification labels on hover
 - Detailed virtue content display in sliding panel
 - Responsive design with mobile support
 - URL state persistence
@@ -73,11 +74,12 @@ Key features:
 - Point culling for performance
 - Different point styles for states:
   - Normal: Semi-transparent blue
-  - Hover: Bright blue with light glow effect
+  - Hover: Bright blue with light glow effect and floating identifier label
   - Selected: Pink with white border
 - High DPI support
 - Automatic resize handling
 - Event emission for state changes
+- Two-pass rendering for optimal label visibility
 
 #### EventHandler (`js/core/events.js`)
 Manages user interactions with the canvas.
@@ -189,6 +191,7 @@ category: Category
 - Throttled render updates
 - Device pixel ratio handling
 - Touch event optimization
+- Two-pass rendering for layered elements
 
 ### Mobile Support
 - Responsive layout adjustments
