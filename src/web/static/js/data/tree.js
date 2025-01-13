@@ -6,6 +6,7 @@ class TreeVisualizer {
         this.colorMap = new Map();
         this.nodeElements = new Map(); // Store references to node elements
         this.pinnedNodes = new Set(); // Track pinned nodes
+        this.highlightedNode = null; // Track currently highlighted node
     }
 
     async loadTree() {
@@ -159,9 +160,15 @@ class TreeVisualizer {
         window.dispatchEvent(new CustomEvent('treePinsChanged'));
     }
 
+    // Helper function to calculate text color from base color
+    getTextColor(baseColor) {
+        if (!baseColor) return null;
+        return `hsl(${baseColor.h}, ${Math.min(baseColor.s + 15, 100)}%, ${Math.max(baseColor.l - 25, 25)}%)`;
+    }
+
     createTreeHTML(nodes, depth = 0) {
         if (!Array.isArray(nodes)) return '';
-        
+
         return `<ul>${nodes.map(node => {
             const color = this.colorMap.get(node.name);
             const colorStr = color ? `hsl(${color.h}, ${color.s}%, ${color.l}%)` : 'hsl(210, 70%, 70%)';
@@ -171,12 +178,17 @@ class TreeVisualizer {
             // Store reference for later use
             this.nodeElements.set(node.name, nodeId);
             
+            // Calculate text color for hover state
+            const textColor = color ? 
+                `hsl(${color.h}, ${Math.min(color.s + 20, 100)}%, ${Math.max(color.l - 20, 30)}%)` : 
+                'hsl(210, 90%, 50%)';
+            
             return `
                 <li id="${nodeId}">
                     <span class="color-dot${isPinned ? ' pinned' : ''}" style="background-color: ${colorStr}" data-node="${node.name}">
                         ${isPinned ? '<i class="pin-icon">📌</i>' : ''}
                     </span>
-                    <span>${node.name}</span>
+                    <span style="--hover-color: ${textColor}">${node.name}</span>
                     ${node.children ? this.createTreeHTML(node.children, depth + 1) : ''}
                 </li>
             `;
@@ -188,15 +200,38 @@ class TreeVisualizer {
         const highlighted = document.querySelector('#tree-panel .highlighted');
         if (highlighted) {
             highlighted.classList.remove('highlighted');
+            highlighted.style.backgroundColor = '';
+            const span = highlighted.querySelector('span:not(.color-dot)');
+            if (span) {
+                span.style.color = '';
+            }
         }
+
+        // Store currently highlighted node
+        this.highlightedNode = nodeName;
 
         // Add new highlight
         const nodeId = this.nodeElements.get(nodeName);
         if (nodeId) {
             const element = document.getElementById(nodeId);
             if (element) {
-                element.classList.add('highlighted');
-                // Scroll into view with some padding
+                const color = this.colorMap.get(nodeName);
+                if (color) {
+                    // Create a lighter version of the color for the background
+                    const bgColor = `hsla(${color.h}, ${Math.min(color.s + 10, 100)}%, ${Math.min(color.l + 25, 95)}%, 0.2)`;
+                    // Use the shared text color calculation
+                    const textColor = this.getTextColor(color);
+                    
+                    element.classList.add('highlighted');
+                    element.style.backgroundColor = bgColor;
+                    const span = element.querySelector('span:not(.color-dot)');
+                    if (span) {
+                        span.style.color = textColor;
+                    }
+                } else {
+                    element.classList.add('highlighted');
+                }
+                // Scroll into view with padding
                 element.scrollIntoView({ behavior: 'smooth', block: 'center' });
             }
         }
@@ -246,6 +281,11 @@ class TreeVisualizer {
 
         // Update highlighting for pinned nodes
         this.updatePinnedHighlights();
+
+        // Restore highlighted node if there was one
+        if (this.highlightedNode) {
+            this.highlightNode(this.highlightedNode);
+        }
     }
 }
 

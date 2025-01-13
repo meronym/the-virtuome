@@ -257,6 +257,9 @@ main {
 }
 
 #tree-panel li {
+    --hue: attr(data-hue);
+    --saturation: attr(data-saturation);
+    --lightness: attr(data-lightness);
     margin: 8px 0;
     transition: all 0.2s ease;
     padding: 2px 4px;
@@ -265,11 +268,15 @@ main {
 
 #tree-panel li span:not(.color-dot) {
     cursor: pointer;
-    transition: color 0.2s ease;
+    transition: all 0.2s ease;
+    padding: 2px 6px;
+    margin: -2px -6px;
+    border-radius: 3px;
 }
 
 #tree-panel li span:not(.color-dot):hover {
-    color: #2196f3;
+    color: var(--hover-color, inherit);
+    background: none;
 }
 
 #tree-panel li.pinned {
@@ -311,21 +318,15 @@ main {
 }
 
 #tree-panel .highlighted {
-    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.05);
 }
 
 #tree-panel .highlighted > span:not(.color-dot) {
     position: relative;
-    color: #2196f3;
+    background: none;
 }
 
+/* Remove the underline effect */
 #tree-panel .highlighted > span:not(.color-dot)::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -2px;
-    height: 2px;
-    background-color: currentColor;
-    opacity: 0.3;
+    display: none;
 } 
