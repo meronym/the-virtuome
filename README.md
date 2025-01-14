@@ -219,13 +219,26 @@ The project consists of several stages:
      python -m src.generation.tree_paths prompts/targets/v1.json --dry-run
      ```
 
-3. **Data Processing**
+3. **Version Migration**
+   - Migrate data between versions using migration scripts
+   - Transforms target files and raw data to new formats
+   - Run migrations with:
+     ```bash
+     python -m src.migration.v1_to_v2  # Migrate from v1 to v2
+     ```
+   - Create new migrations by extending the base Migration class
+   - Each migration defines how to:
+     1. Transform the targets file structure
+     2. Copy/transform raw data between versions
+     3. Handle any version-specific changes
+
+4. **Data Processing**
    - Flattens hierarchical content
    - Generates embeddings using Voyage AI
    - Performs dimensionality reduction (PCA and UMAP)
    - Clusters similar concepts
 
-4. **Visualization**
+5. **Visualization**
    - Web-based interactive visualization
    - Multiple projection methods
    - Cluster analysis
