@@ -121,8 +121,13 @@ class TreeVisualizer {
 
     // Update highlighting for pinned nodes and their descendants
     updatePinnedHighlights() {
-        // Clear all pinned classes first
+        // Store the currently highlighted node's ID before making changes
+        const highlightedElement = document.querySelector('#tree-panel .highlighted');
+        const highlightedId = highlightedElement?.id;
+
+        // Clear only pinned classes, preserve highlighted
         document.querySelectorAll('#tree-panel li').forEach(li => {
+            // Remove only pin-related classes
             li.classList.remove('pinned', 'pinned-descendant');
         });
 
@@ -146,6 +151,25 @@ class TreeVisualizer {
                 });
             }
         });
+
+        // Restore the highlighted state if it was present
+        if (highlightedId && this.highlightedNode) {
+            const element = document.getElementById(highlightedId);
+            if (element) {
+                const color = this.colorMap.get(this.highlightedNode);
+                if (color) {
+                    const bgColor = `hsla(${color.h}, ${Math.min(color.s + 10, 100)}%, ${Math.min(color.l + 25, 95)}%, 0.2)`;
+                    const textColor = this.getTextColor(color);
+                    
+                    element.classList.add('highlighted');
+                    element.style.backgroundColor = bgColor;
+                    const span = element.querySelector('span:not(.color-dot)');
+                    if (span) {
+                        span.style.color = textColor;
+                    }
+                }
+            }
+        }
     }
 
     toggleNodePin(nodeName) {
@@ -154,7 +178,22 @@ class TreeVisualizer {
         } else {
             this.pinnedNodes.add(nodeName);
         }
-        this.render(); // Re-render to update pin icons
+        
+        // Update pin icons without full re-render
+        const element = document.getElementById(`tree-node-${nodeName}`);
+        if (element) {
+            const dot = element.querySelector('.color-dot');
+            if (dot) {
+                if (this.pinnedNodes.has(nodeName)) {
+                    dot.classList.add('pinned');
+                    dot.innerHTML = '<i class="pin-icon">📌</i>';
+                } else {
+                    dot.classList.remove('pinned');
+                    dot.innerHTML = '';
+                }
+            }
+        }
+        
         this.updatePinnedHighlights(); // Update highlighting
         // Emit event for canvas to update
         window.dispatchEvent(new CustomEvent('treePinsChanged'));

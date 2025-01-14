@@ -117,9 +117,20 @@ export class CanvasRenderer {
                         // Draw halo
                         this.ctx.beginPath();
                         this.ctx.arc(screenX, screenY, this.pointRadius * 2.5, 0, Math.PI * 2);
-                        this.ctx.strokeStyle = `hsla(${haloColor.h}, ${haloColor.s}%, ${haloColor.l}%, 0.3)`;
-                        this.ctx.lineWidth = 3;
+                        this.ctx.strokeStyle = `hsla(${haloColor.h}, ${haloColor.s}%, ${haloColor.l}%, 0.5)`;
+                        this.ctx.lineWidth = 4;
+                        
+                        // Add glow effect
+                        this.ctx.shadowColor = `hsla(${haloColor.h}, ${haloColor.s}%, ${haloColor.l}%, 0.4)`;
+                        this.ctx.shadowBlur = 8;
+                        this.ctx.shadowOffsetX = 0;
+                        this.ctx.shadowOffsetY = 0;
+                        
                         this.ctx.stroke();
+                        
+                        // Reset shadow for other elements
+                        this.ctx.shadowBlur = 0;
+                        this.ctx.shadowColor = 'transparent';
                     }
                 }
             }
