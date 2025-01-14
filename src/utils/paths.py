@@ -85,14 +85,19 @@ class PromptPaths:
         return PROMPTS_DIR / "templates"
 
     @staticmethod
+    def templates_version_dir(version: str) -> Path:
+        """Get the versioned templates directory"""
+        return PromptPaths.templates_dir() / version
+
+    @staticmethod
     def targets_dir() -> Path:
         """Get the targets directory"""
         return PROMPTS_DIR / "targets"
 
     @staticmethod
-    def get_template(name: str) -> Path:
+    def get_template(version: str, name: str) -> Path:
         """Get a specific template file"""
-        return PromptPaths.templates_dir() / name
+        return PromptPaths.templates_version_dir(version) / name
 
     @staticmethod
     def get_target(version: str) -> Path:

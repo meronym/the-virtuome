@@ -50,9 +50,9 @@ def load_dir(dirname: Path) -> list:
     return posts
 
 
-def render(template_name: str, **kwargs) -> str:
+def render(template_name: str, version: str, **kwargs) -> str:
     env = jinja2.Environment(
-        loader=jinja2.FileSystemLoader(searchpath=PromptPaths.templates_dir()),
+        loader=jinja2.FileSystemLoader(searchpath=PromptPaths.templates_version_dir(version)),
     )
     template = env.get_template(template_name)
     return template.render(**kwargs)
@@ -95,6 +95,7 @@ class AllSchoolsWorkflow(Workflow):
     async def entry(self, ctx: Context, ev: StartEvent) -> SchoolStart:
         await ctx.set('prompts', ev.prompts)
         await ctx.set('model', ev.model)
+        await ctx.set('version', ev.version)
         await ctx.set('school_count', len(ev.schools))
         
         run_dir = DataPaths.schools_dir(ev.version) / ev.run_id
@@ -121,8 +122,9 @@ class AllSchoolsWorkflow(Workflow):
         
         prompts = await ctx.get('prompts')
         model = await ctx.get('model')
+        version = await ctx.get('version')
         system = prompts['cached_system']
-        instruction = render_string(prompts['1-school.jinja2'], school_name=ev.school_name)
+        instruction = render_string(prompts['1-school.jinja2'], version=version, school_name=ev.school_name)
         messages = [
             {
                 'role': 'user',
@@ -292,13 +294,12 @@ async def main(targets_file: Path, run_id: str = None, model: str = 'claude-3.5-
     version = targets_file.stem
     if targets_file.parent.name == 'samples':
         # For sample files like v1-3.json in samples dir
-        version = targets_file.stem
+        version = targets_file.stem.split('-')[0]
     
     # Load prompts
     prompts = {}
-    templates_dir = PromptPaths.templates_dir()
     for template in ['0-system.txt', '1-school.jinja2', '2-shortlist.txt', '3-yaml.txt']:
-        prompt_file = templates_dir / template
+        prompt_file = PromptPaths.get_template(version, template)
         prompts[template] = read(prompt_file)
     
     prompts['cached_system'] = [{

@@ -12,6 +12,15 @@ The Human Virtuome Project aims to create a comprehensive catalog of human virtu
 4. Preserve historical and cultural context
 5. Bridge ancient wisdom with contemporary relevance
 
+### Versioning Strategy
+
+The project uses semantic versioning (v1, v2, etc.) across all components:
+- Templates: Versioned prompt templates in `prompts/templates/v{n}/`
+- Data: Version-specific outputs in `data/{raw,processed}/v{n}/`
+- Targets: Version-specific target definitions in `prompts/targets/v{n}.json`
+
+This ensures consistency between prompts, generated content, and analysis results for each version of the system.
+
 ### Covered Traditions
 
 The project currently analyzes virtues from these major traditions:
@@ -56,7 +65,7 @@ The project currently analyzes virtues from these major traditions:
   - Applied Ethics
   - Modern Spiritual/Psychological
 
-For a comprehensive list of covered traditions, see the [the v1 system prompt](prompts/templates/0-system.txt) file.
+For a comprehensive list of covered traditions, see the [the v1 system prompt](prompts/templates/v1/0-system.txt) file.
 
 ## Generation Pipeline
 
@@ -153,6 +162,7 @@ The generation process includes:
 │   │   ├── samples/        # Sample targets for testing
 │   │   └── v1.json        # Main target definitions
 │   └── templates/          # Prompt templates
+│       └── v1/            # Version 1 templates
 ├── src/                    # Source code
 │   ├── analysis/          # Analysis pipeline
 │   ├── generation/        # Content generation
