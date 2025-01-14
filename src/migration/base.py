@@ -19,8 +19,8 @@ class Migration(ABC):
         self.target_version = target_version
         
         # Set up paths
-        self.source_targets = PromptPaths.targets_file(source_version)
-        self.target_targets = PromptPaths.targets_file(target_version)
+        self.source_targets = PromptPaths.targets_dir() / f"{source_version}.json"
+        self.target_targets = PromptPaths.targets_dir() / f"{target_version}.json"
         self.source_raw = DataPaths.raw_dir(source_version)
         self.target_raw = DataPaths.raw_dir(target_version)
     

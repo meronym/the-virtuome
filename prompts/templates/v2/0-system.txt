@@ -1,0 +1,262 @@
+# Human Virtue Project - Comprehensive Virtue Catalog
+
+OBJECTIVE:
+Create a comprehensive catalog of human virtues across cultures, traditions, and time periods, documenting their meanings, relationships, and practical applications.
+
+SCOPE:
+This analysis covers virtues from the following traditions and frameworks:
+
+CLASSICAL PHILOSOPHICAL TRADITIONS
+1. Greek Philosophy (c. 600 BCE - 300 CE)
+   - Pre-Socratic Ethics
+   - Platonic
+   - Aristotelian
+   - Stoic
+   - Epicurean
+   - Cynic
+   - Pythagorean
+   - Neo-Platonic
+
+2. Roman Philosophy (c. 100 BCE - 300 CE)
+   - Roman Stoic (Seneca, Epictetus, Marcus Aurelius)
+   - Roman Civic Virtues
+   - Neo-Stoic
+
+ANCIENT NEAR EASTERN & MEDITERRANEAN
+1. Egyptian
+   - Ma'at Philosophy
+   - Ptolemaic Synthesis
+
+2. Persian/Iranian
+   - Zoroastrian Ethics
+   - Manichaean Ethics
+
+3. Mesopotamian
+   - Babylonian Ethics
+   - Assyrian Wisdom Literature
+
+ASIAN PHILOSOPHICAL-RELIGIOUS TRADITIONS
+1. Indian (c. 1500 BCE - present)
+   - Vedic Ethics
+   - Classical Hindu
+   - Buddhist (Multiple Schools)
+     * Theravada
+     * Mahayana
+     * Vajrayana
+   - Jain Ethics
+   - Sikh Ethics
+   - Yogic Traditions
+
+2. Chinese (c. 1000 BCE - present)
+   - Early Chinese Wisdom
+   - Confucian
+     * Classical
+     * Neo-Confucian
+   - Taoist
+   - Mohist
+   - Chinese Buddhist
+   - Chinese Folk Wisdom
+
+3. Japanese
+   - Bushido
+   - Zen Buddhist
+   - Shinto Ethics
+   - Japanese Neo-Confucian
+
+4. Korean
+   - Korean Buddhist
+   - Korean Neo-Confucian
+
+ABRAHAMIC TRADITIONS
+1. Jewish (c. 1200 BCE - present)
+   - Biblical Ethics
+   - Rabbinic Ethics
+   - Maimonidean
+   - Mussar Movement
+   - Modern Jewish Ethics
+
+2. Christian (c. 30 CE - present)
+   - Patristic Ethics
+   - Medieval Catholic
+   - Eastern Orthodox
+   - Protestant Ethics
+   - Modern Christian Ethics
+   - Liberation Theology
+
+3. Islamic (c. 600 CE - present)
+   - Quranic Ethics
+   - Sufi Ethics
+   - Islamic Philosophy (falsafa)
+   - Islamic Jurisprudence (fiqh)
+   - Modern Islamic Ethics
+
+INDIGENOUS TRADITIONS
+1. African
+   - Ubuntu Philosophy
+   - West African Ethics
+   - East African Ethics
+   - Traditional African Religious Ethics
+
+2. Americas
+   - Native North American Ethics
+   - Mesoamerican Ethics
+   - Andean Ethics
+   - Amazonian Ethics
+
+3. Pacific
+   - Australian Aboriginal
+   - Māori Ethics
+   - Polynesian Ethics
+   - Melanesian Ethics
+
+MEDIEVAL & RENAISSANCE
+1. European
+   - Chivalric Ethics
+   - Scholastic Ethics
+   - Humanist Ethics
+   - Guild Ethics
+
+2. Islamic Golden Age
+   - Andalusian Ethics
+   - Persian Ethics
+   - Arabian Ethics
+
+MODERN PHILOSOPHICAL FRAMEWORKS
+1. Enlightenment (17th-18th century)
+   - Rationalist Ethics
+   - Empiricist Ethics
+   - Kantian Ethics
+   - Benjamin Franklin's Virtues
+
+2. 19th Century
+   - Utilitarian Ethics
+   - Transcendentalist Ethics
+   - Nietzschean Ethics
+   - Pragmatist Ethics
+
+3. 20th Century
+   - Virtue Ethics Revival
+   - Existentialist Ethics
+   - Phenomenological Ethics
+   - Care Ethics
+   - Environmental Ethics
+
+CONTEMPORARY FRAMEWORKS
+1. Psychological
+   - Humanistic Psychology
+   - Positive Psychology
+   - Developmental Psychology
+   - Moral Psychology
+
+2. Social-Political
+   - Feminist Ethics
+   - Critical Theory Ethics
+   - Post-colonial Ethics
+   - Global Ethics
+
+3. Applied Ethics
+   - Professional Ethics
+   - Business Ethics
+   - Bioethics
+   - Digital Ethics
+
+4. Modern Spiritual/Psychological
+   - New Age Ethics
+   - Transpersonal Psychology
+   - Integral Theory
+   - Contemporary Mystical Traditions
+
+TASK:
+Drawing from your training knowledge, please:
+1. Recall and analyze the core texts, teachings, and philosophical foundations of each tradition
+2. Identify both explicit virtues and implicit virtue concepts
+3. Consider historical context and development of virtue concepts
+4. Note interconnections between virtues within and across traditions
+5. Document practical applications and manifestations of virtues
+
+PROCESS:
+Begin systematic analysis with one tradition at a time, focusing on:
+- Primary sources and canonical texts
+- Key philosophical/religious figures
+- Historical development and interpretations
+- Practical applications and lived expressions
+- Contemporary relevance and modern interpretations
+
+Extract explicit virtue concepts and infer implicit virtues from teachings and practices. Then, for each virtue within the tradition, create a YAML+Markdown node using the following format:
+
+```yaml
+---
+# Core Identification
+id: [tradition-specific-slug]
+name: [virtue name]
+tradition: [specific tradition]
+
+# Original Language
+script:
+   [original_language]: [original script]
+   [transliteration_system]: [transliteration]
+   [alternative_scripts_if_relevant]: [alternative representations]
+
+# Classification
+category: [primary category]
+subcategory: [specific type]
+related_concepts: [list of related virtues within same tradition]
+
+# Historical Context
+period: [historical period]
+source_texts: [list of primary sources]
+
+# Properties
+type: [virtue/value/principle/practice]
+scope: [individual/interpersonal/social/universal]
+orientation: [active/passive/balanced]
+---
+
+# [Virtue Name] ([Original Script]) - [English Translation]
+
+## Definition
+[Precise definition within this specific tradition]
+
+## Key Aspects
+- [Core characteristic 1]
+- [Core characteristic 2]
+- [Core characteristic 3]
+- [Core characteristic 4]
+- [Core characteristic 5]
+
+## Historical Development
+[Brief history of the concept within the tradition]
+
+## Contemporary Relevance
+[Current applications and modern interpretation]
+
+## Notable Quotes
+> [Representative quote 1]
+> [Representative quote 2]
+
+## Related Practices
+- [Practice 1]
+- [Practice 2]
+- [Practice 3]
+- [Practice 4]
+```
+
+For each tradition, ensure:
+   - Accurate transliteration and original script
+   - Proper historical contextualization
+   - Clear relationship to other virtues within the tradition
+   - Authentic representation of the tradition's worldview
+
+Pay special attention to:
+   - Linguistic accuracy in original terms
+   - Historical development of concepts
+   - Interconnections between virtues
+   - Practical applications and manifestations
+   - Cultural context and nuances
+
+Include for each virtue:
+   - Primary textual sources
+   - Key interpretive traditions
+   - Major historical developments
+   - Contemporary applications
+   - Related practices and observances
