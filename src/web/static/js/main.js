@@ -107,8 +107,25 @@ class App {
             defaultOption.textContent = 'Default';
             this.variantSelect.appendChild(defaultOption);
             
+            // Sort variants by N and d
+            const sortedVariants = [...variants].sort((a, b) => {
+                const matchA = a.match(/umap-n(\d+)-d([\d.]+)\.json/);
+                const matchB = b.match(/umap-n(\d+)-d([\d.]+)\.json/);
+                
+                if (!matchA || !matchB) return 0;
+                
+                const nA = parseInt(matchA[1]);
+                const nB = parseInt(matchB[1]);
+                
+                if (nA !== nB) return nA - nB;
+                
+                const dA = parseFloat(matchA[2]);
+                const dB = parseFloat(matchB[2]);
+                return dA - dB;
+            });
+            
             // Add variant options
-            for (const variant of variants) {
+            for (const variant of sortedVariants) {
                 const option = document.createElement('option');
                 option.value = variant;
                 
