@@ -1,0 +1,4208 @@
+[
+  {
+    "type": "period",
+    "name": "CLASSICAL PHILOSOPHICAL TRADITIONS",
+    "children": [
+      {
+        "type": "tradition",
+        "name": "Greek Philosophy (c. 600 BCE - 300 CE)",
+        "children": [
+          {
+            "type": "school",
+            "name": "Pre-Socratic Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "aletheia-presocratic"
+              },
+              {
+                "type": "virtue",
+                "name": "autarkeia-presocratic"
+              },
+              {
+                "type": "virtue",
+                "name": "dikaiosyne-presocratic"
+              },
+              {
+                "type": "virtue",
+                "name": "euthymia-presocratic"
+              },
+              {
+                "type": "virtue",
+                "name": "harmonia-presocratic"
+              },
+              {
+                "type": "virtue",
+                "name": "metrion-presocratic"
+              },
+              {
+                "type": "virtue",
+                "name": "phronesis-presocratic"
+              },
+              {
+                "type": "virtue",
+                "name": "sophia-presocratic"
+              },
+              {
+                "type": "virtue",
+                "name": "synesis-presocratic"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Platonic",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "aletheia-platonic"
+              },
+              {
+                "type": "virtue",
+                "name": "andreia-platonic"
+              },
+              {
+                "type": "virtue",
+                "name": "dikaiosyne-platonic"
+              },
+              {
+                "type": "virtue",
+                "name": "eros-platonic"
+              },
+              {
+                "type": "virtue",
+                "name": "eusebeia-platonic"
+              },
+              {
+                "type": "virtue",
+                "name": "philia-platonic"
+              },
+              {
+                "type": "virtue",
+                "name": "phronesis-platonic"
+              },
+              {
+                "type": "virtue",
+                "name": "sophia-platonic"
+              },
+              {
+                "type": "virtue",
+                "name": "sophrosyne-platonic"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Aristotelian",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "aletheia-aristotelian"
+              },
+              {
+                "type": "virtue",
+                "name": "andreia-aristotelian"
+              },
+              {
+                "type": "virtue",
+                "name": "dikaiosyne-aristotelian"
+              },
+              {
+                "type": "virtue",
+                "name": "megalopsychia-aristotelian"
+              },
+              {
+                "type": "virtue",
+                "name": "philia-aristotelian"
+              },
+              {
+                "type": "virtue",
+                "name": "phronesis-aristotelian"
+              },
+              {
+                "type": "virtue",
+                "name": "sophia-aristotelian"
+              },
+              {
+                "type": "virtue",
+                "name": "sophrosyne-aristotelian"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Stoic",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "autarkeia-stoic"
+              },
+              {
+                "type": "virtue",
+                "name": "constantia-stoic"
+              },
+              {
+                "type": "virtue",
+                "name": "disciplina-stoic"
+              },
+              {
+                "type": "virtue",
+                "name": "humanitas-stoic"
+              },
+              {
+                "type": "virtue",
+                "name": "iustitia-stoic"
+              },
+              {
+                "type": "virtue",
+                "name": "magnanimitas-stoic"
+              },
+              {
+                "type": "virtue",
+                "name": "phronesis-stoic"
+              },
+              {
+                "type": "virtue",
+                "name": "temperantia-stoic"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Epicurean",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "ataraxia-epicurean"
+              },
+              {
+                "type": "virtue",
+                "name": "autarkeia-epicurean"
+              },
+              {
+                "type": "virtue",
+                "name": "dikaiosyne-epicurean"
+              },
+              {
+                "type": "virtue",
+                "name": "enargeia-epicurean"
+              },
+              {
+                "type": "virtue",
+                "name": "kata-physin-zen-epicurean"
+              },
+              {
+                "type": "virtue",
+                "name": "philia-epicurean"
+              },
+              {
+                "type": "virtue",
+                "name": "phronesis-epicurean"
+              },
+              {
+                "type": "virtue",
+                "name": "sophrosyne-epicurean"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Cynic",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "anaideia-cynic"
+              },
+              {
+                "type": "virtue",
+                "name": "askesis-cynic"
+              },
+              {
+                "type": "virtue",
+                "name": "atyphia-cynic"
+              },
+              {
+                "type": "virtue",
+                "name": "autarkeia-cynic"
+              },
+              {
+                "type": "virtue",
+                "name": "eleutheria-cynic"
+              },
+              {
+                "type": "virtue",
+                "name": "haplotes-cynic"
+              },
+              {
+                "type": "virtue",
+                "name": "karteria-cynic"
+              },
+              {
+                "type": "virtue",
+                "name": "parrhesia-cynic"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Pythagorean",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "dikaiosyne-pythagorean"
+              },
+              {
+                "type": "virtue",
+                "name": "echemythia-pythagorean"
+              },
+              {
+                "type": "virtue",
+                "name": "harmonia-pythagorean"
+              },
+              {
+                "type": "virtue",
+                "name": "katharotes-pythagorean"
+              },
+              {
+                "type": "virtue",
+                "name": "philia-pythagorean"
+              },
+              {
+                "type": "virtue",
+                "name": "philomathia-pythagorean"
+              },
+              {
+                "type": "virtue",
+                "name": "sophia-pythagorean"
+              },
+              {
+                "type": "virtue",
+                "name": "sophrosyne-pythagorean"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Neo-Platonic",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "apatheia-neoplatonic"
+              },
+              {
+                "type": "virtue",
+                "name": "diakrisis-neoplatonic"
+              },
+              {
+                "type": "virtue",
+                "name": "eros-theios-neoplatonic"
+              },
+              {
+                "type": "virtue",
+                "name": "henosis-neoplatonic"
+              },
+              {
+                "type": "virtue",
+                "name": "kallos-theion-neoplatonic"
+              },
+              {
+                "type": "virtue",
+                "name": "katharsis-neoplatonic"
+              },
+              {
+                "type": "virtue",
+                "name": "nous-neoplatonic"
+              },
+              {
+                "type": "virtue",
+                "name": "sophia-neoplatonic"
+              },
+              {
+                "type": "virtue",
+                "name": "theoria-neoplatonic"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "tradition",
+        "name": "Roman Philosophy (c. 100 BCE - 300 CE)",
+        "children": [
+          {
+            "type": "school",
+            "name": "Roman Stoic (Seneca, Epictetus, Marcus Aurelius)",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "constantia-roman-stoic"
+              },
+              {
+                "type": "virtue",
+                "name": "dignitas-roman-stoic"
+              },
+              {
+                "type": "virtue",
+                "name": "disciplina-roman-stoic"
+              },
+              {
+                "type": "virtue",
+                "name": "fortitudo-roman-stoic"
+              },
+              {
+                "type": "virtue",
+                "name": "gravitas-roman-stoic"
+              },
+              {
+                "type": "virtue",
+                "name": "humanitas-roman-stoic"
+              },
+              {
+                "type": "virtue",
+                "name": "iustitia-roman-stoic"
+              },
+              {
+                "type": "virtue",
+                "name": "pietas-roman-stoic"
+              },
+              {
+                "type": "virtue",
+                "name": "prudentia-roman-stoic"
+              },
+              {
+                "type": "virtue",
+                "name": "temperantia-roman-stoic"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Roman Civic Virtues",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "auctoritas-roman"
+              },
+              {
+                "type": "virtue",
+                "name": "constantia-roman"
+              },
+              {
+                "type": "virtue",
+                "name": "dignitas-roman"
+              },
+              {
+                "type": "virtue",
+                "name": "disciplina-roman"
+              },
+              {
+                "type": "virtue",
+                "name": "fides-roman"
+              },
+              {
+                "type": "virtue",
+                "name": "gravitas-roman"
+              },
+              {
+                "type": "virtue",
+                "name": "iustitia-roman"
+              },
+              {
+                "type": "virtue",
+                "name": "pietas-roman"
+              },
+              {
+                "type": "virtue",
+                "name": "virtus-roman"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Neo-Stoic",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "constantia-neostoic"
+              },
+              {
+                "type": "virtue",
+                "name": "decorum-civile-neostoic"
+              },
+              {
+                "type": "virtue",
+                "name": "fortitudo-moralis-neostoic"
+              },
+              {
+                "type": "virtue",
+                "name": "moderatio-neostoic"
+              },
+              {
+                "type": "virtue",
+                "name": "officium-publicum-neostoic"
+              },
+              {
+                "type": "virtue",
+                "name": "prudentia-politica-neostoic"
+              },
+              {
+                "type": "virtue",
+                "name": "ratio-christiana-neostoic"
+              },
+              {
+                "type": "virtue",
+                "name": "sapientia-activa-neostoic"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "period",
+    "name": "ANCIENT NEAR EASTERN & MEDITERRANEAN",
+    "children": [
+      {
+        "type": "tradition",
+        "name": "Egyptian",
+        "children": [
+          {
+            "type": "school",
+            "name": "Ma'at Philosophy",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "akh-egyptian"
+              },
+              {
+                "type": "virtue",
+                "name": "gr-egyptian"
+              },
+              {
+                "type": "virtue",
+                "name": "imik-egyptian"
+              },
+              {
+                "type": "virtue",
+                "name": "maat-personal"
+              },
+              {
+                "type": "virtue",
+                "name": "maat-relational"
+              },
+              {
+                "type": "virtue",
+                "name": "metenu-egyptian"
+              },
+              {
+                "type": "virtue",
+                "name": "rekh-egyptian"
+              },
+              {
+                "type": "virtue",
+                "name": "seb-egyptian"
+              },
+              {
+                "type": "virtue",
+                "name": "sia-egyptian"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Ptolemaic Synthesis",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "eunomia-maat-ptolemaic"
+              },
+              {
+                "type": "virtue",
+                "name": "gnosis-sia-ptolemaic"
+              },
+              {
+                "type": "virtue",
+                "name": "hieratike-arete-ptolemaic"
+              },
+              {
+                "type": "virtue",
+                "name": "paideia-sebait-ptolemaic"
+              },
+              {
+                "type": "virtue",
+                "name": "philanthropia-merut-ptolemaic"
+              },
+              {
+                "type": "virtue",
+                "name": "pronoia-shepset-ptolemaic"
+              },
+              {
+                "type": "virtue",
+                "name": "sophia-maat-ptolemaic"
+              },
+              {
+                "type": "virtue",
+                "name": "synkresis-ptolemaic"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "tradition",
+        "name": "Persian/Iranian",
+        "children": [
+          {
+            "type": "school",
+            "name": "Zoroastrian Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "asha-zoroastrian"
+              },
+              {
+                "type": "virtue",
+                "name": "daena-zoroastrian"
+              },
+              {
+                "type": "virtue",
+                "name": "frashokereti-zoroastrian"
+              },
+              {
+                "type": "virtue",
+                "name": "haithya-zoroastrian"
+              },
+              {
+                "type": "virtue",
+                "name": "huvarstay-zoroastrian"
+              },
+              {
+                "type": "virtue",
+                "name": "mithra-zoroastrian"
+              },
+              {
+                "type": "virtue",
+                "name": "spenta-armaiti-zoroastrian"
+              },
+              {
+                "type": "virtue",
+                "name": "sraosha-zoroastrian"
+              },
+              {
+                "type": "virtue",
+                "name": "vohu-manah-zoroastrian"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Manichaean Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "compassionate-liberation-manichaean"
+              },
+              {
+                "type": "virtue",
+                "name": "enlightened-fellowship-manichaean"
+              },
+              {
+                "type": "virtue",
+                "name": "luminous-wisdom-manichaean"
+              },
+              {
+                "type": "virtue",
+                "name": "mindful-guardianship-manichaean"
+              },
+              {
+                "type": "virtue",
+                "name": "purifying-discipline-manichaean"
+              },
+              {
+                "type": "virtue",
+                "name": "salvific-discernment-manichaean"
+              },
+              {
+                "type": "virtue",
+                "name": "transcendent-knowledge-manichaean"
+              },
+              {
+                "type": "virtue",
+                "name": "truthful-harmony-manichaean"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "tradition",
+        "name": "Mesopotamian",
+        "children": [
+          {
+            "type": "school",
+            "name": "Babylonian Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "kittu-babylonian"
+              },
+              {
+                "type": "virtue",
+                "name": "kunu-babylonian"
+              },
+              {
+                "type": "virtue",
+                "name": "misharu-babylonian"
+              },
+              {
+                "type": "virtue",
+                "name": "nasaqu-babylonian"
+              },
+              {
+                "type": "virtue",
+                "name": "nemequ-babylonian"
+              },
+              {
+                "type": "virtue",
+                "name": "salamu-babylonian"
+              },
+              {
+                "type": "virtue",
+                "name": "tahatu-babylonian"
+              },
+              {
+                "type": "virtue",
+                "name": "uznu-babylonian"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Assyrian Wisdom Literature",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "kinutu-assyrian"
+              },
+              {
+                "type": "virtue",
+                "name": "kittu-assyrian"
+              },
+              {
+                "type": "virtue",
+                "name": "nemequ-assyrian"
+              },
+              {
+                "type": "virtue",
+                "name": "palahu-assyrian"
+              },
+              {
+                "type": "virtue",
+                "name": "shitmudu-assyrian"
+              },
+              {
+                "type": "virtue",
+                "name": "temu-assyrian"
+              },
+              {
+                "type": "virtue",
+                "name": "uznu-assyrian"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "period",
+    "name": "ASIAN PHILOSOPHICAL-RELIGIOUS TRADITIONS",
+    "children": [
+      {
+        "type": "tradition",
+        "name": "Indian (c. 1500 BCE - present)",
+        "children": [
+          {
+            "type": "school",
+            "name": "Vedic Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "brahmacharya-vedic"
+              },
+              {
+                "type": "virtue",
+                "name": "daksa-vedic"
+              },
+              {
+                "type": "virtue",
+                "name": "dharma-vedic"
+              },
+              {
+                "type": "virtue",
+                "name": "dhi-vedic"
+              },
+              {
+                "type": "virtue",
+                "name": "rta-vedic"
+              },
+              {
+                "type": "virtue",
+                "name": "satya-vedic"
+              },
+              {
+                "type": "virtue",
+                "name": "shraddha-vedic"
+              },
+              {
+                "type": "virtue",
+                "name": "tapas-vedic"
+              },
+              {
+                "type": "virtue",
+                "name": "yajna-vedic"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Classical Hindu",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "ahimsa-hindu"
+              },
+              {
+                "type": "virtue",
+                "name": "bhakti-hindu"
+              },
+              {
+                "type": "virtue",
+                "name": "dharma-hindu"
+              },
+              {
+                "type": "virtue",
+                "name": "karma-yoga-hindu"
+              },
+              {
+                "type": "virtue",
+                "name": "samadhi-hindu"
+              },
+              {
+                "type": "virtue",
+                "name": "satya-hindu"
+              },
+              {
+                "type": "virtue",
+                "name": "shanti-hindu"
+              },
+              {
+                "type": "virtue",
+                "name": "titiksha-hindu"
+              },
+              {
+                "type": "virtue",
+                "name": "tyaga-hindu"
+              },
+              {
+                "type": "virtue",
+                "name": "viveka-hindu"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Buddhist (Theravada, Mahayana, Vajrayana)",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "karuna-buddhist"
+              },
+              {
+                "type": "virtue",
+                "name": "metta-buddhist"
+              },
+              {
+                "type": "virtue",
+                "name": "panna-buddhist"
+              },
+              {
+                "type": "virtue",
+                "name": "sati-buddhist"
+              },
+              {
+                "type": "virtue",
+                "name": "sila-buddhist"
+              },
+              {
+                "type": "virtue",
+                "name": "upekkha-buddhist"
+              },
+              {
+                "type": "virtue",
+                "name": "viriya-buddhist"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Jain Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "ahimsa-jain"
+              },
+              {
+                "type": "virtue",
+                "name": "anekantavada-jain"
+              },
+              {
+                "type": "virtue",
+                "name": "aparigraha-jain"
+              },
+              {
+                "type": "virtue",
+                "name": "karuna-jain"
+              },
+              {
+                "type": "virtue",
+                "name": "samyama-jain"
+              },
+              {
+                "type": "virtue",
+                "name": "satya-jain"
+              },
+              {
+                "type": "virtue",
+                "name": "upeksha-jain"
+              },
+              {
+                "type": "virtue",
+                "name": "viveka-jain"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Sikh Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "chardi-kala-sikh"
+              },
+              {
+                "type": "virtue",
+                "name": "gian-sikh"
+              },
+              {
+                "type": "virtue",
+                "name": "kirat-sikh"
+              },
+              {
+                "type": "virtue",
+                "name": "nimrata-sikh"
+              },
+              {
+                "type": "virtue",
+                "name": "nirbhau-sikh"
+              },
+              {
+                "type": "virtue",
+                "name": "santokh-sikh"
+              },
+              {
+                "type": "virtue",
+                "name": "sarbat-da-bhala-sikh"
+              },
+              {
+                "type": "virtue",
+                "name": "sat-sikh"
+              },
+              {
+                "type": "virtue",
+                "name": "seva-sikh"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Yogic Traditions",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "ahimsa-yogic"
+              },
+              {
+                "type": "virtue",
+                "name": "karuna-yogic"
+              },
+              {
+                "type": "virtue",
+                "name": "samyama-yogic"
+              },
+              {
+                "type": "virtue",
+                "name": "santosha-yogic"
+              },
+              {
+                "type": "virtue",
+                "name": "shraddha-yogic"
+              },
+              {
+                "type": "virtue",
+                "name": "svadhyaya-yogic"
+              },
+              {
+                "type": "virtue",
+                "name": "tapas-yogic"
+              },
+              {
+                "type": "virtue",
+                "name": "vairagya-yogic"
+              },
+              {
+                "type": "virtue",
+                "name": "viveka-yogic"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "tradition",
+        "name": "Chinese (c. 1000 BCE - present)",
+        "children": [
+          {
+            "type": "school",
+            "name": "Early Chinese Wisdom",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "de-early-chinese"
+              },
+              {
+                "type": "virtue",
+                "name": "he-early-chinese"
+              },
+              {
+                "type": "virtue",
+                "name": "jing-early-chinese"
+              },
+              {
+                "type": "virtue",
+                "name": "qin-early-chinese"
+              },
+              {
+                "type": "virtue",
+                "name": "xiao-early-chinese"
+              },
+              {
+                "type": "virtue",
+                "name": "xin-early-chinese"
+              },
+              {
+                "type": "virtue",
+                "name": "zhi-early-chinese"
+              },
+              {
+                "type": "virtue",
+                "name": "zhong-early-chinese"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Confucian (Classical, Neo-Confucian)",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "jing-confucian"
+              },
+              {
+                "type": "virtue",
+                "name": "li-confucian"
+              },
+              {
+                "type": "virtue",
+                "name": "ren-confucian"
+              },
+              {
+                "type": "virtue",
+                "name": "xiao-confucian"
+              },
+              {
+                "type": "virtue",
+                "name": "xin-confucian"
+              },
+              {
+                "type": "virtue",
+                "name": "yi-confucian"
+              },
+              {
+                "type": "virtue",
+                "name": "zhi-confucian"
+              },
+              {
+                "type": "virtue",
+                "name": "zhong-confucian"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Taoist",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "de-taoist"
+              },
+              {
+                "type": "virtue",
+                "name": "he-taoist"
+              },
+              {
+                "type": "virtue",
+                "name": "jing-taoist"
+              },
+              {
+                "type": "virtue",
+                "name": "pu-taoist"
+              },
+              {
+                "type": "virtue",
+                "name": "rou-taoist"
+              },
+              {
+                "type": "virtue",
+                "name": "wuwei-taoist"
+              },
+              {
+                "type": "virtue",
+                "name": "xu-taoist"
+              },
+              {
+                "type": "virtue",
+                "name": "ziran-taoist"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Mohist",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "feigong-mohist"
+              },
+              {
+                "type": "virtue",
+                "name": "gongyi-mohist"
+              },
+              {
+                "type": "virtue",
+                "name": "jianai-mohist"
+              },
+              {
+                "type": "virtue",
+                "name": "jieyong-mohist"
+              },
+              {
+                "type": "virtue",
+                "name": "qinlao-mohist"
+              },
+              {
+                "type": "virtue",
+                "name": "qunli-mohist"
+              },
+              {
+                "type": "virtue",
+                "name": "shanxian-mohist"
+              },
+              {
+                "type": "virtue",
+                "name": "zhi-mohist"
+              },
+              {
+                "type": "virtue",
+                "name": "zhineng-mohist"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Chinese Buddhist",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "cibei-chinese-buddhist"
+              },
+              {
+                "type": "virtue",
+                "name": "fangbian-chinese-buddhist"
+              },
+              {
+                "type": "virtue",
+                "name": "hexie-chinese-buddhist"
+              },
+              {
+                "type": "virtue",
+                "name": "jingzuo-chinese-buddhist"
+              },
+              {
+                "type": "virtue",
+                "name": "rongtong-chinese-buddhist"
+              },
+              {
+                "type": "virtue",
+                "name": "zhengnian-chinese-buddhist"
+              },
+              {
+                "type": "virtue",
+                "name": "zhihui-chinese-buddhist"
+              },
+              {
+                "type": "virtue",
+                "name": "zizai-chinese-buddhist"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Chinese Folk Wisdom",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "benfen-folk"
+              },
+              {
+                "type": "virtue",
+                "name": "heqi-folk"
+              },
+              {
+                "type": "virtue",
+                "name": "houdao-folk"
+              },
+              {
+                "type": "virtue",
+                "name": "jide-folk"
+              },
+              {
+                "type": "virtue",
+                "name": "qinjian-folk"
+              },
+              {
+                "type": "virtue",
+                "name": "shouwang-xiangzhu-folk"
+              },
+              {
+                "type": "virtue",
+                "name": "suiyuan-folk"
+              },
+              {
+                "type": "virtue",
+                "name": "tashi-folk"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "tradition",
+        "name": "Japanese",
+        "children": [
+          {
+            "type": "school",
+            "name": "Bushido",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "chugi-bushido"
+              },
+              {
+                "type": "virtue",
+                "name": "fudoshin-bushido"
+              },
+              {
+                "type": "virtue",
+                "name": "gi-bushido"
+              },
+              {
+                "type": "virtue",
+                "name": "jin-bushido"
+              },
+              {
+                "type": "virtue",
+                "name": "makoto-bushido"
+              },
+              {
+                "type": "virtue",
+                "name": "meiyo-bushido"
+              },
+              {
+                "type": "virtue",
+                "name": "rei-bushido"
+              },
+              {
+                "type": "virtue",
+                "name": "yuki-bushido"
+              },
+              {
+                "type": "virtue",
+                "name": "zanshin-bushido"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Zen Buddhist",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "fudoshin-zen"
+              },
+              {
+                "type": "virtue",
+                "name": "gyoji-zen"
+              },
+              {
+                "type": "virtue",
+                "name": "kensho-zen"
+              },
+              {
+                "type": "virtue",
+                "name": "mushin-zen"
+              },
+              {
+                "type": "virtue",
+                "name": "samu-zen"
+              },
+              {
+                "type": "virtue",
+                "name": "shikantaza-zen"
+              },
+              {
+                "type": "virtue",
+                "name": "zanshin-zen"
+              },
+              {
+                "type": "virtue",
+                "name": "zuijun-zen"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Shinto Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "akaki-kokoro-shinto"
+              },
+              {
+                "type": "virtue",
+                "name": "kannagara-shinto"
+              },
+              {
+                "type": "virtue",
+                "name": "kansha-shinto"
+              },
+              {
+                "type": "virtue",
+                "name": "kiyome-shinto"
+              },
+              {
+                "type": "virtue",
+                "name": "makoto-shinto"
+              },
+              {
+                "type": "virtue",
+                "name": "matsuri-goto-shinto"
+              },
+              {
+                "type": "virtue",
+                "name": "musubi-shinto"
+              },
+              {
+                "type": "virtue",
+                "name": "wa-shinto"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Japanese Neo-Confucian",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "chu-jpneoconf"
+              },
+              {
+                "type": "virtue",
+                "name": "funbetsu-jpneoconf"
+              },
+              {
+                "type": "virtue",
+                "name": "gaku-jpneoconf"
+              },
+              {
+                "type": "virtue",
+                "name": "giri-jpneoconf"
+              },
+              {
+                "type": "virtue",
+                "name": "kei-jpneoconf"
+              },
+              {
+                "type": "virtue",
+                "name": "makoto-jpneoconf"
+              },
+              {
+                "type": "virtue",
+                "name": "on-jpneoconf"
+              },
+              {
+                "type": "virtue",
+                "name": "shindoku-jpneoconf"
+              },
+              {
+                "type": "virtue",
+                "name": "shushin-jpneoconf"
+              },
+              {
+                "type": "virtue",
+                "name": "wa-jpneoconf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "tradition",
+        "name": "Korean",
+        "children": [
+          {
+            "type": "school",
+            "name": "Korean Buddhist",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "hoetong-korean-buddhist"
+              },
+              {
+                "type": "virtue",
+                "name": "hwahap-korean-buddhist"
+              },
+              {
+                "type": "virtue",
+                "name": "ilsim-korean-buddhist"
+              },
+              {
+                "type": "virtue",
+                "name": "jabi-korean-buddhist"
+              },
+              {
+                "type": "virtue",
+                "name": "jeongjin-korean-buddhist"
+              },
+              {
+                "type": "virtue",
+                "name": "muae-korean-buddhist"
+              },
+              {
+                "type": "virtue",
+                "name": "sangsaeng-korean-buddhist"
+              },
+              {
+                "type": "virtue",
+                "name": "tongchal-korean-buddhist"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Korean Neo-Confucian",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "hyo-korean-neoconfucian"
+              },
+              {
+                "type": "virtue",
+                "name": "in-korean-neoconfucian"
+              },
+              {
+                "type": "virtue",
+                "name": "ji-korean-neoconfucian"
+              },
+              {
+                "type": "virtue",
+                "name": "jung-korean-neoconfucian"
+              },
+              {
+                "type": "virtue",
+                "name": "kyeong-korean-neoconfucian"
+              },
+              {
+                "type": "virtue",
+                "name": "seong-korean-neoconfucian"
+              },
+              {
+                "type": "virtue",
+                "name": "suyang-korean-neoconfucian"
+              },
+              {
+                "type": "virtue",
+                "name": "ui-korean-neoconfucian"
+              },
+              {
+                "type": "virtue",
+                "name": "ye-korean-neoconfucian"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "period",
+    "name": "ABRAHAMIC TRADITIONS",
+    "children": [
+      {
+        "type": "tradition",
+        "name": "Jewish (c. 1200 BCE - present)",
+        "children": [
+          {
+            "type": "school",
+            "name": "Biblical Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "anava-biblical"
+              },
+              {
+                "type": "virtue",
+                "name": "chesed-biblical"
+              },
+              {
+                "type": "virtue",
+                "name": "chochmah-biblical"
+              },
+              {
+                "type": "virtue",
+                "name": "emet-biblical"
+              },
+              {
+                "type": "virtue",
+                "name": "emunah-biblical"
+              },
+              {
+                "type": "virtue",
+                "name": "rachamim-biblical"
+              },
+              {
+                "type": "virtue",
+                "name": "tzedek-biblical"
+              },
+              {
+                "type": "virtue",
+                "name": "yirah-biblical"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Rabbinic Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "anava-rabbinic"
+              },
+              {
+                "type": "virtue",
+                "name": "chesed-rabbinic"
+              },
+              {
+                "type": "virtue",
+                "name": "chochma-rabbinic"
+              },
+              {
+                "type": "virtue",
+                "name": "emet-rabbinic"
+              },
+              {
+                "type": "virtue",
+                "name": "gevura-rabbinic"
+              },
+              {
+                "type": "virtue",
+                "name": "hitlamdut-rabbinic"
+              },
+              {
+                "type": "virtue",
+                "name": "rachamim-rabbinic"
+              },
+              {
+                "type": "virtue",
+                "name": "yirat_hashem-rabbinic"
+              },
+              {
+                "type": "virtue",
+                "name": "zehirut-rabbinic"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Maimonidean",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "anavah-maimonidean"
+              },
+              {
+                "type": "virtue",
+                "name": "daat-maimonidean"
+              },
+              {
+                "type": "virtue",
+                "name": "histapkut-maimonidean"
+              },
+              {
+                "type": "virtue",
+                "name": "mishpat-maimonidean"
+              },
+              {
+                "type": "virtue",
+                "name": "refuat-hanefesh-maimonidean"
+              },
+              {
+                "type": "virtue",
+                "name": "shvil-hazahav-maimonidean"
+              },
+              {
+                "type": "virtue",
+                "name": "yediat-hashem-maimonidean"
+              },
+              {
+                "type": "virtue",
+                "name": "zerizut-maimonidean"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Mussar Movement",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "achrayut-mussar"
+              },
+              {
+                "type": "virtue",
+                "name": "anavah-mussar"
+              },
+              {
+                "type": "virtue",
+                "name": "bitachon-mussar"
+              },
+              {
+                "type": "virtue",
+                "name": "chesed-mussar"
+              },
+              {
+                "type": "virtue",
+                "name": "emet-mussar"
+              },
+              {
+                "type": "virtue",
+                "name": "hitbonenut-mussar"
+              },
+              {
+                "type": "virtue",
+                "name": "savlanut-mussar"
+              },
+              {
+                "type": "virtue",
+                "name": "seder-mussar"
+              },
+              {
+                "type": "virtue",
+                "name": "zehirut-mussar"
+              },
+              {
+                "type": "virtue",
+                "name": "zerizut-mussar"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Modern Jewish Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "achrayut-modern-jewish"
+              },
+              {
+                "type": "virtue",
+                "name": "areivut-modern-jewish"
+              },
+              {
+                "type": "virtue",
+                "name": "daat-modern-jewish"
+              },
+              {
+                "type": "virtue",
+                "name": "emet-modern-jewish"
+              },
+              {
+                "type": "virtue",
+                "name": "kavod-habriyot-modern-jewish"
+              },
+              {
+                "type": "virtue",
+                "name": "rachamim-modern-jewish"
+              },
+              {
+                "type": "virtue",
+                "name": "tikkun-olam-modern-jewish"
+              },
+              {
+                "type": "virtue",
+                "name": "tzedek-modern-jewish"
+              },
+              {
+                "type": "virtue",
+                "name": "yosher-modern-jewish"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "tradition",
+        "name": "Christian (c. 30 CE - present)",
+        "children": [
+          {
+            "type": "school",
+            "name": "Patristic Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "caritas-patristic"
+              },
+              {
+                "type": "virtue",
+                "name": "contemplatio-activa-patristic"
+              },
+              {
+                "type": "virtue",
+                "name": "discretio-patristic"
+              },
+              {
+                "type": "virtue",
+                "name": "humilitas-patristic"
+              },
+              {
+                "type": "virtue",
+                "name": "misericordia-patristic"
+              },
+              {
+                "type": "virtue",
+                "name": "obedientia-patristic"
+              },
+              {
+                "type": "virtue",
+                "name": "patientia-patristic"
+              },
+              {
+                "type": "virtue",
+                "name": "prudentia-spiritualis-patristic"
+              },
+              {
+                "type": "virtue",
+                "name": "temperantia-patristic"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Medieval Catholic",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "caritas-medieval-catholic"
+              },
+              {
+                "type": "virtue",
+                "name": "devotio-medieval-catholic"
+              },
+              {
+                "type": "virtue",
+                "name": "humilitas-medieval-catholic"
+              },
+              {
+                "type": "virtue",
+                "name": "misericordia-medieval-catholic"
+              },
+              {
+                "type": "virtue",
+                "name": "obedientia-medieval-catholic"
+              },
+              {
+                "type": "virtue",
+                "name": "prudentia-medieval-catholic"
+              },
+              {
+                "type": "virtue",
+                "name": "sapientia-medieval-catholic"
+              },
+              {
+                "type": "virtue",
+                "name": "temperantia-medieval-catholic"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Eastern Orthodox",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "diakrisis-orthodox"
+              },
+              {
+                "type": "virtue",
+                "name": "hesychia-orthodox"
+              },
+              {
+                "type": "virtue",
+                "name": "koinonia-orthodox"
+              },
+              {
+                "type": "virtue",
+                "name": "metanoia-orthodox"
+              },
+              {
+                "type": "virtue",
+                "name": "nepsis-orthodox"
+              },
+              {
+                "type": "virtue",
+                "name": "philokalia-orthodox"
+              },
+              {
+                "type": "virtue",
+                "name": "prosoche-orthodox"
+              },
+              {
+                "type": "virtue",
+                "name": "tapeinophrosyne-orthodox"
+              },
+              {
+                "type": "virtue",
+                "name": "theoria-orthodox"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Protestant Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "conscientiousness-protestant"
+              },
+              {
+                "type": "virtue",
+                "name": "diligence-protestant"
+              },
+              {
+                "type": "virtue",
+                "name": "faithfulness-protestant"
+              },
+              {
+                "type": "virtue",
+                "name": "integrity-protestant"
+              },
+              {
+                "type": "virtue",
+                "name": "sobriety-protestant"
+              },
+              {
+                "type": "virtue",
+                "name": "stewardship-protestant"
+              },
+              {
+                "type": "virtue",
+                "name": "witness-protestant"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Modern Christian Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "critical-faithfulness-modern-christian"
+              },
+              {
+                "type": "virtue",
+                "name": "dialogical-wisdom-modern-christian"
+              },
+              {
+                "type": "virtue",
+                "name": "ecological-stewardship-modern-christian"
+              },
+              {
+                "type": "virtue",
+                "name": "inclusive-community-modern-christian"
+              },
+              {
+                "type": "virtue",
+                "name": "prophetic-hope-modern-christian"
+              },
+              {
+                "type": "virtue",
+                "name": "prophetic-witness-modern-christian"
+              },
+              {
+                "type": "virtue",
+                "name": "transformative-solidarity-modern-christian"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Liberation Theology",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "agencia-comunitaria"
+              },
+              {
+                "type": "virtue",
+                "name": "amor-preferencial"
+              },
+              {
+                "type": "virtue",
+                "name": "concientizacion"
+              },
+              {
+                "type": "virtue",
+                "name": "esperanza-historica"
+              },
+              {
+                "type": "virtue",
+                "name": "fidelidad-transformadora"
+              },
+              {
+                "type": "virtue",
+                "name": "sabiduria-praxistica"
+              },
+              {
+                "type": "virtue",
+                "name": "solidaridad-liberadora"
+              },
+              {
+                "type": "virtue",
+                "name": "testimonio-martirial"
+              },
+              {
+                "type": "virtue",
+                "name": "valentia-profetica"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "tradition",
+        "name": "Islamic (c. 600 CE - present)",
+        "children": [
+          {
+            "type": "school",
+            "name": "Quranic Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "adl-quranic"
+              },
+              {
+                "type": "virtue",
+                "name": "amanah-quranic"
+              },
+              {
+                "type": "virtue",
+                "name": "ihsan-quranic"
+              },
+              {
+                "type": "virtue",
+                "name": "ikhlas-quranic"
+              },
+              {
+                "type": "virtue",
+                "name": "ilm-hikmah-quranic"
+              },
+              {
+                "type": "virtue",
+                "name": "rahmah-quranic"
+              },
+              {
+                "type": "virtue",
+                "name": "sabr-quranic"
+              },
+              {
+                "type": "virtue",
+                "name": "shukr-quranic"
+              },
+              {
+                "type": "virtue",
+                "name": "taqwa-quranic"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Sufi Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "adab-sufi"
+              },
+              {
+                "type": "virtue",
+                "name": "faqr-sufi"
+              },
+              {
+                "type": "virtue",
+                "name": "ihsan-sufi"
+              },
+              {
+                "type": "virtue",
+                "name": "ikhlas-sufi"
+              },
+              {
+                "type": "virtue",
+                "name": "mahabbah-sufi"
+              },
+              {
+                "type": "virtue",
+                "name": "muraqabah-sufi"
+              },
+              {
+                "type": "virtue",
+                "name": "sabr-sufi"
+              },
+              {
+                "type": "virtue",
+                "name": "tawakkul-sufi"
+              },
+              {
+                "type": "virtue",
+                "name": "tawba-sufi"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Islamic Philosophy (falsafa)",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "adl-falsafa"
+              },
+              {
+                "type": "virtue",
+                "name": "baseera-falsafa"
+              },
+              {
+                "type": "virtue",
+                "name": "hikmah-falsafa"
+              },
+              {
+                "type": "virtue",
+                "name": "ihsan-falsafa"
+              },
+              {
+                "type": "virtue",
+                "name": "marifah-falsafa"
+              },
+              {
+                "type": "virtue",
+                "name": "taaqqul-falsafa"
+              },
+              {
+                "type": "virtue",
+                "name": "tafakkur-falsafa"
+              },
+              {
+                "type": "virtue",
+                "name": "wasatiyyah-falsafa"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Islamic Jurisprudence (fiqh)",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "adalah-fiqh"
+              },
+              {
+                "type": "virtue",
+                "name": "amanah-fiqh"
+              },
+              {
+                "type": "virtue",
+                "name": "baseera-fiqh"
+              },
+              {
+                "type": "virtue",
+                "name": "hikmah-fiqh"
+              },
+              {
+                "type": "virtue",
+                "name": "ijtihad-fiqh"
+              },
+              {
+                "type": "virtue",
+                "name": "taqwa-fiqh"
+              },
+              {
+                "type": "virtue",
+                "name": "wara-fiqh"
+              },
+              {
+                "type": "virtue",
+                "name": "wasatiyyah-fiqh"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Modern Islamic Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "adl-wa-ihsan-modern-islamic"
+              },
+              {
+                "type": "virtue",
+                "name": "amanah-modern-islamic"
+              },
+              {
+                "type": "virtue",
+                "name": "hikmah-muasirah-modern-islamic"
+              },
+              {
+                "type": "virtue",
+                "name": "ihsan-modern-islamic"
+              },
+              {
+                "type": "virtue",
+                "name": "ilm-wa-amal-modern-islamic"
+              },
+              {
+                "type": "virtue",
+                "name": "islah-modern-islamic"
+              },
+              {
+                "type": "virtue",
+                "name": "rahma-modern-islamic"
+              },
+              {
+                "type": "virtue",
+                "name": "taawun-alami-modern-islamic"
+              },
+              {
+                "type": "virtue",
+                "name": "wasatiyyah-modern-islamic"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "period",
+    "name": "INDIGENOUS TRADITIONS",
+    "children": [
+      {
+        "type": "tradition",
+        "name": "African",
+        "children": [
+          {
+            "type": "school",
+            "name": "Ubuntu Philosophy",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "izithunzi-ubuntu"
+              },
+              {
+                "type": "virtue",
+                "name": "kufungisisa-ubuntu"
+              },
+              {
+                "type": "virtue",
+                "name": "simunye-ubuntu"
+              },
+              {
+                "type": "virtue",
+                "name": "ubulungiswa-ubuntu"
+              },
+              {
+                "type": "virtue",
+                "name": "ubuntu-ubuntu"
+              },
+              {
+                "type": "virtue",
+                "name": "ukuhlonipha-ubuntu"
+              },
+              {
+                "type": "virtue",
+                "name": "ukuphathana-ubuntu"
+              },
+              {
+                "type": "virtue",
+                "name": "ukuzwela-ubuntu"
+              },
+              {
+                "type": "virtue",
+                "name": "ukwanda-ubuntu"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "West African Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "anjola-yoruba"
+              },
+              {
+                "type": "virtue",
+                "name": "iwa-pele-yoruba"
+              },
+              {
+                "type": "virtue",
+                "name": "jom-wolof"
+              },
+              {
+                "type": "virtue",
+                "name": "ogbon-yoruba"
+              },
+              {
+                "type": "virtue",
+                "name": "omoluabi-yoruba"
+              },
+              {
+                "type": "virtue",
+                "name": "suuru-yoruba"
+              },
+              {
+                "type": "virtue",
+                "name": "teranga-wolof"
+              },
+              {
+                "type": "virtue",
+                "name": "wa-akan"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "East African Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "bidii-ya-moyo-eastafrican"
+              },
+              {
+                "type": "virtue",
+                "name": "hekima-eastafrican"
+              },
+              {
+                "type": "virtue",
+                "name": "uadilifu-eastafrican"
+              },
+              {
+                "type": "virtue",
+                "name": "uja-umoja-eastafrican"
+              },
+              {
+                "type": "virtue",
+                "name": "ukarimu-eastafrican"
+              },
+              {
+                "type": "virtue",
+                "name": "unyenyekevu-eastafrican"
+              },
+              {
+                "type": "virtue",
+                "name": "ustaarabu-eastafrican"
+              },
+              {
+                "type": "virtue",
+                "name": "uzima-eastafrican"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Traditional African Religious Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "busara-african"
+              },
+              {
+                "type": "virtue",
+                "name": "harambee-african"
+              },
+              {
+                "type": "virtue",
+                "name": "itutu-african"
+              },
+              {
+                "type": "virtue",
+                "name": "iwa-pele-african"
+              },
+              {
+                "type": "virtue",
+                "name": "maat-african"
+              },
+              {
+                "type": "virtue",
+                "name": "uadilifu-african"
+              },
+              {
+                "type": "virtue",
+                "name": "ubuntu-african"
+              },
+              {
+                "type": "virtue",
+                "name": "ujima-african"
+              },
+              {
+                "type": "virtue",
+                "name": "ukama-african"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "tradition",
+        "name": "Americas",
+        "children": [
+          {
+            "type": "school",
+            "name": "Native North American Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "courage-native-american"
+              },
+              {
+                "type": "virtue",
+                "name": "generosity-native-american"
+              },
+              {
+                "type": "virtue",
+                "name": "harmony-native-american"
+              },
+              {
+                "type": "virtue",
+                "name": "humility-native-american"
+              },
+              {
+                "type": "virtue",
+                "name": "perseverance-native-american"
+              },
+              {
+                "type": "virtue",
+                "name": "respect-native-american"
+              },
+              {
+                "type": "virtue",
+                "name": "responsibility-native-american"
+              },
+              {
+                "type": "virtue",
+                "name": "truthfulness-native-american"
+              },
+              {
+                "type": "virtue",
+                "name": "wisdom-native-american"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Mesoamerican Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "cemanahuacayotl-mesoamerican"
+              },
+              {
+                "type": "virtue",
+                "name": "ixtlamachiliztli-mesoamerican"
+              },
+              {
+                "type": "virtue",
+                "name": "muhul-mesoamerican"
+              },
+              {
+                "type": "virtue",
+                "name": "necnomatiliztli-mesoamerican"
+              },
+              {
+                "type": "virtue",
+                "name": "neltiliztli-mesoamerican"
+              },
+              {
+                "type": "virtue",
+                "name": "nepantla-mesoamerican"
+              },
+              {
+                "type": "virtue",
+                "name": "teixcahualiztli-mesoamerican"
+              },
+              {
+                "type": "virtue",
+                "name": "tlacayotl-mesoamerican"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Andean Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "ayni-andean"
+              },
+              {
+                "type": "virtue",
+                "name": "cheqaq-andean"
+              },
+              {
+                "type": "virtue",
+                "name": "khuyaq-sunqu-andean"
+              },
+              {
+                "type": "virtue",
+                "name": "llankay-andean"
+              },
+              {
+                "type": "virtue",
+                "name": "munay-andean"
+              },
+              {
+                "type": "virtue",
+                "name": "rakirinakuy-andean"
+              },
+              {
+                "type": "virtue",
+                "name": "sumaq-kawsay-andean"
+              },
+              {
+                "type": "virtue",
+                "name": "yachay-andean"
+              },
+              {
+                "type": "virtue",
+                "name": "yanantin-andean"
+              },
+              {
+                "type": "virtue",
+                "name": "yanapay-andean"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Amazonian Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "ancestral-future-responsibility-amazonian"
+              },
+              {
+                "type": "virtue",
+                "name": "communal-harmony-amazonian"
+              },
+              {
+                "type": "virtue",
+                "name": "distributive-justice-amazonian"
+              },
+              {
+                "type": "virtue",
+                "name": "ecological-mindfulness-amazonian"
+              },
+              {
+                "type": "virtue",
+                "name": "ecological-reciprocity-amazonian"
+              },
+              {
+                "type": "virtue",
+                "name": "forest-wisdom-amazonian"
+              },
+              {
+                "type": "virtue",
+                "name": "healing-integration-amazonian"
+              },
+              {
+                "type": "virtue",
+                "name": "knowledge-stewardship-amazonian"
+              },
+              {
+                "type": "virtue",
+                "name": "spirit-world-integration-amazonian"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "tradition",
+        "name": "Pacific",
+        "children": [
+          {
+            "type": "school",
+            "name": "Australian Aboriginal",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "dadirri-aboriginal"
+              },
+              {
+                "type": "virtue",
+                "name": "djambatj-aboriginal"
+              },
+              {
+                "type": "virtue",
+                "name": "galka-aboriginal"
+              },
+              {
+                "type": "virtue",
+                "name": "gurrutu-aboriginal"
+              },
+              {
+                "type": "virtue",
+                "name": "kanyini-aboriginal"
+              },
+              {
+                "type": "virtue",
+                "name": "marrpan-aboriginal"
+              },
+              {
+                "type": "virtue",
+                "name": "munggritj-aboriginal"
+              },
+              {
+                "type": "virtue",
+                "name": "ralya-aboriginal"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "M\u0101ori Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "aroha-maori"
+              },
+              {
+                "type": "virtue",
+                "name": "kaitiakitanga-maori"
+              },
+              {
+                "type": "virtue",
+                "name": "mana-maori"
+              },
+              {
+                "type": "virtue",
+                "name": "manaakitanga-maori"
+              },
+              {
+                "type": "virtue",
+                "name": "pono-maori"
+              },
+              {
+                "type": "virtue",
+                "name": "tapu-maori"
+              },
+              {
+                "type": "virtue",
+                "name": "tika-maori"
+              },
+              {
+                "type": "virtue",
+                "name": "whanaungatanga-maori"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Polynesian Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "hooponopono-polynesian"
+              },
+              {
+                "type": "virtue",
+                "name": "kuleana-polynesian"
+              },
+              {
+                "type": "virtue",
+                "name": "malama-polynesian"
+              },
+              {
+                "type": "virtue",
+                "name": "mana-polynesian"
+              },
+              {
+                "type": "virtue",
+                "name": "manaakitanga-polynesian"
+              },
+              {
+                "type": "virtue",
+                "name": "mauri-polynesian"
+              },
+              {
+                "type": "virtue",
+                "name": "pono-polynesian"
+              },
+              {
+                "type": "virtue",
+                "name": "tapu-polynesian"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Melanesian Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "ancestor-reverence-melanesian"
+              },
+              {
+                "type": "virtue",
+                "name": "communal-harmony-melanesian"
+              },
+              {
+                "type": "virtue",
+                "name": "generational-responsibility-melanesian"
+              },
+              {
+                "type": "virtue",
+                "name": "land-guardianship-melanesian"
+              },
+              {
+                "type": "virtue",
+                "name": "reciprocal-generosity-melanesian"
+              },
+              {
+                "type": "virtue",
+                "name": "ritual-wisdom-melanesian"
+              },
+              {
+                "type": "virtue",
+                "name": "sacred-knowledge-melanesian"
+              },
+              {
+                "type": "virtue",
+                "name": "wantok-melanesian"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "period",
+    "name": "MEDIEVAL & RENAISSANCE",
+    "children": [
+      {
+        "type": "tradition",
+        "name": "European",
+        "children": [
+          {
+            "type": "school",
+            "name": "Chivalric Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "courtesy-chivalric"
+              },
+              {
+                "type": "virtue",
+                "name": "franchise-chivalric"
+              },
+              {
+                "type": "virtue",
+                "name": "honor-chivalric"
+              },
+              {
+                "type": "virtue",
+                "name": "largesse-chivalric"
+              },
+              {
+                "type": "virtue",
+                "name": "loyalty-chivalric"
+              },
+              {
+                "type": "virtue",
+                "name": "mesure-chivalric"
+              },
+              {
+                "type": "virtue",
+                "name": "preudomme-chivalric"
+              },
+              {
+                "type": "virtue",
+                "name": "prowess-chivalric"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Scholastic Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "caritas-scholastic"
+              },
+              {
+                "type": "virtue",
+                "name": "discretio-scholastic"
+              },
+              {
+                "type": "virtue",
+                "name": "docilitas-scholastic"
+              },
+              {
+                "type": "virtue",
+                "name": "iustitia-scholastic"
+              },
+              {
+                "type": "virtue",
+                "name": "pietas-scholastic"
+              },
+              {
+                "type": "virtue",
+                "name": "prudentia-scholastic"
+              },
+              {
+                "type": "virtue",
+                "name": "ratio-recta-scholastic"
+              },
+              {
+                "type": "virtue",
+                "name": "sapientia-scholastic"
+              },
+              {
+                "type": "virtue",
+                "name": "studiositas-scholastic"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Humanist Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "civilitas-renaissance"
+              },
+              {
+                "type": "virtue",
+                "name": "decorum-renaissance"
+              },
+              {
+                "type": "virtue",
+                "name": "dignitas-renaissance"
+              },
+              {
+                "type": "virtue",
+                "name": "eloquentia-renaissance"
+              },
+              {
+                "type": "virtue",
+                "name": "eruditio-renaissance"
+              },
+              {
+                "type": "virtue",
+                "name": "humanitas-renaissance"
+              },
+              {
+                "type": "virtue",
+                "name": "magnanimitas-renaissance"
+              },
+              {
+                "type": "virtue",
+                "name": "prudentia-civilis-renaissance"
+              },
+              {
+                "type": "virtue",
+                "name": "studia-humanitatis-renaissance"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Guild Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "ehrenhaftigkeit-guild"
+              },
+              {
+                "type": "virtue",
+                "name": "gemeinschaftsgeist-guild"
+              },
+              {
+                "type": "virtue",
+                "name": "kunstfertigkeit-guild"
+              },
+              {
+                "type": "virtue",
+                "name": "lehrtuechtigkeit-guild"
+              },
+              {
+                "type": "virtue",
+                "name": "meisterschaft-guild"
+              },
+              {
+                "type": "virtue",
+                "name": "pflichtbewusstsein-guild"
+              },
+              {
+                "type": "virtue",
+                "name": "redlichkeit-guild"
+              },
+              {
+                "type": "virtue",
+                "name": "treue-guild"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "tradition",
+        "name": "Islamic Golden Age",
+        "children": [
+          {
+            "type": "school",
+            "name": "Andalusian Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "adab-andalusian"
+              },
+              {
+                "type": "virtue",
+                "name": "basira-andalusian"
+              },
+              {
+                "type": "virtue",
+                "name": "dhawq-andalusian"
+              },
+              {
+                "type": "virtue",
+                "name": "hikmah-andalusian"
+              },
+              {
+                "type": "virtue",
+                "name": "husn-al-muashara-andalusian"
+              },
+              {
+                "type": "virtue",
+                "name": "ihsan-andalusian"
+              },
+              {
+                "type": "virtue",
+                "name": "muruwwa-andalusian"
+              },
+              {
+                "type": "virtue",
+                "name": "taayush-andalusian"
+              },
+              {
+                "type": "virtue",
+                "name": "tasamuh-andalusian"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Persian Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "adab-persian"
+              },
+              {
+                "type": "virtue",
+                "name": "basirat-persian"
+              },
+              {
+                "type": "virtue",
+                "name": "futuwwah-persian"
+              },
+              {
+                "type": "virtue",
+                "name": "hikmat-persian"
+              },
+              {
+                "type": "virtue",
+                "name": "husn-muasharat-persian"
+              },
+              {
+                "type": "virtue",
+                "name": "ikhlas-persian"
+              },
+              {
+                "type": "virtue",
+                "name": "insaf-persian"
+              },
+              {
+                "type": "virtue",
+                "name": "muruwwah-persian"
+              },
+              {
+                "type": "virtue",
+                "name": "tadbir-persian"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Arabian Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "adab-arabian"
+              },
+              {
+                "type": "virtue",
+                "name": "amanah-arabian"
+              },
+              {
+                "type": "virtue",
+                "name": "futuwwa-arabian"
+              },
+              {
+                "type": "virtue",
+                "name": "hikmah-arabian"
+              },
+              {
+                "type": "virtue",
+                "name": "hilm-arabian"
+              },
+              {
+                "type": "virtue",
+                "name": "ihsan-arabian"
+              },
+              {
+                "type": "virtue",
+                "name": "marifa-arabian"
+              },
+              {
+                "type": "virtue",
+                "name": "muruwwa-arabian"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "period",
+    "name": "MODERN PHILOSOPHICAL FRAMEWORKS",
+    "children": [
+      {
+        "type": "tradition",
+        "name": "Enlightenment (17th-18th century)",
+        "children": [
+          {
+            "type": "school",
+            "name": "Rationalist Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "amor-intellectualis"
+              },
+              {
+                "type": "virtue",
+                "name": "benevolentia-rationalis"
+              },
+              {
+                "type": "virtue",
+                "name": "claritas-rationis"
+              },
+              {
+                "type": "virtue",
+                "name": "excellentia-contemplativa"
+              },
+              {
+                "type": "virtue",
+                "name": "imperium-rationis"
+              },
+              {
+                "type": "virtue",
+                "name": "integritas-intellectualis"
+              },
+              {
+                "type": "virtue",
+                "name": "methodus-rationalis"
+              },
+              {
+                "type": "virtue",
+                "name": "scientia-systematica"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Empiricist Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "benevolent-industry-empiricist"
+              },
+              {
+                "type": "virtue",
+                "name": "civil-discourse-empiricist"
+              },
+              {
+                "type": "virtue",
+                "name": "empirical-wisdom-empiricist"
+              },
+              {
+                "type": "virtue",
+                "name": "experimental-mindset-empiricist"
+              },
+              {
+                "type": "virtue",
+                "name": "moral-sentiment-empiricist"
+              },
+              {
+                "type": "virtue",
+                "name": "practical-judgment-empiricist"
+              },
+              {
+                "type": "virtue",
+                "name": "public-utility-empiricist"
+              },
+              {
+                "type": "virtue",
+                "name": "self-command-empiricist"
+              },
+              {
+                "type": "virtue",
+                "name": "social-perspicacity-empiricist"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Kantian Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "achtung-kantian"
+              },
+              {
+                "type": "virtue",
+                "name": "autonomie-kantian"
+              },
+              {
+                "type": "virtue",
+                "name": "gewissenhaftigkeit-kantian"
+              },
+              {
+                "type": "virtue",
+                "name": "guter-wille-kantian"
+              },
+              {
+                "type": "virtue",
+                "name": "integritat-kantian"
+              },
+              {
+                "type": "virtue",
+                "name": "pflicht-kantian"
+              },
+              {
+                "type": "virtue",
+                "name": "praktische-vernunft-kantian"
+              },
+              {
+                "type": "virtue",
+                "name": "praktische-weisheit-kantian"
+              },
+              {
+                "type": "virtue",
+                "name": "wurde-kantian"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Benjamin Franklin's Virtues",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "civic-virtue-franklin"
+              },
+              {
+                "type": "virtue",
+                "name": "frugality-franklin"
+              },
+              {
+                "type": "virtue",
+                "name": "improvement-franklin"
+              },
+              {
+                "type": "virtue",
+                "name": "industry-franklin"
+              },
+              {
+                "type": "virtue",
+                "name": "order-franklin"
+              },
+              {
+                "type": "virtue",
+                "name": "prudence-franklin"
+              },
+              {
+                "type": "virtue",
+                "name": "resolution-franklin"
+              },
+              {
+                "type": "virtue",
+                "name": "sincerity-franklin"
+              },
+              {
+                "type": "virtue",
+                "name": "temperance-franklin"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "tradition",
+        "name": "19th Century",
+        "children": [
+          {
+            "type": "school",
+            "name": "Utilitarian Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "consequential-wisdom-utilitarian"
+              },
+              {
+                "type": "virtue",
+                "name": "empirical-prudence-utilitarian"
+              },
+              {
+                "type": "virtue",
+                "name": "higher-pleasure-cultivation-utilitarian"
+              },
+              {
+                "type": "virtue",
+                "name": "impartial-justice-utilitarian"
+              },
+              {
+                "type": "virtue",
+                "name": "progressive-efficacy-utilitarian"
+              },
+              {
+                "type": "virtue",
+                "name": "public-spirit-utilitarian"
+              },
+              {
+                "type": "virtue",
+                "name": "rational-benevolence-utilitarian"
+              },
+              {
+                "type": "virtue",
+                "name": "social-intelligence-utilitarian"
+              },
+              {
+                "type": "virtue",
+                "name": "systematic-understanding-utilitarian"
+              },
+              {
+                "type": "virtue",
+                "name": "welfare-promotion-utilitarian"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Transcendentalist Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "authenticity-transcendentalist"
+              },
+              {
+                "type": "virtue",
+                "name": "conscious-simplicity-transcendentalist"
+              },
+              {
+                "type": "virtue",
+                "name": "contemplative-action-transcendentalist"
+              },
+              {
+                "type": "virtue",
+                "name": "creative-independence-transcendentalist"
+              },
+              {
+                "type": "virtue",
+                "name": "moral-courage-transcendentalist"
+              },
+              {
+                "type": "virtue",
+                "name": "natural-wisdom-transcendentalist"
+              },
+              {
+                "type": "virtue",
+                "name": "self-reliance-transcendentalist"
+              },
+              {
+                "type": "virtue",
+                "name": "social-conscience-transcendentalist"
+              },
+              {
+                "type": "virtue",
+                "name": "spiritual-receptivity-transcendentalist"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Nietzschean Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "amor-fati-nietzsche"
+              },
+              {
+                "type": "virtue",
+                "name": "geistige-freiheit-nietzsche"
+              },
+              {
+                "type": "virtue",
+                "name": "redlichkeit-nietzsche"
+              },
+              {
+                "type": "virtue",
+                "name": "schaffende-kraft-nietzsche"
+              },
+              {
+                "type": "virtue",
+                "name": "seelenst\u00e4rke-nietzsche"
+              },
+              {
+                "type": "virtue",
+                "name": "selbstuberwindung-nietzsche"
+              },
+              {
+                "type": "virtue",
+                "name": "stolz-nietzsche"
+              },
+              {
+                "type": "virtue",
+                "name": "tanzender-geist-nietzsche"
+              },
+              {
+                "type": "virtue",
+                "name": "tragische-weisheit-nietzsche"
+              },
+              {
+                "type": "virtue",
+                "name": "wille-zur-macht-nietzsche"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Pragmatist Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "critical-intelligence-pragmatist"
+              },
+              {
+                "type": "virtue",
+                "name": "democratic-faith-pragmatist"
+              },
+              {
+                "type": "virtue",
+                "name": "experimental-disposition-pragmatist"
+              },
+              {
+                "type": "virtue",
+                "name": "growth-mindedness-pragmatist"
+              },
+              {
+                "type": "virtue",
+                "name": "melioristic-courage-pragmatist"
+              },
+              {
+                "type": "virtue",
+                "name": "practical-wisdom-pragmatist"
+              },
+              {
+                "type": "virtue",
+                "name": "reconstructive-habit-pragmatist"
+              },
+              {
+                "type": "virtue",
+                "name": "social-intelligence-pragmatist"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "tradition",
+        "name": "20th Century",
+        "children": [
+          {
+            "type": "school",
+            "name": "Virtue Ethics Revival",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "authenticity-modern"
+              },
+              {
+                "type": "virtue",
+                "name": "civic-responsibility-modern"
+              },
+              {
+                "type": "virtue",
+                "name": "critical-discernment-modern"
+              },
+              {
+                "type": "virtue",
+                "name": "dialogical-openness-modern"
+              },
+              {
+                "type": "virtue",
+                "name": "ecological-wisdom-modern"
+              },
+              {
+                "type": "virtue",
+                "name": "empathetic-understanding-modern"
+              },
+              {
+                "type": "virtue",
+                "name": "integrity-modern"
+              },
+              {
+                "type": "virtue",
+                "name": "phronesis-modern"
+              },
+              {
+                "type": "virtue",
+                "name": "reflective-judgment-modern"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Existentialist Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "authenticite-existentialist"
+              },
+              {
+                "type": "virtue",
+                "name": "courage-lucide-existentialist"
+              },
+              {
+                "type": "virtue",
+                "name": "engagement-creatif-existentialist"
+              },
+              {
+                "type": "virtue",
+                "name": "responsabilite-radicale-existentialist"
+              },
+              {
+                "type": "virtue",
+                "name": "revolte-consciente-existentialist"
+              },
+              {
+                "type": "virtue",
+                "name": "sagesse-ambiguite-existentialist"
+              },
+              {
+                "type": "virtue",
+                "name": "solidarite-liberte-existentialist"
+              },
+              {
+                "type": "virtue",
+                "name": "vigilance-ethique-existentialist"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Phenomenological Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "authentic-presence"
+              },
+              {
+                "type": "virtue",
+                "name": "dialogical-excellence"
+              },
+              {
+                "type": "virtue",
+                "name": "embodied-wisdom"
+              },
+              {
+                "type": "virtue",
+                "name": "empathic-understanding"
+              },
+              {
+                "type": "virtue",
+                "name": "ethical-attention"
+              },
+              {
+                "type": "virtue",
+                "name": "phenomenological-openness"
+              },
+              {
+                "type": "virtue",
+                "name": "radical-responsibility"
+              },
+              {
+                "type": "virtue",
+                "name": "value-recognition"
+              },
+              {
+                "type": "virtue",
+                "name": "value-responsive-action"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Care Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "attentiveness-care"
+              },
+              {
+                "type": "virtue",
+                "name": "contextual-wisdom-care"
+              },
+              {
+                "type": "virtue",
+                "name": "empathic-competence-care"
+              },
+              {
+                "type": "virtue",
+                "name": "moral-perception-care"
+              },
+              {
+                "type": "virtue",
+                "name": "nurturing-presence-care"
+              },
+              {
+                "type": "virtue",
+                "name": "receptive-maturity-care"
+              },
+              {
+                "type": "virtue",
+                "name": "relational-responsibility-care"
+              },
+              {
+                "type": "virtue",
+                "name": "responsiveness-care"
+              },
+              {
+                "type": "virtue",
+                "name": "sustaining-commitment-care"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Environmental Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "biocentric-respect"
+              },
+              {
+                "type": "virtue",
+                "name": "ecological-mindfulness"
+              },
+              {
+                "type": "virtue",
+                "name": "ecological-resilience"
+              },
+              {
+                "type": "virtue",
+                "name": "environmental-humility"
+              },
+              {
+                "type": "virtue",
+                "name": "environmental-solidarity"
+              },
+              {
+                "type": "virtue",
+                "name": "environmental-stewardship"
+              },
+              {
+                "type": "virtue",
+                "name": "intergenerational-justice"
+              },
+              {
+                "type": "virtue",
+                "name": "natural-reverence"
+              },
+              {
+                "type": "virtue",
+                "name": "sophia-oikologike"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "period",
+    "name": "CONTEMPORARY FRAMEWORKS",
+    "children": [
+      {
+        "type": "tradition",
+        "name": "Psychological",
+        "children": [
+          {
+            "type": "school",
+            "name": "Humanistic Psychology",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "actualizing-tendency-humanistic"
+              },
+              {
+                "type": "virtue",
+                "name": "authenticity-humanistic"
+              },
+              {
+                "type": "virtue",
+                "name": "creative-expression-humanistic"
+              },
+              {
+                "type": "virtue",
+                "name": "empathic-understanding-humanistic"
+              },
+              {
+                "type": "virtue",
+                "name": "experiential-openness-humanistic"
+              },
+              {
+                "type": "virtue",
+                "name": "integrative-wholeness-humanistic"
+              },
+              {
+                "type": "virtue",
+                "name": "meaning-orientation-humanistic"
+              },
+              {
+                "type": "virtue",
+                "name": "unconditional-positive-regard-humanistic"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Positive Psychology",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "appreciative_awareness-pospsych"
+              },
+              {
+                "type": "virtue",
+                "name": "authenticity-pospsych"
+              },
+              {
+                "type": "virtue",
+                "name": "flow-pospsych"
+              },
+              {
+                "type": "virtue",
+                "name": "gratitude-pospsych"
+              },
+              {
+                "type": "virtue",
+                "name": "growth_mindset-pospsych"
+              },
+              {
+                "type": "virtue",
+                "name": "hope-pospsych"
+              },
+              {
+                "type": "virtue",
+                "name": "resilience-pospsych"
+              },
+              {
+                "type": "virtue",
+                "name": "social_intelligence-pospsych"
+              },
+              {
+                "type": "virtue",
+                "name": "strength_awareness-pospsych"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Developmental Psychology",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "adaptive-resilience-devpsych"
+              },
+              {
+                "type": "virtue",
+                "name": "empathic-understanding-devpsych"
+              },
+              {
+                "type": "virtue",
+                "name": "generative-care-devpsych"
+              },
+              {
+                "type": "virtue",
+                "name": "moral-agency-devpsych"
+              },
+              {
+                "type": "virtue",
+                "name": "perspective-integration-devpsych"
+              },
+              {
+                "type": "virtue",
+                "name": "self-regulation-devpsych"
+              },
+              {
+                "type": "virtue",
+                "name": "social-competence-devpsych"
+              },
+              {
+                "type": "virtue",
+                "name": "trust-capacity-devpsych"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Moral Psychology",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "empathic-competence-psych"
+              },
+              {
+                "type": "virtue",
+                "name": "ethical-wisdom-psych"
+              },
+              {
+                "type": "virtue",
+                "name": "integrity-psych"
+              },
+              {
+                "type": "virtue",
+                "name": "moral-courage-psych"
+              },
+              {
+                "type": "virtue",
+                "name": "moral-humility-psych"
+              },
+              {
+                "type": "virtue",
+                "name": "moral-reasoning-psych"
+              },
+              {
+                "type": "virtue",
+                "name": "moral-self-regulation-psych"
+              },
+              {
+                "type": "virtue",
+                "name": "moral-sensitivity-psych"
+              },
+              {
+                "type": "virtue",
+                "name": "social-responsibility-psych"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "tradition",
+        "name": "Social-Political",
+        "children": [
+          {
+            "type": "school",
+            "name": "Feminist Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "collective-care-feminist"
+              },
+              {
+                "type": "virtue",
+                "name": "constructive-anger-feminist"
+              },
+              {
+                "type": "virtue",
+                "name": "courageous-vulnerability-feminist"
+              },
+              {
+                "type": "virtue",
+                "name": "critical-consciousness-feminist"
+              },
+              {
+                "type": "virtue",
+                "name": "empathic-solidarity-feminist"
+              },
+              {
+                "type": "virtue",
+                "name": "epistemic-humility-feminist"
+              },
+              {
+                "type": "virtue",
+                "name": "integrated-authenticity-feminist"
+              },
+              {
+                "type": "virtue",
+                "name": "relational-awareness-feminist"
+              },
+              {
+                "type": "virtue",
+                "name": "responsible-power-feminist"
+              },
+              {
+                "type": "virtue",
+                "name": "transformative-imagination-feminist"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Critical Theory Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "critical-consciousness-critical"
+              },
+              {
+                "type": "virtue",
+                "name": "dialectical-thinking-critical"
+              },
+              {
+                "type": "virtue",
+                "name": "dialogical-solidarity-critical"
+              },
+              {
+                "type": "virtue",
+                "name": "emancipatory-praxis-critical"
+              },
+              {
+                "type": "virtue",
+                "name": "radical-hope-critical"
+              },
+              {
+                "type": "virtue",
+                "name": "recognition-ethics-critical"
+              },
+              {
+                "type": "virtue",
+                "name": "systemic-wisdom-critical"
+              },
+              {
+                "type": "virtue",
+                "name": "transformative-courage-critical"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Post-colonial Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "ancestral-wisdom-postcolonial"
+              },
+              {
+                "type": "virtue",
+                "name": "collective-solidarity-postcolonial"
+              },
+              {
+                "type": "virtue",
+                "name": "conscientizacao-postcolonial"
+              },
+              {
+                "type": "virtue",
+                "name": "cultural-sovereignty-postcolonial"
+              },
+              {
+                "type": "virtue",
+                "name": "decolonial-love-postcolonial"
+              },
+              {
+                "type": "virtue",
+                "name": "epistemic-justice-postcolonial"
+              },
+              {
+                "type": "virtue",
+                "name": "radical-hope-postcolonial"
+              },
+              {
+                "type": "virtue",
+                "name": "restorative-praxis-postcolonial"
+              },
+              {
+                "type": "virtue",
+                "name": "testimonial-courage-postcolonial"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Global Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "adaptive-justice"
+              },
+              {
+                "type": "virtue",
+                "name": "collective-responsibility"
+              },
+              {
+                "type": "virtue",
+                "name": "cultural-intelligence"
+              },
+              {
+                "type": "virtue",
+                "name": "digital-citizenship"
+              },
+              {
+                "type": "virtue",
+                "name": "future-consciousness"
+              },
+              {
+                "type": "virtue",
+                "name": "global-mindfulness"
+              },
+              {
+                "type": "virtue",
+                "name": "planetary-stewardship"
+              },
+              {
+                "type": "virtue",
+                "name": "systemic-wisdom"
+              },
+              {
+                "type": "virtue",
+                "name": "universal-compassion"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "tradition",
+        "name": "Applied Ethics",
+        "children": [
+          {
+            "type": "school",
+            "name": "Professional Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "adaptive-expertise"
+              },
+              {
+                "type": "virtue",
+                "name": "professional-accountability"
+              },
+              {
+                "type": "virtue",
+                "name": "professional-autonomy"
+              },
+              {
+                "type": "virtue",
+                "name": "professional-beneficence"
+              },
+              {
+                "type": "virtue",
+                "name": "professional-collegiality"
+              },
+              {
+                "type": "virtue",
+                "name": "professional-excellence"
+              },
+              {
+                "type": "virtue",
+                "name": "professional-integrity"
+              },
+              {
+                "type": "virtue",
+                "name": "professional-stewardship"
+              },
+              {
+                "type": "virtue",
+                "name": "professional-wisdom"
+              },
+              {
+                "type": "virtue",
+                "name": "service-orientation"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Business Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "accountability-business"
+              },
+              {
+                "type": "virtue",
+                "name": "adaptive-excellence"
+              },
+              {
+                "type": "virtue",
+                "name": "global-citizenship"
+              },
+              {
+                "type": "virtue",
+                "name": "innovation-responsibility"
+              },
+              {
+                "type": "virtue",
+                "name": "integrity-business"
+              },
+              {
+                "type": "virtue",
+                "name": "moral-courage-business"
+              },
+              {
+                "type": "virtue",
+                "name": "prudence-business"
+              },
+              {
+                "type": "virtue",
+                "name": "stakeholder-empathy"
+              },
+              {
+                "type": "virtue",
+                "name": "stewardship-business"
+              },
+              {
+                "type": "virtue",
+                "name": "systemic-wisdom-business"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Bioethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "clinical-excellence"
+              },
+              {
+                "type": "virtue",
+                "name": "compassionate-care"
+              },
+              {
+                "type": "virtue",
+                "name": "ethical-stewardship"
+              },
+              {
+                "type": "virtue",
+                "name": "global-responsibility"
+              },
+              {
+                "type": "virtue",
+                "name": "justice-consciousness"
+              },
+              {
+                "type": "virtue",
+                "name": "moral-courage"
+              },
+              {
+                "type": "virtue",
+                "name": "phronesis-medica"
+              },
+              {
+                "type": "virtue",
+                "name": "professional-humility"
+              },
+              {
+                "type": "virtue",
+                "name": "scientific-integrity"
+              },
+              {
+                "type": "virtue",
+                "name": "therapeutic-presence"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Digital Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "algorithmic-humility"
+              },
+              {
+                "type": "virtue",
+                "name": "cyber-prudence"
+              },
+              {
+                "type": "virtue",
+                "name": "data-stewardship"
+              },
+              {
+                "type": "virtue",
+                "name": "digital-courage"
+              },
+              {
+                "type": "virtue",
+                "name": "digital-temperance"
+              },
+              {
+                "type": "virtue",
+                "name": "digital-wisdom"
+              },
+              {
+                "type": "virtue",
+                "name": "network-integrity"
+              },
+              {
+                "type": "virtue",
+                "name": "network-justice"
+              },
+              {
+                "type": "virtue",
+                "name": "technological-empathy"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "tradition",
+        "name": "Modern Spiritual/Psychological",
+        "children": [
+          {
+            "type": "school",
+            "name": "New Age Ethics",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "conscious-awareness-newage"
+              },
+              {
+                "type": "virtue",
+                "name": "conscious-cocreation-newage"
+              },
+              {
+                "type": "virtue",
+                "name": "evolutionary-empowerment-newage"
+              },
+              {
+                "type": "virtue",
+                "name": "holistic-harmony-newage"
+              },
+              {
+                "type": "virtue",
+                "name": "integrative-wisdom-newage"
+              },
+              {
+                "type": "virtue",
+                "name": "sacred-reciprocity-newage"
+              },
+              {
+                "type": "virtue",
+                "name": "transformative-presence-newage"
+              },
+              {
+                "type": "virtue",
+                "name": "unified-awareness-newage"
+              },
+              {
+                "type": "virtue",
+                "name": "vibrational-responsibility-newage"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Transpersonal Psychology",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "embodied-presence-trans"
+              },
+              {
+                "type": "virtue",
+                "name": "evolutionary-consciousness-trans"
+              },
+              {
+                "type": "virtue",
+                "name": "holistic-service-trans"
+              },
+              {
+                "type": "virtue",
+                "name": "integrative-awareness-trans"
+              },
+              {
+                "type": "virtue",
+                "name": "psychospiritual-maturity-trans"
+              },
+              {
+                "type": "virtue",
+                "name": "sacred-discernment-trans"
+              },
+              {
+                "type": "virtue",
+                "name": "transcendent-wisdom-trans"
+              },
+              {
+                "type": "virtue",
+                "name": "transformative-courage-trans"
+              },
+              {
+                "type": "virtue",
+                "name": "transpersonal-empathy-trans"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Integral Theory",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "developmental-wisdom"
+              },
+              {
+                "type": "virtue",
+                "name": "evolutionary-stewardship"
+              },
+              {
+                "type": "virtue",
+                "name": "integral-awareness"
+              },
+              {
+                "type": "virtue",
+                "name": "meta-systematic-cognition"
+              },
+              {
+                "type": "virtue",
+                "name": "perspectival-agility"
+              },
+              {
+                "type": "virtue",
+                "name": "practice-integrity"
+              },
+              {
+                "type": "virtue",
+                "name": "quadratic-presence"
+              },
+              {
+                "type": "virtue",
+                "name": "shadow-integration"
+              },
+              {
+                "type": "virtue",
+                "name": "state-stage-fluidity"
+              }
+            ]
+          },
+          {
+            "type": "school",
+            "name": "Contemporary Mystical Traditions",
+            "children": [
+              {
+                "type": "virtue",
+                "name": "collective-intelligence-contemporary"
+              },
+              {
+                "type": "virtue",
+                "name": "creative-response-ability-contemporary"
+              },
+              {
+                "type": "virtue",
+                "name": "evolutionary-love-contemporary"
+              },
+              {
+                "type": "virtue",
+                "name": "global-awareness-contemporary"
+              },
+              {
+                "type": "virtue",
+                "name": "integral-discernment-contemporary"
+              },
+              {
+                "type": "virtue",
+                "name": "presence-contemporary-mystical"
+              },
+              {
+                "type": "virtue",
+                "name": "sacred-embodiment-contemporary"
+              },
+              {
+                "type": "virtue",
+                "name": "transformational-readiness-contemporary"
+              },
+              {
+                "type": "virtue",
+                "name": "witnessing-consciousness-contemporary"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

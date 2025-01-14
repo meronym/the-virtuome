@@ -26,7 +26,7 @@ class BaseEmbeddingGenerator:
         
         # Skip if output file already exists
         if output_path.exists():
-            print(f"Skipping {md_file.name} - embedding already exists")
+            print(f"Skipping {str(md_file.absolute())} - embedding already exists")
             return
             
         # Read markdown content
@@ -40,10 +40,10 @@ class BaseEmbeddingGenerator:
                 # Save embeddings to JSON file
                 output_path.write_text(json.dumps(embedding))
                     
-                print(f"Processed {md_file.name}")
+                print(f"Processed {str(md_file.absolute())}")
                 
             except Exception as e:
-                print(f"Error processing {md_file.name}: {str(e)}")
+                print(f"Error processing {str(md_file.absolute())}: {str(e)}")
 
     async def process_directory(self, version: str, provider: str):
         # Get input/output directories
@@ -74,7 +74,7 @@ class VoyageEmbeddingGenerator(BaseEmbeddingGenerator):
         return response.embeddings[0]
 
 class OpenAIEmbeddingGenerator(BaseEmbeddingGenerator):
-    def __init__(self, api_key: str, model: str = "text-embedding-3-small", max_concurrent: int = 9):
+    def __init__(self, api_key: str, model: str = "text-embedding-3-large", max_concurrent: int = 9):
         super().__init__(max_concurrent)
         self.client = openai.AsyncClient(api_key=api_key)
         self.model = model
@@ -97,9 +97,12 @@ class CohereEmbeddingGenerator(BaseEmbeddingGenerator):
         response = await asyncio.to_thread(
             self.client.embed,
             texts=[text],
+            input_type="clustering",
+            embedding_types=["float"],
+            truncate="END",
             model=self.model
         )
-        return response.embeddings[0]
+        return response.embeddings.float_[0]
 
 PROVIDER_MAP = {
     'voyage': (VoyageEmbeddingGenerator, 'VOYAGE_API_KEY'),

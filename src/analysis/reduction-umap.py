@@ -104,8 +104,10 @@ def main():
     args = parser.parse_args()
     
     # Parameter grid for UMAP
-    n_neighbors_options = [15, 30, 50]  # higher values (30-100) for more global structure
-    min_dist_options = [0.0, 0.1, 0.3]  # lower values (0.0-0.1) for tighter clusters
+    # n_neighbors_options = [15, 30, 50]  # higher values (30-100) for more global structure
+    n_neighbors_options = [8, 10, 12]  # higher values (30-100) for more global structure
+    # min_dist_options = [0.0, 0.1, 0.3]  # lower values (0.0-0.1) for tighter clusters
+    min_dist_options = [0.0, 0.04, 0.08]  # lower values (0.0-0.1) for tighter clusters
     
     # Calculate total number of combinations
     total_combinations = len(n_neighbors_options) * len(min_dist_options)

@@ -56,13 +56,14 @@ The Flask server handles:
 - Dataset enumeration API
 - Virtue content serving
 - Raw data serving for tree structure
+- Version-specific data serving via CLI argument
 
 Key endpoints:
 - `/` - Serves the main application
 - `/data/datasets` - Lists available datasets
 - `/data/<provider>/<path>` - Serves data files
 - `/data/virtue/<virtue_id>` - Serves virtue content from raw data
-- `/data/raw/v1/<path>` - Serves raw data files including tree structure
+- `/data/raw/<version>/<path>` - Serves raw data files including tree structure
 
 ### Core Components
 
@@ -313,7 +314,7 @@ category: Category
 1. Start the development server:
 ```bash
 cd src/web/server
-python app.py
+python app.py [--version v1]  # Optionally specify data version, defaults to v1
 ```
 
 2. Access the application:

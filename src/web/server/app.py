@@ -1,13 +1,19 @@
 from flask import Flask, send_from_directory, jsonify, make_response
 from flask_cors import CORS
 import os
+import argparse
+
+# Add argument parser
+parser = argparse.ArgumentParser(description='Start the Flask server with a specific data version')
+parser.add_argument('--version', default='v1', help='Data version to serve (default: v1)')
+args = parser.parse_args()
 
 # Get absolute paths
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(SCRIPT_DIR)))  # Go up 3 levels from server/
 STATIC_DIR = os.path.join(os.path.dirname(SCRIPT_DIR), 'static')
-DATA_DIR = os.path.join(PROJECT_ROOT, 'data', 'processed', 'v1')
-RAW_DATA_DIR = os.path.join(PROJECT_ROOT, 'data', 'raw', 'v1', 'flat')
+DATA_DIR = os.path.join(PROJECT_ROOT, 'data', 'processed', args.version)
+RAW_DATA_DIR = os.path.join(PROJECT_ROOT, 'data', 'raw', args.version, 'flat')
 
 app = Flask(__name__, static_folder=STATIC_DIR, static_url_path='/static')
 CORS(app)
@@ -77,7 +83,7 @@ def serve_virtue(virtue_id):
 # Serve raw data files including tree.json
 @app.route('/data/raw/v1/<path:filename>')
 def serve_raw_data(filename):
-    raw_dir = os.path.join(PROJECT_ROOT, 'data', 'raw', 'v1')
+    raw_dir = os.path.join(PROJECT_ROOT, 'data', 'raw', args.version)
     response = make_response(send_from_directory(
         raw_dir,
         filename
