@@ -14,12 +14,17 @@ class App {
         this.canvas = document.getElementById('visualization');
         this.renderer = new CanvasRenderer(this.canvas, this.transform);
         this.themeManager = new ThemeManager();
+        this.dataLoader = new DataLoader();
+        this.currentProvider = null;
+        this.currentProjection = null;
+        this.currentVariant = null;
         
         // Initialize event handler after renderer
         this.events = new EventHandler(this.canvas, this.transform, this.renderer);
         
         this.setupUI();
         this.setupEventListeners();
+        this.setupControls();
     }
     
     async initialize() {
@@ -70,23 +75,43 @@ class App {
             this.updateZoomInfo();
         });
         
-        // Update renderer when points are hovered
-        this.renderer.on('pointsChanged', () => {
-            this.renderer.render();
-        });
+        // Update renderer when points change
+        if (this.renderer) {
+            this.renderer.on('pointsChanged', () => {
+                this.renderer.render();
+            });
+        }
     }
     
     async loadCurrentDataset() {
         const { provider, type, variant } = this.state.getState();
         
         try {
-            const data = await this.loader.loadDataset(provider, type, variant);
-            this.state.setPoints(data.points);
-            this.renderer.setPoints(data.points);
+            // Strip .json from variant if present
+            const cleanVariant = variant ? variant.replace(/\.json$/, '') : '';
+            
+            const data = await this.loader.loadDataset(provider, type, cleanVariant);
+            
+            // Try to load cluster data if available
+            const clusters = await this.dataLoader.loadClusters(
+                provider, 
+                type, 
+                cleanVariant
+            ).catch(() => null);
+            
+            // Update visualization
+            this.renderer.setData(data.points, clusters);
+            
+            // Update cluster toggle visibility
+            const clusterToggle = document.getElementById('show-clusters');
+            if (clusterToggle) {
+                clusterToggle.parentElement.style.display = clusters ? 'block' : 'none';
+                clusterToggle.checked = false;
+            }
             
             // Fit points to canvas
             const rect = this.canvas.getBoundingClientRect();
-            this.transform.fitPoints(data.points, rect.width, rect.height);
+            this.transform.fitPoints(Object.values(data.points), rect.width, rect.height);
         } catch (error) {
             console.error('Failed to load dataset:', error);
             this.showError('Failed to load dataset');
@@ -129,11 +154,15 @@ class App {
                 const option = document.createElement('option');
                 option.value = variant;
                 
-                // Parse parameters from filename
+                // Parse parameters from filename for display
                 const match = variant.match(/umap-n(\d+)-d([\d.]+)\.json/);
-                option.textContent = match ? 
-                    `n=${match[1]}, d=${match[2]}` : 
-                    variant.replace(/\.json$/, '');
+                if (match) {
+                    const n = match[1];
+                    const d = match[2];  // Use exact value from filename
+                    option.textContent = `n=${n}, d=${d}`;
+                } else {
+                    option.textContent = variant.replace(/\.json$/, '');
+                }
                 
                 this.variantSelect.appendChild(option);
             }
@@ -151,6 +180,46 @@ class App {
     showError(message) {
         // Simple error display - could be enhanced
         alert(message);
+    }
+    
+    setupControls() {
+        // Add cluster toggle control
+        const clusterToggle = document.createElement('div');
+        clusterToggle.className = 'control-group';
+        clusterToggle.innerHTML = `
+            <label>
+                <input type="checkbox" id="show-clusters">
+                Show Clusters
+            </label>
+        `;
+        document.getElementById('controls').appendChild(clusterToggle);
+
+        document.getElementById('show-clusters').addEventListener('change', (e) => {
+            this.renderer.toggleClusters(e.target.checked);
+        });
+    }
+
+    async loadDataset(provider, projectionType, variant = '') {
+        this.currentProvider = provider;
+        this.currentProjection = projectionType;
+        this.currentVariant = variant;
+
+        const data = await this.dataLoader.loadDataset(provider, projectionType, variant);
+        
+        // Try to load cluster data if available
+        const clusters = await this.dataLoader.loadClusters(
+            provider, 
+            projectionType, 
+            variant
+        ).catch(() => null);
+
+        // Update visualization
+        this.renderer.setData(data.points, clusters);
+        
+        // Update cluster toggle visibility
+        const clusterToggle = document.getElementById('show-clusters');
+        clusterToggle.parentElement.style.display = clusters ? 'block' : 'none';
+        clusterToggle.checked = false;
     }
 }
 

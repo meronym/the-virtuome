@@ -1,7 +1,9 @@
 export class DataLoader {
     constructor() {
         this.cache = new Map();
+        this.clusterCache = new Map();
         this.datasets = null;
+        this.version = 'v2';  // Default version
     }
     
     async initialize() {
@@ -11,39 +13,49 @@ export class DataLoader {
         return this.datasets;
     }
     
-    async loadDataset(provider, type, variant = null) {
-        const cacheKey = `${provider}/${type}/${variant || 'default'}`;
-        
-        // Check cache first
+    async loadDataset(provider, projectionType, variant = '') {
+        const normalizedVariant = this.normalizeVariantName(variant);
+        const cacheKey = `${provider}-${projectionType}-${normalizedVariant}`;
         if (this.cache.has(cacheKey)) {
             return this.cache.get(cacheKey);
         }
-        
-        // Construct path based on type and variant
-        let path;
-        if (type === 'pca') {
-            path = `/data/${provider}/pca/pca.json`;
-        } else if (type === 'umap') {
-            path = `/data/${provider}/umap/${variant || 'umap.json'}`;
+
+        // Handle variant filename
+        let filename;
+        if (normalizedVariant) {
+            // If it already has .json, use as is, otherwise append it
+            filename = normalizedVariant.endsWith('.json') ? 
+                normalizedVariant : 
+                `${normalizedVariant}.json`;
         } else {
-            throw new Error(`Unknown dataset type: ${type}`);
+            filename = `${projectionType}.json`;
         }
-        
-        // Load data
-        try {
-            const response = await fetch(path);
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            const data = await response.json();
-            
-            // Cache the result
-            this.cache.set(cacheKey, data);
-            return data;
-        } catch (error) {
-            console.error(`Failed to load dataset: ${path}`, error);
-            throw error;
+
+        const response = await fetch(`/data/${this.version}/${provider}/${projectionType}/${filename}`);
+        if (!response.ok) {
+            throw new Error(`Failed to load dataset: ${response.status} ${response.statusText}`);
         }
+        const data = await response.json();
+        this.cache.set(cacheKey, data);
+        return data;
+    }
+    
+    async loadClusters(provider, projectionType, variant = '', algorithm = 'hdbscan') {
+        const normalizedVariant = this.normalizeVariantName(variant);
+        const cacheKey = `${provider}-${projectionType}-${normalizedVariant}-${algorithm}`;
+        if (this.clusterCache.has(cacheKey)) {
+            return this.clusterCache.get(cacheKey);
+        }
+
+        const baseFilename = normalizedVariant || projectionType;
+        const response = await fetch(`/data/${this.version}/${provider}/${projectionType}/clusters/${algorithm}-${baseFilename}.json`);
+        if (!response.ok) {
+            console.warn(`No cluster data found for ${cacheKey}`);
+            return null;
+        }
+        const data = await response.json();
+        this.clusterCache.set(cacheKey, data);
+        return data;
     }
     
     getAvailableVariants(provider, type) {
@@ -53,16 +65,34 @@ export class DataLoader {
         return this.datasets[provider][type] || [];
     }
     
+    // Normalize variant names to handle decimal points consistently
+    normalizeVariantName(variant) {
+        if (!variant) return '';
+        
+        // Handle UMAP variants with parameters
+        const match = variant.match(/umap-n(\d+)-d([\d.]+)(\.json)?/);
+        if (match) {
+            const n = match[1];
+            // Don't normalize the decimal places, use the exact value from the file
+            const d = match[2];
+            return `umap-n${n}-d${d}${match[3] || ''}`;
+        }
+        
+        return variant;
+    }
+    
     clearCache() {
         this.cache.clear();
+        this.clusterCache.clear();
     }
     
     // Get dataset info
     getDatasetInfo(provider, type, variant = null) {
+        const normalizedVariant = this.normalizeVariantName(variant);
         const info = {
             provider,
             type,
-            variant: variant || 'default'
+            variant: normalizedVariant || 'default'
         };
         
         // Add human-readable labels
@@ -77,13 +107,13 @@ export class DataLoader {
             'umap': 'UMAP'
         }[type] || type;
         
-        if (variant) {
-            // Parse UMAP parameters from filename
-            const match = variant.match(/umap-n(\d+)-d([\d.]+)\.json/);
+        if (normalizedVariant) {
+            // Parse UMAP parameters from normalized variant
+            const match = normalizedVariant.match(/umap-n(\d+)-d([\d.]+)/);
             if (match) {
                 info.variantLabel = `n=${match[1]}, d=${match[2]}`;
             } else {
-                info.variantLabel = variant.replace(/\.json$/, '');
+                info.variantLabel = normalizedVariant;
             }
         }
         

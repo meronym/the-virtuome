@@ -1,4 +1,4 @@
-from flask import Flask, send_from_directory, jsonify, make_response
+from flask import Flask, send_from_directory, jsonify, make_response, send_file
 from flask_cors import CORS
 import os
 import argparse
@@ -43,9 +43,9 @@ def list_datasets():
     return jsonify(datasets)
 
 # Serve data files with proper caching
-@app.route('/data/<provider>/<path:filename>')
-def serve_data(provider, filename):
-    provider_dir = os.path.join(DATA_DIR, provider)
+@app.route('/data/<version>/<provider>/<path:filename>')
+def serve_data(version, provider, filename):
+    provider_dir = os.path.join(DATA_DIR.replace(args.version, version), provider)
     # Split the filename to handle subdirectories (e.g., pca/pca.json)
     file_parts = filename.split('/')
     
@@ -90,6 +90,15 @@ def serve_raw_data(filename):
     ))
     response.headers['Cache-Control'] = 'public, max-age=300'  # 5 minutes cache
     return response
+
+# Serve cluster data files
+@app.route('/data/<version>/<provider>/<projection_type>/clusters/<path:filename>')
+def serve_cluster_data(version, provider, projection_type, filename):
+    path = os.path.join(PROJECT_ROOT, 'data', 'processed', version, provider, projection_type, 'clusters', filename)
+    if os.path.exists(path):
+        return send_file(path)
+    else:
+        return f'Cluster data not found at {path}', 404
 
 if __name__ == '__main__':
     # Ensure data directories exist

@@ -1,0 +1,2573 @@
+{
+  "points": {
+    "accountability-business": {
+      "cluster": 14
+    },
+    "achrayut-modern-jewish": {
+      "cluster": 14
+    },
+    "achrayut-mussar": {
+      "cluster": 14
+    },
+    "achtung-kantian": {
+      "cluster": 37
+    },
+    "actualizing-tendency-humanistic": {
+      "cluster": 23
+    },
+    "adab-andalusian": {
+      "cluster": 49
+    },
+    "adab-arabian": {
+      "cluster": 49
+    },
+    "adab-persian": {
+      "cluster": 49
+    },
+    "adab-sufi": {
+      "cluster": 49
+    },
+    "adalah-fiqh": {
+      "cluster": 54
+    },
+    "adaptive-excellence": {
+      "cluster": 46
+    },
+    "adaptive-expertise": {
+      "cluster": 46
+    },
+    "adaptive-justice": {
+      "cluster": -1
+    },
+    "adaptive-resilience-devpsych": {
+      "cluster": 46
+    },
+    "adl-falsafa": {
+      "cluster": 54
+    },
+    "adl-quranic": {
+      "cluster": 54
+    },
+    "adl-wa-ihsan-modern-islamic": {
+      "cluster": 54
+    },
+    "agencia-comunitaria": {
+      "cluster": 56
+    },
+    "ahimsa-hindu": {
+      "cluster": -1
+    },
+    "ahimsa-jain": {
+      "cluster": -1
+    },
+    "ahimsa-yogic": {
+      "cluster": -1
+    },
+    "akaki-kokoro-shinto": {
+      "cluster": -1
+    },
+    "akh-egyptian": {
+      "cluster": 40
+    },
+    "aletheia-aristotelian": {
+      "cluster": 2
+    },
+    "aletheia-platonic": {
+      "cluster": 2
+    },
+    "aletheia-presocratic": {
+      "cluster": 2
+    },
+    "algorithmic-humility": {
+      "cluster": 62
+    },
+    "amanah-arabian": {
+      "cluster": 8
+    },
+    "amanah-fiqh": {
+      "cluster": 8
+    },
+    "amanah-modern-islamic": {
+      "cluster": 18
+    },
+    "amanah-quranic": {
+      "cluster": 8
+    },
+    "amor-fati-nietzsche": {
+      "cluster": 47
+    },
+    "amor-intellectualis": {
+      "cluster": 64
+    },
+    "amor-preferencial": {
+      "cluster": -1
+    },
+    "anaideia-cynic": {
+      "cluster": -1
+    },
+    "anava-biblical": {
+      "cluster": 1
+    },
+    "anava-rabbinic": {
+      "cluster": 1
+    },
+    "anavah-maimonidean": {
+      "cluster": 1
+    },
+    "anavah-mussar": {
+      "cluster": 1
+    },
+    "ancestor-reverence-melanesian": {
+      "cluster": 15
+    },
+    "ancestral-future-responsibility-amazonian": {
+      "cluster": 15
+    },
+    "ancestral-wisdom-postcolonial": {
+      "cluster": 15
+    },
+    "andreia-aristotelian": {
+      "cluster": -1
+    },
+    "andreia-platonic": {
+      "cluster": 52
+    },
+    "anekantavada-jain": {
+      "cluster": 30
+    },
+    "anjola-yoruba": {
+      "cluster": 4
+    },
+    "aparigraha-jain": {
+      "cluster": 35
+    },
+    "apatheia-neoplatonic": {
+      "cluster": 32
+    },
+    "appreciative_awareness-pospsych": {
+      "cluster": 20
+    },
+    "areivut-modern-jewish": {
+      "cluster": -1
+    },
+    "aroha-maori": {
+      "cluster": 21
+    },
+    "asha-zoroastrian": {
+      "cluster": 58
+    },
+    "askesis-cynic": {
+      "cluster": 44
+    },
+    "ataraxia-epicurean": {
+      "cluster": 34
+    },
+    "attentiveness-care": {
+      "cluster": 20
+    },
+    "atyphia-cynic": {
+      "cluster": 2
+    },
+    "auctoritas-roman": {
+      "cluster": 42
+    },
+    "autarkeia-cynic": {
+      "cluster": 35
+    },
+    "autarkeia-epicurean": {
+      "cluster": 35
+    },
+    "autarkeia-presocratic": {
+      "cluster": 35
+    },
+    "autarkeia-stoic": {
+      "cluster": 35
+    },
+    "authentic-presence": {
+      "cluster": 11
+    },
+    "authenticite-existentialist": {
+      "cluster": 11
+    },
+    "authenticity-humanistic": {
+      "cluster": 11
+    },
+    "authenticity-modern": {
+      "cluster": 11
+    },
+    "authenticity-pospsych": {
+      "cluster": 11
+    },
+    "authenticity-transcendentalist": {
+      "cluster": 11
+    },
+    "autonomie-kantian": {
+      "cluster": 31
+    },
+    "ayni-andean": {
+      "cluster": 48
+    },
+    "baseera-falsafa": {
+      "cluster": 66
+    },
+    "baseera-fiqh": {
+      "cluster": 66
+    },
+    "basira-andalusian": {
+      "cluster": 66
+    },
+    "basirat-persian": {
+      "cluster": -1
+    },
+    "benevolent-industry-empiricist": {
+      "cluster": 56
+    },
+    "benevolentia-rationalis": {
+      "cluster": 4
+    },
+    "benfen-folk": {
+      "cluster": 10
+    },
+    "bhakti-hindu": {
+      "cluster": -1
+    },
+    "bidii-ya-moyo-eastafrican": {
+      "cluster": 45
+    },
+    "biocentric-respect": {
+      "cluster": 37
+    },
+    "bitachon-mussar": {
+      "cluster": 47
+    },
+    "brahmacharya-vedic": {
+      "cluster": 44
+    },
+    "busara-african": {
+      "cluster": 60
+    },
+    "caritas-medieval-catholic": {
+      "cluster": 21
+    },
+    "caritas-patristic": {
+      "cluster": 21
+    },
+    "caritas-scholastic": {
+      "cluster": 21
+    },
+    "cemanahuacayotl-mesoamerican": {
+      "cluster": 51
+    },
+    "chardi-kala-sikh": {
+      "cluster": 47
+    },
+    "cheqaq-andean": {
+      "cluster": 31
+    },
+    "chesed-biblical": {
+      "cluster": 22
+    },
+    "chesed-mussar": {
+      "cluster": 22
+    },
+    "chesed-rabbinic": {
+      "cluster": 22
+    },
+    "chochma-rabbinic": {
+      "cluster": 61
+    },
+    "chochmah-biblical": {
+      "cluster": 61
+    },
+    "chu-jpneoconf": {
+      "cluster": 7
+    },
+    "chugi-bushido": {
+      "cluster": 7
+    },
+    "cibei-chinese-buddhist": {
+      "cluster": 4
+    },
+    "civic-responsibility-modern": {
+      "cluster": 56
+    },
+    "civic-virtue-franklin": {
+      "cluster": 56
+    },
+    "civil-discourse-empiricist": {
+      "cluster": 27
+    },
+    "civilitas-renaissance": {
+      "cluster": 43
+    },
+    "claritas-rationis": {
+      "cluster": 6
+    },
+    "clinical-excellence": {
+      "cluster": 40
+    },
+    "collective-care-feminist": {
+      "cluster": 55
+    },
+    "collective-intelligence-contemporary": {
+      "cluster": 56
+    },
+    "collective-responsibility": {
+      "cluster": 56
+    },
+    "collective-solidarity-postcolonial": {
+      "cluster": 55
+    },
+    "communal-harmony-amazonian": {
+      "cluster": 56
+    },
+    "communal-harmony-melanesian": {
+      "cluster": 28
+    },
+    "compassionate-care": {
+      "cluster": 4
+    },
+    "compassionate-liberation-manichaean": {
+      "cluster": 4
+    },
+    "concientizacion": {
+      "cluster": -1
+    },
+    "conscientiousness-protestant": {
+      "cluster": 31
+    },
+    "conscientizacao-postcolonial": {
+      "cluster": -1
+    },
+    "conscious-awareness-newage": {
+      "cluster": 20
+    },
+    "conscious-cocreation-newage": {
+      "cluster": 24
+    },
+    "conscious-simplicity-transcendentalist": {
+      "cluster": 3
+    },
+    "consequential-wisdom-utilitarian": {
+      "cluster": 25
+    },
+    "constantia-neostoic": {
+      "cluster": 46
+    },
+    "constantia-roman-stoic": {
+      "cluster": 46
+    },
+    "constantia-roman": {
+      "cluster": 7
+    },
+    "constantia-stoic": {
+      "cluster": 46
+    },
+    "constructive-anger-feminist": {
+      "cluster": -1
+    },
+    "contemplatio-activa-patristic": {
+      "cluster": 20
+    },
+    "contemplative-action-transcendentalist": {
+      "cluster": 20
+    },
+    "contextual-wisdom-care": {
+      "cluster": -1
+    },
+    "courage-lucide-existentialist": {
+      "cluster": -1
+    },
+    "courage-native-american": {
+      "cluster": 53
+    },
+    "courageous-vulnerability-feminist": {
+      "cluster": 52
+    },
+    "courtesy-chivalric": {
+      "cluster": 43
+    },
+    "creative-expression-humanistic": {
+      "cluster": 24
+    },
+    "creative-independence-transcendentalist": {
+      "cluster": 24
+    },
+    "creative-response-ability-contemporary": {
+      "cluster": 24
+    },
+    "critical-consciousness-critical": {
+      "cluster": 64
+    },
+    "critical-consciousness-feminist": {
+      "cluster": 64
+    },
+    "critical-discernment-modern": {
+      "cluster": 6
+    },
+    "critical-faithfulness-modern-christian": {
+      "cluster": -1
+    },
+    "critical-intelligence-pragmatist": {
+      "cluster": 64
+    },
+    "cultural-intelligence": {
+      "cluster": 27
+    },
+    "cultural-sovereignty-postcolonial": {
+      "cluster": -1
+    },
+    "cyber-prudence": {
+      "cluster": -1
+    },
+    "daat-maimonidean": {
+      "cluster": -1
+    },
+    "daat-modern-jewish": {
+      "cluster": 31
+    },
+    "dadirri-aboriginal": {
+      "cluster": 20
+    },
+    "daena-zoroastrian": {
+      "cluster": 31
+    },
+    "daksa-vedic": {
+      "cluster": 39
+    },
+    "data-stewardship": {
+      "cluster": 18
+    },
+    "de-early-chinese": {
+      "cluster": 42
+    },
+    "de-taoist": {
+      "cluster": 42
+    },
+    "decolonial-love-postcolonial": {
+      "cluster": -1
+    },
+    "decorum-civile-neostoic": {
+      "cluster": 43
+    },
+    "decorum-renaissance": {
+      "cluster": 49
+    },
+    "democratic-faith-pragmatist": {
+      "cluster": 56
+    },
+    "developmental-wisdom": {
+      "cluster": 61
+    },
+    "devotio-medieval-catholic": {
+      "cluster": 45
+    },
+    "dharma-hindu": {
+      "cluster": 58
+    },
+    "dharma-vedic": {
+      "cluster": -1
+    },
+    "dhawq-andalusian": {
+      "cluster": 6
+    },
+    "dhi-vedic": {
+      "cluster": 66
+    },
+    "diakrisis-neoplatonic": {
+      "cluster": 6
+    },
+    "diakrisis-orthodox": {
+      "cluster": 6
+    },
+    "dialectical-thinking-critical": {
+      "cluster": 30
+    },
+    "dialogical-excellence": {
+      "cluster": 27
+    },
+    "dialogical-openness-modern": {
+      "cluster": 27
+    },
+    "dialogical-solidarity-critical": {
+      "cluster": 27
+    },
+    "dialogical-wisdom-modern-christian": {
+      "cluster": 27
+    },
+    "digital-citizenship": {
+      "cluster": 59
+    },
+    "digital-courage": {
+      "cluster": 53
+    },
+    "digital-temperance": {
+      "cluster": 59
+    },
+    "digital-wisdom": {
+      "cluster": 62
+    },
+    "dignitas-renaissance": {
+      "cluster": 36
+    },
+    "dignitas-roman-stoic": {
+      "cluster": 41
+    },
+    "dignitas-roman": {
+      "cluster": 41
+    },
+    "dikaiosyne-aristotelian": {
+      "cluster": 54
+    },
+    "dikaiosyne-epicurean": {
+      "cluster": 8
+    },
+    "dikaiosyne-platonic": {
+      "cluster": 57
+    },
+    "dikaiosyne-presocratic": {
+      "cluster": 57
+    },
+    "dikaiosyne-pythagorean": {
+      "cluster": 54
+    },
+    "diligence-protestant": {
+      "cluster": 45
+    },
+    "disciplina-roman-stoic": {
+      "cluster": -1
+    },
+    "disciplina-roman": {
+      "cluster": -1
+    },
+    "disciplina-stoic": {
+      "cluster": 44
+    },
+    "discretio-patristic": {
+      "cluster": 6
+    },
+    "discretio-scholastic": {
+      "cluster": 59
+    },
+    "distributive-justice-amazonian": {
+      "cluster": -1
+    },
+    "djambatj-aboriginal": {
+      "cluster": 63
+    },
+    "docilitas-scholastic": {
+      "cluster": 64
+    },
+    "echemythia-pythagorean": {
+      "cluster": 20
+    },
+    "ecological-mindfulness-amazonian": {
+      "cluster": 17
+    },
+    "ecological-mindfulness": {
+      "cluster": 17
+    },
+    "ecological-reciprocity-amazonian": {
+      "cluster": 17
+    },
+    "ecological-resilience": {
+      "cluster": 17
+    },
+    "ecological-stewardship-modern-christian": {
+      "cluster": 17
+    },
+    "ecological-wisdom-modern": {
+      "cluster": 17
+    },
+    "ehrenhaftigkeit-guild": {
+      "cluster": 8
+    },
+    "eleutheria-cynic": {
+      "cluster": 35
+    },
+    "eloquentia-renaissance": {
+      "cluster": 65
+    },
+    "emancipatory-praxis-critical": {
+      "cluster": -1
+    },
+    "embodied-presence-trans": {
+      "cluster": 20
+    },
+    "embodied-wisdom": {
+      "cluster": 61
+    },
+    "emet-biblical": {
+      "cluster": 2
+    },
+    "emet-modern-jewish": {
+      "cluster": 2
+    },
+    "emet-mussar": {
+      "cluster": 2
+    },
+    "emet-rabbinic": {
+      "cluster": 2
+    },
+    "empathetic-understanding-modern": {
+      "cluster": 5
+    },
+    "empathic-competence-care": {
+      "cluster": 5
+    },
+    "empathic-competence-psych": {
+      "cluster": 5
+    },
+    "empathic-solidarity-feminist": {
+      "cluster": -1
+    },
+    "empathic-understanding-devpsych": {
+      "cluster": 5
+    },
+    "empathic-understanding-humanistic": {
+      "cluster": 5
+    },
+    "empathic-understanding": {
+      "cluster": 5
+    },
+    "empirical-prudence-utilitarian": {
+      "cluster": 63
+    },
+    "empirical-wisdom-empiricist": {
+      "cluster": 63
+    },
+    "emunah-biblical": {
+      "cluster": 7
+    },
+    "enargeia-epicurean": {
+      "cluster": 6
+    },
+    "engagement-creatif-existentialist": {
+      "cluster": 24
+    },
+    "enlightened-fellowship-manichaean": {
+      "cluster": 55
+    },
+    "environmental-humility": {
+      "cluster": 1
+    },
+    "environmental-solidarity": {
+      "cluster": -1
+    },
+    "environmental-stewardship": {
+      "cluster": 17
+    },
+    "epistemic-humility-feminist": {
+      "cluster": 1
+    },
+    "epistemic-justice-postcolonial": {
+      "cluster": -1
+    },
+    "eros-platonic": {
+      "cluster": 12
+    },
+    "eros-theios-neoplatonic": {
+      "cluster": 12
+    },
+    "eruditio-renaissance": {
+      "cluster": 64
+    },
+    "esperanza-historica": {
+      "cluster": 38
+    },
+    "ethical-attention": {
+      "cluster": 31
+    },
+    "ethical-stewardship": {
+      "cluster": 18
+    },
+    "ethical-wisdom-psych": {
+      "cluster": 60
+    },
+    "eunomia-maat-ptolemaic": {
+      "cluster": 58
+    },
+    "eusebeia-platonic": {
+      "cluster": -1
+    },
+    "euthymia-presocratic": {
+      "cluster": 35
+    },
+    "evolutionary-consciousness-trans": {
+      "cluster": 16
+    },
+    "evolutionary-empowerment-newage": {
+      "cluster": 16
+    },
+    "evolutionary-love-contemporary": {
+      "cluster": 16
+    },
+    "evolutionary-stewardship": {
+      "cluster": 16
+    },
+    "excellentia-contemplativa": {
+      "cluster": -1
+    },
+    "experiential-openness-humanistic": {
+      "cluster": 20
+    },
+    "experimental-disposition-pragmatist": {
+      "cluster": 63
+    },
+    "experimental-mindset-empiricist": {
+      "cluster": 63
+    },
+    "faithfulness-protestant": {
+      "cluster": 7
+    },
+    "fangbian-chinese-buddhist": {
+      "cluster": 62
+    },
+    "faqr-sufi": {
+      "cluster": 1
+    },
+    "feigong-mohist": {
+      "cluster": 32
+    },
+    "fidelidad-transformadora": {
+      "cluster": -1
+    },
+    "fides-roman": {
+      "cluster": 8
+    },
+    "flow-pospsych": {
+      "cluster": 19
+    },
+    "forest-wisdom-amazonian": {
+      "cluster": 25
+    },
+    "fortitudo-moralis-neostoic": {
+      "cluster": 53
+    },
+    "fortitudo-roman-stoic": {
+      "cluster": 52
+    },
+    "franchise-chivalric": {
+      "cluster": -1
+    },
+    "frashokereti-zoroastrian": {
+      "cluster": 16
+    },
+    "frugality-franklin": {
+      "cluster": 45
+    },
+    "fudoshin-bushido": {
+      "cluster": 32
+    },
+    "fudoshin-zen": {
+      "cluster": 32
+    },
+    "funbetsu-jpneoconf": {
+      "cluster": 60
+    },
+    "future-consciousness": {
+      "cluster": 15
+    },
+    "futuwwa-arabian": {
+      "cluster": 42
+    },
+    "futuwwah-persian": {
+      "cluster": 50
+    },
+    "gaku-jpneoconf": {
+      "cluster": 64
+    },
+    "galka-aboriginal": {
+      "cluster": 65
+    },
+    "geistige-freiheit-nietzsche": {
+      "cluster": 29
+    },
+    "gemeinschaftsgeist-guild": {
+      "cluster": 56
+    },
+    "generational-responsibility-melanesian": {
+      "cluster": 15
+    },
+    "generative-care-devpsych": {
+      "cluster": 15
+    },
+    "generosity-native-american": {
+      "cluster": 48
+    },
+    "gevura-rabbinic": {
+      "cluster": -1
+    },
+    "gewissenhaftigkeit-kantian": {
+      "cluster": 31
+    },
+    "gi-bushido": {
+      "cluster": 31
+    },
+    "gian-sikh": {
+      "cluster": -1
+    },
+    "giri-jpneoconf": {
+      "cluster": -1
+    },
+    "global-awareness-contemporary": {
+      "cluster": -1
+    },
+    "global-citizenship": {
+      "cluster": -1
+    },
+    "global-mindfulness": {
+      "cluster": -1
+    },
+    "global-responsibility": {
+      "cluster": -1
+    },
+    "gnosis-sia-ptolemaic": {
+      "cluster": 66
+    },
+    "gongyi-mohist": {
+      "cluster": 54
+    },
+    "gr-egyptian": {
+      "cluster": 34
+    },
+    "gratitude-pospsych": {
+      "cluster": 48
+    },
+    "gravitas-roman-stoic": {
+      "cluster": 42
+    },
+    "gravitas-roman": {
+      "cluster": 42
+    },
+    "growth-mindedness-pragmatist": {
+      "cluster": 23
+    },
+    "growth_mindset-pospsych": {
+      "cluster": 23
+    },
+    "gurrutu-aboriginal": {
+      "cluster": 51
+    },
+    "guter-wille-kantian": {
+      "cluster": 31
+    },
+    "gyoji-zen": {
+      "cluster": 45
+    },
+    "haithya-zoroastrian": {
+      "cluster": 2
+    },
+    "haplotes-cynic": {
+      "cluster": 3
+    },
+    "harambee-african": {
+      "cluster": 56
+    },
+    "harmonia-presocratic": {
+      "cluster": 28
+    },
+    "harmonia-pythagorean": {
+      "cluster": 28
+    },
+    "harmony-native-american": {
+      "cluster": 28
+    },
+    "he-early-chinese": {
+      "cluster": 28
+    },
+    "he-taoist": {
+      "cluster": 28
+    },
+    "healing-integration-amazonian": {
+      "cluster": 29
+    },
+    "hekima-eastafrican": {
+      "cluster": 61
+    },
+    "henosis-neoplatonic": {
+      "cluster": 29
+    },
+    "heqi-folk": {
+      "cluster": 43
+    },
+    "hesychia-orthodox": {
+      "cluster": 34
+    },
+    "hexie-chinese-buddhist": {
+      "cluster": 28
+    },
+    "hieratike-arete-ptolemaic": {
+      "cluster": 40
+    },
+    "higher-pleasure-cultivation-utilitarian": {
+      "cluster": -1
+    },
+    "hikmah-andalusian": {
+      "cluster": 61
+    },
+    "hikmah-arabian": {
+      "cluster": 61
+    },
+    "hikmah-falsafa": {
+      "cluster": 61
+    },
+    "hikmah-fiqh": {
+      "cluster": 61
+    },
+    "hikmah-muasirah-modern-islamic": {
+      "cluster": 63
+    },
+    "hikmat-persian": {
+      "cluster": 60
+    },
+    "hilm-arabian": {
+      "cluster": 32
+    },
+    "histapkut-maimonidean": {
+      "cluster": 35
+    },
+    "hitbonenut-mussar": {
+      "cluster": -1
+    },
+    "hitlamdut-rabbinic": {
+      "cluster": 64
+    },
+    "hoetong-korean-buddhist": {
+      "cluster": 30
+    },
+    "holistic-harmony-newage": {
+      "cluster": 28
+    },
+    "holistic-service-trans": {
+      "cluster": -1
+    },
+    "honor-chivalric": {
+      "cluster": 10
+    },
+    "hooponopono-polynesian": {
+      "cluster": -1
+    },
+    "hope-pospsych": {
+      "cluster": 38
+    },
+    "houdao-folk": {
+      "cluster": -1
+    },
+    "humanitas-renaissance": {
+      "cluster": 26
+    },
+    "humanitas-roman-stoic": {
+      "cluster": 26
+    },
+    "humanitas-stoic": {
+      "cluster": 21
+    },
+    "humilitas-medieval-catholic": {
+      "cluster": 1
+    },
+    "humilitas-patristic": {
+      "cluster": 1
+    },
+    "humility-native-american": {
+      "cluster": 1
+    },
+    "husn-al-muashara-andalusian": {
+      "cluster": 43
+    },
+    "husn-muasharat-persian": {
+      "cluster": 43
+    },
+    "huvarstay-zoroastrian": {
+      "cluster": 31
+    },
+    "hwahap-korean-buddhist": {
+      "cluster": 27
+    },
+    "hyo-korean-neoconfucian": {
+      "cluster": 15
+    },
+    "ihsan-andalusian": {
+      "cluster": 39
+    },
+    "ihsan-arabian": {
+      "cluster": 39
+    },
+    "ihsan-falsafa": {
+      "cluster": 39
+    },
+    "ihsan-modern-islamic": {
+      "cluster": 39
+    },
+    "ihsan-quranic": {
+      "cluster": 39
+    },
+    "ihsan-sufi": {
+      "cluster": 39
+    },
+    "ijtihad-fiqh": {
+      "cluster": 63
+    },
+    "ikhlas-persian": {
+      "cluster": 11
+    },
+    "ikhlas-quranic": {
+      "cluster": 11
+    },
+    "ikhlas-sufi": {
+      "cluster": 11
+    },
+    "ilm-hikmah-quranic": {
+      "cluster": -1
+    },
+    "ilm-wa-amal-modern-islamic": {
+      "cluster": 63
+    },
+    "ilsim-korean-buddhist": {
+      "cluster": 29
+    },
+    "imik-egyptian": {
+      "cluster": 55
+    },
+    "impartial-justice-utilitarian": {
+      "cluster": 54
+    },
+    "imperium-rationis": {
+      "cluster": 35
+    },
+    "improvement-franklin": {
+      "cluster": -1
+    },
+    "in-korean-neoconfucian": {
+      "cluster": 5
+    },
+    "inclusive-community-modern-christian": {
+      "cluster": 27
+    },
+    "industry-franklin": {
+      "cluster": 45
+    },
+    "innovation-responsibility": {
+      "cluster": -1
+    },
+    "insaf-persian": {
+      "cluster": 54
+    },
+    "integral-awareness": {
+      "cluster": 30
+    },
+    "integral-discernment-contemporary": {
+      "cluster": 6
+    },
+    "integrated-authenticity-feminist": {
+      "cluster": 11
+    },
+    "integrative-awareness-trans": {
+      "cluster": -1
+    },
+    "integrative-wholeness-humanistic": {
+      "cluster": 29
+    },
+    "integrative-wisdom-newage": {
+      "cluster": 61
+    },
+    "integritas-intellectualis": {
+      "cluster": 2
+    },
+    "integritat-kantian": {
+      "cluster": 10
+    },
+    "integrity-business": {
+      "cluster": 10
+    },
+    "integrity-modern": {
+      "cluster": 10
+    },
+    "integrity-protestant": {
+      "cluster": 10
+    },
+    "integrity-psych": {
+      "cluster": 10
+    },
+    "intergenerational-justice": {
+      "cluster": 15
+    },
+    "islah-modern-islamic": {
+      "cluster": -1
+    },
+    "itutu-african": {
+      "cluster": 32
+    },
+    "iustitia-roman-stoic": {
+      "cluster": 54
+    },
+    "iustitia-roman": {
+      "cluster": 54
+    },
+    "iustitia-scholastic": {
+      "cluster": 54
+    },
+    "iustitia-stoic": {
+      "cluster": 57
+    },
+    "iwa-pele-african": {
+      "cluster": 50
+    },
+    "iwa-pele-yoruba": {
+      "cluster": 50
+    },
+    "ixtlamachiliztli-mesoamerican": {
+      "cluster": 63
+    },
+    "izithunzi-ubuntu": {
+      "cluster": 36
+    },
+    "jabi-korean-buddhist": {
+      "cluster": 4
+    },
+    "jeongjin-korean-buddhist": {
+      "cluster": 44
+    },
+    "ji-korean-neoconfucian": {
+      "cluster": 62
+    },
+    "jianai-mohist": {
+      "cluster": -1
+    },
+    "jide-folk": {
+      "cluster": 50
+    },
+    "jieyong-mohist": {
+      "cluster": 45
+    },
+    "jin-bushido": {
+      "cluster": 42
+    },
+    "jing-confucian": {
+      "cluster": 37
+    },
+    "jing-early-chinese": {
+      "cluster": 37
+    },
+    "jing-taoist": {
+      "cluster": 34
+    },
+    "jingzuo-chinese-buddhist": {
+      "cluster": 20
+    },
+    "jom-wolof": {
+      "cluster": 41
+    },
+    "jung-korean-neoconfucian": {
+      "cluster": 13
+    },
+    "justice-consciousness": {
+      "cluster": 54
+    },
+    "kaitiakitanga-maori": {
+      "cluster": 18
+    },
+    "kallos-theion-neoplatonic": {
+      "cluster": 12
+    },
+    "kannagara-shinto": {
+      "cluster": -1
+    },
+    "kansha-shinto": {
+      "cluster": 48
+    },
+    "kanyini-aboriginal": {
+      "cluster": 51
+    },
+    "karma-yoga-hindu": {
+      "cluster": 20
+    },
+    "karteria-cynic": {
+      "cluster": 46
+    },
+    "karuna-buddhist": {
+      "cluster": 4
+    },
+    "karuna-jain": {
+      "cluster": 4
+    },
+    "karuna-yogic": {
+      "cluster": 4
+    },
+    "kata-physin-zen-epicurean": {
+      "cluster": 58
+    },
+    "katharotes-pythagorean": {
+      "cluster": 3
+    },
+    "katharsis-neoplatonic": {
+      "cluster": 3
+    },
+    "kavod-habriyot-modern-jewish": {
+      "cluster": 36
+    },
+    "kei-jpneoconf": {
+      "cluster": 37
+    },
+    "kensho-zen": {
+      "cluster": -1
+    },
+    "khuyaq-sunqu-andean": {
+      "cluster": 4
+    },
+    "kinutu-assyrian": {
+      "cluster": 7
+    },
+    "kirat-sikh": {
+      "cluster": 45
+    },
+    "kittu-assyrian": {
+      "cluster": 2
+    },
+    "kittu-babylonian": {
+      "cluster": -1
+    },
+    "kiyome-shinto": {
+      "cluster": 3
+    },
+    "knowledge-stewardship-amazonian": {
+      "cluster": 9
+    },
+    "koinonia-orthodox": {
+      "cluster": 56
+    },
+    "kufungisisa-ubuntu": {
+      "cluster": 65
+    },
+    "kuleana-polynesian": {
+      "cluster": -1
+    },
+    "kunstfertigkeit-guild": {
+      "cluster": -1
+    },
+    "kunu-babylonian": {
+      "cluster": 7
+    },
+    "kyeong-korean-neoconfucian": {
+      "cluster": 37
+    },
+    "land-guardianship-melanesian": {
+      "cluster": 17
+    },
+    "largesse-chivalric": {
+      "cluster": 48
+    },
+    "lehrtuechtigkeit-guild": {
+      "cluster": 9
+    },
+    "li-confucian": {
+      "cluster": 49
+    },
+    "llankay-andean": {
+      "cluster": 45
+    },
+    "loyalty-chivalric": {
+      "cluster": 7
+    },
+    "luminous-wisdom-manichaean": {
+      "cluster": 66
+    },
+    "maat-african": {
+      "cluster": 57
+    },
+    "maat-personal": {
+      "cluster": 2
+    },
+    "maat-relational": {
+      "cluster": 13
+    },
+    "magnanimitas-renaissance": {
+      "cluster": 41
+    },
+    "magnanimitas-stoic": {
+      "cluster": 41
+    },
+    "mahabbah-sufi": {
+      "cluster": 12
+    },
+    "makoto-bushido": {
+      "cluster": 11
+    },
+    "makoto-jpneoconf": {
+      "cluster": 11
+    },
+    "makoto-shinto": {
+      "cluster": 11
+    },
+    "malama-polynesian": {
+      "cluster": 18
+    },
+    "mana-maori": {
+      "cluster": 42
+    },
+    "mana-polynesian": {
+      "cluster": 42
+    },
+    "manaakitanga-maori": {
+      "cluster": 22
+    },
+    "manaakitanga-polynesian": {
+      "cluster": 22
+    },
+    "marifa-arabian": {
+      "cluster": 66
+    },
+    "marifah-falsafa": {
+      "cluster": 65
+    },
+    "marrpan-aboriginal": {
+      "cluster": 46
+    },
+    "matsuri-goto-shinto": {
+      "cluster": 58
+    },
+    "mauri-polynesian": {
+      "cluster": -1
+    },
+    "meaning-orientation-humanistic": {
+      "cluster": -1
+    },
+    "megalopsychia-aristotelian": {
+      "cluster": 41
+    },
+    "meisterschaft-guild": {
+      "cluster": -1
+    },
+    "meiyo-bushido": {
+      "cluster": 41
+    },
+    "melioristic-courage-pragmatist": {
+      "cluster": 38
+    },
+    "mesure-chivalric": {
+      "cluster": 13
+    },
+    "meta-systematic-cognition": {
+      "cluster": 30
+    },
+    "metanoia-orthodox": {
+      "cluster": 66
+    },
+    "metenu-egyptian": {
+      "cluster": 31
+    },
+    "methodus-rationalis": {
+      "cluster": 63
+    },
+    "metrion-presocratic": {
+      "cluster": 13
+    },
+    "metta-buddhist": {
+      "cluster": 21
+    },
+    "mindful-guardianship-manichaean": {
+      "cluster": 18
+    },
+    "misericordia-medieval-catholic": {
+      "cluster": 4
+    },
+    "misericordia-patristic": {
+      "cluster": 4
+    },
+    "misharu-babylonian": {
+      "cluster": 54
+    },
+    "mishpat-maimonidean": {
+      "cluster": 57
+    },
+    "mithra-zoroastrian": {
+      "cluster": 8
+    },
+    "moderatio-neostoic": {
+      "cluster": 13
+    },
+    "moral-agency-devpsych": {
+      "cluster": 31
+    },
+    "moral-courage-business": {
+      "cluster": 53
+    },
+    "moral-courage-psych": {
+      "cluster": 53
+    },
+    "moral-courage-transcendentalist": {
+      "cluster": 53
+    },
+    "moral-courage": {
+      "cluster": 53
+    },
+    "moral-humility-psych": {
+      "cluster": 1
+    },
+    "moral-perception-care": {
+      "cluster": 31
+    },
+    "moral-reasoning-psych": {
+      "cluster": 31
+    },
+    "moral-self-regulation-psych": {
+      "cluster": 31
+    },
+    "moral-sensitivity-psych": {
+      "cluster": 31
+    },
+    "moral-sentiment-empiricist": {
+      "cluster": 31
+    },
+    "muae-korean-buddhist": {
+      "cluster": 19
+    },
+    "muhul-mesoamerican": {
+      "cluster": 48
+    },
+    "munay-andean": {
+      "cluster": 26
+    },
+    "munggritj-aboriginal": {
+      "cluster": 9
+    },
+    "muraqabah-sufi": {
+      "cluster": 20
+    },
+    "muruwwa-andalusian": {
+      "cluster": 50
+    },
+    "muruwwa-arabian": {
+      "cluster": 50
+    },
+    "muruwwah-persian": {
+      "cluster": 50
+    },
+    "mushin-zen": {
+      "cluster": 20
+    },
+    "musubi-shinto": {
+      "cluster": -1
+    },
+    "nasaqu-babylonian": {
+      "cluster": -1
+    },
+    "natural-reverence": {
+      "cluster": 37
+    },
+    "natural-wisdom-transcendentalist": {
+      "cluster": -1
+    },
+    "necnomatiliztli-mesoamerican": {
+      "cluster": 1
+    },
+    "neltiliztli-mesoamerican": {
+      "cluster": -1
+    },
+    "nemequ-assyrian": {
+      "cluster": 63
+    },
+    "nemequ-babylonian": {
+      "cluster": 61
+    },
+    "nepantla-mesoamerican": {
+      "cluster": 13
+    },
+    "nepsis-orthodox": {
+      "cluster": 20
+    },
+    "network-integrity": {
+      "cluster": 10
+    },
+    "network-justice": {
+      "cluster": 54
+    },
+    "nimrata-sikh": {
+      "cluster": 41
+    },
+    "nirbhau-sikh": {
+      "cluster": 52
+    },
+    "nous-neoplatonic": {
+      "cluster": 66
+    },
+    "nurturing-presence-care": {
+      "cluster": 16
+    },
+    "obedientia-medieval-catholic": {
+      "cluster": -1
+    },
+    "obedientia-patristic": {
+      "cluster": 20
+    },
+    "officium-publicum-neostoic": {
+      "cluster": 56
+    },
+    "ogbon-yoruba": {
+      "cluster": 60
+    },
+    "omoluabi-yoruba": {
+      "cluster": 26
+    },
+    "on-jpneoconf": {
+      "cluster": 48
+    },
+    "order-franklin": {
+      "cluster": -1
+    },
+    "paideia-sebait-ptolemaic": {
+      "cluster": -1
+    },
+    "palahu-assyrian": {
+      "cluster": 37
+    },
+    "panna-buddhist": {
+      "cluster": 66
+    },
+    "parrhesia-cynic": {
+      "cluster": -1
+    },
+    "patientia-patristic": {
+      "cluster": 46
+    },
+    "perseverance-native-american": {
+      "cluster": 44
+    },
+    "perspectival-agility": {
+      "cluster": 30
+    },
+    "perspective-integration-devpsych": {
+      "cluster": 30
+    },
+    "pflicht-kantian": {
+      "cluster": 31
+    },
+    "pflichtbewusstsein-guild": {
+      "cluster": 14
+    },
+    "phenomenological-openness": {
+      "cluster": 20
+    },
+    "philanthropia-merut-ptolemaic": {
+      "cluster": 22
+    },
+    "philia-aristotelian": {
+      "cluster": 55
+    },
+    "philia-epicurean": {
+      "cluster": 55
+    },
+    "philia-platonic": {
+      "cluster": 55
+    },
+    "philia-pythagorean": {
+      "cluster": 55
+    },
+    "philokalia-orthodox": {
+      "cluster": 12
+    },
+    "philomathia-pythagorean": {
+      "cluster": 64
+    },
+    "phronesis-aristotelian": {
+      "cluster": 62
+    },
+    "phronesis-epicurean": {
+      "cluster": 60
+    },
+    "phronesis-medica": {
+      "cluster": 60
+    },
+    "phronesis-modern": {
+      "cluster": 62
+    },
+    "phronesis-platonic": {
+      "cluster": 60
+    },
+    "phronesis-presocratic": {
+      "cluster": 60
+    },
+    "phronesis-stoic": {
+      "cluster": 60
+    },
+    "pietas-roman-stoic": {
+      "cluster": 51
+    },
+    "pietas-roman": {
+      "cluster": 51
+    },
+    "pietas-scholastic": {
+      "cluster": 15
+    },
+    "planetary-stewardship": {
+      "cluster": 18
+    },
+    "pono-maori": {
+      "cluster": 2
+    },
+    "pono-polynesian": {
+      "cluster": 57
+    },
+    "practical-judgment-empiricist": {
+      "cluster": 60
+    },
+    "practical-wisdom-pragmatist": {
+      "cluster": 60
+    },
+    "practice-integrity": {
+      "cluster": 45
+    },
+    "praktische-vernunft-kantian": {
+      "cluster": 60
+    },
+    "praktische-weisheit-kantian": {
+      "cluster": 60
+    },
+    "presence-contemporary-mystical": {
+      "cluster": 20
+    },
+    "preudomme-chivalric": {
+      "cluster": 26
+    },
+    "professional-accountability": {
+      "cluster": 14
+    },
+    "professional-autonomy": {
+      "cluster": 31
+    },
+    "professional-beneficence": {
+      "cluster": 22
+    },
+    "professional-collegiality": {
+      "cluster": 55
+    },
+    "professional-excellence": {
+      "cluster": 40
+    },
+    "professional-humility": {
+      "cluster": 1
+    },
+    "professional-integrity": {
+      "cluster": 10
+    },
+    "professional-stewardship": {
+      "cluster": 18
+    },
+    "professional-wisdom": {
+      "cluster": -1
+    },
+    "progressive-efficacy-utilitarian": {
+      "cluster": -1
+    },
+    "pronoia-shepset-ptolemaic": {
+      "cluster": 18
+    },
+    "prophetic-hope-modern-christian": {
+      "cluster": 38
+    },
+    "prophetic-witness-modern-christian": {
+      "cluster": -1
+    },
+    "prosoche-orthodox": {
+      "cluster": 20
+    },
+    "prowess-chivalric": {
+      "cluster": 26
+    },
+    "prudence-business": {
+      "cluster": 60
+    },
+    "prudence-franklin": {
+      "cluster": 60
+    },
+    "prudentia-civilis-renaissance": {
+      "cluster": 61
+    },
+    "prudentia-medieval-catholic": {
+      "cluster": 60
+    },
+    "prudentia-politica-neostoic": {
+      "cluster": 61
+    },
+    "prudentia-roman-stoic": {
+      "cluster": 60
+    },
+    "prudentia-scholastic": {
+      "cluster": 62
+    },
+    "prudentia-spiritualis-patristic": {
+      "cluster": 61
+    },
+    "psychospiritual-maturity-trans": {
+      "cluster": 47
+    },
+    "pu-taoist": {
+      "cluster": 3
+    },
+    "public-spirit-utilitarian": {
+      "cluster": 56
+    },
+    "public-utility-empiricist": {
+      "cluster": 56
+    },
+    "purifying-discipline-manichaean": {
+      "cluster": -1
+    },
+    "qin-early-chinese": {
+      "cluster": 44
+    },
+    "qinjian-folk": {
+      "cluster": 45
+    },
+    "qinlao-mohist": {
+      "cluster": 45
+    },
+    "quadratic-presence": {
+      "cluster": 30
+    },
+    "qunli-mohist": {
+      "cluster": 56
+    },
+    "rachamim-biblical": {
+      "cluster": 4
+    },
+    "rachamim-modern-jewish": {
+      "cluster": 4
+    },
+    "rachamim-rabbinic": {
+      "cluster": 4
+    },
+    "radical-hope-critical": {
+      "cluster": 38
+    },
+    "radical-hope-postcolonial": {
+      "cluster": 38
+    },
+    "radical-responsibility": {
+      "cluster": 14
+    },
+    "rahma-modern-islamic": {
+      "cluster": 4
+    },
+    "rahmah-quranic": {
+      "cluster": 21
+    },
+    "rakirinakuy-andean": {
+      "cluster": 48
+    },
+    "ralya-aboriginal": {
+      "cluster": 49
+    },
+    "ratio-christiana-neostoic": {
+      "cluster": -1
+    },
+    "ratio-recta-scholastic": {
+      "cluster": -1
+    },
+    "rational-benevolence-utilitarian": {
+      "cluster": -1
+    },
+    "receptive-maturity-care": {
+      "cluster": 20
+    },
+    "reciprocal-generosity-melanesian": {
+      "cluster": 48
+    },
+    "recognition-ethics-critical": {
+      "cluster": 36
+    },
+    "reconstructive-habit-pragmatist": {
+      "cluster": -1
+    },
+    "redlichkeit-guild": {
+      "cluster": 10
+    },
+    "redlichkeit-nietzsche": {
+      "cluster": 2
+    },
+    "reflective-judgment-modern": {
+      "cluster": 59
+    },
+    "refuat-hanefesh-maimonidean": {
+      "cluster": 29
+    },
+    "rei-bushido": {
+      "cluster": 49
+    },
+    "rekh-egyptian": {
+      "cluster": 65
+    },
+    "relational-awareness-feminist": {
+      "cluster": 51
+    },
+    "relational-responsibility-care": {
+      "cluster": 51
+    },
+    "ren-confucian": {
+      "cluster": -1
+    },
+    "resilience-pospsych": {
+      "cluster": 46
+    },
+    "resolution-franklin": {
+      "cluster": 44
+    },
+    "respect-native-american": {
+      "cluster": 37
+    },
+    "responsabilite-radicale-existentialist": {
+      "cluster": 14
+    },
+    "responsibility-native-american": {
+      "cluster": 14
+    },
+    "responsible-power-feminist": {
+      "cluster": 14
+    },
+    "responsiveness-care": {
+      "cluster": 20
+    },
+    "restorative-praxis-postcolonial": {
+      "cluster": -1
+    },
+    "revolte-consciente-existentialist": {
+      "cluster": -1
+    },
+    "ritual-wisdom-melanesian": {
+      "cluster": 63
+    },
+    "rongtong-chinese-buddhist": {
+      "cluster": 30
+    },
+    "rou-taoist": {
+      "cluster": 46
+    },
+    "rta-vedic": {
+      "cluster": 58
+    },
+    "sabiduria-praxistica": {
+      "cluster": 63
+    },
+    "sabr-quranic": {
+      "cluster": 46
+    },
+    "sabr-sufi": {
+      "cluster": 46
+    },
+    "sacred-discernment-trans": {
+      "cluster": 6
+    },
+    "sacred-embodiment-contemporary": {
+      "cluster": 20
+    },
+    "sacred-knowledge-melanesian": {
+      "cluster": 9
+    },
+    "sacred-reciprocity-newage": {
+      "cluster": 48
+    },
+    "sagesse-ambiguite-existentialist": {
+      "cluster": 47
+    },
+    "salamu-babylonian": {
+      "cluster": 29
+    },
+    "salvific-discernment-manichaean": {
+      "cluster": 6
+    },
+    "samadhi-hindu": {
+      "cluster": 29
+    },
+    "samu-zen": {
+      "cluster": 20
+    },
+    "samyama-jain": {
+      "cluster": 35
+    },
+    "samyama-yogic": {
+      "cluster": -1
+    },
+    "sangsaeng-korean-buddhist": {
+      "cluster": 56
+    },
+    "santokh-sikh": {
+      "cluster": 35
+    },
+    "santosha-yogic": {
+      "cluster": 35
+    },
+    "sapientia-activa-neostoic": {
+      "cluster": 61
+    },
+    "sapientia-medieval-catholic": {
+      "cluster": 61
+    },
+    "sapientia-scholastic": {
+      "cluster": 65
+    },
+    "sarbat-da-bhala-sikh": {
+      "cluster": -1
+    },
+    "sat-sikh": {
+      "cluster": 2
+    },
+    "sati-buddhist": {
+      "cluster": 20
+    },
+    "satya-hindu": {
+      "cluster": 2
+    },
+    "satya-jain": {
+      "cluster": 2
+    },
+    "satya-vedic": {
+      "cluster": 2
+    },
+    "savlanut-mussar": {
+      "cluster": 46
+    },
+    "schaffende-kraft-nietzsche": {
+      "cluster": 24
+    },
+    "scientia-systematica": {
+      "cluster": 25
+    },
+    "scientific-integrity": {
+      "cluster": 10
+    },
+    "seb-egyptian": {
+      "cluster": -1
+    },
+    "seder-mussar": {
+      "cluster": -1
+    },
+    "seelenst\u00e4rke-nietzsche": {
+      "cluster": 46
+    },
+    "selbstuberwindung-nietzsche": {
+      "cluster": 23
+    },
+    "self-command-empiricist": {
+      "cluster": 35
+    },
+    "self-regulation-devpsych": {
+      "cluster": 35
+    },
+    "self-reliance-transcendentalist": {
+      "cluster": 24
+    },
+    "seong-korean-neoconfucian": {
+      "cluster": 11
+    },
+    "service-orientation": {
+      "cluster": -1
+    },
+    "seva-sikh": {
+      "cluster": -1
+    },
+    "shadow-integration": {
+      "cluster": 1
+    },
+    "shanti-hindu": {
+      "cluster": 34
+    },
+    "shanxian-mohist": {
+      "cluster": 26
+    },
+    "shikantaza-zen": {
+      "cluster": 20
+    },
+    "shindoku-jpneoconf": {
+      "cluster": 10
+    },
+    "shitmudu-assyrian": {
+      "cluster": 20
+    },
+    "shouwang-xiangzhu-folk": {
+      "cluster": 55
+    },
+    "shraddha-vedic": {
+      "cluster": -1
+    },
+    "shraddha-yogic": {
+      "cluster": -1
+    },
+    "shukr-quranic": {
+      "cluster": 48
+    },
+    "shushin-jpneoconf": {
+      "cluster": -1
+    },
+    "shvil-hazahav-maimonidean": {
+      "cluster": 13
+    },
+    "sia-egyptian": {
+      "cluster": -1
+    },
+    "sila-buddhist": {
+      "cluster": 49
+    },
+    "simunye-ubuntu": {
+      "cluster": 56
+    },
+    "sincerity-franklin": {
+      "cluster": -1
+    },
+    "sobriety-protestant": {
+      "cluster": 32
+    },
+    "social-competence-devpsych": {
+      "cluster": 33
+    },
+    "social-conscience-transcendentalist": {
+      "cluster": 56
+    },
+    "social-intelligence-pragmatist": {
+      "cluster": 33
+    },
+    "social-intelligence-utilitarian": {
+      "cluster": 33
+    },
+    "social-perspicacity-empiricist": {
+      "cluster": 33
+    },
+    "social-responsibility-psych": {
+      "cluster": 51
+    },
+    "social_intelligence-pospsych": {
+      "cluster": 33
+    },
+    "solidaridad-liberadora": {
+      "cluster": -1
+    },
+    "solidarite-liberte-existentialist": {
+      "cluster": 55
+    },
+    "sophia-aristotelian": {
+      "cluster": -1
+    },
+    "sophia-maat-ptolemaic": {
+      "cluster": -1
+    },
+    "sophia-neoplatonic": {
+      "cluster": 61
+    },
+    "sophia-oikologike": {
+      "cluster": 17
+    },
+    "sophia-platonic": {
+      "cluster": 66
+    },
+    "sophia-presocratic": {
+      "cluster": -1
+    },
+    "sophia-pythagorean": {
+      "cluster": 61
+    },
+    "sophrosyne-aristotelian": {
+      "cluster": 35
+    },
+    "sophrosyne-epicurean": {
+      "cluster": 35
+    },
+    "sophrosyne-platonic": {
+      "cluster": 35
+    },
+    "sophrosyne-pythagorean": {
+      "cluster": 13
+    },
+    "spenta-armaiti-zoroastrian": {
+      "cluster": 9
+    },
+    "spirit-world-integration-amazonian": {
+      "cluster": 65
+    },
+    "spiritual-receptivity-transcendentalist": {
+      "cluster": 20
+    },
+    "sraosha-zoroastrian": {
+      "cluster": 20
+    },
+    "stakeholder-empathy": {
+      "cluster": 51
+    },
+    "state-stage-fluidity": {
+      "cluster": 30
+    },
+    "stewardship-business": {
+      "cluster": 18
+    },
+    "stewardship-protestant": {
+      "cluster": 18
+    },
+    "stolz-nietzsche": {
+      "cluster": 41
+    },
+    "strength_awareness-pospsych": {
+      "cluster": 1
+    },
+    "studia-humanitatis-renaissance": {
+      "cluster": 26
+    },
+    "studiositas-scholastic": {
+      "cluster": 64
+    },
+    "suiyuan-folk": {
+      "cluster": 46
+    },
+    "sumaq-kawsay-andean": {
+      "cluster": 51
+    },
+    "sustaining-commitment-care": {
+      "cluster": 7
+    },
+    "suuru-yoruba": {
+      "cluster": 32
+    },
+    "suyang-korean-neoconfucian": {
+      "cluster": -1
+    },
+    "svadhyaya-yogic": {
+      "cluster": -1
+    },
+    "synesis-presocratic": {
+      "cluster": 65
+    },
+    "synkresis-ptolemaic": {
+      "cluster": 30
+    },
+    "systematic-understanding-utilitarian": {
+      "cluster": 25
+    },
+    "systemic-wisdom-business": {
+      "cluster": 25
+    },
+    "systemic-wisdom-critical": {
+      "cluster": 25
+    },
+    "systemic-wisdom": {
+      "cluster": 25
+    },
+    "taaqqul-falsafa": {
+      "cluster": -1
+    },
+    "taawun-alami-modern-islamic": {
+      "cluster": 27
+    },
+    "taayush-andalusian": {
+      "cluster": 27
+    },
+    "tadbir-persian": {
+      "cluster": 62
+    },
+    "tafakkur-falsafa": {
+      "cluster": -1
+    },
+    "tahatu-babylonian": {
+      "cluster": 37
+    },
+    "tanzender-geist-nietzsche": {
+      "cluster": 65
+    },
+    "tapas-vedic": {
+      "cluster": 44
+    },
+    "tapas-yogic": {
+      "cluster": 44
+    },
+    "tapeinophrosyne-orthodox": {
+      "cluster": 1
+    },
+    "tapu-maori": {
+      "cluster": 37
+    },
+    "tapu-polynesian": {
+      "cluster": 37
+    },
+    "taqwa-fiqh": {
+      "cluster": 31
+    },
+    "taqwa-quranic": {
+      "cluster": 31
+    },
+    "tasamuh-andalusian": {
+      "cluster": 27
+    },
+    "tashi-folk": {
+      "cluster": -1
+    },
+    "tawakkul-sufi": {
+      "cluster": 46
+    },
+    "tawba-sufi": {
+      "cluster": 2
+    },
+    "technological-empathy": {
+      "cluster": 59
+    },
+    "teixcahualiztli-mesoamerican": {
+      "cluster": -1
+    },
+    "temperance-franklin": {
+      "cluster": 35
+    },
+    "temperantia-medieval-catholic": {
+      "cluster": 35
+    },
+    "temperantia-patristic": {
+      "cluster": 35
+    },
+    "temperantia-roman-stoic": {
+      "cluster": 35
+    },
+    "temperantia-stoic": {
+      "cluster": 35
+    },
+    "temu-assyrian": {
+      "cluster": 6
+    },
+    "teranga-wolof": {
+      "cluster": 48
+    },
+    "testimonial-courage-postcolonial": {
+      "cluster": -1
+    },
+    "testimonio-martirial": {
+      "cluster": 53
+    },
+    "theoria-neoplatonic": {
+      "cluster": 66
+    },
+    "theoria-orthodox": {
+      "cluster": -1
+    },
+    "therapeutic-presence": {
+      "cluster": 20
+    },
+    "tika-maori": {
+      "cluster": -1
+    },
+    "tikkun-olam-modern-jewish": {
+      "cluster": 16
+    },
+    "titiksha-hindu": {
+      "cluster": 46
+    },
+    "tlacayotl-mesoamerican": {
+      "cluster": 26
+    },
+    "tongchal-korean-buddhist": {
+      "cluster": 66
+    },
+    "tragische-weisheit-nietzsche": {
+      "cluster": 47
+    },
+    "transcendent-knowledge-manichaean": {
+      "cluster": 66
+    },
+    "transcendent-wisdom-trans": {
+      "cluster": 61
+    },
+    "transformational-readiness-contemporary": {
+      "cluster": 46
+    },
+    "transformative-courage-critical": {
+      "cluster": 53
+    },
+    "transformative-courage-trans": {
+      "cluster": 52
+    },
+    "transformative-imagination-feminist": {
+      "cluster": 38
+    },
+    "transformative-presence-newage": {
+      "cluster": -1
+    },
+    "transformative-solidarity-modern-christian": {
+      "cluster": -1
+    },
+    "transpersonal-empathy-trans": {
+      "cluster": 5
+    },
+    "treue-guild": {
+      "cluster": 7
+    },
+    "trust-capacity-devpsych": {
+      "cluster": -1
+    },
+    "truthful-harmony-manichaean": {
+      "cluster": 2
+    },
+    "truthfulness-native-american": {
+      "cluster": 2
+    },
+    "tyaga-hindu": {
+      "cluster": 35
+    },
+    "tzedek-biblical": {
+      "cluster": 31
+    },
+    "tzedek-modern-jewish": {
+      "cluster": 54
+    },
+    "uadilifu-african": {
+      "cluster": 54
+    },
+    "uadilifu-eastafrican": {
+      "cluster": -1
+    },
+    "ubulungiswa-ubuntu": {
+      "cluster": -1
+    },
+    "ubuntu-african": {
+      "cluster": 56
+    },
+    "ubuntu-ubuntu": {
+      "cluster": 56
+    },
+    "ui-korean-neoconfucian": {
+      "cluster": 31
+    },
+    "uja-umoja-eastafrican": {
+      "cluster": 56
+    },
+    "ujima-african": {
+      "cluster": 56
+    },
+    "ukama-african": {
+      "cluster": 51
+    },
+    "ukarimu-eastafrican": {
+      "cluster": 48
+    },
+    "ukuhlonipha-ubuntu": {
+      "cluster": 37
+    },
+    "ukuphathana-ubuntu": {
+      "cluster": 48
+    },
+    "ukuzwela-ubuntu": {
+      "cluster": 5
+    },
+    "ukwanda-ubuntu": {
+      "cluster": 48
+    },
+    "unconditional-positive-regard-humanistic": {
+      "cluster": 1
+    },
+    "unified-awareness-newage": {
+      "cluster": 29
+    },
+    "universal-compassion": {
+      "cluster": 4
+    },
+    "unyenyekevu-eastafrican": {
+      "cluster": 20
+    },
+    "upekkha-buddhist": {
+      "cluster": 32
+    },
+    "upeksha-jain": {
+      "cluster": 32
+    },
+    "ustaarabu-eastafrican": {
+      "cluster": 49
+    },
+    "uzima-eastafrican": {
+      "cluster": -1
+    },
+    "uznu-assyrian": {
+      "cluster": -1
+    },
+    "uznu-babylonian": {
+      "cluster": -1
+    },
+    "vairagya-yogic": {
+      "cluster": 35
+    },
+    "valentia-profetica": {
+      "cluster": -1
+    },
+    "value-recognition": {
+      "cluster": 31
+    },
+    "value-responsive-action": {
+      "cluster": 31
+    },
+    "vibrational-responsibility-newage": {
+      "cluster": 43
+    },
+    "vigilance-ethique-existentialist": {
+      "cluster": 31
+    },
+    "viriya-buddhist": {
+      "cluster": 44
+    },
+    "virtus-roman": {
+      "cluster": 26
+    },
+    "viveka-hindu": {
+      "cluster": 6
+    },
+    "viveka-jain": {
+      "cluster": 6
+    },
+    "viveka-yogic": {
+      "cluster": 6
+    },
+    "vohu-manah-zoroastrian": {
+      "cluster": 31
+    },
+    "wa-akan": {
+      "cluster": -1
+    },
+    "wa-jpneoconf": {
+      "cluster": 28
+    },
+    "wa-shinto": {
+      "cluster": 28
+    },
+    "wantok-melanesian": {
+      "cluster": -1
+    },
+    "wara-fiqh": {
+      "cluster": 31
+    },
+    "wasatiyyah-falsafa": {
+      "cluster": 13
+    },
+    "wasatiyyah-fiqh": {
+      "cluster": 13
+    },
+    "wasatiyyah-modern-islamic": {
+      "cluster": 13
+    },
+    "welfare-promotion-utilitarian": {
+      "cluster": 22
+    },
+    "whanaungatanga-maori": {
+      "cluster": -1
+    },
+    "wille-zur-macht-nietzsche": {
+      "cluster": 23
+    },
+    "wisdom-native-american": {
+      "cluster": 61
+    },
+    "witness-protestant": {
+      "cluster": -1
+    },
+    "witnessing-consciousness-contemporary": {
+      "cluster": 20
+    },
+    "wurde-kantian": {
+      "cluster": 36
+    },
+    "wuwei-taoist": {
+      "cluster": 19
+    },
+    "xiao-confucian": {
+      "cluster": 15
+    },
+    "xiao-early-chinese": {
+      "cluster": 15
+    },
+    "xin-confucian": {
+      "cluster": 8
+    },
+    "xin-early-chinese": {
+      "cluster": 8
+    },
+    "xu-taoist": {
+      "cluster": 20
+    },
+    "yachay-andean": {
+      "cluster": 61
+    },
+    "yajna-vedic": {
+      "cluster": 40
+    },
+    "yanantin-andean": {
+      "cluster": 30
+    },
+    "yanapay-andean": {
+      "cluster": 55
+    },
+    "ye-korean-neoconfucian": {
+      "cluster": 49
+    },
+    "yediat-hashem-maimonidean": {
+      "cluster": 65
+    },
+    "yi-confucian": {
+      "cluster": 31
+    },
+    "yirah-biblical": {
+      "cluster": 37
+    },
+    "yirat_hashem-rabbinic": {
+      "cluster": -1
+    },
+    "yosher-modern-jewish": {
+      "cluster": 31
+    },
+    "yuki-bushido": {
+      "cluster": 52
+    },
+    "zanshin-bushido": {
+      "cluster": 20
+    },
+    "zanshin-zen": {
+      "cluster": 20
+    },
+    "zehirut-mussar": {
+      "cluster": 20
+    },
+    "zehirut-rabbinic": {
+      "cluster": 20
+    },
+    "zerizut-maimonidean": {
+      "cluster": 44
+    },
+    "zerizut-mussar": {
+      "cluster": -1
+    },
+    "zhengnian-chinese-buddhist": {
+      "cluster": 20
+    },
+    "zhi-confucian": {
+      "cluster": 62
+    },
+    "zhi-early-chinese": {
+      "cluster": 63
+    },
+    "zhi-mohist": {
+      "cluster": 60
+    },
+    "zhihui-chinese-buddhist": {
+      "cluster": 66
+    },
+    "zhineng-mohist": {
+      "cluster": 60
+    },
+    "zhong-confucian": {
+      "cluster": 13
+    },
+    "zhong-early-chinese": {
+      "cluster": 7
+    },
+    "ziran-taoist": {
+      "cluster": 19
+    },
+    "zizai-chinese-buddhist": {
+      "cluster": 19
+    },
+    "zuijun-zen": {
+      "cluster": 46
+    }
+  },
+  "metadata": {
+    "num_clusters": 66,
+    "noise_points": 117
+  }
+}
