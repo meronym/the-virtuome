@@ -9,6 +9,11 @@ import umap
 import hdbscan
 from pathlib import Path
 from typing import List, Tuple
+import warnings
+
+# Suppress specific warnings
+warnings.filterwarnings('ignore', category=FutureWarning, message="'force_all_finite' was renamed to 'ensure_all_finite'")
+warnings.filterwarnings('ignore', category=UserWarning, message="n_jobs value .* overridden to 1 by setting random_state")
 
 # Add argument parser
 parser = argparse.ArgumentParser(description='Start the Flask server with a specific data version')
@@ -210,6 +215,12 @@ def generate_clusters():
         hdbs_min_samples = int(data.get('hdbs_min_samples', 3))
         hdbs_method = data.get('hdbs_method', 'leaf')
         hdbs_epsilon = float(data.get('hdbs_epsilon', 0.0))
+        
+        # Log clustering parameters
+        print(f"\nNew clustering request:")
+        print(f"Provider: {provider}")
+        print(f"UMAP params: dim={u_dim}, n_neighbors={u_n}, min_dist={u_d}")
+        print(f"HDBSCAN params: min_cluster_size={hdbs_min_cluster_size}, min_samples={hdbs_min_samples}, method={hdbs_method}, epsilon={hdbs_epsilon}\n")
         
         # Validate parameters
         if u_dim < 1 or u_n < 1 or u_d < 0 or \

@@ -33,6 +33,7 @@ The web visualization system provides an interactive 2D visualization of virtue 
   - Dynamic cluster size scaling with zoom level
   - Toggle between cluster and tree-based coloring
   - Real-time cluster generation with custom parameters
+  - Randomizable cluster colors for better visualization
 - Pan and zoom navigation with:
   - Real-time zoom level display
   - Smooth zoom transitions
@@ -61,6 +62,17 @@ The web visualization system provides an interactive 2D visualization of virtue 
 - Responsive design with mobile support
 - URL state persistence
 - Dark/light theme system with system preference detection
+- High-DPI canvas rendering support with:
+  - Device pixel ratio awareness
+  - Proper canvas scaling and dimensions
+  - Crisp rendering on high-resolution displays
+- Settings persistence across sessions
+- Robust layout management:
+  - Flex-based responsive layout
+  - Proper panel constraints
+  - Viewport-aware canvas sizing
+  - Automatic canvas resizing
+  - Efficient space utilization
 
 ## Directory Structure
 
@@ -116,11 +128,27 @@ Manages data loading and caching:
 ### ParameterSystem (`js/main.js`)
 Manages the parameter controls:
 - Provider selection
-- UMAP parameter configuration
-- HDBSCAN parameter configuration
+- UMAP parameter configuration:
+  - Neighbors count
+  - Min distance (0.01 granularity)
+- HDBSCAN parameter configuration:
+  - Min cluster size
+  - Min samples
+  - Method selection (leaf/eom)
+  - Epsilon value
+- Clustering UMAP configuration:
+  - Dimensions
+  - Neighbors count
+  - Min distance (0.01 granularity)
 - Real-time visualization updates
 - Loading state management
 - Error handling and recovery
+- Settings persistence across sessions:
+  - Provider selection
+  - All UMAP parameters
+  - All clustering parameters
+  - Automatic save on change
+  - Automatic load on startup
 - Dedicated sidebar interface with:
   - Labeled form inputs
   - Grouped parameter sections
@@ -164,6 +192,36 @@ Manages application state including:
 - Event system for metadata updates
 - URL parameter synchronization
 - Shared metadata coordination
+
+### Canvas Renderer (`js/core/canvas.js`)
+Manages the visualization canvas with:
+- High-DPI rendering support:
+  - Device pixel ratio awareness
+  - Crisp rendering on high-DPI displays
+  - Proper canvas scaling and dimensions
+  - Automatic resize handling
+  - Viewport-constrained rendering
+- Efficient point rendering with:
+  - Viewport culling
+  - Layered rendering passes
+  - Optimized state management
+- Dynamic cluster visualization:
+  - Semi-transparent cluster fills
+  - Randomizable cluster colors
+  - Dynamic size scaling with zoom
+- Interactive hover effects
+- Theme-aware styling
+- Viewport transformation handling
+
+### Layout System
+The application uses a robust flex-based layout system:
+- Fixed-width panels (left and right)
+- Dynamically sized canvas container
+- Proper viewport constraints
+- High-DPI display support
+- Responsive panel positioning
+- Efficient space utilization
+- Automatic resizing behavior
 
 ### Virtue Metadata Format
 The `*.meta.yaml` files contain structured metadata:
@@ -209,12 +267,14 @@ related_practices:
 - Two-pass rendering for layered elements
 - Smart metadata loading on interaction
 - Efficient metadata caching system
+- Optimized canvas resizing and scaling
 
 ### Mobile Support
 - Responsive layout adjustments
 - Touch gesture handling
 - Performance considerations
 - Adaptive UI elements
+- Panel-aware viewport sizing
 
 ## Development Workflow
 
@@ -235,6 +295,7 @@ http://localhost:5000
 - State logging in browser console
 - Network tab for data loading
 - Metadata state inspection
+- Layout inspection tools
 
 ## Future Enhancements
 
@@ -247,4 +308,5 @@ Planned features:
 - WebGL rendering for larger datasets
 - Progressive loading for mobile
 - Additional theme customization options
-- Enhanced accessibility features 
+- Enhanced accessibility features
+- Advanced layout customization options

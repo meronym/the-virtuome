@@ -15,7 +15,9 @@
                 </div>
                 <div id="tree-panel"></div>
             </div>
-            <canvas id="visualization"></canvas>
+            <div class="canvas-container">
+                <canvas id="visualization"></canvas>
+            </div>
             <aside id="settings-panel">
                 <div class="sidebar-header">
                     <h3>Settings</h3>
@@ -48,7 +50,7 @@
                         </div>
                         <div class="input-group">
                             <label for="umap_d">Min Distance</label>
-                            <input type="number" id="umap_d" value="0.1" min="0" step="0.1">
+                            <input type="number" id="umap_d" value="0.1" min="0" step="0.01">
                         </div>
                         <button id="generate-umap">Generate UMAP</button>
                     </div>
@@ -64,7 +66,7 @@
                         </div>
                         <div class="input-group">
                             <label for="u_d">Min Distance</label>
-                            <input type="number" id="u_d" value="0.1" min="0" step="0.1">
+                            <input type="number" id="u_d" value="0.1" min="0" step="0.01">
                         </div>
                     </div>
                     <div class="param-group">
@@ -92,10 +94,15 @@
                     <div class="controls-footer">
                         <button id="generate-clusters">Generate Clusters</button>
                         <div id="cluster-info" class="cluster-info"></div>
-                        <label class="cluster-toggle">
-                            <input type="checkbox" id="show-clusters">
-                            Show Clusters
-                        </label>
+                        <div class="cluster-controls">
+                            <label class="cluster-toggle">
+                                <input type="checkbox" id="show-clusters">
+                                Show Clusters
+                            </label>
+                            <button id="randomize-cluster-colors" class="icon-button">
+                                Randomize Cluster Colors
+                            </button>
+                        </div>
                     </div>
                 </div>
             </aside>
@@ -123,4 +130,4 @@
         });
     </script>
 </body>
-</html> 
+</html>

@@ -22,6 +22,7 @@ class App {
         this.events = new EventHandler(this.canvas, this.transform, this.renderer, this.dataLoader);
         
         this.setupUI();
+        this.loadSettings(); // Load saved settings before setting up listeners
         this.setupEventListeners();
         this.setupControls();
     }
@@ -50,6 +51,11 @@ class App {
         this.generateUmapButton = document.getElementById('generate-umap');
         this.zoomInfo = document.getElementById('zoom-info');
         
+        // UMAP clustering controls
+        this.clusterUmapDimInput = document.getElementById('u_dim');
+        this.clusterUmapNInput = document.getElementById('u_n');
+        this.clusterUmapDInput = document.getElementById('u_d');
+        
         // HDBSCAN controls
         this.hdbsMinClusterSizeInput = document.getElementById('hdbs_min_cluster_size');
         this.hdbsMinSamplesInput = document.getElementById('hdbs_min_samples');
@@ -57,6 +63,24 @@ class App {
         this.hdbsEpsilonInput = document.getElementById('hdbs_epsilon');
         this.generateClustersButton = document.getElementById('generate-clusters');
         this.clusterInfo = document.getElementById('cluster-info');
+
+        // Add change listeners to save settings
+        const inputsToWatch = [
+            this.providerSelect,
+            this.umapNInput,
+            this.umapDInput,
+            this.clusterUmapDimInput,
+            this.clusterUmapNInput,
+            this.clusterUmapDInput,
+            this.hdbsMinClusterSizeInput,
+            this.hdbsMinSamplesInput,
+            this.hdbsMethodSelect,
+            this.hdbsEpsilonInput
+        ];
+
+        inputsToWatch.forEach(input => {
+            input.addEventListener('change', () => this.saveSettings());
+        });
         
         // Handle mobile settings panel visibility
         if (window.innerWidth <= 768) {
@@ -143,6 +167,73 @@ class App {
         showClustersCheckbox.addEventListener('change', (e) => {
             this.renderer.toggleClusters(e.target.checked);
         });
+
+        // Setup cluster color randomization
+        const randomizeColorsButton = document.getElementById('randomize-cluster-colors');
+        randomizeColorsButton.addEventListener('click', () => {
+            this.renderer.randomizeClusterColors();
+        });
+    }
+
+    loadSettings() {
+        try {
+            const settings = JSON.parse(localStorage.getItem('virtuomeSettings'));
+            if (settings) {
+                // Load provider
+                if (settings.provider) {
+                    this.providerSelect.value = settings.provider;
+                }
+                
+                // Load UMAP settings
+                if (settings.umap) {
+                    this.umapNInput.value = settings.umap.n;
+                    this.umapDInput.value = settings.umap.d;
+                }
+                
+                // Load clustering UMAP settings
+                if (settings.clusterUmap) {
+                    this.clusterUmapDimInput.value = settings.clusterUmap.dim;
+                    this.clusterUmapNInput.value = settings.clusterUmap.n;
+                    this.clusterUmapDInput.value = settings.clusterUmap.d;
+                }
+                
+                // Load HDBSCAN settings
+                if (settings.hdbscan) {
+                    this.hdbsMinClusterSizeInput.value = settings.hdbscan.minClusterSize;
+                    this.hdbsMinSamplesInput.value = settings.hdbscan.minSamples;
+                    this.hdbsMethodSelect.value = settings.hdbscan.method;
+                    this.hdbsEpsilonInput.value = settings.hdbscan.epsilon;
+                }
+            }
+        } catch (error) {
+            console.error('Failed to load settings:', error);
+        }
+    }
+
+    saveSettings() {
+        try {
+            const settings = {
+                provider: this.providerSelect.value,
+                umap: {
+                    n: this.umapNInput.value,
+                    d: this.umapDInput.value
+                },
+                clusterUmap: {
+                    dim: this.clusterUmapDimInput.value,
+                    n: this.clusterUmapNInput.value,
+                    d: this.clusterUmapDInput.value
+                },
+                hdbscan: {
+                    minClusterSize: this.hdbsMinClusterSizeInput.value,
+                    minSamples: this.hdbsMinSamplesInput.value,
+                    method: this.hdbsMethodSelect.value,
+                    epsilon: this.hdbsEpsilonInput.value
+                }
+            };
+            localStorage.setItem('virtuomeSettings', JSON.stringify(settings));
+        } catch (error) {
+            console.error('Failed to save settings:', error);
+        }
     }
 
     async generateUmap() {
@@ -201,9 +292,9 @@ class App {
             const provider = this.providerSelect.value;
             const params = {
                 provider,
-                u_dim: 2,  // We're always using 2D for visualization
-                u_n: parseInt(this.umapNInput.value),
-                u_d: parseFloat(this.umapDInput.value),
+                u_dim: parseInt(this.clusterUmapDimInput.value),
+                u_n: parseInt(this.clusterUmapNInput.value),
+                u_d: parseFloat(this.clusterUmapDInput.value),
                 hdbs_min_cluster_size: parseInt(this.hdbsMinClusterSizeInput.value),
                 hdbs_min_samples: parseInt(this.hdbsMinSamplesInput.value),
                 hdbs_method: this.hdbsMethodSelect.value,

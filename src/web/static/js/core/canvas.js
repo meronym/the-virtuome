@@ -69,19 +69,36 @@ export class CanvasRenderer {
     
     resize() {
         const rect = this.canvas.getBoundingClientRect();
-        this.canvas.width = rect.width * window.devicePixelRatio;
-        this.canvas.height = rect.height * window.devicePixelRatio;
-        this.ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
+        const dpr = window.devicePixelRatio;
+        
+        // Set the canvas dimensions to match its CSS size * device pixel ratio
+        this.canvas.width = rect.width * dpr;
+        this.canvas.height = rect.height * dpr;
+        
+        // Scale the context to handle the device pixel ratio
+        this.ctx.scale(dpr, dpr);
+        
+        // Set the canvas CSS size explicitly to match its container
+        this.canvas.style.width = `${rect.width}px`;
+        this.canvas.style.height = `${rect.height}px`;
     }
     
     generateClusterColors(n) {
-        // Generate visually distinct colors using HSL
+        // Generate visually distinct colors using HSL with random offsets
+        const startHue = Math.random() * 360; // Random starting hue
         this.clusterColors = Array.from({length: Math.max(n, 1)}, (_, i) => {
-            const hue = (i * 137.508) % 360; // Golden angle in degrees
+            const hue = (startHue + i * 137.508) % 360; // Golden angle with random start
             return {
                 fill: `hsla(${hue}, 70%, 60%, 0.25)`  // Slightly more opaque since we're not using stroke
             };
         });
+        this.render(); // Re-render to show new colors
+    }
+    
+    randomizeClusterColors() {
+        if (this.clusters) {
+            this.generateClusterColors(this.clusters.metadata.num_clusters);
+        }
     }
     
     setSelectedPoint(pointId) {

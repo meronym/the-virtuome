@@ -97,7 +97,27 @@ main {
     flex: 1;
     position: relative;
     overflow: hidden;
-    margin-right: 300px;
+    display: flex;
+    margin-right: 300px; /* Space for settings panel */
+}
+
+#left-panel {
+    position: relative;
+    width: var(--details-width);
+    min-width: var(--details-width);
+    border-right: 1px solid var(--border-color);
+    background: var(--tree-bg);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Canvas container */
+.canvas-container {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    min-width: 0; /* Allow flex container to shrink */
 }
 
 #settings-panel {
@@ -106,6 +126,7 @@ main {
     top: 0;
     bottom: 0;
     width: 300px;
+    min-width: 300px;
     background: var(--details-bg);
     border-left: 1px solid var(--border-color);
     overflow-y: auto;
@@ -345,19 +366,6 @@ select {
     animation: button-loading-spinner 0.75s linear infinite;
 }
 
-#left-panel {
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    background: var(--bg-color);
-    border-right: 1px solid var(--border-color);
-    z-index: 1;
-}
-
 #tree-panel {
     flex: 1;
     overflow-y: auto;
@@ -559,13 +567,10 @@ select {
 }
 
 #visualization {
-    position: absolute;
-    top: 0;
-    left: 300px;
-    right: 0;
+    width: 100%;
     height: 100%;
+    display: block;
     cursor: grab;
-    margin-right: 0;
 }
 
 #visualization:active {
