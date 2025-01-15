@@ -14,9 +14,10 @@ export class CanvasRenderer {
         this.listeners = new Map();
         this.animationFrame = null;
         this.pointRadius = 4;  // Base point radius
+        this.clusterRadius = 16;  // Base cluster radius in screen pixels (6x point radius)
         
-        // Generate distinct colors for clusters
-        this.generateClusterColors(20);
+        // Generate initial set of cluster colors
+        this.generateClusterColors(20);  // Pre-generate some colors
         
         // Store reference to this renderer on the canvas element
         canvas.__renderer = this;
@@ -75,10 +76,33 @@ export class CanvasRenderer {
         // Generate visually distinct colors using HSL
         this.clusterColors = Array.from({length: n}, (_, i) => {
             const hue = (i * 137.508) % 360; // Golden angle in degrees
-            return `hsl(${hue}, 70%, 60%)`; // Moderate saturation and lightness
+            return {
+                fill: `hsla(${hue}, 70%, 60%, 0.2)`,  // More opaque for better visibility
+                stroke: `hsla(${hue}, 70%, 60%, 0.3)`   // Slightly more visible edges
+            };
         });
         // Add color for noise points (-1)
-        this.clusterColors[-1] = 'rgba(150, 150, 150, 0.5)';
+        this.clusterColors[-1] = {
+            fill: 'rgba(150, 150, 150, 0.05)',
+            stroke: 'rgba(150, 150, 150, 0.1)'
+        };
+    }
+    
+    drawClusterBackground(x, y, cluster) {
+        const ctx = this.ctx;
+        // Use data coordinates directly - no need to divide by scale
+        const radius = this.clusterRadius;
+        
+        ctx.beginPath();
+        ctx.arc(x, y, radius, 0, Math.PI * 2);
+        
+        const colors = this.clusterColors[cluster] || this.clusterColors[-1];  // Fallback to noise colors
+        ctx.fillStyle = colors.fill;
+        ctx.strokeStyle = colors.stroke;
+        ctx.lineWidth = 0.001;  // Very thin line in data coordinates
+        
+        ctx.fill();
+        ctx.stroke();
     }
     
     setData(points, clusters = null) {
@@ -102,68 +126,62 @@ export class CanvasRenderer {
         ctx.beginPath();
         ctx.arc(x, y, radius, 0, Math.PI * 2);
         
-        // Determine point color
-        if (this.showClusters && this.clusters) {
-            const cluster = this.clusters.points[pointId]?.cluster ?? -1;
-            ctx.fillStyle = this.clusterColors[cluster];
+        // Use original color logic based on point state
+        if (pointId === this.selectedPoint) {
+            // Selected point: larger with glow and color variations
+            const baseColor = TreeVisualizer.getColor(pointId);
+            
+            // Create color variations with more pronounced differences
+            const glowColor = `hsl(${baseColor.h}, ${Math.min(baseColor.s + 20, 100)}%, ${Math.min(baseColor.l + 5, 90)}%)`;
+            const fillColor = `hsl(${baseColor.h}, ${Math.min(baseColor.s + 25, 100)}%, ${baseColor.l}%)`;
+            const borderColor = `hsl(${baseColor.h}, ${Math.min(baseColor.s + 15, 100)}%, ${Math.max(baseColor.l - 15, 20)}%)`;
+            
+            // Draw outer glow
+            ctx.shadowColor = glowColor;
+            ctx.shadowBlur = 15;
+            ctx.shadowOffsetX = 0;
+            ctx.shadowOffsetY = 0;
+            
+            // Fill with more saturated base color
+            ctx.fillStyle = fillColor;
+            ctx.fill();
+            
+            // Add darker border of the same hue
+            ctx.lineWidth = 2;
+            ctx.strokeStyle = borderColor;
+            ctx.stroke();
+            
+            // Add subtle outer ring
+            ctx.beginPath();
+            ctx.arc(x, y, radius * 1.2, 0, Math.PI * 2);
+            ctx.strokeStyle = glowColor.replace(')', ', 0.3)').replace('hsl', 'hsla');
+            ctx.lineWidth = 1;
+            ctx.stroke();
+            
+            // Reset shadow for other points
+            ctx.shadowBlur = 0;
+            return; // Exit early as we've handled all rendering for selected point
+        } else if (pointId === this.hoveredPoint) {
+            // Hovered point: brighter with glow
+            const baseColor = TreeVisualizer.getColor(pointId);
+            ctx.fillStyle = `hsl(${baseColor.h}, ${baseColor.s}%, ${baseColor.l}%)`;
+            ctx.lineWidth = 2.5;
+            ctx.strokeStyle = 'rgba(255, 255, 255, 0.8)';
+            
+            // Add outer glow
+            ctx.shadowColor = 'rgba(255, 255, 255, 0.5)';
+            ctx.shadowBlur = 8;
         } else {
-            // Use original color logic based on point state
-            if (pointId === this.selectedPoint) {
-                // Selected point: larger with glow and color variations
-                const baseColor = TreeVisualizer.getColor(pointId);
-                
-                // Create color variations with more pronounced differences
-                const glowColor = `hsl(${baseColor.h}, ${Math.min(baseColor.s + 20, 100)}%, ${Math.min(baseColor.l + 5, 90)}%)`;
-                const fillColor = `hsl(${baseColor.h}, ${Math.min(baseColor.s + 25, 100)}%, ${baseColor.l}%)`;
-                const borderColor = `hsl(${baseColor.h}, ${Math.min(baseColor.s + 15, 100)}%, ${Math.max(baseColor.l - 15, 20)}%)`;
-                
-                // Draw outer glow
-                ctx.shadowColor = glowColor;
-                ctx.shadowBlur = 15;
-                ctx.shadowOffsetX = 0;
-                ctx.shadowOffsetY = 0;
-                
-                // Fill with more saturated base color
-                ctx.fillStyle = fillColor;
-                ctx.fill();
-                
-                // Add darker border of the same hue
-                ctx.lineWidth = 2;
-                ctx.strokeStyle = borderColor;
-                ctx.stroke();
-                
-                // Add subtle outer ring
-                ctx.beginPath();
-                ctx.arc(x, y, radius * 1.2, 0, Math.PI * 2);
-                ctx.strokeStyle = glowColor.replace(')', ', 0.3)').replace('hsl', 'hsla');
-                ctx.lineWidth = 1;
-                ctx.stroke();
-                
-                // Reset shadow for other points
-                ctx.shadowBlur = 0;
-                return; // Exit early as we've handled all rendering for selected point
-            } else if (pointId === this.hoveredPoint) {
-                // Hovered point: brighter with glow
-                const baseColor = TreeVisualizer.getColor(pointId);
-                ctx.fillStyle = `hsl(${baseColor.h}, ${baseColor.s}%, ${baseColor.l}%)`;
-                ctx.lineWidth = 2.5;
-                ctx.strokeStyle = 'rgba(255, 255, 255, 0.8)';
-                
-                // Add outer glow
-                ctx.shadowColor = 'rgba(255, 255, 255, 0.5)';
-                ctx.shadowBlur = 8;
-            } else {
-                // Normal point: use tree color with some transparency
-                const baseColor = TreeVisualizer.getColor(pointId);
-                ctx.fillStyle = `hsla(${baseColor.h}, ${baseColor.s}%, ${baseColor.l}%, 0.7)`;
-            }
+            // Normal point: use tree color with some transparency
+            const baseColor = TreeVisualizer.getColor(pointId);
+            ctx.fillStyle = `hsla(${baseColor.h}, ${baseColor.s}%, ${baseColor.l}%, 0.7)`;
         }
         
-        // Fill the point (for non-selected points or cluster mode)
+        // Fill the point
         ctx.fill();
         
-        // Add stroke for hovered points in non-cluster mode
-        if (!this.showClusters && pointId === this.hoveredPoint) {
+        // Add stroke for hovered points
+        if (pointId === this.hoveredPoint) {
             ctx.stroke();
         }
         
@@ -261,7 +279,39 @@ export class CanvasRenderer {
                 this.points : 
                 Object.entries(this.points);
             
-            // First pass: Draw halos for pinned nodes' descendants
+            // First pass: Draw cluster backgrounds if enabled
+            if (this.showClusters && this.clusters) {
+                for (const [id, point] of pointEntries) {
+                    // Convert to screen coordinates like we do for points
+                    const [screenX, screenY] = this.transform.toScreen(point.x, point.y);
+                    
+                    // Use wider padding for cluster backgrounds
+                    const padding = this.clusterRadius;  // No need to scale padding
+                    if (screenX < -padding || screenX > width + padding ||
+                        screenY < -padding || screenY > height + padding) {
+                        continue;
+                    }
+
+                    const cluster = this.clusters.points[id]?.cluster ?? -1;
+                    
+                    // Draw cluster background in screen coordinates
+                    const ctx = this.ctx;
+                    const radius = this.clusterRadius;  // No need to scale radius
+                    
+                    ctx.beginPath();
+                    ctx.arc(screenX, screenY, radius, 0, Math.PI * 2);
+                    
+                    const colors = this.clusterColors[cluster] || this.clusterColors[-1];
+                    ctx.fillStyle = colors.fill;
+                    ctx.strokeStyle = colors.stroke;
+                    ctx.lineWidth = 0.5;  // Thinner line for subtler edges
+                    
+                    ctx.fill();
+                    ctx.stroke();
+                }
+            }
+            
+            // Second pass: Draw halos for pinned nodes' descendants
             for (const [id, point] of pointEntries) {
                 const [screenX, screenY] = this.transform.toScreen(point.x, point.y);
                 
@@ -301,7 +351,7 @@ export class CanvasRenderer {
                 }
             }
             
-            // Second pass: Draw all points (without labels)
+            // Third pass: Draw all points (without labels)
             for (const [id, point] of pointEntries) {
                 const [screenX, screenY] = this.transform.toScreen(point.x, point.y);
                 
@@ -315,7 +365,7 @@ export class CanvasRenderer {
                 this.drawPoint(screenX, screenY, id, true);  // Skip labels in this pass
             }
 
-            // Third pass: Draw label for hovered point only
+            // Fourth pass: Draw label for hovered point only
             if (this.hoveredPoint) {
                 const point = this.points[this.hoveredPoint];
                 if (point) {
