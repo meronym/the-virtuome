@@ -134,10 +134,43 @@ select {
     background: var(--details-bg);
     color: var(--text-color);
     cursor: pointer;
+    position: relative;
 }
 
 .clustering-controls button:hover {
     background: var(--tree-hover-bg);
+}
+
+.clustering-controls button:disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+.clustering-controls button.loading {
+    color: transparent;
+}
+
+.clustering-controls button.loading::after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    left: 50%;
+    margin: -8px 0 0 -8px;
+    border: 2px solid var(--text-color);
+    border-right-color: transparent;
+    border-radius: 50%;
+    animation: button-loading-spinner 0.75s linear infinite;
+}
+
+@keyframes button-loading-spinner {
+    from {
+        transform: rotate(0turn);
+    }
+    to {
+        transform: rotate(1turn);
+    }
 }
 
 main {

@@ -4,6 +4,7 @@ import os
 import argparse
 import yaml  # Add PyYAML import
 import json
+import time
 
 # Add argument parser
 parser = argparse.ArgumentParser(description='Start the Flask server with a specific data version')
@@ -135,6 +136,9 @@ def generate_clusters():
         provider_dir = os.path.join(DATA_DIR, provider)
         with open(os.path.join(provider_dir, 'pca', 'pca.json'), 'r') as f:
             points_data = json.load(f)
+            
+        # Simulate processing time
+        time.sleep(5)
             
         # Randomly assign points to 10 clusters (0-9)
         import random

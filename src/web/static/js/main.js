@@ -247,6 +247,12 @@ class App {
         const foo = parseFloat(this.fooInput.value);
         const bar = parseFloat(this.barInput.value);
 
+        // Disable inputs and show loading state
+        this.fooInput.disabled = true;
+        this.barInput.disabled = true;
+        this.generateClustersButton.disabled = true;
+        this.generateClustersButton.classList.add('loading');
+
         try {
             const response = await fetch('/api/cluster', {
                 method: 'POST',
@@ -279,6 +285,12 @@ class App {
         } catch (error) {
             console.error('Failed to generate clusters:', error);
             this.showError('Failed to generate clusters');
+        } finally {
+            // Re-enable inputs and remove loading state
+            this.fooInput.disabled = false;
+            this.barInput.disabled = false;
+            this.generateClustersButton.disabled = false;
+            this.generateClustersButton.classList.remove('loading');
         }
     }
 }
