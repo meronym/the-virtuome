@@ -1,0 +1,44 @@
+id: wa-shinto
+name: Wa
+tradition: shinto
+script:
+  japanese: 和
+  kanji: 和
+  hiragana: わ
+  romaji: wa
+category: social_virtue
+subcategory: harmony
+related_concepts:
+- musubi
+- chowa
+- kyosei
+period: classical_japanese
+source_texts:
+- seventeen_article_constitution
+- shrine_traditions
+- imperial_edicts
+type: virtue
+scope: communal
+orientation: balanced
+post_length: 799
+title: Wa (和) - Harmony
+definition: Wa represents the principle of harmonious relationship and peaceful unity
+  among people, with nature, and with kami, distinct from mere conformity.
+key_aspects:
+- Social harmony
+- Natural balance
+- Divine accordance
+- Peaceful cooperation
+- Creative integration
+historical_development: Ancient Japanese concept, formalized in Prince Shōtoku's constitution,
+  evolved through various historical periods.
+contemporary_relevance: Fundamental to Japanese social organization, business practices,
+  and conflict resolution approaches.
+notable_quotes:
+- '"Wa wo motte tōtoshi to nasu" (Harmony is to be valued)'
+- '"Wa no kokoro" (The spirit of harmony)'
+related_practices:
+- Consensus building
+- Community festivals
+- Collaborative work
+- Environmental stewardship

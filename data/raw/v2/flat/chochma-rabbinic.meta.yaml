@@ -1,0 +1,47 @@
+id: chochma-rabbinic
+name: Chochma
+tradition: rabbinic_jewish
+script:
+  hebrew: חכמה
+  transliteration: chochma/ḥokhmah
+  alternative: chokmah, hokhmah
+category: intellectual_virtue
+subcategory: wisdom
+related_concepts:
+- binah
+- daat
+- mussar
+- sekhel
+period: rabbinic
+source_texts:
+- mishle
+- pirkei_avot
+- talmud_bavli
+- midrash_rabbah
+type: virtue
+scope: universal
+orientation: active
+post_length: 921
+title: Chochma (חכמה) - Wisdom
+definition: Divine wisdom manifested through human understanding and action; the integration
+  of knowledge, understanding, and proper conduct.
+key_aspects:
+- Integration of knowledge and practice
+- Divine wisdom in human affairs
+- Ethical discernment
+- Practical judgment
+- Life wisdom
+historical_development: Developed from biblical wisdom literature through rabbinic
+  interpretation, becoming central to rabbinic thought as the integration of Torah
+  knowledge with practical living.
+contemporary_relevance: Guides modern Jewish approaches to education, ethical decision-making,
+  and personal development.
+notable_quotes:
+- '"Who is wise? One who learns from every person." - Pirkei Avot 4:1'
+- '"The crown of wisdom is fear of God." - Talmud, Shabbat 31b'
+related_practices:
+- Torah study
+- Ethical deliberation
+- Seeking counsel
+- Teaching others
+- Practical application of learning

@@ -1,0 +1,45 @@
+id: jung-korean-neoconfucian
+name: Jung
+tradition: korean_neoconfucian
+script:
+  hangeul: 중
+  hanja: 中
+  romanization: jung
+  classical_chinese: 中
+category: regulatory_virtue
+subcategory: balance
+related_concepts:
+- ye
+- gyeong
+- seong
+- suyang
+period: joseon_dynasty
+source_texts:
+- jungyong
+- seonghak_sipdo
+- yulgok_jeonseo
+type: virtue
+scope: universal
+orientation: balanced
+post_length: 803
+title: Jung (중/中) - Balance/Mean
+definition: The virtue of maintaining proper balance and harmony, representing the
+  ability to find and maintain the appropriate middle way in all situations.
+key_aspects:
+- Equilibrium
+- Moderation
+- Appropriate measure
+- Harmonious balance
+- Situational propriety
+historical_development: Developed in Korean Neo-Confucianism as a key principle for
+  both personal cultivation and social harmony.
+contemporary_relevance: Influences modern Korean approaches to conflict resolution
+  and personal development.
+notable_quotes:
+- '"The mean is the foundation of all things." - From Jungyong'
+- '"Without balance, virtue becomes excess." - Neo-Confucian teaching'
+related_practices:
+- Balanced judgment
+- Moderate action
+- Harmonious relationships
+- Ethical deliberation

@@ -1,0 +1,44 @@
+id: innovation-responsibility
+name: Innovation Responsibility
+tradition: business_ethics
+script:
+  english: innovation responsibility
+  latin_roots: innovare + responsabilis
+category: emerging_virtue
+subcategory: technological_ethics
+related_concepts:
+- ethical_innovation
+- responsible_development
+- sustainable_innovation
+- precautionary_principle
+period: contemporary_business
+source_texts:
+- technology_ethics_frameworks
+- responsible_innovation_guidelines
+- digital_ethics_codes
+type: virtue
+scope: organizational
+orientation: active
+post_length: 942
+title: Innovation Responsibility - Ethical Progress
+definition: Innovation Responsibility represents the ethical obligation to develop
+  and implement new technologies and business models with consideration for their
+  broader societal and environmental impacts.
+key_aspects:
+- Ethical innovation
+- Impact assessment
+- Stakeholder consideration
+- Risk management
+- Sustainable development
+historical_development: Emerged from technological ethics and responsible development
+  frameworks in response to rapid technological advancement.
+contemporary_relevance: Critical for ensuring technological progress aligns with human
+  values and societal wellbeing in the digital age.
+notable_quotes:
+- '"Innovation without ethics is blind; ethics without innovation is empty."'
+- '"Move fast and fix things." - Modified Silicon Valley motto'
+related_practices:
+- Impact assessment
+- Stakeholder consultation
+- Ethical design
+- Responsible development

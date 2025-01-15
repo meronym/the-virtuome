@@ -1,0 +1,43 @@
+id: praktische-vernunft-kantian
+name: Praktische Vernunft
+tradition: kantian
+script:
+  german: Praktische Vernunft
+  transliteration: n/a
+  latin: ratio practica
+category: cognitive_virtue
+subcategory: moral_reasoning
+related_concepts:
+- reine_vernunft
+- urteilskraft
+- verstand
+period: enlightenment
+source_texts:
+- critique_of_practical_reason
+- groundwork_of_the_metaphysics_of_morals
+type: virtue
+scope: universal
+orientation: active
+post_length: 1008
+title: Praktische Vernunft (Practical Reason)
+definition: The faculty of reason in its practical employment, determining the will
+  through moral laws and enabling moral judgment and action.
+key_aspects:
+- Moral reasoning capacity
+- Practical judgment
+- Determination of will
+- Application of moral law
+- Ethical decision-making
+historical_development: Developed extensively in the Critique of Practical Reason,
+  building on Kant's critical philosophy and moral theory.
+contemporary_relevance: Essential for modern ethical decision-making frameworks and
+  moral philosophy. Influences approaches to practical ethics and professional judgment.
+notable_quotes:
+- '"Pure reason is practical of itself alone and gives (to man) a universal law which
+  we call the moral law." - Critique of Practical Reason'
+- '"Practical reason concerns itself with grounds determining the will." - Groundwork'
+related_practices:
+- Moral deliberation
+- Ethical problem-solving
+- Principle application
+- Rational decision-making

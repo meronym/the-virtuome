@@ -1,0 +1,44 @@
+id: phronesis-presocratic
+name: Phronēsis
+tradition: presocratic
+script:
+  greek: φρόνησις
+  transliteration: phronēsis
+  alternate: phronēsis (Ionic)
+category: intellectual_virtue
+subcategory: practical_wisdom
+related_concepts:
+- sophia
+- synesis
+- nous
+- metis
+period: early_greek
+source_texts:
+- heraclitus_fragments
+- democritus_texts
+- pythagorean_writings
+type: virtue
+scope: practical
+orientation: active
+post_length: 851
+title: Phronēsis (φρόνησις) - Practical Wisdom
+definition: The capacity for practical wisdom and good judgment in human affairs,
+  combining understanding of universal principles with practical application.
+key_aspects:
+- Practical judgment
+- Applied wisdom
+- Situational understanding
+- Ethical reasoning
+- Action guidance
+historical_development: Early development in Pre-Socratic thought as bridge between
+  theoretical wisdom and practical action.
+contemporary_relevance: Influences modern concepts of practical reasoning, professional
+  judgment, and applied ethics.
+notable_quotes:
+- '"Thinking well is the greatest excellence." - Democritus'
+- '"Understanding requires both knowledge and action." - Pre-Socratic teaching'
+related_practices:
+- Deliberative decision-making
+- Ethical judgment
+- Practical problem-solving
+- Experiential learning

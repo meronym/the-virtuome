@@ -1,0 +1,48 @@
+id: disciplina-stoic
+name: Disciplina
+tradition: stoic
+script:
+  latin: disciplina
+  greek: ἄσκησις
+  greek_transliteration: askesis
+category: practical_virtue
+subcategory: self_development
+related_concepts:
+- exercitatio
+- meditatio
+- praxis
+- studium
+period: hellenistic_roman
+source_texts:
+- enchiridion
+- discourses
+- meditations
+- epistulae_morales
+type: virtue
+scope: personal
+orientation: active
+post_length: 1033
+title: Disciplina - Self-Discipline
+definition: Disciplina represents the systematic practice and training of mind and
+  character through daily exercises and adherence to philosophical principles.
+key_aspects:
+- Regular philosophical practice
+- Systematic self-improvement
+- Control over impulses
+- Daily ethical exercises
+- Continuous learning
+historical_development: Central to Stoic practice from early period, particularly
+  systematized by Epictetus and developed through Roman military metaphors.
+contemporary_relevance: Fundamental to personal development, habit formation, and
+  achievement of long-term goals. Essential for professional excellence.
+notable_quotes:
+- '"Every day and night keep thoughts like these at hand - write them, read them aloud,
+  talk to yourself and others about them." - Epictetus'
+- '"Waste no more time arguing about what a good man should be. Be one." - Marcus
+  Aurelius'
+related_practices:
+- Morning preparation
+- Evening review
+- Philosophical journaling
+- Voluntary hardship
+- Regular study

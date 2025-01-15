@@ -1,0 +1,45 @@
+id: treue-guild
+name: Treue
+tradition: guild_ethics
+script:
+  middle_high_german: triuwe
+  modern_german: Treue
+  latin: fidelitas
+category: relational_virtue
+subcategory: loyalty
+related_concepts:
+- gemeinschaftsgeist
+- pflichtbewusstsein
+- ehrenhaftigkeit
+period: medieval_european
+source_texts:
+- guild_oaths
+- brotherhood_books
+- guild_statutes
+type: virtue
+scope: communal
+orientation: relational
+post_length: 983
+title: Treue (Loyalty/Fidelity)
+definition: Treue represents multi-directional loyalty and fidelity within the guild
+  system, encompassing commitment to craft tradition, community, and professional
+  standards.
+key_aspects:
+- Craft tradition fidelity
+- Community loyalty
+- Professional commitment
+- Mutual obligation
+- Institutional faithfulness
+historical_development: Emerged from feudal concepts of loyalty, adapted to urban
+  professional contexts. Became cornerstone of guild social structure.
+contemporary_relevance: Influences modern professional ethics, organizational loyalty,
+  and institutional commitment. Important in discussions of professional identity.
+notable_quotes:
+- '"Faithful to craft, faithful to brothers, faithful to city." - Guild oath'
+- '"In loyalty lies the strength of our craft." - Traditional guild maxim'
+related_practices:
+- Oath-taking ceremonies
+- Mutual aid obligations
+- Guild feast participation
+- Collective defense
+- Trade secret protection

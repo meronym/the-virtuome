@@ -1,0 +1,43 @@
+id: philomathia-pythagorean
+name: Philomathia
+tradition: pythagorean
+script:
+  greek: φιλομαθία
+  transliteration: philomathia
+  latin: amor_scientiae
+category: intellectual_virtue
+subcategory: love_of_learning
+related_concepts:
+- sophia
+- episteme
+- mathesis
+period: ancient_greek
+source_texts:
+- pythagorean_teachings
+- iamblichus_commentaries
+- archytas_fragments
+type: virtue
+scope: personal
+orientation: active
+post_length: 849
+title: Philomathia (φιλομαθία) - Love of Learning
+definition: The Pythagorean virtue of dedicated pursuit of knowledge, particularly
+  mathematical and philosophical understanding, as a path to wisdom.
+key_aspects:
+- Mathematical study
+- Philosophical inquiry
+- Systematic learning
+- Intellectual curiosity
+- Progressive development
+historical_development: Fundamental to Pythagorean education system, emphasizing mathematics
+  as the bridge between practical and divine knowledge.
+contemporary_relevance: Relevant to modern educational philosophy and lifelong learning
+  approaches.
+notable_quotes:
+- '"Number is the ruler of forms and ideas." - Pythagorean principle'
+- '"Learning is remembering." - Attributed to Pythagorean teaching'
+related_practices:
+- Mathematical study
+- Scientific observation
+- Regular contemplation
+- Knowledge sharing

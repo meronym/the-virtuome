@@ -1,0 +1,45 @@
+id: wantok-melanesian
+name: Wantok Fidelity
+tradition: melanesian
+script:
+  tok_pisin: wantok
+  multiple_variations: true
+  note: Term varies across Melanesian languages but 'wantok' is widely recognized
+category: social_virtue
+subcategory: kinship_obligation
+related_concepts:
+- reciprocal_duty
+- clan_loyalty
+- social_harmony
+period: traditional_continuing
+source_texts:
+- oral_traditions
+- customary_law
+- social_practices
+type: virtue
+scope: communal
+orientation: active
+post_length: 1007
+title: Wantok Fidelity - Kinship Obligation
+definition: The fundamental virtue of maintaining and honoring reciprocal kinship
+  obligations within extended social networks, forming the basis of social harmony
+  and collective wellbeing.
+key_aspects:
+- Mutual support obligations
+- Network loyalty
+- Resource sharing
+- Collective responsibility
+- Social security maintenance
+historical_development: Ancient practice evolving from traditional clan structures,
+  adapted to modern contexts while maintaining core principles of mutual obligation.
+contemporary_relevance: Continues to shape social relations, economic behavior, and
+  moral decisions in modern Melanesian societies, including urban contexts.
+notable_quotes:
+- '"Wantok em i namba wan" (Kinship comes first) - Common Tok Pisin saying'
+- '"The strength of the clan is in its bonds" - Traditional wisdom'
+related_practices:
+- Gift exchange networks
+- Mutual aid systems
+- Collective problem-solving
+- Resource distribution
+- Crisis support networks

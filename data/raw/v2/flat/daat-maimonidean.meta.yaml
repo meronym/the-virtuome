@@ -1,0 +1,47 @@
+id: daat-maimonidean
+name: Da'at
+tradition: maimonidean
+script:
+  hebrew: דעת
+  transliteration: da'at
+  alternate: daas (Ashkenazi)
+category: intellectual_virtue
+subcategory: wisdom
+related_concepts:
+- chochma
+- binah
+- yediat_hashem
+period: medieval_jewish
+source_texts:
+- moreh_nevuchim
+- mishneh_torah
+- shemonah_perakim
+type: virtue
+scope: intellectual-spiritual
+orientation: active
+post_length: 1245
+title: Da'at (דעת) - Knowledge/Wisdom
+definition: Da'at represents integrated, internalized knowledge that combines theoretical
+  understanding with practical wisdom, leading to proper action and spiritual development.
+key_aspects:
+- Integration of theoretical and practical knowledge
+- Unity of intellectual and spiritual understanding
+- Application of wisdom to action
+- Foundation for divine knowledge
+- Synthesis of reason and tradition
+historical_development: While present in biblical and rabbinic literature, Maimonides
+  elevated Da'at to a central position in his philosophical system, integrating Greek
+  philosophical concepts with traditional Jewish understanding.
+contemporary_relevance: Influences modern approaches to Jewish education, ethical
+  decision-making, and the integration of secular and religious knowledge.
+notable_quotes:
+- '"Knowledge of God is the ultimate form of perfection." - Guide for the Perplexed,
+  III:54'
+- '"Without knowledge, there can be no understanding; without understanding, there
+  can be no knowledge." - Mishneh Torah, Hilchot Yesodei HaTorah'
+related_practices:
+- Regular Torah study
+- Philosophical contemplation
+- Scientific investigation
+- Ethical reasoning
+- Practical application of knowledge

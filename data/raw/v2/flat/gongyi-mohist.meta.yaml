@@ -1,0 +1,43 @@
+id: gongyi-mohist
+name: Gōngyì
+tradition: mohist
+script:
+  chinese: 公義
+  pinyin: gōngyì
+  wade_giles: kung-i
+category: ethical_principle
+subcategory: impartial_justice
+related_concepts:
+- jianai
+- qunli
+- shanxian
+period: warring_states
+source_texts:
+- mozi
+- mohist_ethical_writings
+type: virtue
+scope: universal
+orientation: balanced
+post_length: 853
+title: Gōngyì (公義) - Impartial Justice
+definition: The principle of treating all people with equal consideration and fairness,
+  making decisions based on objective criteria rather than personal preference or
+  relationship.
+key_aspects:
+- Equal treatment
+- Fair judgment
+- Objective standards
+- Universal application
+- Rational assessment
+historical_development: Emerged from Mohist critique of Confucian particularism, emphasizing
+  universal standards of justice over relationship-based ethics.
+contemporary_relevance: Resonates with modern concepts of legal equality, human rights,
+  and procedural justice.
+notable_quotes:
+- '"Justice knows no favorites" - Mohist principle'
+- '"What benefits all is right; what harms any is wrong" - Mozi'
+related_practices:
+- Fair arbitration
+- Impartial judgment
+- Equal treatment policies
+- Universal standards

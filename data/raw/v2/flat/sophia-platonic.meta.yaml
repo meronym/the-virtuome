@@ -1,0 +1,47 @@
+id: sophia-platonic
+name: Sophia
+tradition: platonic
+script:
+  greek: σοφία
+  transliteration: sophia
+  latin: sapientia
+category: intellectual_virtue
+subcategory: wisdom
+related_concepts:
+- phronesis
+- episteme
+- nous
+- aletheia
+period: classical_greek
+source_texts:
+- republic
+- symposium
+- phaedo
+- theaetetus
+type: virtue
+scope: universal
+orientation: contemplative
+post_length: 991
+title: Sophia (σοφία) - Wisdom
+definition: Sophia represents the highest form of wisdom in Platonic thought, combining
+  theoretical understanding of eternal truths with comprehension of the Good itself.
+key_aspects:
+- Knowledge of Forms
+- Understanding of the Good
+- Philosophical insight
+- Divine contemplation
+- Unified comprehension
+historical_development: Central to Plato's epistemology and ethics, developed from
+  Socratic questioning to systematic theory of Forms. Later elaborated by Neoplatonists
+  as divine wisdom.
+contemporary_relevance: Influences discussions of wisdom vs. knowledge, contemplative
+  practices, and philosophical education. Models integration of theoretical and spiritual
+  understanding.
+notable_quotes:
+- '"The unexamined life is not worth living." - Socrates in Plato''s Apology'
+- '"The philosopher is in love with truth and wisdom." - Republic'
+related_practices:
+- Dialectical inquiry
+- Contemplative study
+- Philosophical dialogue
+- Meditative reflection

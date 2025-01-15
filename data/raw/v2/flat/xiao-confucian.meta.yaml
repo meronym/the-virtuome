@@ -1,0 +1,44 @@
+id: xiao-confucian
+name: Xiào
+tradition: confucian
+script:
+  chinese: 孝
+  pinyin: xiào
+  wade_giles: hsiao4
+category: relational_virtue
+subcategory: family_ethics
+related_concepts:
+- ren
+- ti
+- zhong
+- li
+period: classical_confucian
+source_texts:
+- classic_of_filial_piety
+- analects
+- book_of_rites
+type: virtue
+scope: familial
+orientation: active
+post_length: 892
+title: Xiào (孝) - Filial Piety
+definition: Xiào represents reverence and care for parents, ancestors, and elders,
+  serving as the foundation of moral development and social order.
+key_aspects:
+- Reverence for parents
+- Service to family
+- Ancestral respect
+- Moral foundation
+- Social harmony basis
+historical_development: Fundamental to early Chinese culture, systematized by Confucius,
+  elaborated in Classic of Filial Piety, continues as core social value.
+contemporary_relevance: Shapes modern East Asian family values, elderly care ethics,
+  and corporate culture. Debated in context of changing family structures.
+notable_quotes:
+- '"Filial piety is the root of virtue." - Classic of Filial Piety'
+- '"In serving his parents, a filial son reveres them in daily life." - Analects 2.7'
+related_practices:
+- Care for parents
+- Ancestor veneration
+- Family obligation
+- Moral education

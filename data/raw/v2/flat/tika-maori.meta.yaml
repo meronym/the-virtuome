@@ -1,0 +1,44 @@
+id: tika-maori
+name: Tika
+tradition: maori
+script:
+  maori: tika
+  phonetic: ˈtika
+category: moral_virtue
+subcategory: righteousness
+related_concepts:
+- pono
+- mana
+- tapu
+- kawa
+period: traditional_maori
+source_texts:
+- oral_traditions
+- tikanga
+- tribal_law
+type: virtue
+scope: universal
+orientation: active
+post_length: 787
+title: Tika - Righteousness and Correct Action
+definition: Tika represents righteousness, correctness, and proper action in accordance
+  with tribal law and custom, guiding behavior through established principles.
+key_aspects:
+- Right action
+- Proper procedure
+- Justice
+- Moral correctness
+- Cultural alignment
+historical_development: Developed through generations of tribal law and custom, forming
+  the basis for proper conduct and decision-making.
+contemporary_relevance: Guides modern cultural protocols, legal perspectives, and
+  ethical decision-making in Māori contexts.
+notable_quotes:
+- '"Kia tika te mahi"'
+- (Do things the right way)
+related_practices:
+- Cultural protocols
+- Decision-making processes
+- Conflict resolution
+- Ceremonial procedures
+- Leadership practices

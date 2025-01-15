@@ -1,0 +1,44 @@
+id: tongchal-korean-buddhist
+name: Tongchal
+tradition: korean_buddhist
+script:
+  hangeul: 통찰
+  hanja: 通察
+  romanization: tongchal
+category: wisdom_virtue
+subcategory: insight
+related_concepts:
+- ilsim
+- jihye
+- hoetong
+period: goryeo_joseon
+source_texts:
+- seon_texts
+- korean_chan_records
+- meditation_manuals
+type: virtue
+scope: cognitive
+orientation: active
+post_length: 987
+title: Tongchal (통찰) - Penetrating Insight
+definition: Tongchal represents the capacity for deep, penetrating insight that combines
+  intellectual understanding with direct experiential realization.
+key_aspects:
+- Direct experiential understanding
+- Integration of study and practice
+- Clear discernment
+- Practical wisdom
+- Transformative awareness
+historical_development: Developed through Korean Seon tradition's emphasis on combining
+  meditation with study, particularly influenced by Chinul's approach to sudden enlightenment
+  and gradual cultivation.
+contemporary_relevance: Essential for modern Buddhist approaches to education and
+  personal development, bridging contemplative practice with academic study.
+notable_quotes:
+- '"Understanding through both mind and body" - Chinul'
+- '"True insight comes from integration of study and practice" - Korean Seon teaching'
+related_practices:
+- Hwadu meditation
+- Scriptural study
+- Contemplative analysis
+- Experiential verification

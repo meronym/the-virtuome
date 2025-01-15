@@ -1,0 +1,44 @@
+id: network-justice
+name: Network Justice
+tradition: digital_ethics
+script:
+  greek: δικαιοσύνη δικτυακή
+  transliteration: dikaiosyne diktyake
+  english: network_justice
+category: social_virtue
+subcategory: digital_equity
+related_concepts:
+- digital_inclusion
+- algorithmic_fairness
+- tech_equity
+period: information_age
+source_texts:
+- digital_divide_studies
+- algorithmic_justice
+- tech_equity_frameworks
+type: virtue
+scope: societal
+orientation: active
+post_length: 921
+title: Network Justice (δικαιοσύνη δικτυακή)
+definition: Network Justice represents the commitment to ensuring fairness and equity
+  in digital systems, addressing systematic biases and promoting inclusive access.
+key_aspects:
+- Digital access equity
+- Algorithmic fairness
+- Inclusive design
+- Tech opportunity distribution
+- System bias correction
+historical_development: Emerged from digital divide concerns and algorithmic bias
+  recognition, evolved through tech equity movements.
+contemporary_relevance: Essential for creating fair and inclusive digital societies
+  and preventing technological discrimination.
+notable_quotes:
+- '"Technology should lift all boats, not just the yachts."'
+- '"Digital justice is social justice in the 21st century."'
+related_practices:
+- Digital inclusion initiatives
+- Algorithmic fairness testing
+- Accessibility implementation
+- Tech equity advocacy
+- Digital rights protection

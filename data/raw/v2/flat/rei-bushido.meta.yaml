@@ -1,0 +1,45 @@
+id: rei-bushido
+name: Rei
+tradition: bushido
+script:
+  japanese: 礼
+  kanji: 礼
+  romaji: rei
+  classical_chinese: 禮
+category: cardinal_virtue
+subcategory: propriety
+related_concepts:
+- reigi (礼儀, etiquette)
+- sahō (作法, proper conduct)
+- shakei (謝恩, gratitude)
+period: feudal_japan
+source_texts:
+- hagakure
+- bushido_shoshinshu
+- various_reihō_texts
+type: virtue
+scope: social
+orientation: formal
+post_length: 888
+title: Rei (礼) - Propriety
+definition: Rei represents proper form and etiquette, expressing internal virtue through
+  external behavior and maintaining social harmony.
+key_aspects:
+- Proper conduct
+- Ceremonial awareness
+- Social harmony
+- Respectful behavior
+- Cultural refinement
+historical_development: Developed from Chinese li (禮), integrated with Japanese cultural
+  forms and samurai etiquette, emphasizing both martial and civil propriety.
+contemporary_relevance: Guides professional conduct, social interactions, and cultural
+  preservation in modern contexts.
+notable_quotes:
+- '"In the way of the samurai, proper form reveals the proper heart." - Bushido teaching'
+- '"Without rei, courage becomes rebellion, and benevolence becomes weakness." - Samurai
+  precept'
+related_practices:
+- Formal etiquette
+- Ceremonial observance
+- Respectful interactions
+- Cultural preservation

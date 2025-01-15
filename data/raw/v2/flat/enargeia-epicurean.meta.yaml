@@ -1,0 +1,43 @@
+id: enargeia-epicurean
+name: Enargeia
+tradition: epicurean
+script:
+  greek: ἐνάργεια
+  transliteration: enargeia
+  latin: evidentia
+category: cognitive_virtue
+subcategory: clarity
+related_concepts:
+- aletheia
+- prolepsis
+- katalepsis
+period: hellenistic
+source_texts:
+- letter_to_herodotus
+- on_nature
+- de_rerum_natura
+type: virtue
+scope: intellectual
+orientation: active
+post_length: 924
+title: Enargeia (ἐνάργεια) - Mental Clarity
+definition: The virtue of clear understanding based on direct observation and rational
+  analysis, enabling freedom from superstition and empty opinions.
+key_aspects:
+- Clear perception
+- Evidence-based thinking
+- Freedom from superstition
+- Understanding of nature
+- Direct observation
+historical_development: Developed in Epicurean epistemology as crucial for understanding
+  nature and achieving freedom from mental disturbance.
+contemporary_relevance: Influences scientific thinking, critical reasoning, and evidence-based
+  approaches to knowledge and decision-making.
+notable_quotes:
+- '"The first concept of each thing is clear evidence to which we must refer." - Epicurus'
+- '"Nothing comes from nothing." - Lucretius, expressing clear natural causation'
+related_practices:
+- Empirical observation
+- Logical analysis
+- Natural philosophy study
+- Questioning assumptions

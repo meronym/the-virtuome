@@ -1,0 +1,46 @@
+id: emet-rabbinic
+name: Emet
+tradition: rabbinic_jewish
+script:
+  hebrew: אמת
+  transliteration: emet
+  alternative: emes
+category: fundamental_virtue
+subcategory: truth
+related_concepts:
+- tzedek
+- yosher
+- emunah
+- mishpat
+period: rabbinic
+source_texts:
+- tanakh
+- talmud
+- midrash
+- chovot_halevavot
+type: virtue
+scope: universal
+orientation: balanced
+post_length: 755
+title: Emet (אמת) - Truth
+definition: Absolute truth and truthfulness in thought, speech, and action; fundamental
+  attribute of God that humans must strive to embody.
+key_aspects:
+- Intellectual honesty
+- Truthful speech
+- Authentic behavior
+- Spiritual truth
+- Ethical integrity
+historical_development: From divine seal (Talmud) to comprehensive ethical principle
+  governing all aspects of Jewish life.
+contemporary_relevance: Critical for modern business ethics, interpersonal relationships,
+  and religious authenticity.
+notable_quotes:
+- '"The seal of God is truth." - Shabbat 55a'
+- '"Truth endures, falsehood does not endure." - Talmud'
+related_practices:
+- Honest speech
+- Faithful dealings
+- Torah study
+- Self-examination
+- Truthful judgment

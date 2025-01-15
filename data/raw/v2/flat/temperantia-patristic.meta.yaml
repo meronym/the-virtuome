@@ -1,0 +1,44 @@
+id: temperantia-patristic
+name: Temperantia
+tradition: patristic_christian
+script:
+  latin: temperantia
+  greek: σωφροσύνη
+  greek_transliteration: sōphrosynē
+category: cardinal_virtue
+subcategory: self_control
+related_concepts:
+- continentia
+- moderatio
+- abstinentia
+period: patristic
+source_texts:
+- de_officiis_ministrorum
+- confessiones
+- moralia_in_job
+- ascetical_homilies
+type: virtue
+scope: personal
+orientation: restraining
+post_length: 806
+title: Temperantia (σωφροσύνη) - Temperance
+definition: Temperantia represents the proper ordering of desires and pleasures according
+  to reason illuminated by faith, essential for spiritual freedom.
+key_aspects:
+- Ordered desires
+- Self-control
+- Interior freedom
+- Bodily discipline
+- Spiritual focus
+historical_development: Transformed Classical virtue through Christian asceticism
+  and spiritual psychology.
+contemporary_relevance: Important for addressing addictive behaviors, consumer culture,
+  and environmental responsibility.
+notable_quotes:
+- '"Temperance is love giving itself entirely to that which is loved." - Augustine'
+- '"The temperate person is the one who is free." - Clement of Alexandria'
+related_practices:
+- Fasting
+- Ascetic discipline
+- Mindful consumption
+- Prayer practices

@@ -1,0 +1,46 @@
+id: humanitas-stoic
+name: Humanitas
+tradition: stoic
+script:
+  latin: humanitas
+  greek: φιλανθρωπία
+  greek_transliteration: philanthropia
+category: social_virtue
+subcategory: universal_brotherhood
+related_concepts:
+- philanthropia
+- caritas
+- benevolentia
+- clementia
+period: roman_stoic
+source_texts:
+- de_officiis
+- de_clementia
+- epistulae_morales
+- meditations
+type: virtue
+scope: universal
+orientation: active
+post_length: 930
+title: Humanitas - Humanity
+definition: Humanitas represents the recognition and practical expression of universal
+  human dignity and brotherhood, based on shared rational nature.
+key_aspects:
+- Universal brotherhood
+- Human dignity
+- Rational benevolence
+- Social responsibility
+- Cosmopolitan outlook
+historical_development: Developed from Greek philanthropia, particularly emphasized
+  by Roman Stoics as basis for social and political ethics.
+contemporary_relevance: Essential for human rights, global citizenship, and cross-cultural
+  understanding. Basis for humanitarian work and social justice.
+notable_quotes:
+- '"We are made for cooperation, like feet, like hands, like eyelids." - Marcus Aurelius'
+- '"Wherever there is a human being, there is an opportunity for kindness." - Seneca'
+related_practices:
+- Universal consideration
+- Active benevolence
+- Social service
+- Cultural bridge-building
+- Humanitarian action

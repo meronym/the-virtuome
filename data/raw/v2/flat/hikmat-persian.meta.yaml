@@ -1,0 +1,43 @@
+id: hikmat-persian
+name: Hikmat
+tradition: persian_islamic
+script:
+  arabic: حکمة
+  persian: حکمت
+  transliteration: ḥikmat
+category: intellectual_virtue
+subcategory: wisdom
+related_concepts:
+- aql
+- marifat
+- basirat
+period: islamic_golden_age
+source_texts:
+- shifa_ibn_sina
+- kimiya_saadat
+- akhlaq_nasiri
+type: virtue
+scope: universal
+orientation: active
+post_length: 836
+title: Hikmat (حکمت) - Practical Wisdom
+definition: Hikmat represents the highest form of wisdom, combining theoretical knowledge
+  with practical judgment and spiritual insight.
+key_aspects:
+- Theoretical understanding
+- Practical judgment
+- Spiritual insight
+- Ethical discernment
+- Applied wisdom
+historical_development: Synthesized Greek philosophical wisdom (sophia) with Islamic
+  religious wisdom and Persian practical wisdom traditions.
+contemporary_relevance: Influences modern approaches to holistic education, leadership
+  development, and ethical decision-making.
+notable_quotes:
+- '"Hikmat is the lost property of the believer." - Hadith'
+- '"The beginning of hikmat is the fear of God." - Persian saying'
+related_practices:
+- Philosophical study
+- Spiritual contemplation
+- Ethical reasoning
+- Practical problem-solving

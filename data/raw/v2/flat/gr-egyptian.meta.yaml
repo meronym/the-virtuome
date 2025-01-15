@@ -1,0 +1,42 @@
+id: gr-egyptian
+name: Gr
+tradition: egyptian_maat
+script:
+  hieroglyphs: 𓎼𓂋
+  transliteration: gr
+category: personal_virtue
+subcategory: mindful_silence
+related_concepts:
+- sia
+- rekh
+- seb
+period: old_kingdom_through_late_period
+source_texts:
+- wisdom_literature
+- instruction_texts
+- ptahhotep_maxims
+type: virtue
+scope: personal
+orientation: passive
+post_length: 822
+title: Gr (𓎼𓂋) - Mindful Silence
+definition: The virtue of knowing when to be silent, encompassing both physical silence
+  and inner stillness, leading to wisdom and proper action.
+key_aspects:
+- Appropriate silence
+- Inner stillness
+- Mindful restraint
+- Wisdom in speech
+- Contemplative listening
+historical_development: Emphasized in wisdom literature as mark of sage, developed
+  through connection with meditative practices and court behavior.
+contemporary_relevance: Valuable for modern mindfulness practices, diplomatic relations,
+  and personal development.
+notable_quotes:
+- '"The wise are known by their silence." - Ptahhotep'
+- '"Silence is more valuable than abundant speech." - Ancient Egyptian Wisdom Text'
+related_practices:
+- Meditation
+- Contemplative practice
+- Diplomatic restraint
+- Active listening

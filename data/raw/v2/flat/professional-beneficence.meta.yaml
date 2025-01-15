@@ -1,0 +1,44 @@
+id: professional-beneficence
+name: Beneficence
+tradition: professional_ethics
+script:
+  latin: beneficentia
+  etymology: bene (good) + facere (to do)
+category: ethical_virtue
+subcategory: positive_action
+related_concepts:
+- non-maleficence
+- service
+- care
+- advocacy
+period: modern_professional
+source_texts:
+- medical_ethics
+- helping_professions_literature
+- professional_codes
+type: virtue
+scope: professional_interpersonal
+orientation: active
+post_length: 835
+title: Professional Beneficence
+definition: Professional beneficence represents the active promotion of good and benefit
+  through professional practice, balancing individual client welfare with broader
+  social benefit.
+key_aspects:
+- Positive impact orientation
+- Client benefit focus
+- Public good promotion
+- Harm prevention
+- Active service
+historical_development: Rooted in medical ethics' principle of "doing good," expanded
+  to broader professional obligation across fields.
+contemporary_relevance: Essential principle guiding professional service and social
+  impact in contemporary practice.
+notable_quotes:
+- '"First, do good."'
+- '"The true professional seeks not just to avoid harm, but to actively create benefit."'
+related_practices:
+- Client advocacy
+- Public service
+- Professional development
+- Community engagement

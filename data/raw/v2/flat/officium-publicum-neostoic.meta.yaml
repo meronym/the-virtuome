@@ -1,0 +1,44 @@
+id: officium-publicum-neostoic
+name: Officium Publicum
+tradition: neo_stoic
+script:
+  latin: officium_publicum
+  classical_equivalent: καθῆκον πολιτικόν
+  transliteration_greek: kathekon politikon
+category: civic_virtue
+subcategory: public_service
+related_concepts:
+- prudentia_politica
+- decorum_civile
+- justitia_publica
+period: early_modern
+source_texts:
+- politica_lipsius
+- de_officiis_cicero
+- neo_stoic_commentaries
+type: virtue
+scope: public
+orientation: active
+post_length: 913
+title: Officium Publicum - Public Duty
+definition: The virtue of fulfilling one's public responsibilities with moral excellence
+  and practical effectiveness, combining personal ethics with civic obligation.
+key_aspects:
+- Civic responsibility
+- Public service ethics
+- Administrative duty
+- Social obligation
+- Political responsibility
+historical_development: Developed from classical concepts of duty, adapted to early
+  modern state structures and political necessities.
+contemporary_relevance: Critical for public service ethics, civil service conduct,
+  and political responsibility in modern governance.
+notable_quotes:
+- '"Public office demands both moral excellence and practical wisdom." - Lipsius'
+- '"The good of the state depends on the virtue of its servants." - Du Vair'
+related_practices:
+- Public administration
+- Civil service
+- Policy implementation
+- Civic engagement
+- Public accountability

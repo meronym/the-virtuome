@@ -1,0 +1,45 @@
+id: gravitas-roman
+name: Gravitas
+tradition: roman_civic
+script:
+  latin: gravitas
+  related: gravis
+category: leadership_virtue
+subcategory: dignity
+related_concepts:
+- dignitas
+- auctoritas
+- constantia
+- severitas
+period: republican_imperial
+source_texts:
+- de_oratore
+- de_officiis
+- letters_of_pliny
+- senatorial_records
+type: virtue
+scope: personal_public
+orientation: passive
+post_length: 831
+title: Gravitas - Dignity and Seriousness
+definition: Gravitas represents dignified seriousness in bearing and character, combining
+  personal gravity with public authority and responsible conduct.
+key_aspects:
+- Personal dignity
+- Serious demeanor
+- Measured judgment
+- Responsible conduct
+- Authority bearing
+historical_development: Essential quality for Roman leadership, particularly in Senate.
+  Balanced with humanitas in Ciceronian ideal.
+contemporary_relevance: Influences modern leadership styles and professional conduct.
+  Important in diplomatic and judicial contexts.
+notable_quotes:
+- '"Gravity is the badge of wisdom." - Cicero'
+- '"Authority without gravity cannot be maintained." - Tacitus'
+related_practices:
+- Public speaking
+- Leadership roles
+- Judicial conduct
+- Diplomatic relations
+- Professional bearing

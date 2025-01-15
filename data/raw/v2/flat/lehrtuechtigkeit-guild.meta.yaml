@@ -1,0 +1,44 @@
+id: lehrtuechtigkeit-guild
+name: Lehrtüchtigkeit
+tradition: guild_ethics
+script:
+  middle_high_german: lêren
+  modern_german: Lehrtüchtigkeit
+  latin: facultas_docendi
+category: pedagogical_virtue
+subcategory: teaching_excellence
+related_concepts:
+- meisterschaft
+- kunstfertigkeit
+- pflichtbewusstsein
+period: medieval_european
+source_texts:
+- apprenticeship_contracts
+- teaching_regulations
+- master_guidelines
+type: virtue
+scope: professional
+orientation: active
+post_length: 957
+title: Lehrtüchtigkeit (Teaching Excellence)
+definition: Lehrtüchtigkeit represents the virtue of excellent teaching and mentorship
+  within the guild system, encompassing both technical instruction and character formation.
+key_aspects:
+- Knowledge transmission
+- Character formation
+- Patient guidance
+- Craft preservation
+- Developmental wisdom
+historical_development: Evolved from simple skill instruction to comprehensive system
+  of professional and moral education. Central to guild continuation.
+contemporary_relevance: Influences modern vocational education, professional mentoring,
+  and apprenticeship programs. Model for holistic professional development.
+notable_quotes:
+- '"To teach is to touch three generations." - Guild saying'
+- '"The master''s first duty is to raise new masters." - Teaching principle'
+related_practices:
+- Apprenticeship supervision
+- Skill demonstration
+- Character guidance
+- Progress assessment
+- Workshop management

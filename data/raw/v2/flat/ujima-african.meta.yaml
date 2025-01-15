@@ -1,0 +1,45 @@
+id: ujima-african
+name: Ujima
+tradition: african_religious_ethics
+script:
+  swahili: ujima
+  related_terms:
+    kikuyu: ngwatio
+    zulu: ukusebenzisana
+category: communal_virtue
+subcategory: collective_responsibility
+related_concepts:
+- ubuntu
+- harambee
+- umoja
+period: traditional_african
+source_texts:
+- oral_traditions
+- communal_practices
+- nguzo_saba
+type: virtue
+scope: communal
+orientation: active
+post_length: 840
+title: Ujima - Collective Work and Responsibility
+definition: The principle and practice of collective work, shared responsibility,
+  and mutual support in solving community problems.
+key_aspects:
+- Collective effort
+- Shared burden
+- Community problem-solving
+- Mutual support
+- Social responsibility
+historical_development: Traditional African practice formalized in modern African-centered
+  ethical frameworks. Emphasis on practical community building.
+contemporary_relevance: Essential for community development, social movements, and
+  collective economic empowerment.
+notable_quotes:
+- '"Many hands make light work." - African proverb'
+- '"Together we can move mountains." - Traditional saying'
+related_practices:
+- Community work projects
+- Collective farming
+- Mutual aid societies
+- Community organizing
+- Cooperative economics

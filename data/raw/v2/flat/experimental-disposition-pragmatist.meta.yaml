@@ -1,0 +1,45 @@
+id: experimental-disposition-pragmatist
+name: Experimental Disposition
+tradition: pragmatist
+script:
+  english: Experimental Disposition
+  context: Derived from Peirce's scientific method and Dewey's experimental logic
+category: epistemic_virtue
+subcategory: methodology
+related_concepts:
+- critical_intelligence
+- growth_mindedness
+- fallibilism
+period: late_19th_to_early_20th_century
+source_texts:
+- logic_theory_of_inquiry
+- fixation_of_belief
+- how_we_think
+type: virtue
+scope: universal
+orientation: active
+post_length: 1066
+title: Experimental Disposition
+definition: The experimental disposition represents a commitment to testing ideas
+  through experience, maintaining openness to revision, and approaching problems with
+  a scientific mindset while avoiding dogmatic certainty.
+key_aspects:
+- Willingness to test ideas
+- Openness to revision
+- Anti-dogmatic attitude
+- Scientific methodology
+- Practical verification
+historical_development: Emerged from Peirce's scientific method and developed through
+  pragmatist emphasis on experiential learning and verification of ideas through consequences.
+contemporary_relevance: Critical for scientific inquiry, technological innovation,
+  and adaptive problem-solving in complex modern contexts.
+notable_quotes:
+- '"The scientific attitude is experimental, open-minded, and modest in its claims
+  to know." - John Dewey'
+- '"The whole function of thought is to produce habits of action." - Charles S. Peirce'
+related_practices:
+- Scientific method application
+- Hypothesis testing
+- Iterative learning
+- Prototype development
+- Action research

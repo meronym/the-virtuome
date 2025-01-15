@@ -1,0 +1,43 @@
+id: achrayut-mussar
+name: Achrayut
+tradition: mussar
+script:
+  hebrew: אחריות
+  transliteration: achrayut
+  alternate: achraius
+category: ethical_virtue
+subcategory: responsibility
+related_concepts:
+- tzedek
+- yosher
+- chesed
+period: mussar_movement
+source_texts:
+- ohr_yisrael
+- alei_shur
+- michtav_meeliyahu
+type: virtue
+scope: comprehensive
+orientation: active
+post_length: 816
+title: Achrayut (אחריות) - Responsibility
+definition: Active assumption of personal and collective responsibility, recognizing
+  one's role and obligations in both personal growth and social welfare.
+key_aspects:
+- Personal accountability
+- Social responsibility
+- Ethical leadership
+- Proactive engagement
+- Collective concern
+historical_development: Emphasized by Mussar movement as essential bridge between
+  individual growth and social impact.
+contemporary_relevance: Critical for ethical leadership and social engagement in complex
+  modern world.
+notable_quotes:
+- '"Each person must say: The world was created for my sake." - Talmud'
+- '"Responsibility cannot be delegated." - Rabbi Israel Salanter'
+related_practices:
+- Community involvement
+- Ethical decision-making
+- Leadership roles
+- Social activism

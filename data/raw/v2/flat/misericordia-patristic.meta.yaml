@@ -1,0 +1,44 @@
+id: misericordia-patristic
+name: Misericordia
+tradition: patristic_christian
+script:
+  latin: misericordia
+  greek: ἔλεος
+  greek_transliteration: eleos
+category: social_virtue
+subcategory: compassionate_action
+related_concepts:
+- caritas
+- clementia
+- benevolentia
+period: patristic
+source_texts:
+- de_officiis_ministrorum
+- pastoral_rule
+- homilies_on_matthew
+- city_of_god
+type: virtue
+scope: social
+orientation: active
+post_length: 835
+title: Misericordia (ἔλεος) - Mercy
+definition: Misericordia represents active compassion and practical care for those
+  in need, the concrete expression of divine love in social relationships.
+key_aspects:
+- Active compassion
+- Practical assistance
+- Social responsibility
+- Divine imitation
+- Healing presence
+historical_development: Developed from Biblical mercy through Patristic integration
+  with Roman social virtues and practical pastoral experience.
+contemporary_relevance: Foundation for Christian social teaching, humanitarian work,
+  and response to social injustice.
+notable_quotes:
+- '"Mercy is the heart of God." - Gregory Nazianzen'
+- '"Be merciful as your Father is merciful." - Frequently cited by Patristic writers'
+related_practices:
+- Works of mercy
+- Care for the poor
+- Hospital ministry
+- Conflict resolution

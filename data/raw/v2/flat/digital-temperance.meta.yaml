@@ -1,0 +1,45 @@
+id: digital-temperance
+name: Digital Temperance
+tradition: digital_ethics
+script:
+  greek: σωφροσύνη ψηφιακή
+  transliteration: sophrosyne psephiake
+  english: digital_temperance
+category: self_regulation_virtue
+subcategory: digital_moderation
+related_concepts:
+- tech_life_balance
+- digital_wellness
+- mindful_computing
+period: information_age
+source_texts:
+- digital_wellness_studies
+- tech_addiction_research
+- mindful_technology_frameworks
+type: virtue
+scope: personal
+orientation: restraint
+post_length: 972
+title: Digital Temperance (σωφροσύνη ψηφιακή)
+definition: Digital Temperance represents the cultivation of balanced, mindful relationship
+  with technology, exercising self-regulation in digital consumption and interaction.
+key_aspects:
+- Balanced technology use
+- Digital consumption control
+- Screen time management
+- Mindful engagement
+- Technology-life harmony
+historical_development: Emerged from concerns about technology addiction and digital
+  overwhelm, developed through digital wellness movement and mindful technology use
+  frameworks.
+contemporary_relevance: Critical for mental health, productivity, and meaningful technology
+  use in an increasingly connected world.
+notable_quotes:
+- '"Technology should improve your life, not become your life."'
+- '"Digital wellness is not about rejection, but about intention."'
+related_practices:
+- Digital sabbaticals
+- Screen time monitoring
+- Notification management
+- Mindful computing
+- Digital boundaries setting

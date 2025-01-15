@@ -1,0 +1,45 @@
+id: amanah-fiqh
+name: Amanah
+tradition: islamic_jurisprudence
+script:
+  arabic: أمانة
+  transliteration: amānah
+category: moral_virtue
+subcategory: trustworthiness
+related_concepts:
+- sidq
+- adalah
+- istiqamah
+- mas'uliyyah
+period: islamic_classical
+source_texts:
+- quran
+- hadith
+- legal_ethics
+- scholarly_conduct
+type: virtue
+scope: comprehensive
+orientation: active
+post_length: 884
+title: Amanah (أمانة) - Trustworthiness
+definition: Amanah represents trustworthiness and reliability in legal scholarship
+  and practice, including faithful transmission and application of law.
+key_aspects:
+- Professional integrity
+- Scholarly honesty
+- Faithful transmission
+- Ethical responsibility
+- Social trust
+historical_development: Quranic concept specifically applied to legal scholarship
+  and practice through tradition of scholarly ethics.
+contemporary_relevance: Essential for maintaining professional ethics and public trust
+  in Islamic legal institutions.
+notable_quotes:
+- '"Indeed, Allah commands you to render trusts to whom they are due" - Quran 4:58'
+- '"There is no faith for one who has no trustworthiness" - Prophetic Hadith'
+related_practices:
+- Source verification
+- Ethical conduct
+- Professional responsibility
+- Knowledge transmission
+- Public service

@@ -1,0 +1,42 @@
+id: zhineng-mohist
+name: Zhì néng
+tradition: mohist
+script:
+  chinese: 治能
+  pinyin: zhì néng
+  wade_giles: chih-neng
+category: administrative_virtue
+subcategory: competent_governance
+related_concepts:
+- shanxian
+- zhi
+- qunli
+period: warring_states
+source_texts:
+- mozi
+- mohist_political_writings
+type: virtue
+scope: administrative
+orientation: active
+post_length: 910
+title: Zhì néng (治能) - Administrative Competence
+definition: The virtue of effective and efficient governance based on practical ability,
+  technical knowledge, and measurable results rather than traditional authority.
+key_aspects:
+- Technical competence
+- Practical leadership
+- Result-oriented management
+- Efficient administration
+- Measurable effectiveness
+historical_development: Emerged from Mohist emphasis on practical results and merit-based
+  governance, contrasting with traditional authority models.
+contemporary_relevance: Influences modern public administration, evidence-based policy
+  making, and technical governance.
+notable_quotes:
+- '"Govern through ability, not heredity" - Mohist principle'
+- '"Effective administration produces measurable benefits" - Mohist Canon'
+related_practices:
+- Evidence-based policy
+- Administrative efficiency
+- Performance measurement
+- Technical governance

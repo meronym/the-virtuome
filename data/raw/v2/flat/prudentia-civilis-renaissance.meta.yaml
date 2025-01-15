@@ -1,0 +1,43 @@
+id: prudentia-civilis-renaissance
+name: Prudentia Civilis
+tradition: renaissance_humanism
+script:
+  latin: prudentia_civilis
+  italian_renaissance: prudenza_civile
+category: civic_virtue
+subcategory: political_wisdom
+related_concepts:
+- civilitas
+- consilium
+- iustitia
+- ratio_status
+period: renaissance
+source_texts:
+- machiavelli_prince
+- castiglione_courtier
+- guicciardini_dialogues
+type: virtue
+scope: social
+orientation: active
+post_length: 831
+title: Prudentia Civilis - Civic Wisdom
+definition: Prudentia Civilis represents practical wisdom in public affairs, combining
+  political judgment with ethical consideration for the common good.
+key_aspects:
+- Political judgment
+- Ethical governance
+- Public service
+- Strategic thinking
+- Social responsibility
+historical_development: Evolved from classical prudence through civic humanism into
+  comprehensive theory of political wisdom and leadership.
+contemporary_relevance: Influences modern political leadership, public administration,
+  and civic engagement.
+notable_quotes:
+- '"Politics is the art of the possible." - Renaissance maxim'
+- '"Wisdom in governance comes from both learning and experience." - Guicciardini'
+related_practices:
+- Political counsel
+- Public service
+- Diplomatic negotiation
+- Civic leadership

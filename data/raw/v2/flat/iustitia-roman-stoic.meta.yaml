@@ -1,0 +1,56 @@
+id: iustitia-roman-stoic
+name: Iustitia
+tradition: roman_stoic
+script:
+  latin: iustitia
+  greek: δικαιοσύνη
+  greek_transliteration: dikaiosyne
+category: cardinal_virtue
+subcategory: justice
+related_concepts:
+- aequitas
+- fides
+- humanitas
+- pietas
+period: imperial_rome
+source_texts:
+- de_clementia
+- de_beneficiis
+- meditations
+- discourses
+type: virtue
+scope: universal
+orientation: active
+post_length: 981
+title: Iustitia - Justice
+definition: Iustitia represents the virtue of giving each their due while maintaining
+  the harmony of the whole, combining personal righteousness with social responsibility
+  and cosmic order.
+key_aspects:
+- Fair dealing
+- Social harmony
+- Universal law
+- Moral rightness
+- Civic responsibility
+historical_development: Roman Stoics developed Greek concepts of justice to emphasize
+  practical application in governance and social relations, particularly important
+  in the context of Empire.
+contemporary_relevance: '- Social justice
+
+  - Environmental justice
+
+  - Professional ethics
+
+  - Leadership responsibility
+
+  - Global citizenship'
+notable_quotes:
+- '"Justice is the constant and perpetual will to render to each his due." - Ulpian
+  (influenced by Stoic thought)'
+- '"What injures the hive injures the bee." - Marcus Aurelius'
+related_practices:
+- Fair decision-making
+- Equal treatment
+- Rights protection
+- Social responsibility
+- Environmental stewardship

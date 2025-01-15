@@ -1,0 +1,44 @@
+id: on-jpneoconf
+name: true
+tradition: japanese_neo_confucian
+script:
+  kanji: 恩
+  hiragana: おん
+  romaji: true
+category: social_virtue
+subcategory: moral_indebtedness
+related_concepts:
+- giri
+- ko
+- chu
+- wa
+period: edo_period
+source_texts:
+- neo_confucian_commentaries
+- samurai_codes
+- merchant_ethics
+type: virtue
+scope: social
+orientation: receptive
+post_length: 822
+title: On (恩) - Moral Indebtedness
+definition: The recognition and proper response to moral obligations arising from
+  received benefits, forming the basis of social reciprocity.
+key_aspects:
+- Benefit recognition
+- Moral gratitude
+- Social obligation
+- Reciprocal duty
+- Lifelong commitment
+historical_development: Distinctively Japanese development of Chinese ethical concepts,
+  central to Edo period social relations.
+contemporary_relevance: Continues to influence Japanese social relationships and professional
+  obligations.
+notable_quotes:
+- '"On creates the bonds that hold society together" - Neo-Confucian commentary'
+- '"Understanding on is essential for proper human relations" - Merchant precept'
+related_practices:
+- Obligation fulfillment
+- Gratitude expression
+- Social reciprocity
+- Benefit recognition

@@ -1,0 +1,44 @@
+id: eusebeia-platonic
+name: Eusebeia
+tradition: platonic
+script:
+  greek: εὐσέβεια
+  transliteration: eusebeia
+  latin: pietas
+category: religious_virtue
+subcategory: piety
+related_concepts:
+- hosiotes
+- theosebeia
+- dikaiosyne
+period: classical_greek
+source_texts:
+- euthyphro
+- laws
+- apology
+- republic
+type: virtue
+scope: spiritual
+orientation: reverent
+post_length: 828
+title: Eusebeia (εὐσέβεια) - Piety
+definition: Eusebeia represents proper relationship with divine reality, combining
+  religious observance with philosophical understanding of the Good.
+key_aspects:
+- Divine reverence
+- Sacred obligation
+- Spiritual wisdom
+- Religious propriety
+- Moral alignment
+historical_development: Examined critically in early dialogues, integrated with philosophical
+  theology in middle and late works.
+contemporary_relevance: Influences discussions of religion-philosophy relationship
+  and spiritual authenticity. Models integration of reason and reverence.
+notable_quotes:
+- '"Piety is doing God''s work." - Euthyphro (critically examined)'
+- '"The divine is the measure of all things." - Laws'
+related_practices:
+- Religious observance
+- Philosophical theology
+- Ethical reflection
+- Sacred study

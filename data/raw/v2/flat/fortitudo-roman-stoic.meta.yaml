@@ -1,0 +1,55 @@
+id: fortitudo-roman-stoic
+name: Fortitudo
+tradition: roman_stoic
+script:
+  latin: fortitudo
+  greek: ἀνδρεία
+  greek_transliteration: andreia
+category: cardinal_virtue
+subcategory: courage
+related_concepts:
+- constantia
+- patientia
+- magnanimitas
+- virtus
+period: imperial_rome
+source_texts:
+- de_officiis
+- epistulae_morales
+- meditations
+- discourses
+type: virtue
+scope: universal
+orientation: active
+post_length: 1003
+title: Fortitudo - Courage
+definition: Fortitudo represents moral and physical courage in facing life's challenges,
+  combining steadfast endurance with active resistance to evil and protection of good.
+key_aspects:
+- Moral courage
+- Physical bravery
+- Endurance
+- Resilience
+- Principled action
+historical_development: While present in Greek philosophy as andreia, Roman Stoics
+  developed it to emphasize both passive endurance and active resistance, particularly
+  important in the political context of Imperial Rome.
+contemporary_relevance: '- Moral courage
+
+  - Professional integrity
+
+  - Crisis management
+
+  - Personal resilience
+
+  - Ethical leadership'
+notable_quotes:
+- '"Sometimes even to live is an act of courage." - Seneca'
+- '"The first rule is to keep an untroubled spirit. The second is to look things in
+  the face and know them for what they are." - Marcus Aurelius'
+related_practices:
+- Standing for principles
+- Facing adversity
+- Protecting others
+- Speaking truth to power
+- Enduring hardship

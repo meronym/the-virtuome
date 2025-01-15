@@ -1,0 +1,46 @@
+id: aletheia-platonic
+name: Alētheia
+tradition: platonic
+script:
+  greek: ἀλήθεια
+  transliteration: alētheia
+  latin: veritas
+category: intellectual_virtue
+subcategory: truth
+related_concepts:
+- sophia
+- episteme
+- nous
+- logos
+period: classical_greek
+source_texts:
+- republic
+- theaetetus
+- sophist
+- cratylus
+type: virtue
+scope: universal
+orientation: revelatory
+post_length: 893
+title: Alētheia (ἀλήθεια) - Truth
+definition: Alētheia represents unconcealment or disclosure of reality, combining
+  both the pursuit of truth and the character disposition toward truthfulness.
+key_aspects:
+- Revelation of reality
+- Truthful disposition
+- Opposition to falsehood
+- Philosophical sincerity
+- Knowledge seeking
+historical_development: Central to Platonic epistemology, developed through critique
+  of sophistry and theory of Forms as true reality.
+contemporary_relevance: Influences discussions of truth, authenticity, and intellectual
+  integrity. Models commitment to reality over appearance.
+notable_quotes:
+- '"The true lover of learning strives for being." - Republic'
+- '"False words are not only evil in themselves, but they infect the soul with evil."
+  - Phaedo'
+related_practices:
+- Truth-seeking
+- Intellectual honesty
+- Critical examination
+- Philosophical inquiry

@@ -1,0 +1,43 @@
+id: diakrisis-orthodox
+name: Diakrisis
+tradition: eastern_orthodox
+script:
+  greek: διάκρισις
+  transliteration: diakrisis
+  slavonic: рассуждение
+category: practical_virtue
+subcategory: spiritual_discernment
+related_concepts:
+- nepsis
+- phronesis
+- sophia
+period: patristic
+source_texts:
+- desert_fathers
+- john_cassian_conferences
+- philokalia
+type: virtue
+scope: practical
+orientation: active
+post_length: 825
+title: Diakrisis (διάκρισις) - Discernment
+definition: Diakrisis represents spiritual discernment that enables distinction between
+  divine and human impulses, true and false spiritual experiences.
+key_aspects:
+- Spiritual discrimination
+- Wisdom in judgment
+- Recognition of spirits
+- Practical guidance
+- Inner knowing
+historical_development: Emphasized by desert fathers, systematized by John Cassian,
+  essential in Orthodox spiritual direction.
+contemporary_relevance: Critical for navigating modern spiritual marketplace. Essential
+  for authentic spiritual life.
+notable_quotes:
+- '"Discernment is the greatest of virtues." - Abba Anthony'
+- '"Without discernment, every virtue can become a vice." - Orthodox saying'
+related_practices:
+- Spiritual direction
+- Prayer guidance
+- Decision-making
+- Thought examination

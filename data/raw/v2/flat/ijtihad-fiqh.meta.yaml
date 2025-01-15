@@ -1,0 +1,46 @@
+id: ijtihad-fiqh
+name: Ijtihad
+tradition: islamic_jurisprudence
+script:
+  arabic: اجتهاد
+  transliteration: ijtihād
+category: intellectual_virtue
+subcategory: legal_reasoning
+related_concepts:
+- qiyas
+- istinbat
+- istihsan
+- ray
+period: islamic_classical
+source_texts:
+- usul_al_fiqh
+- al_risala
+- al_mustasfa
+- legal_maxims
+type: virtue
+scope: intellectual
+orientation: active
+post_length: 992
+title: Ijtihad (اجتهاد) - Diligent Reasoning
+definition: Ijtihad represents the virtue of disciplined legal reasoning and intellectual
+  effort in deriving legal rulings from religious sources.
+key_aspects:
+- Methodological rigor
+- Analytical depth
+- Systematic reasoning
+- Evidence-based judgment
+- Creative problem-solving
+historical_development: Developed as systematic methodology in early Islamic law,
+  refined through centuries of juristic practice and theoretical works.
+contemporary_relevance: Critical for addressing modern challenges and developing contemporary
+  Islamic legal solutions.
+notable_quotes:
+- '"When a judge exercises ijtihad and reaches the right conclusion, he receives two
+  rewards; if he reaches a wrong conclusion, he receives one reward" - Prophetic Hadith'
+- '"The door of ijtihad remains open" - Contemporary Islamic legal maxim'
+related_practices:
+- Legal research
+- Comparative analysis
+- Contextual reasoning
+- Scholarly debate
+- Contemporary application

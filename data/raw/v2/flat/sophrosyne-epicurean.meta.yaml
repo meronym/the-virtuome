@@ -1,0 +1,45 @@
+id: sophrosyne-epicurean
+name: Sōphrosynē
+tradition: epicurean
+script:
+  greek: σωφροσύνη
+  transliteration: sōphrosynē
+  latin: temperantia
+category: moral_virtue
+subcategory: temperance
+related_concepts:
+- enkrateia
+- metriopatheia
+- hedone
+period: hellenistic
+source_texts:
+- letter_to_menoeceus
+- principal_doctrines
+- fragments
+type: virtue
+scope: personal
+orientation: balanced
+post_length: 958
+title: Sōphrosynē (σωφροσύνη) - Temperance
+definition: The virtue of moderation and self-control in pleasures, enabling the distinction
+  between natural and unnecessary desires and the maintenance of sustainable happiness.
+key_aspects:
+- Moderation in pleasures
+- Control of desires
+- Balance in lifestyle
+- Wise enjoyment
+- Sustainable pleasure
+historical_development: Adapted from earlier Greek thought into Epicurean framework
+  as essential for maintaining pleasure without pain or disturbance.
+contemporary_relevance: Influences modern approaches to addiction treatment, lifestyle
+  medicine, and sustainable happiness studies.
+notable_quotes:
+- '"The magnitude of pleasure reaches its limit in the removal of all pain." - Principal
+  Doctrines'
+- '"Not what we can endure, but what we need, must be the limit of our desires." -
+  Epicurean maxim'
+related_practices:
+- Mindful consumption
+- Pleasure assessment
+- Desire regulation
+- Lifestyle moderation

@@ -1,0 +1,47 @@
+id: autarkeia-stoic
+name: Autarkeia
+tradition: stoic
+script:
+  greek: αὐτάρκεια
+  latin: sui_sufficientia
+  transliteration: autarkeia
+category: foundational_virtue
+subcategory: independence
+related_concepts:
+- libertas
+- independentia
+- ataraxia
+- apatheia
+period: hellenistic_roman
+source_texts:
+- discourses
+- enchiridion
+- meditations
+- de_vita_beata
+type: virtue
+scope: personal
+orientation: balanced
+post_length: 889
+title: Autarkeia - Self-Sufficiency
+definition: Autarkeia represents independence from external circumstances through
+  rational self-sufficiency and inner freedom.
+key_aspects:
+- Inner independence
+- Freedom from external needs
+- Self-contained happiness
+- Rational self-reliance
+- Emotional autonomy
+historical_development: Originally Cynic concept, refined by Stoics to emphasize rational
+  rather than merely physical self-sufficiency.
+contemporary_relevance: Important for emotional resilience, personal autonomy, and
+  maintaining stability in uncertain times.
+notable_quotes:
+- '"Happiness is not in things, but in the person who uses them." - Epictetus'
+- '"The happiness of your life depends upon the quality of your thoughts." - Marcus
+  Aurelius'
+related_practices:
+- Minimalism
+- Self-reliance exercises
+- Inner resource development
+- Emotional independence
+- Needs assessment

@@ -1,0 +1,45 @@
+id: temperantia-medieval-catholic
+name: Temperantia
+tradition: medieval_catholic
+script:
+  latin: temperantia
+  greek: σωφροσύνη
+  greek_transliteration: sophrosyne
+category: cardinal_virtue
+subcategory: self_control
+related_concepts:
+- moderatio
+- continentia
+- abstinentia
+- sobrietas
+period: medieval_christian
+source_texts:
+- summa_theologica
+- de_officiis
+- regula_benedicti
+- moralia_in_job
+type: virtue
+scope: personal
+orientation: restraint
+post_length: 766
+title: Temperantia (Temperance)
+definition: Temperantia represents the virtue of proper moderation and self-control,
+  particularly in relation to bodily desires and pleasures.
+key_aspects:
+- Bodily discipline
+- Emotional balance
+- Proper moderation
+- Self-control
+- Spiritual preparation
+historical_development: Classical virtue adapted to Christian ascetic tradition, systematized
+  in monastic practice and scholastic moral theology.
+contemporary_relevance: Influences approaches to addiction, consumption, and lifestyle
+  choices.
+notable_quotes:
+- '"Temperance is the moderation of desires" - Augustine'
+- '"Nothing in excess" - Medieval adaptation of classical wisdom'
+related_practices:
+- Fasting
+- Dietary moderation
+- Sleep regulation
+- Emotional control

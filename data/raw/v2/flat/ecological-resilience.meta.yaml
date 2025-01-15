@@ -1,0 +1,43 @@
+id: ecological-resilience
+name: Ecological Resilience
+tradition: environmental_ethics
+script:
+  latin: resilientia ecologica
+  english: ecological resilience
+category: adaptive_virtue
+subcategory: environmental_adaptation
+related_concepts:
+- ecological_wisdom
+- environmental_stewardship
+- environmental_solidarity
+period: modern_environmental
+source_texts:
+- resilience_theory
+- adaptation_studies
+- environmental_change_literature
+type: virtue
+scope: systemic
+orientation: active
+post_length: 886
+title: Ecological Resilience
+definition: Ecological resilience represents the capacity to adapt to environmental
+  change while maintaining essential functions, combining flexibility with persistence
+  in face of challenges.
+key_aspects:
+- Adaptive capacity
+- System flexibility
+- Recovery potential
+- Change management
+- Systemic strength
+historical_development: Emerged from ecological science and systems theory, developed
+  through resilience thinking in environmental management.
+contemporary_relevance: Critical for climate change adaptation, ecosystem management,
+  and sustainable community development.
+notable_quotes:
+- '"In nature, nothing exists alone." - Rachel Carson'
+- '"The measure of intelligence is the ability to change." - Albert Einstein'
+related_practices:
+- Adaptive management
+- Ecosystem restoration
+- Climate change adaptation
+- Community resilience building

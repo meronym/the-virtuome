@@ -1,0 +1,46 @@
+id: tafakkur-falsafa
+name: Tafakkur
+tradition: islamic_falsafa
+script:
+  arabic: تفكر
+  transliteration: tafakkur
+  root: فكر
+category: cognitive_virtue
+subcategory: contemplation
+related_concepts:
+- tadabbur
+- taaqqul
+- fikr
+- nazar
+period: islamic_classical
+source_texts:
+- ihya_ulum_al_din
+- kitab_al_tafakkur
+- miftah_dar_al_saada
+- risalat_al_aql
+type: virtue
+scope: individual
+orientation: active
+post_length: 883
+title: Tafakkur (تفكر) - Contemplation
+definition: Tafakkur represents deep contemplative thinking, combining rational reflection
+  with spiritual meditation to achieve comprehensive understanding.
+key_aspects:
+- Deep reflection
+- Systematic contemplation
+- Meditative thinking
+- Intellectual exploration
+- Spiritual pondering
+historical_development: Developed as synthesis of philosophical methodology with spiritual
+  practices in Islamic thought.
+contemporary_relevance: Essential for modern approaches to mindfulness, critical thinking,
+  and spiritual development.
+notable_quotes:
+- '"An hour''s contemplation is better than a year''s worship." - Traditional saying'
+- '"Through contemplation, the heart finds its illumination." - Al-Ghazali'
+related_practices:
+- Meditative reflection
+- Systematic thinking
+- Nature contemplation
+- Spiritual meditation
+- Intellectual analysis

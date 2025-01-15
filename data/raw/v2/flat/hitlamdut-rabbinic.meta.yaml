@@ -1,0 +1,46 @@
+id: hitlamdut-rabbinic
+name: Hitlamdut
+tradition: rabbinic_jewish
+script:
+  hebrew: התלמדות
+  transliteration: hitlamdut
+  alternative: hilmadut
+category: developmental_virtue
+subcategory: continuous_learning
+related_concepts:
+- limud_torah
+- chochma
+- binah
+- haskalah
+period: rabbinic
+source_texts:
+- talmud
+- midrash
+- pirkei_avot
+- mussar_works
+type: virtue
+scope: personal
+orientation: active
+post_length: 865
+title: Hitlamdut (התלמדות) - Continuous Learning
+definition: Active engagement in ongoing personal growth and learning, maintaining
+  a perpetual student mindset regardless of achievement level.
+key_aspects:
+- Lifelong learning
+- Growth mindset
+- Intellectual humility
+- Knowledge seeking
+- Self-improvement
+historical_development: Emerged from rabbinic emphasis on Torah study as lifelong
+  pursuit, developed into broader principle of continuous self-development.
+contemporary_relevance: Essential for personal development, professional growth, and
+  spiritual advancement in modern context.
+notable_quotes:
+- '"Make yourself a teacher, acquire yourself a friend." - Pirkei Avot 1:6'
+- '"One who learns from everyone is wise." - Pirkei Avot 4:1'
+related_practices:
+- Regular study
+- Seeking mentorship
+- Group learning
+- Self-reflection
+- Knowledge application

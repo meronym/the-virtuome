@@ -1,0 +1,46 @@
+id: empirical-wisdom-empiricist
+name: Empirical Wisdom
+tradition: empiricist_ethics
+script:
+  english: empirical wisdom
+  latin: sapientia empirica
+category: epistemic_virtue
+subcategory: practical_knowledge
+related_concepts:
+- practical_judgment
+- experimental_mindset
+- observational_accuracy
+period: enlightenment
+source_texts:
+- locke_human_understanding
+- hume_treatise
+- smith_moral_sentiments
+type: virtue
+scope: universal
+orientation: active
+post_length: 997
+title: Empirical Wisdom
+definition: The capacity to derive meaningful knowledge and understanding from direct
+  experience and systematic observation, forming the foundation for moral judgment
+  and practical action.
+key_aspects:
+- Experiential learning
+- Systematic observation
+- Pattern recognition
+- Practical application
+- Evidence-based judgment
+historical_development: Emerged from Enlightenment emphasis on empirical observation
+  over a priori reasoning, particularly developed in Locke's epistemology and Hume's
+  moral philosophy.
+contemporary_relevance: Fundamental to evidence-based decision making, scientific
+  method, and modern approaches to moral reasoning and policy development.
+notable_quotes:
+- '"All ideas come from sensation or reflection." - John Locke'
+- '"Experience is our only guide in reasoning concerning matters of fact." - David
+  Hume'
+related_practices:
+- Systematic observation
+- Experimental testing
+- Case study analysis
+- Reflective practice
+- Evidence gathering

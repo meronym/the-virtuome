@@ -1,0 +1,45 @@
+id: li-confucian
+name: Lǐ
+tradition: confucian
+script:
+  chinese: 禮
+  pinyin: lǐ
+  wade_giles: li3
+category: cardinal_virtue
+subcategory: ritual_propriety
+related_concepts:
+- ren
+- yi
+- zhi
+- yue
+period: classical_confucian
+source_texts:
+- book_of_rites
+- analects
+- xunzi
+type: virtue
+scope: social
+orientation: active
+post_length: 839
+title: Lǐ (禮) - Ritual Propriety
+definition: Lǐ represents proper conduct, ritual, and etiquette that express inner
+  moral cultivation through appropriate external forms.
+key_aspects:
+- Ritual correctness
+- Social propriety
+- Cultural refinement
+- Behavioral standards
+- Ceremonial order
+historical_development: Originally referring to religious rites, expanded by Confucius
+  to encompass all proper conduct, systematized in Book of Rites.
+contemporary_relevance: Influences modern social etiquette, business protocol, and
+  cultural practices throughout East Asia.
+notable_quotes:
+- '"Without an understanding of ritual, one''s character cannot be established." -
+  Analects 8.8'
+- '"Ritual is the embodiment of righteousness." - Xunzi'
+related_practices:
+- Ceremonial observance
+- Social etiquette
+- Cultural arts
+- Educational methods

@@ -1,0 +1,43 @@
+id: imperium-rationis
+name: Rational Self-Mastery
+tradition: rationalist_ethics
+script:
+  latin: imperium rationis
+  french: maîtrise rationnelle de soi
+  german: rationale Selbstbeherrschung
+category: practical_virtue
+subcategory: self_governance
+related_concepts:
+- moderatio
+- disciplina
+- constantia
+period: enlightenment
+source_texts:
+- passions_of_the_soul
+- ethics_spinoza
+- new_essays_leibniz
+type: virtue
+scope: individual
+orientation: active
+post_length: 859
+title: Rational Self-Mastery (Imperium Rationis)
+definition: The virtue of governing oneself through reason, achieving control over
+  passions and actions through rational understanding and discipline.
+key_aspects:
+- Emotional regulation
+- Rational control
+- Behavioral discipline
+- Mental sovereignty
+- Practical wisdom
+historical_development: Central to Cartesian theory of passions, developed by Spinoza
+  into comprehensive theory of emotional control through understanding.
+contemporary_relevance: Important for emotional intelligence, self-regulation, and
+  personal development.
+notable_quotes:
+- '"The power of the mind over the passions." - Descartes'
+- '"He who understands his emotions is to that extent master of them." - Spinoza'
+related_practices:
+- Emotional analysis
+- Rational reflection
+- Self-regulation exercises
+- Behavioral discipline

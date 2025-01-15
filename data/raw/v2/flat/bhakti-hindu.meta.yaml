@@ -1,0 +1,48 @@
+id: bhakti-hindu
+name: Bhakti
+tradition: classical_hindu
+script:
+  sanskrit: भक्ति
+  devanagari: भक्ति
+  iast: bhakti
+  transliteration: bhakti
+category: devotional_virtue
+subcategory: divine_love
+related_concepts:
+- prema
+- shraddha
+- seva
+- prapatti
+period: classical_to_medieval
+source_texts:
+- bhagavad_gita
+- bhagavata_purana
+- narada_bhakti_sutras
+- bhakti_poetry
+type: virtue
+scope: spiritual
+orientation: active
+post_length: 882
+title: Bhakti (भक्ति) - Devoted Love
+definition: Bhakti represents devoted love and complete dedication to the Divine,
+  transforming emotional energy into spiritual realization through loving service
+  and surrender.
+key_aspects:
+- Divine love
+- Emotional devotion
+- Spiritual dedication
+- Selfless service
+- Complete surrender
+historical_development: Emerged from Vedic worship, fully developed in Bhagavad Gita,
+  flourished in medieval bhakti movements across India.
+contemporary_relevance: Influences modern spirituality, emotional intelligence, and
+  service-oriented leadership. Important in personal transformation and community
+  building.
+notable_quotes:
+- '"Of all yogas, bhakti is supreme." - Bhagavad Gita'
+- '"Love is its own reward." - Narada Bhakti Sutras'
+related_practices:
+- Devotional singing
+- Temple worship
+- Service to guru
+- Contemplation of divine qualities

@@ -1,0 +1,44 @@
+id: zuijun-zen
+name: Zuijun
+tradition: zen_buddhist
+script:
+  kanji: 随順
+  hiragana: ずいじゅん
+  romaji: zuijun
+category: relational_virtue
+subcategory: harmony
+related_concepts:
+- wa
+- nin
+- junrei
+- gyōji
+period: classical_zen
+source_texts:
+- zen_monastic_codes
+- dharma_talks
+- practice_instructions
+type: virtue
+scope: interpersonal
+orientation: responsive
+post_length: 825
+title: Zuijun (随順) - Harmonious Following
+definition: Zuijun represents the capacity to flow naturally with circumstances while
+  maintaining awareness, adapting appropriately to conditions without resistance.
+key_aspects:
+- Natural accordance
+- Appropriate response
+- Flexible adaptation
+- Situational harmony
+- Non-resistant action
+historical_development: Developed in monastery contexts as principle of harmonious
+  practice. Related to Chinese concept of wúwéi.
+contemporary_relevance: Valuable for organizational dynamics, conflict resolution,
+  and adaptive leadership.
+notable_quotes:
+- '"Like water taking the shape of its container" - Zen metaphor'
+- '"Meeting each moment fresh" - Practice instruction'
+related_practices:
+- Community living
+- Teacher-student relationship
+- Group practice
+- Situational awareness

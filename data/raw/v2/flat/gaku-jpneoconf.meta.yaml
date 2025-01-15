@@ -1,0 +1,44 @@
+id: gaku-jpneoconf
+name: Gaku
+tradition: japanese_neo_confucian
+script:
+  kanji: 学
+  hiragana: がく
+  romaji: gaku
+category: intellectual_virtue
+subcategory: learning
+related_concepts:
+- shushin
+- kei
+- chi
+- funbetsu
+period: edo_period
+source_texts:
+- domain_school_texts
+- neo_confucian_commentaries
+- educational_treatises
+type: virtue
+scope: personal
+orientation: active
+post_length: 810
+title: Gaku (学) - Learning
+definition: The virtue of dedicated study and learning, encompassing both moral and
+  practical knowledge, viewed as essential for self-cultivation.
+key_aspects:
+- Systematic study
+- Moral education
+- Practical knowledge
+- Self-improvement
+- Lifelong pursuit
+historical_development: Central to Japanese Neo-Confucian educational theory, particularly
+  developed in domain schools and merchant academies.
+contemporary_relevance: Influences modern Japanese educational philosophy and professional
+  development.
+notable_quotes:
+- '"Learning without moral cultivation is incomplete" - Hayashi Razan'
+- '"True learning transforms both mind and character" - Domain school principle'
+related_practices:
+- Regular study
+- Classical text reading
+- Practical application
+- Moral reflection

@@ -1,0 +1,45 @@
+id: caritas-scholastic
+name: Caritas
+tradition: scholastic
+script:
+  latin: caritas
+  greek: ἀγάπη
+  greek_transliteration: agapē
+category: theological_virtue
+subcategory: divine_love
+related_concepts:
+- fides
+- spes
+- amicitia
+- benevolentia
+period: medieval_scholastic
+source_texts:
+- summa_theologica
+- de_caritate
+- sentences_book_III
+type: virtue
+scope: universal
+orientation: active
+post_length: 937
+title: Caritas (Divine Love/Charity)
+definition: Caritas represents the highest theological virtue, the supernatural love
+  that unites the human soul with God and overflows into love of neighbor, perfecting
+  all other virtues.
+key_aspects:
+- Divine friendship
+- Universal scope of love
+- Perfection of will
+- Unity with divine good
+- Foundation of moral life
+historical_development: Synthesized from Biblical agapē through Augustinian theology,
+  systematically developed by scholastics, particularly in Aquinas's treatise on charity.
+contemporary_relevance: Influences modern theological ethics, social justice theory,
+  and humanitarian philosophy. Basis for Christian social teaching.
+notable_quotes:
+- '"Charity is the form of all virtues." - Aquinas'
+- '"The measure of love is to love without measure." - Bernard of Clairvaux'
+related_practices:
+- Contemplative prayer
+- Works of mercy
+- Community service
+- Spiritual friendship

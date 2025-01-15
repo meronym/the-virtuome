@@ -1,0 +1,45 @@
+id: auctoritas-roman
+name: Auctoritas
+tradition: roman_civic
+script:
+  latin: auctoritas
+  related: auctor
+category: leadership_virtue
+subcategory: influence
+related_concepts:
+- potestas
+- imperium
+- dignitas
+- gravitas
+period: republican_imperial
+source_texts:
+- res_gestae
+- de_republica
+- histories_tacitus
+- senatorial_records
+type: virtue
+scope: public
+orientation: active
+post_length: 916
+title: Auctoritas - Legitimate Authority
+definition: Auctoritas represents legitimate moral and political influence based on
+  personal character, achievement, and recognized wisdom rather than formal power.
+key_aspects:
+- Moral authority
+- Personal influence
+- Recognized wisdom
+- Leadership capacity
+- Informal power
+historical_development: Crucial concept in Republican governance, exemplified by Senate's
+  authority. Transformed under Augustus into quasi-constitutional principle.
+contemporary_relevance: Influences modern concepts of leadership, soft power, and
+  moral authority. Important in organizational and political theory.
+notable_quotes:
+- '"Authority is increased by deeds, not words." - Sallust'
+- '"Auctoritas in the Senate, potestas in the law." - Traditional formulation'
+related_practices:
+- Senate membership
+- Political counsel
+- Public leadership
+- Moral guidance
+- Institutional authority

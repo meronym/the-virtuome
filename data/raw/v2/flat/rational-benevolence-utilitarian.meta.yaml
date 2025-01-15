@@ -1,0 +1,44 @@
+id: rational-benevolence-utilitarian
+name: Rational Benevolence
+tradition: utilitarian_ethics
+script:
+  english: rational benevolence
+  latin: benevolentia rationalis
+category: foundational_virtue
+subcategory: ethical_disposition
+related_concepts:
+- impartial_justice
+- consequential_wisdom
+- welfare_promotion
+period: 19th_century
+source_texts:
+- utilitarianism_mill
+- methods_of_ethics_sidgwick
+- introduction_principles_morals_bentham
+type: virtue
+scope: universal
+orientation: active
+post_length: 1022
+title: Rational Benevolence
+definition: The foundational utilitarian virtue combining emotional care for others'
+  welfare with rational calculation of how to maximize overall happiness and minimize
+  suffering.
+key_aspects:
+- Integration of reason and compassion
+- Scientific approach to moral calculation
+- Universal scope of concern
+- Evidence-based philanthropy
+- Systematic welfare optimization
+historical_development: Emerged from Enlightenment rationality combined with humanitarian
+  reform movements. Systematized by Bentham and refined by Mill and Sidgwick.
+contemporary_relevance: Influences modern effective altruism, evidence-based policy
+  making, and systematic approaches to philanthropy.
+notable_quotes:
+- '"The creed which accepts as the foundation of morals, Utility, or the Greatest
+  Happiness Principle..." - J.S. Mill'
+- '"Each to count for one, none for more than one." - Bentham'
+related_practices:
+- Cost-benefit analysis
+- Impact assessment
+- Evidence-based intervention
+- Systematic philanthropy

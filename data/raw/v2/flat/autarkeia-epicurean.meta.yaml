@@ -1,0 +1,43 @@
+id: autarkeia-epicurean
+name: Autarkeia
+tradition: epicurean
+script:
+  greek: αὐτάρκεια
+  transliteration: autarkeia
+  latin: sufficientia
+category: lifestyle_virtue
+subcategory: self_sufficiency
+related_concepts:
+- simplicitas
+- aponia
+- eleutheria
+period: hellenistic
+source_texts:
+- vatican_sayings
+- principal_doctrines
+- fragments
+type: virtue
+scope: personal
+orientation: active
+post_length: 996
+title: Autarkeia (αὐτάρκεια) - Self-Sufficiency
+definition: The state of independence and self-sufficiency achieved through limiting
+  desires to natural and necessary things, leading to freedom from external dependencies.
+key_aspects:
+- Material simplicity
+- Independence from external needs
+- Contentment with necessities
+- Resilience against fortune
+- Internal resource sufficiency
+historical_development: Developed in Epicurean thought as a practical approach to
+  achieving happiness through independence from unnecessary desires and external circumstances.
+contemporary_relevance: Influences modern minimalism, sustainable living movements,
+  and psychological approaches to contentment and happiness.
+notable_quotes:
+- '"Nothing is enough for the man to whom enough is too little." - Epicurus'
+- '"Natural wealth is both limited and easy to acquire." - Principal Doctrines'
+related_practices:
+- Simple living
+- Need vs. want analysis
+- Resource consciousness
+- Self-reliance development

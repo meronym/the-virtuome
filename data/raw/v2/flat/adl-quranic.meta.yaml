@@ -1,0 +1,46 @@
+id: adl-quranic
+name: ʿAdl
+tradition: quranic_ethics
+script:
+  arabic: عدل
+  transliteration: ʿadl
+category: moral_virtue
+subcategory: justice
+related_concepts:
+- qist
+- mizan
+- haqq
+- insaf
+period: quranic_revelation
+source_texts:
+- quran
+- hadith
+- fiqh_literature
+type: virtue
+scope: universal
+orientation: active
+post_length: 947
+title: ʿAdl (عدل) - Justice
+definition: ʿAdl represents comprehensive justice and equilibrium, encompassing fair
+  dealing, balanced judgment, and the maintenance of rights and responsibilities at
+  all levels.
+key_aspects:
+- Balanced judgment
+- Equal treatment
+- Rights fulfillment
+- Proportional response
+- Universal application
+historical_development: Fundamental Quranic principle, developed through prophetic
+  practice and elaborate judicial systems. Extensively theorized in Islamic legal
+  and philosophical traditions.
+contemporary_relevance: Central to modern Islamic legal theory, social justice movements,
+  and international relations. Guides economic and environmental ethics.
+notable_quotes:
+- '"Be just, for it is nearest to righteousness" - Quran 5:8'
+- '"Even if it be against yourselves" - Quran 4:135'
+related_practices:
+- Fair arbitration
+- Equal distribution
+- Rights protection
+- Environmental stewardship
+- Economic fairness

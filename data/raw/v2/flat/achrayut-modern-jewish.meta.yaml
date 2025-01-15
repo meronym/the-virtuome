@@ -1,0 +1,46 @@
+id: achrayut-modern-jewish
+name: Achrayut
+tradition: modern_jewish
+script:
+  hebrew: אחריות
+  transliteration: achrayut
+  literal_translation: responsibility
+category: moral_virtue
+subcategory: responsibility
+related_concepts:
+- areivut
+- tzedek
+- mishpat
+- yosher
+period: modern_jewish
+source_texts:
+- modern_rabbinic_writings
+- mussar_literature
+- contemporary_jewish_ethics
+type: virtue
+scope: personal_communal
+orientation: active
+post_length: 935
+title: Achrayut (אחריות) - Responsibility
+definition: Personal and collective moral responsibility, encompassing both individual
+  ethical obligations and broader social duties.
+key_aspects:
+- Personal accountability
+- Collective responsibility
+- Ethical decision-making
+- Proactive moral agency
+- Social obligation
+historical_development: Traditional concept of religious duty transformed into modern
+  ethical responsibility through Enlightenment and contemporary Jewish thought.
+contemporary_relevance: Fundamental to modern Jewish approaches to social issues,
+  environmental ethics, and global challenges.
+notable_quotes:
+- '"All Israel is responsible for one another." - Talmud, Shevuot 39a'
+- '"In a free society, some are guilty, but all are responsible." - Abraham Joshua
+  Heschel'
+related_practices:
+- Ethical decision-making
+- Community leadership
+- Social activism
+- Environmental responsibility
+- Educational initiatives

@@ -1,0 +1,47 @@
+id: phronesis-medica
+name: Phronesis Medica
+tradition: bioethics
+script:
+  greek: φρόνησις
+  latin: prudentia medica
+  transliteration: phronēsis
+category: intellectual_virtue
+subcategory: clinical_wisdom
+related_concepts:
+- clinical_judgment
+- medical_prudence
+- ethical_discernment
+period: contemporary_bioethics
+source_texts:
+- principles_of_biomedical_ethics
+- virtue_based_medical_ethics
+- clinical_ethics
+type: virtue
+scope: professional
+orientation: active
+post_length: 1197
+title: Phronesis Medica (Medical Wisdom)
+definition: The integration of technical medical knowledge with ethical judgment and
+  practical wisdom in clinical decision-making, enabling good choices in complex healthcare
+  situations.
+key_aspects:
+- Integration of clinical knowledge with ethical principles
+- Practical reasoning in medical contexts
+- Balanced judgment in complex cases
+- Synthesis of evidence and experience
+- Ethical decision-making capacity
+historical_development: Evolved from Aristotelian concept of practical wisdom, adapted
+  specifically for medical ethics by theorists like Edmund Pellegrino and contemporary
+  bioethicists.
+contemporary_relevance: Essential for navigating modern healthcare complexities, including
+  technological advances, resource allocation, and ethical dilemmas.
+notable_quotes:
+- '"Clinical judgment is more than scientific knowledge; it is the integration of
+  knowledge, virtue, and experience." - Edmund Pellegrino'
+- '"Good medicine requires both technical excellence and practical wisdom." - Contemporary
+  Bioethics principle'
+related_practices:
+- Clinical case deliberation
+- Ethical consultation
+- Medical decision-making
+- Professional development

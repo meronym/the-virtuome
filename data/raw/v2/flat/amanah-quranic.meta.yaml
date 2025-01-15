@@ -1,0 +1,44 @@
+id: amanah-quranic
+name: Amānah
+tradition: quranic_ethics
+script:
+  arabic: أمانة
+  transliteration: amānah
+category: moral_virtue
+subcategory: trustworthiness
+related_concepts:
+- sidq
+- wafa
+- mas'uliyyah
+- hifz
+period: quranic_revelation
+source_texts:
+- quran
+- hadith
+- fiqh_texts
+type: virtue
+scope: universal
+orientation: active
+post_length: 930
+title: Amānah (أمانة) - Trustworthiness
+definition: Amānah represents the quality of absolute trustworthiness and the fulfillment
+  of responsibilities, encompassing both divine trust and human obligations.
+key_aspects:
+- Absolute reliability
+- Responsibility fulfillment
+- Sacred trust
+- Ethical stewardship
+- Faithful execution
+historical_development: Described in Quran as cosmic trust accepted by humans. Developed
+  through prophetic example and legal-ethical traditions.
+contemporary_relevance: Essential for professional ethics, environmental stewardship,
+  and social responsibility. Key to organizational leadership.
+notable_quotes:
+- '"Indeed, Allah commands you to render trusts to whom they are due" - Quran 4:58'
+- '"There is no faith for one who has no trustworthiness" - Prophetic hadith'
+related_practices:
+- Keeping promises
+- Protecting confidences
+- Environmental care
+- Resource management
+- Honest dealings

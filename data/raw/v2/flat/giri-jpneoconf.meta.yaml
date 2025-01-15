@@ -1,0 +1,46 @@
+id: giri-jpneoconf
+name: Giri
+tradition: japanese_neo_confucian
+script:
+  kanji: 義理
+  hiragana: ぎり
+  romaji: giri
+category: social_virtue
+subcategory: moral_obligation
+related_concepts:
+- true
+- chu
+- ninjo
+- wa
+period: edo_period
+source_texts:
+- domain_school_texts
+- samurai_house_codes
+- merchant_house_rules
+type: virtue
+scope: social
+orientation: active
+post_length: 908
+title: Giri (義理) - Moral Obligation
+definition: The complex web of social obligations and moral duties that govern proper
+  behavior in relationships and society.
+key_aspects:
+- Social responsibility
+- Moral reciprocity
+- Duty fulfillment
+- Relationship maintenance
+- Honor preservation
+historical_development: Evolved from Chinese concept of yi (義) but developed distinct
+  Japanese characteristics during Edo period, particularly in samurai and merchant
+  classes.
+contemporary_relevance: Continues to influence Japanese social relations, business
+  practices, and personal ethics.
+notable_quotes:
+- '"Giri is the foundation of proper human relations" - Yamaga Sokō'
+- '"Without understanding giri, one cannot properly function in society" - Merchant
+  house precept'
+related_practices:
+- Gift-giving customs
+- Social debt repayment
+- Maintaining proper relationships
+- Regular acknowledgment of obligations

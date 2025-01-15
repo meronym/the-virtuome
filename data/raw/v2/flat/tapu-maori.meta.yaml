@@ -1,0 +1,44 @@
+id: tapu-maori
+name: Tapu
+tradition: maori
+script:
+  maori: tapu
+  phonetic: ˈtapu
+category: spiritual_principle
+subcategory: sacred_restriction
+related_concepts:
+- mana
+- noa
+- rāhui
+- wairua
+period: traditional_maori
+source_texts:
+- oral_traditions
+- karakia
+- tribal_lore
+type: virtue
+scope: spiritual
+orientation: restrictive
+post_length: 896
+title: Tapu - Sacred Restriction
+definition: Tapu represents sacred prohibition, spiritual restriction, and the state
+  of being set apart. It governs behavior through spiritual sanctions and protections.
+key_aspects:
+- Sacred restriction
+- Spiritual protection
+- Behavioral guidance
+- Environmental protection
+- Social order maintenance
+historical_development: Fundamental concept in Polynesian and Māori spirituality,
+  traditionally governing all aspects of life through sacred restrictions and protocols.
+contemporary_relevance: Continues to influence cultural practices, ceremonial protocols,
+  and environmental protection. Important in cultural heritage preservation.
+notable_quotes:
+- '"Kia tupato i te tapu"'
+- (Be careful with what is sacred)
+related_practices:
+- Ceremonial restrictions
+- Sacred site protection
+- Ritual cleansing
+- Cultural protocols
+- Environmental conservation

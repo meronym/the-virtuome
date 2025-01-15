@@ -1,0 +1,47 @@
+id: mana-maori
+name: Mana
+tradition: maori
+script:
+  maori: mana
+  phonetic: ˈmana
+category: foundational_principle
+subcategory: power_prestige
+related_concepts:
+- tapu
+- mauri
+- wairua
+- ihi
+period: traditional_maori
+source_texts:
+- oral_traditions
+- whakataukī
+- karakia
+- waiata
+type: virtue
+scope: personal_collective
+orientation: balanced
+post_length: 1017
+title: Mana - Personal/Collective Power and Prestige
+definition: Mana represents spiritual power, authority, honor, prestige, and status
+  - both inherited and earned through actions. It exists in people, places, and objects.
+key_aspects:
+- Spiritual authority
+- Personal dignity
+- Collective honor
+- Inherited status
+- Earned respect through actions
+historical_development: Fundamental concept in Polynesian and Māori worldview, closely
+  intertwined with tapu and social hierarchy. Traditionally understood as divine power
+  flowing through all things.
+contemporary_relevance: Central to modern Māori identity and leadership. Important
+  in cultural revitalization, treaty negotiations, and indigenous rights discussions.
+notable_quotes:
+- '"Mana is not what you know, but how you use what you know for the benefit of the
+  people"'
+- '"Kia mau ki tō mana" (Hold fast to your mana)'
+related_practices:
+- Pōwhiri (welcome ceremonies)
+- Tikanga observance
+- Leadership roles
+- Community service
+- Cultural preservation

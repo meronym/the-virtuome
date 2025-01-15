@@ -1,0 +1,43 @@
+id: philia-pythagorean
+name: Philia
+tradition: pythagorean
+script:
+  greek: φιλία
+  transliteration: philia
+  latin: amicitia
+category: social_virtue
+subcategory: sacred_friendship
+related_concepts:
+- koinonia
+- homonoia
+- sympnoia
+period: ancient_greek
+source_texts:
+- pythagorean_community_rules
+- iamblichus_vita
+- porphyry_vita
+type: virtue
+scope: communal
+orientation: active
+post_length: 753
+title: Philia (φιλία) - Sacred Friendship
+definition: The Pythagorean virtue of sacred friendship and community bonds, expressing
+  the unity of souls through shared pursuit of wisdom.
+key_aspects:
+- Community bonds
+- Shared wisdom
+- Mutual support
+- Collective growth
+- Sacred trust
+historical_development: Central to Pythagorean communal life, exemplified in their
+  shared living arrangements and teaching practices.
+contemporary_relevance: Models for intentional communities, learning groups, and spiritual
+  fellowships.
+notable_quotes:
+- '"Friends share all things." - Pythagorean maxim'
+- '"Friendship is an equality of harmony." - Attributed to Pythagoras'
+related_practices:
+- Communal living
+- Shared meals
+- Group study
+- Mutual assistance

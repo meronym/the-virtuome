@@ -1,0 +1,44 @@
+id: pietas-scholastic
+name: Pietas
+tradition: scholastic
+script:
+  latin: pietas
+  greek: εὐσέβεια
+  greek_transliteration: eusebeia
+category: moral_virtue
+subcategory: religious_duty
+related_concepts:
+- religio
+- caritas
+- observantia
+- reverentia
+period: medieval_scholastic
+source_texts:
+- summa_theologica
+- de_virtutibus
+- sentences_book_III
+type: virtue
+scope: relational
+orientation: active
+post_length: 793
+title: Pietas (Piety)
+definition: Pietas represents proper devotion and duty toward God, parents, and homeland,
+  integrating natural obligations with supernatural love.
+key_aspects:
+- Religious devotion
+- Filial duty
+- Social responsibility
+- Ordered love
+- Sacred obligation
+historical_development: Transformed from Roman virtue through Christian theology into
+  comprehensive virtue of proper relationships.
+contemporary_relevance: Important for understanding religious duty, family ethics,
+  and civic responsibility. Model for integrated relationships.
+notable_quotes:
+- '"Piety renders duty and worship to God as Father." - Aquinas'
+- '"Piety is the foundation of all virtues." - Medieval maxim'
+related_practices:
+- Divine worship
+- Filial respect
+- Civic duty
+- Religious observance

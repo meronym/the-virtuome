@@ -1,0 +1,44 @@
+id: makoto-bushido
+name: Makoto
+tradition: bushido
+script:
+  japanese: 誠
+  kanji: 誠
+  romaji: makoto
+  alternate: shin
+category: cardinal_virtue
+subcategory: sincerity
+related_concepts:
+- seijitsu (誠実, integrity)
+- shinjitsu (真実, truth)
+- gishi (義士, faithful samurai)
+period: feudal_japan
+source_texts:
+- hagakure
+- bushido_shoshinshu
+- gorin_no_sho
+type: virtue
+scope: personal
+orientation: internal
+post_length: 841
+title: Makoto (誠) - Sincerity
+definition: Makoto represents complete sincerity and authenticity in thought, word,
+  and deed, unifying internal conviction with external action.
+key_aspects:
+- Complete authenticity
+- Truthful expression
+- Unified character
+- Genuine intention
+- Wholehearted dedication
+historical_development: Fundamental to samurai ethics, emphasized as the unifying
+  force behind all other virtues and the test of genuine character.
+contemporary_relevance: Essential for authentic leadership, personal integrity, and
+  genuine relationships in modern life.
+notable_quotes:
+- '"The way of the samurai is found in true sincerity." - Hagakure'
+- '"When one''s word and heart are as one, that is makoto." - Bushido principle'
+related_practices:
+- Truth-speaking
+- Promise-keeping
+- Authentic expression
+- Wholehearted effort

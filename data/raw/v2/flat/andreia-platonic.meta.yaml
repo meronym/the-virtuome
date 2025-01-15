@@ -1,0 +1,44 @@
+id: andreia-platonic
+name: Andreia
+tradition: platonic
+script:
+  greek: ἀνδρεία
+  transliteration: andreia
+  latin: fortitudo
+category: cardinal_virtue
+subcategory: courage
+related_concepts:
+- thymos
+- karteria
+- tharsos
+period: classical_greek
+source_texts:
+- laches
+- republic
+- protagoras
+- laws
+type: virtue
+scope: personal
+orientation: active
+post_length: 852
+title: Andreia (ἀνδρεία) - Courage
+definition: Andreia represents both physical and moral courage, particularly the strength
+  to maintain conviction in face of fear and to pursue truth despite difficulties.
+key_aspects:
+- Moral courage
+- Physical bravery
+- Intellectual fortitude
+- Steadfast conviction
+- Reasoned endurance
+historical_development: Evolved from martial virtue to philosophical courage through
+  Socratic example and Platonic theory of the spirited soul part.
+contemporary_relevance: Important for moral education, civil courage, and intellectual
+  integrity. Models principled resistance to pressure.
+notable_quotes:
+- '"Courage is knowing what not to fear." - Republic'
+- '"The brave man is he who conquers himself." - Laws'
+related_practices:
+- Standing for truth
+- Moral resistance
+- Philosophical persistence
+- Facing challenges

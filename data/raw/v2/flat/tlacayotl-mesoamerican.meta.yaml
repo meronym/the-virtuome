@@ -1,0 +1,44 @@
+id: tlacayotl-mesoamerican
+name: Tlacayotl
+tradition: mesoamerican-nahua
+script:
+  nahuatl: tlacayotl
+  transliteration: tlacayotl
+  literal_meaning: humaneness/humanity
+category: social_virtue
+subcategory: human_development
+related_concepts:
+- cemanahuacayotl
+- necnomatiliztli
+- teixcahualiztli
+period: postclassic_mesoamerican
+source_texts:
+- florentine_codex
+- huehuetlatolli
+- testimonios_indigenas
+type: virtue
+scope: social
+orientation: active
+post_length: 774
+title: Tlacayotl - Humaneness
+definition: The virtue of proper human development and behavior, encompassing both
+  individual character and social responsibility.
+key_aspects:
+- Human dignity
+- Social responsibility
+- Proper conduct
+- Character development
+- Cultural refinement
+historical_development: Fundamental concept in Nahua social philosophy, developed
+  through educational institutions and social practices.
+contemporary_relevance: Important for human development models and cultural education
+  programs.
+notable_quotes:
+- '"Become truly human" - Educational exhortation'
+- '"Walk the human path with dignity" - Huehuetlatolli teaching'
+related_practices:
+- Social etiquette
+- Cultural education
+- Character formation
+- Community service
+- Ritual participation

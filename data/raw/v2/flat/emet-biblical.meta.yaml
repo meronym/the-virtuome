@@ -1,0 +1,46 @@
+id: emet-biblical
+name: Emet
+tradition: biblical_jewish
+script:
+  hebrew: אמת
+  transliteration: emet
+  alt_transliteration: emeth
+category: cardinal_virtue
+subcategory: truth
+related_concepts:
+- tzedek
+- emunah
+- yosher
+- shalom
+period: biblical
+source_texts:
+- torah
+- nevi'im
+- ketuvim
+- mishle
+type: virtue
+scope: universal
+orientation: balanced
+post_length: 846
+title: Emet (אמת) - Truth
+definition: Absolute truth encompassing both intellectual honesty and moral integrity.
+  Represents alignment with reality and divine truth.
+key_aspects:
+- Truthful speech
+- Honest conduct
+- Integrity
+- Reliability
+- Divine truth
+historical_development: Foundational concept in biblical texts, seen as divine attribute
+  and human obligation, developed through wisdom literature and prophetic teachings.
+contemporary_relevance: Critical for modern ethical discourse, professional ethics,
+  and personal integrity. Foundation for truth-telling in digital age.
+notable_quotes:
+- '"The lip of truth shall be established forever" (Proverbs 12:19)'
+- '"Speak truth to one another" (Zechariah 8:16)'
+related_practices:
+- Honest speech
+- Faithful testimony
+- Business integrity
+- Educational accuracy
+- Personal authenticity

@@ -1,0 +1,43 @@
+id: tadbir-persian
+name: Tadbir
+tradition: persian_islamic
+script:
+  arabic: تدبير
+  persian: تدبیر
+  transliteration: tadbīr
+category: practical_virtue
+subcategory: governance
+related_concepts:
+- hikmat
+- siyasat
+- adalat
+period: islamic_golden_age
+source_texts:
+- siyasat_nameh
+- akhlaq_nasiri
+- qabus_nameh
+type: virtue
+scope: personal_social
+orientation: active
+post_length: 821
+title: Tadbir (تدبیر) - Prudent Governance
+definition: Tadbir represents the art of prudent governance and management, both of
+  self and others, combining practical wisdom with ethical leadership.
+key_aspects:
+- Wise administration
+- Strategic thinking
+- Ethical leadership
+- Practical wisdom
+- Responsible management
+historical_development: Developed through Persian administrative tradition, Islamic
+  governance principles, and philosophical ethics.
+contemporary_relevance: Essential for modern leadership, management theory, and organizational
+  ethics.
+notable_quotes:
+- '"Good governance begins with self-governance." - Persian maxim'
+- '"Tadbir before action, success after completion." - Traditional saying'
+related_practices:
+- Strategic planning
+- Ethical leadership
+- Administrative skill
+- Self-management

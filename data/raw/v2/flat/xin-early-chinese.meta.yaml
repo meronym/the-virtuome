@@ -1,0 +1,44 @@
+id: xin-early-chinese
+name: Xìn
+tradition: early_chinese_wisdom
+script:
+  chinese: 信
+  pinyin: xìn
+  wade_giles: hsin4
+category: relational_virtue
+subcategory: trustworthiness
+related_concepts:
+- zhong
+- yi
+- de
+- li
+period: early_chinese
+source_texts:
+- book_of_documents
+- bronze_inscriptions
+- early_contracts
+type: virtue
+scope: social
+orientation: active
+post_length: 804
+title: Xìn (信) - Trustworthiness
+definition: Xìn represents reliability and trustworthiness in word and deed, the foundation
+  of social trust and credible relationships.
+key_aspects:
+- Word-deed alignment
+- Reliable action
+- Social credibility
+- Promise keeping
+- Consistent behavior
+historical_development: Originally linked to contract-keeping and alliance maintenance,
+  evolved into fundamental social virtue for all relationships.
+contemporary_relevance: Essential in modern business relationships, international
+  diplomacy, and personal integrity.
+notable_quotes:
+- '"Without trust, no standing" - Traditional saying'
+- '"Trust is the foundation of relationships" - Book of Documents'
+related_practices:
+- Contract keeping
+- Alliance building
+- Reputation management
+- Relationship maintenance

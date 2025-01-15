@@ -1,0 +1,46 @@
+id: wara-fiqh
+name: Wara
+tradition: islamic_jurisprudence
+script:
+  arabic: ورع
+  transliteration: waraʿ
+category: moral_virtue
+subcategory: scrupulousness
+related_concepts:
+- taqwa
+- ihtiyat
+- zuhd
+- taharri
+period: islamic_classical
+source_texts:
+- hadith_collections
+- fiqh_manuals
+- sufi_legal_works
+- scholarly_biographies
+type: virtue
+scope: personal
+orientation: restraint
+post_length: 942
+title: Wara (ورع) - Scrupulous Caution
+definition: Wara represents careful scrupulousness in legal reasoning and personal
+  conduct, ensuring thorough consideration and ethical certainty.
+key_aspects:
+- Legal scrupulousness
+- Ethical caution
+- Thorough verification
+- Moral restraint
+- Conscientious practice
+historical_development: Developed as both legal and spiritual concept, particularly
+  emphasized in works combining law with ethical development.
+contemporary_relevance: Important for maintaining ethical standards in modern legal
+  practice and preventing hasty judgments.
+notable_quotes:
+- '"Leave what makes you doubt for what does not make you doubt" - Prophetic Hadith'
+- '"The scrupulous person is one who avoids even permissible things fearing they may
+  lead to prohibited matters" - Al-Ghazali'
+related_practices:
+- Legal verification
+- Ethical review
+- Source authentication
+- Careful deliberation
+- Personal accountability

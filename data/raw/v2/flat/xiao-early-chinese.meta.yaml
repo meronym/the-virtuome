@@ -1,0 +1,44 @@
+id: xiao-early-chinese
+name: Xiào
+tradition: early_chinese_wisdom
+script:
+  chinese: 孝
+  pinyin: xiào
+  wade_giles: hsiao4
+category: familial_virtue
+subcategory: filial_piety
+related_concepts:
+- ti
+- zhong
+- jing
+- ren
+period: early_chinese
+source_texts:
+- book_of_documents
+- book_of_poetry
+- bronze_inscriptions
+type: virtue
+scope: familial
+orientation: active
+post_length: 793
+title: Xiào (孝) - Filial Piety
+definition: Xiào represents reverent care for parents and ancestors, the foundation
+  of family order and model for all hierarchical relationships.
+key_aspects:
+- Parental respect
+- Ancestral reverence
+- Family continuity
+- Generational duty
+- Social order
+historical_development: Fundamental to early Chinese social organization, became model
+  for all authority relationships and social harmony.
+contemporary_relevance: Continues to influence East Asian family values, elderly care,
+  and social relationships.
+notable_quotes:
+- '"Filial piety begins with serving parents" - Traditional saying'
+- '"In filial piety lies the root of virtue" - Book of Documents'
+related_practices:
+- Ancestor worship
+- Parent care
+- Family maintenance
+- Generational teaching

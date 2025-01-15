@@ -1,0 +1,41 @@
+id: engagement-creatif-existentialist
+name: Engagement Créatif
+tradition: existentialist_ethics
+script:
+  french: engagement créatif
+category: active_virtue
+subcategory: creative_action
+related_concepts:
+- authenticite
+- responsabilite
+- solidarite
+period: twentieth_century
+source_texts:
+- what_is_literature
+- ethics_of_ambiguity
+- being_and_nothingness
+type: virtue
+scope: social
+orientation: active
+post_length: 856
+title: Engagement Créatif (Creative Engagement)
+definition: The existentialist virtue of active, creative participation in the world,
+  combining personal authenticity with social involvement and creative meaning-making.
+key_aspects:
+- Active world participation
+- Creative meaning generation
+- Social involvement
+- Authentic expression
+- Transformative action
+historical_development: Developed through Sartre's theory of committed literature
+  and Beauvoir's ethics of positive action.
+contemporary_relevance: Critical for meaningful participation in social movements
+  and creative solutions to contemporary challenges.
+notable_quotes:
+- '"To act is to modify the shape of the world." - Sartre'
+- '"One is not born, but rather becomes." - Beauvoir'
+related_practices:
+- Artistic creation
+- Social activism
+- Cultural participation
+- Community building

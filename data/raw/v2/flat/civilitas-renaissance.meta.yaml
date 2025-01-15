@@ -1,0 +1,43 @@
+id: civilitas-renaissance
+name: Civilitas
+tradition: renaissance_humanism
+script:
+  latin: civilitas
+  italian_renaissance: civiltà
+category: social_virtue
+subcategory: civic_behavior
+related_concepts:
+- urbanitas
+- humanitas
+- decorum
+- officium
+period: renaissance
+source_texts:
+- erasmus_civility
+- castiglione_courtier
+- palmieri_civil_life
+type: virtue
+scope: social
+orientation: active
+post_length: 761
+title: Civilitas - Civil Conduct
+definition: Civilitas represents refined social behavior and civic responsibility,
+  combining personal dignity with commitment to community welfare.
+key_aspects:
+- Social grace
+- Civic duty
+- Cultural refinement
+- Public service
+- Community engagement
+historical_development: Developed from Roman civic virtue through Renaissance urban
+  culture into comprehensive ideal of civilized behavior.
+contemporary_relevance: Important for civil society, community leadership, and social
+  cohesion.
+notable_quotes:
+- '"The city makes the citizen." - Renaissance proverb'
+- '"Civility is the art of living together well." - Palmieri'
+related_practices:
+- Civic participation
+- Social etiquette
+- Community service
+- Public discourse

@@ -1,0 +1,46 @@
+id: empathic-competence-psych
+name: Empathic Competence
+tradition: moral_psychology
+script:
+  english: empathic competence
+  academic: empathic ability
+  alternative: empathic capacity
+category: social_emotional_capacity
+subcategory: interpersonal_understanding
+related_concepts:
+- emotional_intelligence
+- perspective_taking
+- social_cognition
+- affective_empathy
+period: contemporary
+source_texts:
+- hoffman_empathy_development
+- batson_empathy_altruism
+- eisenberg_prosocial_behavior
+type: capacity
+scope: interpersonal
+orientation: active
+post_length: 978
+title: Empathic Competence - Social Understanding Ability
+definition: The integrated capacity to understand, share, and respond appropriately
+  to others' emotional states and perspectives, combining cognitive and affective
+  components.
+key_aspects:
+- Emotional recognition
+- Perspective taking
+- Affective sharing
+- Empathic accuracy
+- Appropriate response
+historical_development: Evolved from early emotion research through social psychology
+  to current neuroscience understanding of empathy networks.
+contemporary_relevance: Essential for social cohesion, conflict resolution, and prosocial
+  behavior in increasingly diverse societies.
+notable_quotes:
+- '"Empathy is the spark of human concern for others, the glue that makes social life
+  possible." - Martin Hoffman'
+- '"Without empathy, there can be no genuine dialogue." - Daniel Goleman'
+related_practices:
+- Active listening
+- Perspective-taking exercises
+- Emotional awareness training
+- Cross-cultural understanding

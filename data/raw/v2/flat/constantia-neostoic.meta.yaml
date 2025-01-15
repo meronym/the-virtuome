@@ -1,0 +1,46 @@
+id: constantia-neostoic
+name: Constantia
+tradition: neo_stoic
+script:
+  latin: constantia
+  greek_equivalent: καρτερία
+  transliteration_greek: karteria
+category: cardinal_virtue
+subcategory: mental_stability
+related_concepts:
+- prudentia
+- fortitudo
+- patientia
+period: early_modern
+source_texts:
+- de_constantia_lipsius
+- de_constantia_du_vair
+- politica_lipsius
+type: virtue
+scope: personal_and_public
+orientation: active
+post_length: 1179
+title: Constantia - Steadfastness
+definition: The foundational Neo-Stoic virtue representing unwavering mental stability
+  and moral firmness, particularly in times of public calamity and political upheaval.
+key_aspects:
+- Mental fortitude against external circumstances
+- Emotional stability in face of political turmoil
+- Rational perseverance through adversity
+- Moral consistency across situations
+- Public resilience in leadership roles
+historical_development: Developed by Justus Lipsius as the cornerstone of Neo-Stoic
+  philosophy, synthesizing classical Stoic endurance with Christian patience and political
+  necessity.
+contemporary_relevance: Valuable for modern leadership, crisis management, and personal
+  resilience in uncertain times. Applied in political leadership and organizational
+  stability.
+notable_quotes:
+- '"Constantia is right and immovable mental strength, neither lifted up nor pressed
+  down by external or chance incidents." - Justus Lipsius'
+- '"True constancy is founded on reason and rooted in judgment." - Guillaume du Vair'
+related_practices:
+- Regular self-examination
+- Rational analysis of events
+- Meditation on adversity
+- Political counsel

@@ -1,0 +1,44 @@
+id: ehrenhaftigkeit-guild
+name: Ehrenhaftigkeit
+tradition: guild_ethics
+script:
+  middle_high_german: êre
+  modern_german: Ehrenhaftigkeit
+  latin: honorabilitas
+category: moral_virtue
+subcategory: honor
+related_concepts:
+- redlichkeit
+- treue
+- pflichtbewusstsein
+period: medieval_european
+source_texts:
+- guild_statutes
+- honor_codes
+- reputation_records
+type: virtue
+scope: personal
+orientation: active
+post_length: 853
+title: Ehrenhaftigkeit (Honor)
+definition: Ehrenhaftigkeit represents professional honor and dignity, encompassing
+  personal integrity, guild reputation, and social responsibility.
+key_aspects:
+- Professional dignity
+- Personal integrity
+- Guild reputation
+- Social standing
+- Moral reliability
+historical_development: Developed from chivalric and urban honor codes, adapted to
+  professional context. Essential for guild social status.
+contemporary_relevance: Influences professional codes of conduct, business ethics,
+  and organizational reputation management.
+notable_quotes:
+- '"Honor gained through generations, lost in a moment." - Guild warning'
+- '"In honor lies the worth of our craft." - Traditional maxim'
+related_practices:
+- Reputation maintenance
+- Professional conduct
+- Quality assurance
+- Social responsibility
+- Dispute resolution

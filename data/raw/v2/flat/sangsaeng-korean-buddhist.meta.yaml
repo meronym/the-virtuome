@@ -1,0 +1,43 @@
+id: sangsaeng-korean-buddhist
+name: Sangsaeng
+tradition: korean_buddhist
+script:
+  hangeul: 상생
+  hanja: 相生
+  romanization: sangsaeng
+category: relational_virtue
+subcategory: mutual_benefit
+related_concepts:
+- hwahap
+- jabi
+- hoetong
+period: modern_emphasis
+source_texts:
+- contemporary_teachings
+- environmental_dharma
+- social_buddhism_texts
+type: virtue
+scope: collective
+orientation: active
+post_length: 838
+title: Sangsaeng (상생) - Mutual Flourishing
+definition: Sangsaeng represents the principle of mutual benefit and co-prosperity,
+  emphasizing harmonious relationships between all beings.
+key_aspects:
+- Mutual benefit
+- Ecological awareness
+- Social harmony
+- Sustainable relationships
+- Collective wellbeing
+historical_development: Emerged from traditional Buddhist interdependence teachings,
+  particularly emphasized in modern Korean Buddhist environmental and social thought.
+contemporary_relevance: Central to Korean Buddhist approaches to environmental ethics,
+  social justice, and sustainable development.
+notable_quotes:
+- '"All beings rise and fall together"'
+- '"In mutual flourishing we find true prosperity"'
+related_practices:
+- Environmental conservation
+- Community development
+- Sustainable living
+- Cooperative projects

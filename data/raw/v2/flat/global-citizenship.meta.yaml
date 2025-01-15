@@ -1,0 +1,44 @@
+id: global-citizenship
+name: Global Citizenship
+tradition: business_ethics
+script:
+  english: global citizenship
+  latin_root: civis (citizen)
+category: international_virtue
+subcategory: global_responsibility
+related_concepts:
+- cultural_intelligence
+- global_responsibility
+- international_ethics
+- cross-cultural_competence
+period: contemporary_business
+source_texts:
+- global_business_ethics
+- international_management_literature
+- cultural_studies
+type: virtue
+scope: organizational
+orientation: relational
+post_length: 890
+title: Global Citizenship - International Responsibility
+definition: Global Citizenship represents the ethical awareness and responsibility
+  of businesses operating in an interconnected world, considering diverse cultural,
+  social, and environmental contexts.
+key_aspects:
+- Cultural sensitivity
+- Global awareness
+- International responsibility
+- Cross-cultural competence
+- Universal ethics
+historical_development: Emerged from internationalization of business and growing
+  awareness of global corporate impacts.
+contemporary_relevance: Essential for ethical operation in globalized markets and
+  addressing global challenges.
+notable_quotes:
+- '"Think globally, act locally." - Patrick Geddes'
+- '"We are all citizens of one world." - Woodrow Wilson'
+related_practices:
+- Cultural training
+- International stakeholder engagement
+- Global impact assessment
+- Cross-cultural management

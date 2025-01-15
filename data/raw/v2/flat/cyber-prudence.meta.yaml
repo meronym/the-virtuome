@@ -1,0 +1,45 @@
+id: cyber-prudence
+name: Cyber-Prudence
+tradition: digital_ethics
+script:
+  greek: φρόνησις κυβερνητική
+  transliteration: phronesis kybernetike
+  english: cyber_prudence
+category: practical_virtue
+subcategory: digital_judgment
+related_concepts:
+- digital_wisdom
+- network_integrity
+- data_stewardship
+period: information_age
+source_texts:
+- computer_ethics_literature
+- professional_codes
+- cybersecurity_frameworks
+type: virtue
+scope: practical
+orientation: active
+post_length: 1088
+title: Cyber-Prudence (φρόνησις κυβερνητική)
+definition: Cyber-Prudence represents practical wisdom in navigating digital spaces
+  and making technology decisions, applying ethical judgment to concrete digital situations.
+key_aspects:
+- Practical decision-making in digital contexts
+- Risk assessment and management
+- Situation-appropriate technology use
+- Balance between security and accessibility
+- Ethical implementation of technical solutions
+historical_development: Evolved from traditional prudential wisdom, adapted for digital
+  contexts through cybersecurity practices and professional ethics codes.
+contemporary_relevance: Critical for daily digital decision-making, cybersecurity
+  practices, and professional technology management.
+notable_quotes:
+- '"Security is not a product, but a process." - Bruce Schneier'
+- '"The best time to make a decision about digital security was yesterday. The second
+  best time is now."'
+related_practices:
+- Security risk assessment
+- Privacy protection protocols
+- Digital decision frameworks
+- Technology impact analysis
+- Ethical hacking

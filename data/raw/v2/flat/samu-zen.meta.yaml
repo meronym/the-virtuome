@@ -1,0 +1,44 @@
+id: samu-zen
+name: Samu
+tradition: zen_buddhist
+script:
+  kanji: 作務
+  hiragana: さむ
+  romaji: samu
+category: practice_activity
+subcategory: mindful_work
+related_concepts:
+- gyoji
+- shikan
+- kufū
+- bendō
+period: classical_zen
+source_texts:
+- monastery_rules
+- practice_guidelines
+- work_teachings
+type: virtue
+scope: practical
+orientation: active
+post_length: 818
+title: Samu (作務) - Mindful Work
+definition: Samu represents the practice of mindful work, treating physical labor
+  as spiritual practice and maintaining full awareness in everyday tasks.
+key_aspects:
+- Mindful activity
+- Sacred work
+- Full engagement
+- Practice in action
+- Attention to detail
+historical_development: Traditional aspect of monastery training, emphasizing no separation
+  between practice and daily activities.
+contemporary_relevance: Applied in workplace mindfulness and action-oriented spiritual
+  practice. Important for integrating practice into daily life.
+notable_quotes:
+- '"A day of no work is a day of no eating" - Zen maxim'
+- '"How you do anything is how you do everything" - Practice principle'
+related_practices:
+- Temple cleaning
+- Garden maintenance
+- Kitchen work
+- Craft activities

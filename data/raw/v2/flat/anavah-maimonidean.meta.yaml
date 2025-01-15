@@ -1,0 +1,44 @@
+id: anavah-maimonidean
+name: Anavah
+tradition: maimonidean
+script:
+  hebrew: ענוה
+  transliteration: anavah
+  alternate: anavut
+category: moral_virtue
+subcategory: humility
+related_concepts:
+- shiflut
+- kavod
+- yirah
+period: medieval_jewish
+source_texts:
+- hilchot_deot
+- shemonah_perakim
+- moreh_nevuchim
+type: virtue
+scope: personal
+orientation: balanced
+post_length: 892
+title: Anavah (ענוה) - Humility
+definition: The foundational moral virtue representing proper self-assessment and
+  behavior, balanced between self-negation and arrogance.
+key_aspects:
+- Accurate self-knowledge
+- Balanced self-worth
+- Recognition of human limitations
+- Intellectual modesty
+- Behavioral refinement
+historical_development: Maimonides uniquely positioned humility as the one virtue
+  where the mean is not ideal, advocating for leaning toward extreme humility.
+contemporary_relevance: Critical for modern leadership ethics, personal development,
+  and religious-secular dialogue.
+notable_quotes:
+- '"Be exceedingly humble in spirit." - Maimonides'' interpretation of Mishnah Avot'
+- '"Humility is the crown of all virtues." - Attributed to Maimonides'
+related_practices:
+- Self-examination
+- Modest behavior
+- Recognition of others
+- Intellectual openness
+- Service to others

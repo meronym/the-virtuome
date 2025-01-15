@@ -1,0 +1,45 @@
+id: gemeinschaftsgeist-guild
+name: Gemeinschaftsgeist
+tradition: guild_ethics
+script:
+  middle_high_german: gemeinschaft
+  modern_german: Gemeinschaftsgeist
+  latin: spiritus_communitatis
+category: social_virtue
+subcategory: community_spirit
+related_concepts:
+- treue
+- pflichtbewusstsein
+- ehrenhaftigkeit
+period: medieval_european
+source_texts:
+- brotherhood_books
+- guild_charters
+- welfare_regulations
+type: virtue
+scope: communal
+orientation: collective
+post_length: 937
+title: Gemeinschaftsgeist (Community Spirit)
+definition: Gemeinschaftsgeist represents the collective spirit and mutual responsibility
+  within guild communities, encompassing both professional and social dimensions of
+  guild life.
+key_aspects:
+- Collective responsibility
+- Mutual support
+- Civic engagement
+- Social harmony
+- Community welfare
+historical_development: Emerged from urban social organization needs, developed into
+  comprehensive system of professional mutual aid and civic participation.
+contemporary_relevance: Influences modern professional associations, trade unions,
+  and corporate social responsibility. Model for professional community organization.
+notable_quotes:
+- '"Each for all and all for each." - Guild motto'
+- '"The strength of the craft lies in unity." - Traditional saying'
+related_practices:
+- Mutual aid funds
+- Collective celebrations
+- Widow/orphan support
+- Civic duties
+- Festival organization

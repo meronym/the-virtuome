@@ -1,0 +1,45 @@
+id: sapientia-medieval-catholic
+name: Sapientia
+tradition: medieval_catholic
+script:
+  latin: sapientia
+  greek: σοφία
+  greek_transliteration: sophia
+category: intellectual_virtue
+subcategory: divine_wisdom
+related_concepts:
+- prudentia
+- scientia
+- intellectus
+- contemplatio
+period: medieval_christian
+source_texts:
+- de_sapientia
+- summa_theologica
+- itinerarium_mentis_in_deum
+- de_doctrina_christiana
+type: virtue
+scope: universal
+orientation: contemplative
+post_length: 839
+title: Sapientia (Wisdom)
+definition: Sapientia represents the highest form of knowledge, combining divine illumination
+  with human understanding, oriented toward contemplation of eternal truths.
+key_aspects:
+- Divine wisdom
+- Contemplative knowledge
+- Integration of faith and reason
+- Ultimate understanding
+- Spiritual insight
+historical_development: Synthesized Biblical wisdom tradition with Greek philosophy,
+  developed through Augustine, Boethius, and scholastic tradition.
+contemporary_relevance: Influences discussions of integral knowledge, spiritual intelligence,
+  and wisdom traditions.
+notable_quotes:
+- '"Wisdom is knowledge of divine things" - Augustine'
+- '"The wise man considers ultimate causes" - Thomas Aquinas'
+related_practices:
+- Lectio divina
+- Contemplative prayer
+- Philosophical study
+- Spiritual direction

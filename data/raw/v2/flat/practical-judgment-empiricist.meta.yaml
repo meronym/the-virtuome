@@ -1,0 +1,43 @@
+id: practical-judgment-empiricist
+name: Practical Judgment
+tradition: empiricist_ethics
+script:
+  english: practical judgment
+  latin: iudicium practicum
+category: practical_virtue
+subcategory: decision_making
+related_concepts:
+- empirical_wisdom
+- moral_sentiment
+- public_utility
+period: enlightenment
+source_texts:
+- locke_education
+- hume_treatise
+- smith_moral_sentiments
+type: virtue
+scope: practical
+orientation: active
+post_length: 904
+title: Practical Judgment
+definition: The ability to make sound decisions in concrete situations by integrating
+  empirical observation, moral sentiment, and consideration of consequences.
+key_aspects:
+- Situational assessment
+- Consequence evaluation
+- Balance of interests
+- Practical wisdom
+- Action orientation
+historical_development: Emerged from empiricist emphasis on practical experience and
+  observable outcomes over abstract principles.
+contemporary_relevance: Critical for decision-making in business, policy, education,
+  and personal life. Foundation for evidence-based practice.
+notable_quotes:
+- '"The wisdom of life consists in the elimination of non-essentials." - David Hume'
+- '"What we call practical judgment is a matter of experience." - John Locke'
+related_practices:
+- Decision analysis
+- Cost-benefit evaluation
+- Stakeholder consideration
+- Risk assessment
+- Action planning

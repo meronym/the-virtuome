@@ -1,0 +1,43 @@
+id: experimental-mindset-empiricist
+name: Experimental Mindset
+tradition: empiricist_ethics
+script:
+  english: experimental mindset
+  latin: mens experimentalis
+category: epistemic_virtue
+subcategory: methodological_approach
+related_concepts:
+- empirical_wisdom
+- practical_judgment
+- rational_skepticism
+period: enlightenment
+source_texts:
+- locke_human_understanding
+- hume_enquiry
+- bacon_novum_organum
+type: virtue
+scope: cognitive
+orientation: active
+post_length: 823
+title: Experimental Mindset
+definition: The disposition to approach understanding through systematic testing,
+  observation, and revision of beliefs based on evidence and experience.
+key_aspects:
+- Systematic inquiry
+- Evidence-based thinking
+- Openness to revision
+- Methodical testing
+- Learning from experience
+historical_development: Emerged from scientific revolution and empiricist emphasis
+  on experimentation as path to knowledge.
+contemporary_relevance: Essential for scientific thinking, innovation, and continuous
+  improvement in all fields.
+notable_quotes:
+- '"All knowledge resolves itself into probability." - David Hume'
+- '"The best way to understand is to try." - John Locke'
+related_practices:
+- Hypothesis testing
+- Evidence gathering
+- Systematic observation
+- Belief revision
+- Experimental design

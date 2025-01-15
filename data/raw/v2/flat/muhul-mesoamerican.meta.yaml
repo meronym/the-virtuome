@@ -1,0 +1,44 @@
+id: muhul-mesoamerican
+name: Muhul
+tradition: mesoamerican-maya
+script:
+  maya: muhul
+  transliteration: muhul
+  literal_meaning: reciprocity/exchange
+category: social_virtue
+subcategory: reciprocity
+related_concepts:
+- cemanahuacayotl
+- tlacayotl
+- nepantla
+period: classic_postclassic_maya
+source_texts:
+- dresden_codex
+- chilam_balam
+- ritual_texts
+type: virtue
+scope: universal
+orientation: balanced
+post_length: 729
+title: Muhul - Reciprocity
+definition: The virtue of maintaining proper balance in all relationships through
+  reciprocal exchange and mutual responsibility.
+key_aspects:
+- Balanced exchange
+- Social harmony
+- Environmental reciprocity
+- Ritual obligation
+- Mutual support
+historical_development: Fundamental to Maya worldview, developed through agricultural
+  and social practices.
+contemporary_relevance: Important for sustainable relationship and community development
+  models.
+notable_quotes:
+- '"Give as you receive" - Maya wisdom'
+- '"The world lives through exchange" - Traditional teaching'
+related_practices:
+- Gift exchange
+- Community cooperation
+- Environmental stewardship
+- Ritual offerings
+- Social obligations

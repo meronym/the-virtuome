@@ -1,0 +1,45 @@
+id: hikmah-andalusian
+name: Hikmah
+tradition: andalusian_islamic
+script:
+  arabic: حكمة
+  transliteration: ḥikmah
+  latin_translation: sapientia
+category: intellectual_virtue
+subcategory: synthetic_wisdom
+related_concepts:
+- aql
+- falsafa
+- marifa
+- basira
+period: islamic_golden_age
+source_texts:
+- averroes_commentaries
+- ibn_tufayl_works
+- ibn_bajjah_texts
+type: virtue
+scope: universal
+orientation: contemplative_active
+post_length: 856
+title: Hikmah (حكمة) - Synthetic Wisdom
+definition: Integration of theoretical and practical knowledge, combining revealed
+  truth with rational inquiry and practical wisdom.
+key_aspects:
+- Philosophical wisdom
+- Religious understanding
+- Practical judgment
+- Cultural synthesis
+- Ethical discernment
+historical_development: Developed through Andalusian philosophers' synthesis of Greek
+  philosophy with Islamic revelation and practical wisdom.
+contemporary_relevance: Provides model for integrating different knowledge traditions
+  and reconciling faith with reason.
+notable_quotes:
+- '"Wisdom is the lost property of the believer." - Hadith quoted by Ibn Rushd'
+- '"Truth does not contradict truth." - Ibn Rushd'
+related_practices:
+- Philosophical study
+- Religious contemplation
+- Cross-cultural learning
+- Practical reasoning
+- Ethical deliberation

@@ -1,0 +1,47 @@
+id: nasaqu-babylonian
+name: Nasāqu
+tradition: babylonian
+script:
+  akkadian: 𒈾𒊓𒆪
+  transliteration: na-sa-qu
+  sumerian_cognate: gar-gar
+category: organizational_virtue
+subcategory: proper_order
+related_concepts:
+- parsu
+- usurtu
+- riksu
+period: babylonian
+source_texts:
+- administrative_texts
+- ritual_texts
+- royal_inscriptions
+- temple_records
+type: virtue
+scope: universal
+orientation: active
+post_length: 937
+title: Nasāqu (Proper Order/Organization)
+definition: Nasāqu represents the principle of proper organization and arrangement,
+  both in cosmic and social orders, ensuring everything is in its right place and
+  proper function.
+key_aspects:
+- Cosmic order
+- Social structure
+- Proper arrangement
+- Hierarchical harmony
+- Systematic organization
+historical_development: Emerged from temple administrative practices, expanded to
+  encompass broader concepts of social and cosmic order. Central to both religious
+  and secular organization.
+contemporary_relevance: Influences modern organizational theory and systems thinking,
+  particularly in institutional structure and governance.
+notable_quotes:
+- '"Everything in its proper place" - Administrative Text'
+- '"As in heaven, so on earth" - Temple Inscription'
+related_practices:
+- Temple organization
+- Administrative systems
+- Social hierarchy
+- Ritual arrangement
+- Professional ordering

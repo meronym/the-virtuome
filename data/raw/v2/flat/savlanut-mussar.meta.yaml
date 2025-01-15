@@ -1,0 +1,43 @@
+id: savlanut-mussar
+name: Savlanut
+tradition: mussar
+script:
+  hebrew: סבלנות
+  transliteration: savlanut
+  alternate: savlonus
+category: interpersonal_virtue
+subcategory: patience_tolerance
+related_concepts:
+- menucha
+- erech_apayim
+- shalom
+period: mussar_movement
+source_texts:
+- orchot_tzaddikim
+- alei_shur
+- michtav_meeliyahu
+type: virtue
+scope: interpersonal
+orientation: passive
+post_length: 777
+title: Savlanut (סבלנות) - Patience
+definition: The capacity to maintain equanimity and composure in challenging situations,
+  while working steadily toward goals.
+key_aspects:
+- Emotional control
+- Long-term perspective
+- Stress management
+- Personal endurance
+- Interpersonal tolerance
+historical_development: Developed in Mussar tradition as essential quality for both
+  personal growth and interpersonal relationships.
+contemporary_relevance: Increasingly vital in age of immediate gratification and constant
+  connectivity.
+notable_quotes:
+- '"Patience in learning leads to wisdom." - Rabbi Israel Salanter'
+- '"The patient person will achieve more than the mighty." - Orchot Tzaddikim'
+related_practices:
+- Delayed response
+- Meditation
+- Slow eating
+- Mindful waiting

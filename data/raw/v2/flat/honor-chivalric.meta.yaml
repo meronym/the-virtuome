@@ -1,0 +1,49 @@
+id: honor-chivalric
+name: Honneur
+tradition: chivalric
+script:
+  old_french: honneur
+  middle_english: honour
+  latin: honor
+category: moral_virtue
+subcategory: integrity
+related_concepts:
+- reputation
+- worthiness
+- integrity
+- fame
+period: medieval_european
+source_texts:
+- song_of_roland
+- book_of_chivalry
+- lancelot_grail_cycle
+- morte_darthur
+type: virtue
+scope: personal_social
+orientation: balanced
+post_length: 928
+title: Honneur (Honor)
+definition: The integration of personal integrity with public reputation, representing
+  both internal moral character and external recognition of worth.
+key_aspects:
+- Personal integrity
+- Public reputation
+- Moral conscience
+- Social standing
+- Oath-keeping
+- Name preservation
+historical_development: Evolved from Germanic concepts of personal worth through Christian
+  moral frameworks to become a complex social-moral virtue governing behavior and
+  identity.
+contemporary_relevance: Influences modern concepts of professional ethics, personal
+  integrity, and reputation management. Important in military codes and professional
+  conduct.
+notable_quotes:
+- '"Better to die with honor than to live with shame." - Chivalric maxim'
+- '"Honor is the reward of virtue." - Geoffroi de Charny'
+related_practices:
+- Oath-keeping
+- Truth-speaking
+- Reputation defense
+- Ethical conduct
+- Social responsibility

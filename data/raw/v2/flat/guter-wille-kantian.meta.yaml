@@ -1,0 +1,47 @@
+id: guter-wille-kantian
+name: Guter Wille
+tradition: kantian
+script:
+  german: Guter Wille
+  transliteration: n/a
+  latin: voluntas bona
+category: foundational_virtue
+subcategory: moral_disposition
+related_concepts:
+- pflicht
+- praktische_vernunft
+- autonomie
+period: enlightenment
+source_texts:
+- groundwork_of_the_metaphysics_of_morals
+- critique_of_practical_reason
+type: virtue
+scope: universal
+orientation: active
+post_length: 1116
+title: Guter Wille (Good Will)
+definition: The good will is the only thing that can be considered unconditionally
+  good, representing the pure intention to act from duty and in accordance with moral
+  law.
+key_aspects:
+- Unconditional moral worth
+- Pure moral motivation
+- Independence from consequences
+- Foundation of moral action
+- Rational determination
+historical_development: Introduced in the opening of the Groundwork as the foundational
+  concept of Kant's moral philosophy, representing the cornerstone of his ethical
+  system.
+contemporary_relevance: Influences modern discussions of moral motivation, intention
+  versus consequence, and the nature of moral worth.
+notable_quotes:
+- '"Nothing can possibly be conceived in the world, or even out of it, which can be
+  called good without qualification, except a Good Will." - Groundwork of the Metaphysics
+  of Morals'
+- '"The good will is not good because of what it effects or accomplishes, but good
+  only because of its willing." - Groundwork'
+related_practices:
+- Moral reflection
+- Intention examination
+- Duty-based decision making
+- Rational deliberation

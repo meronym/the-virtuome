@@ -1,0 +1,44 @@
+id: ukwanda-ubuntu
+name: Ukwanda
+tradition: african_ubuntu
+script:
+  nguni: ukwanda
+  xhosa: ukwanda
+  zulu: ukwanda
+  transliteration: ukwanda
+category: active_virtue
+subcategory: generosity
+related_concepts:
+- ubuntu
+- ukuncedana
+- ukuphathana
+period: traditional_african
+source_texts:
+- oral_traditions
+- communal_practices
+- economic_customs
+type: virtue
+scope: communal
+orientation: active
+post_length: 849
+title: Ukwanda - Generosity
+definition: Active sharing and distribution of resources, knowledge, and support within
+  the community, ensuring collective wellbeing and sustainability.
+key_aspects:
+- Resource sharing
+- Knowledge transfer
+- Support provision
+- Collective prosperity
+- Sustainable abundance
+historical_development: Rooted in traditional African economic systems and resource
+  management practices. Adapted through changing economic conditions.
+contemporary_relevance: Guides approaches to community development, resource distribution,
+  and social support systems. Influences business ethics and philanthropy.
+notable_quotes:
+- '"Wealth shared is wealth multiplied"'
+- '"In giving we receive, in sharing we grow"'
+related_practices:
+- Community resource pooling
+- Knowledge sharing circles
+- Support networks
+- Collective enterprise

@@ -1,0 +1,43 @@
+id: systematic-understanding-utilitarian
+name: Systematic Understanding
+tradition: utilitarian_ethics
+script:
+  english: systematic understanding
+  latin: intellectus systematicus
+category: intellectual_virtue
+subcategory: systems_thinking
+related_concepts:
+- consequential_wisdom
+- empirical_prudence
+- social_intelligence
+period: 19th_century
+source_texts:
+- system_of_logic_mill
+- methods_of_ethics_sidgwick
+- principles_legislation_bentham
+type: virtue
+scope: cognitive
+orientation: analytical
+post_length: 900
+title: Systematic Understanding
+definition: The capacity to comprehend complex systems, their interconnections, and
+  the cascading effects of actions within social and institutional frameworks.
+key_aspects:
+- Systems thinking
+- Institutional analysis
+- Network understanding
+- Complex causation
+- Holistic perspective
+historical_development: Emerged from utilitarian analysis of social systems and institutional
+  reform, influenced by scientific systematization.
+contemporary_relevance: Critical for policy analysis, organizational leadership, and
+  social planning in complex modern societies.
+notable_quotes:
+- '"The whole is greater than the sum of its parts." - Mill''s approach to social
+  analysis'
+- '"Society is a complex web of interconnected causes and effects." - Bentham''s principle'
+related_practices:
+- Systems analysis
+- Institutional design
+- Network mapping
+- Complexity management

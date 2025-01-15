@@ -1,0 +1,45 @@
+id: areivut-modern-jewish
+name: Areivut
+tradition: modern_jewish
+script:
+  hebrew: ערבות
+  transliteration: areivut
+  literal_translation: mutual responsibility
+category: social_virtue
+subcategory: communal_responsibility
+related_concepts:
+- achrayut
+- tikkun_olam
+- klal_yisrael
+- tzedakah
+period: modern_jewish
+source_texts:
+- talmudic_literature
+- modern_jewish_thought
+- communal_responsa
+type: virtue
+scope: communal
+orientation: active
+post_length: 845
+title: Areivut (ערבות) - Mutual Responsibility
+definition: The principle that all members of the community are responsible for one
+  another, extending to global humanitarian concern.
+key_aspects:
+- Communal solidarity
+- Shared responsibility
+- Social support
+- Collective action
+- Global consciousness
+historical_development: Traditional concept of Jewish communal responsibility expanded
+  to embrace universal humanitarian concerns.
+contemporary_relevance: Guides Jewish communal organizations, humanitarian work, and
+  social welfare programs.
+notable_quotes:
+- '"All Jews are responsible for one another." - Talmud, Shavuot 39a'
+- '"The Jewish people are one body with many souls." - Modern interpretation'
+related_practices:
+- Community organizing
+- Humanitarian aid
+- Social welfare programs
+- Disaster relief
+- Mutual support networks

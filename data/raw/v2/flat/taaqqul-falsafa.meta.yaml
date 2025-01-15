@@ -1,0 +1,46 @@
+id: taaqqul-falsafa
+name: Taʿaqqul
+tradition: islamic_falsafa
+script:
+  arabic: تعقل
+  transliteration: taʿaqqul
+  root: عقل
+category: intellectual_virtue
+subcategory: rational_thinking
+related_concepts:
+- aql
+- fikr
+- fahm
+- idrak
+period: islamic_classical
+source_texts:
+- kitab_al_aql
+- risalat_al_aql
+- al_madina_al_fadila
+- ihsa_al_ulum
+type: virtue
+scope: individual
+orientation: active
+post_length: 983
+title: Taʿaqqul (تعقل) - Rational Thinking
+definition: Taʿaqqul represents the active exercise of rational faculty, the systematic
+  application of reason in understanding both theoretical and practical matters.
+key_aspects:
+- Systematic logical reasoning
+- Critical analysis
+- Conceptual understanding
+- Rational judgment
+- Intellectual discipline
+historical_development: Developed from Greek rational traditions, particularly Aristotelian
+  logic, integrated with Islamic theological rationalism by falsafa philosophers.
+contemporary_relevance: Essential for modern Islamic intellectual discourse, scientific
+  thinking, and rational approaches to religious understanding.
+notable_quotes:
+- '"The first thing created by Allah was the intellect." - Traditional saying'
+- '"The perfection of man lies in the perfection of his rational faculty." - Al-Farabi'
+related_practices:
+- Logical analysis
+- Systematic study
+- Rational debate
+- Critical reading
+- Methodical problem-solving

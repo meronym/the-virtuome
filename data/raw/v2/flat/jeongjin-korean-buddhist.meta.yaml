@@ -1,0 +1,43 @@
+id: jeongjin-korean-buddhist
+name: Jeongjin
+tradition: korean_buddhist
+script:
+  hangeul: 정진
+  hanja: 精進
+  romanization: jeongjin
+category: practice_virtue
+subcategory: effort
+related_concepts:
+- ilsim
+- tongchal
+- muae
+period: all_periods
+source_texts:
+- meditation_manuals
+- temple_rules
+- practice_guidelines
+type: virtue
+scope: individual
+orientation: active
+post_length: 867
+title: Jeongjin (정진) - Sustained Effort
+definition: Jeongjin represents dedicated, sustained effort in practice, combining
+  diligence with wisdom in the pursuit of awakening.
+key_aspects:
+- Sustained practice
+- Balanced effort
+- Wise application
+- Continuous cultivation
+- Practice perseverance
+historical_development: Central to Korean Buddhist practice traditions, particularly
+  emphasized in meditation halls and intensive retreat settings.
+contemporary_relevance: Essential for modern practitioners balancing practice with
+  daily life, providing framework for sustained spiritual development.
+notable_quotes:
+- '"Practice as if putting out a fire in your hair" - Traditional Seon saying'
+- '"Continuous practice reveals the way" - Temple teaching'
+related_practices:
+- Regular meditation
+- Mindful daily activities
+- Retreat participation
+- Consistent study

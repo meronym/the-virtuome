@@ -1,0 +1,46 @@
+id: misharu-babylonian
+name: Mīšaru
+tradition: babylonian
+script:
+  akkadian: 𒈨𒊭𒊒
+  transliteration: mi-ša-ru
+  sumerian_cognate: níg-si-sá
+category: social_virtue
+subcategory: equity
+related_concepts:
+- kittu
+- dinu
+- mesharum
+period: babylonian
+source_texts:
+- code_of_hammurabi
+- royal_edicts
+- wisdom_literature
+- legal_texts
+type: virtue
+scope: social
+orientation: active
+post_length: 874
+title: Mīšaru (Righteousness/Equity)
+definition: Mīšaru represents practical righteousness and equity in social relations,
+  particularly in economic and legal matters, ensuring fair treatment and just outcomes.
+key_aspects:
+- Social justice
+- Economic fairness
+- Legal equity
+- Fair dealing
+- Protection of rights
+historical_development: Developed alongside legal institutions, particularly important
+  in royal proclamations of debt relief and social reforms. Paired with Kīttu in legal
+  contexts.
+contemporary_relevance: Influences modern concepts of social justice, economic equity,
+  and fair business practices.
+notable_quotes:
+- '"Let righteousness flow like a river" - Babylonian Royal Inscription'
+- '"By Mīšaru shall the land prosper" - Legal Text'
+related_practices:
+- Debt forgiveness
+- Fair pricing
+- Legal proceedings
+- Commercial regulation
+- Social reforms

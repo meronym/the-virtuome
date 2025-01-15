@@ -1,0 +1,45 @@
+id: yuki-bushido
+name: Yūki
+tradition: bushido
+script:
+  japanese: 勇気
+  kanji: 勇気
+  romaji: yūki
+  classical_chinese: 勇
+category: cardinal_virtue
+subcategory: courage
+related_concepts:
+- shi (士, warrior spirit)
+- gijō (義勇, righteous bravery)
+- fudōshin (不動心, immovable mind)
+period: feudal_japan
+source_texts:
+- hagakure
+- bushido_shoshinshu
+- gorin_no_sho
+type: virtue
+scope: personal
+orientation: active
+post_length: 892
+title: Yūki (勇気) - Courage
+definition: Yūki represents the virtue of courage, encompassing both physical bravery
+  and moral courage, guided by wisdom and righteousness.
+key_aspects:
+- Physical courage
+- Moral courage
+- Disciplined bravery
+- Righteous action
+- Fear management
+historical_development: Central to warrior culture, refined through Buddhist and Confucian
+  influences to emphasize moral courage alongside physical bravery.
+contemporary_relevance: Essential for moral leadership, personal integrity, and facing
+  modern challenges with wisdom.
+notable_quotes:
+- '"True courage is to live when it is right to live, and to die when it is right
+  to die." - Bushido principle'
+- '"Courage is not the absence of fear but the control of it." - Samurai maxim'
+related_practices:
+- Facing challenges directly
+- Standing up for principles
+- Protecting others
+- Making difficult decisions

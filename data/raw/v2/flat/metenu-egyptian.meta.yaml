@@ -1,0 +1,42 @@
+id: metenu-egyptian
+name: Metenu
+tradition: egyptian_maat
+script:
+  hieroglyphs: 𓏞𓈖𓃹
+  transliteration: mtn
+category: moral_virtue
+subcategory: righteousness
+related_concepts:
+- maat
+- sia
+- imi-k
+period: middle_kingdom_through_late_period
+source_texts:
+- judicial_texts
+- wisdom_literature
+- royal_inscriptions
+type: virtue
+scope: personal_social
+orientation: active
+post_length: 795
+title: Metenu (𓏞𓈖𓃹) - Righteousness/Justice
+definition: The active practice of righteousness and justice in accordance with Ma'at,
+  manifesting as fair dealing and proper conduct.
+key_aspects:
+- Fair judgment
+- Ethical conduct
+- Social justice
+- Moral rectitude
+- Equitable dealing
+historical_development: Emerged from judicial practice and religious concepts of divine
+  justice, developed into comprehensive ethical principle.
+contemporary_relevance: Fundamental to modern concepts of social justice, ethical
+  leadership, and equitable governance.
+notable_quotes:
+- '"Judge with evenness of heart." - Judicial Instruction'
+- '"Let justice flow like the Nile." - Ancient Egyptian Maxim'
+related_practices:
+- Fair arbitration
+- Ethical leadership
+- Social service
+- Protection of vulnerable

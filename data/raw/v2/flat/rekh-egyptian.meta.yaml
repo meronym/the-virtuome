@@ -1,0 +1,42 @@
+id: rekh-egyptian
+name: Rekh
+tradition: egyptian_maat
+script:
+  hieroglyphs: 𓂋𓐍𓎡
+  transliteration: rḫ
+category: wisdom_virtue
+subcategory: sacred_knowledge
+related_concepts:
+- sia
+- akh
+- maat
+period: old_kingdom_through_late_period
+source_texts:
+- temple_texts
+- priestly_documents
+- wisdom_literature
+type: virtue
+scope: spiritual_intellectual
+orientation: active
+post_length: 785
+title: Rekh (𓂋𓐍𓎡) - Sacred Knowledge
+definition: The virtue of acquiring and maintaining sacred knowledge, including both
+  practical wisdom and divine understanding.
+key_aspects:
+- Sacred understanding
+- Divine knowledge
+- Wisdom tradition
+- Cultural preservation
+- Spiritual insight
+historical_development: Originally priestly knowledge, expanded to include broader
+  concepts of wisdom and understanding throughout Egyptian history.
+contemporary_relevance: Applicable to education, cultural preservation, and spiritual
+  development.
+notable_quotes:
+- '"Knowledge is a light in the heart." - Temple Text'
+- '"Sacred knowledge illuminates the path of Ma''at." - Priestly Instruction'
+related_practices:
+- Sacred study
+- Cultural education
+- Wisdom transmission
+- Spiritual teaching

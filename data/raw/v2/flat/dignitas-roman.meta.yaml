@@ -1,0 +1,45 @@
+id: dignitas-roman
+name: Dignitas
+tradition: roman_civic
+script:
+  latin: dignitas
+  adjective: dignus
+category: status_virtue
+subcategory: honor
+related_concepts:
+- auctoritas
+- existimatio
+- honor
+- gloria
+period: republican_imperial
+source_texts:
+- pro_sestio
+- de_officiis
+- letters_of_cicero
+- senatorial_speeches
+type: virtue
+scope: personal_public
+orientation: balanced
+post_length: 858
+title: Dignitas - Personal Worth and Standing
+definition: Dignitas represents earned social standing and personal worth, combining
+  public achievement with moral character and social recognition.
+key_aspects:
+- Personal honor
+- Public standing
+- Earned respect
+- Social position
+- Moral worth
+historical_development: Central to Republican political competition, evolved into
+  more formalized status under Empire. Key concept in political conflicts.
+contemporary_relevance: Influences modern concepts of human dignity, political standing,
+  and professional reputation.
+notable_quotes:
+- '"Live with dignity and let your dignitas match your achievements." - Cicero'
+- '"Dignitas once lost cannot be recovered." - Attributed to Caesar'
+related_practices:
+- Public service
+- Political career
+- Social advancement
+- Honor maintenance
+- Reputation management

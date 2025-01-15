@@ -1,0 +1,45 @@
+id: daat-modern-jewish
+name: Da'at
+tradition: modern_jewish
+script:
+  hebrew: דעת
+  transliteration: da'at
+  literal_translation: knowledge/consciousness
+category: intellectual_virtue
+subcategory: ethical_wisdom
+related_concepts:
+- binah
+- chochmah
+- mussar
+- machshavah
+period: modern_jewish
+source_texts:
+- rabbinic_literature
+- mussar_texts
+- modern_jewish_philosophy
+type: virtue
+scope: personal
+orientation: active
+post_length: 791
+title: Da'at (דעת) - Ethical Knowledge
+definition: Integration of intellectual understanding with moral consciousness, combining
+  traditional wisdom with modern critical thinking.
+key_aspects:
+- Ethical awareness
+- Critical thinking
+- Moral discernment
+- Informed decision-making
+- Continuous learning
+historical_development: Traditional concept of Torah knowledge expanded to include
+  secular wisdom and ethical reasoning.
+contemporary_relevance: Essential for modern Jewish education, ethical decision-making,
+  and moral development.
+notable_quotes:
+- '"Without knowledge, understanding is impossible." - Pirkei Avot'
+- '"The highest form of wisdom is kindness." - Talmud'
+related_practices:
+- Torah study
+- Ethical education
+- Critical analysis
+- Moral reasoning
+- Lifelong learning

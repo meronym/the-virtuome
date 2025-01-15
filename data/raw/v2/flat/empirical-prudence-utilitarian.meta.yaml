@@ -1,0 +1,43 @@
+id: empirical-prudence-utilitarian
+name: Empirical Prudence
+tradition: utilitarian_ethics
+script:
+  english: empirical prudence
+  latin: prudentia empirica
+category: intellectual_virtue
+subcategory: scientific_thinking
+related_concepts:
+- consequential_wisdom
+- systematic_understanding
+- rational_benevolence
+period: 19th_century
+source_texts:
+- utilitarianism_mill
+- methods_of_ethics_sidgwick
+- principles_morals_legislation_bentham
+type: virtue
+scope: methodological
+orientation: active
+post_length: 948
+title: Empirical Prudence
+definition: The capacity for evidence-based thinking and decision-making, combining
+  scientific methodology with practical wisdom in pursuing utilitarian ends.
+key_aspects:
+- Evidence-based reasoning
+- Scientific methodology
+- Data-driven decisions
+- Experimental mindset
+- Systematic observation
+historical_development: Emerged from utilitarian integration of scientific method
+  with moral philosophy, influenced by empiricism and positivism.
+contemporary_relevance: Essential for evidence-based policy, social science research,
+  and systematic program evaluation.
+notable_quotes:
+- '"The truths of arithmetic are applicable to the valuation of happiness." - Sidgwick'
+- '"All action is for the sake of some end, and rules of action must take their whole
+  character from the end to which they are subservient." - Mill'
+related_practices:
+- Evidence gathering
+- Data analysis
+- Experimental design
+- Impact evaluation

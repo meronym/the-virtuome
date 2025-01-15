@@ -1,0 +1,47 @@
+id: knowledge-stewardship-amazonian
+name: Knowledge Stewardship
+tradition: amazonian_indigenous
+script:
+  note: Multiple terms across languages
+  exemplar_terms:
+  - language: tucano
+    term: masise
+  - language: shuar
+    term: unuimiartin
+category: wisdom_virtue
+subcategory: knowledge_preservation
+related_concepts:
+- ancestral_responsibility
+- forest_wisdom
+- healing_integration
+period: traditional_amazonian
+source_texts:
+- oral_traditions
+- teaching_practices
+- ceremonial_knowledge
+type: virtue
+scope: temporal_practical
+orientation: active
+post_length: 865
+title: Knowledge Stewardship
+definition: The responsibility for preserving and transmitting traditional knowledge,
+  ensuring its proper use and continuation across generations.
+key_aspects:
+- Traditional knowledge preservation
+- Proper knowledge transmission
+- Ethical teaching practices
+- Knowledge protection
+- Cultural continuity
+historical_development: Evolved through need to maintain crucial survival and spiritual
+  knowledge in oral traditions.
+contemporary_relevance: Essential for cultural preservation, biodiversity protection,
+  and indigenous rights movements.
+notable_quotes:
+- '"Knowledge lives when shared properly" - Elder teaching'
+- '"To teach is to keep our ways alive" - Traditional wisdom'
+related_practices:
+- Apprenticeship systems
+- Story transmission
+- Ceremonial teaching
+- Practical skill instruction
+- Knowledge protection protocols

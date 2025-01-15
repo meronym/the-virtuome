@@ -1,0 +1,45 @@
+id: adab-andalusian
+name: Adab
+tradition: andalusian_islamic
+script:
+  arabic: أدب
+  transliteration: adab
+  latin_translation: humanitas
+category: comprehensive_virtue
+subcategory: cultural_refinement
+related_concepts:
+- akhlaq
+- tahdhib
+- muruwwa
+- dhawq
+period: islamic_golden_age
+source_texts:
+- al_kamil_al_mubarrad
+- adab_al_katib_ibn_qutayba
+- al_iqd_al_farid
+type: virtue
+scope: personal_social
+orientation: active
+post_length: 922
+title: Adab (أدب) - Refined Character
+definition: Comprehensive excellence combining ethical behavior, cultural sophistication,
+  and social grace; the complete cultivation of outer conduct and inner character.
+key_aspects:
+- Ethical refinement
+- Cultural sophistication
+- Social etiquette
+- Intellectual cultivation
+- Aesthetic sensitivity
+historical_development: Evolved from pre-Islamic Arabian concept of proper conduct
+  to encompass comprehensive cultural and ethical refinement in Andalusian society.
+contemporary_relevance: Models holistic character development and cultural literacy
+  for modern multicultural societies.
+notable_quotes:
+- '"Adab is the collection of all virtues." - Ibn al-Muqaffa'
+- '"Through adab, the soul of civilization is preserved." - Andalusian saying'
+related_practices:
+- Literary cultivation
+- Social etiquette
+- Cultural education
+- Artistic appreciation
+- Ethical self-development

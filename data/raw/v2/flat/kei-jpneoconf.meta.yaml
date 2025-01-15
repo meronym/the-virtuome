@@ -1,0 +1,44 @@
+id: kei-jpneoconf
+name: Kei
+tradition: japanese_neo_confucian
+script:
+  kanji: 敬
+  hiragana: けい
+  romaji: kei
+category: moral_attitude
+subcategory: reverence
+related_concepts:
+- rei
+- shin
+- chu
+- ko
+period: edo_period
+source_texts:
+- neo_confucian_commentaries
+- domain_school_texts
+- ethical_treatises
+type: virtue
+scope: personal_social
+orientation: active
+post_length: 796
+title: Kei (敬) - Reverence/Respect
+definition: The fundamental attitude of reverence and respect that should permeate
+  all aspects of life, learning, and relationships.
+key_aspects:
+- Respectful mindset
+- Proper deportment
+- Learning attitude
+- Ceremonial propriety
+- Internal cultivation
+historical_development: Developed from Chinese concept of jing (敬), emphasized particularly
+  by Yamazaki Ansai and the Kimon school.
+contemporary_relevance: Influences modern Japanese educational philosophy and professional
+  relationships.
+notable_quotes:
+- '"Without kei, learning is impossible" - Yamazaki Ansai'
+- '"Reverence must be both internal and external" - Kimon school teaching'
+related_practices:
+- Proper posture in study
+- Ceremonial conduct
+- Mindful attention
+- Respectful interactions

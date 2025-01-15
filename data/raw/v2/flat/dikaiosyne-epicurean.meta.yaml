@@ -1,0 +1,44 @@
+id: dikaiosyne-epicurean
+name: Dikaiosynē
+tradition: epicurean
+script:
+  greek: δικαιοσύνη
+  transliteration: dikaiosynē
+  latin: iustitia
+category: social_virtue
+subcategory: justice
+related_concepts:
+- philia
+- symbolon
+- koinonia
+period: hellenistic
+source_texts:
+- principal_doctrines
+- vatican_sayings
+- on_justice
+type: virtue
+scope: social
+orientation: active
+post_length: 885
+title: Dikaiosynē (δικαιοσύνη) - Justice
+definition: The Epicurean conception of justice as a mutual agreement not to harm
+  or be harmed, maintained for social peace and personal security.
+key_aspects:
+- Mutual non-harm
+- Social contract adherence
+- Community peace
+- Personal security
+- Reciprocal benefits
+historical_development: Developed as a pragmatic approach to social harmony, based
+  on utility rather than absolute moral law.
+contemporary_relevance: Influences social contract theory, conflict resolution approaches,
+  and practical ethics.
+notable_quotes:
+- '"Natural justice is a pledge of reciprocal benefit, to prevent one from harming
+  others and being harmed by them." - Principal Doctrines'
+- '"The just person enjoys the greatest peace of mind." - Epicurean maxim'
+related_practices:
+- Contract keeping
+- Fair dealing
+- Community participation
+- Conflict avoidance

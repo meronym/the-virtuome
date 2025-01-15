@@ -1,0 +1,43 @@
+id: public-spirit-utilitarian
+name: Public Spirit
+tradition: utilitarian_ethics
+script:
+  english: public spirit
+  latin: spiritus publicus
+category: social_virtue
+subcategory: civic_engagement
+related_concepts:
+- rational_benevolence
+- social_intelligence
+- welfare_promotion
+period: 19th_century
+source_texts:
+- on_liberty_mill
+- political_justice_godwin
+- principles_legislation_bentham
+type: virtue
+scope: social
+orientation: active
+post_length: 827
+title: Public Spirit
+definition: Active concern for and engagement with public welfare, manifesting as
+  civic responsibility and commitment to collective improvement.
+key_aspects:
+- Civic engagement
+- Community service
+- Public interest focus
+- Collective welfare promotion
+- Social responsibility
+historical_development: Developed from utilitarian emphasis on collective welfare,
+  influenced by democratic reforms and civic movements.
+contemporary_relevance: Vital for civil society, democratic participation, and community
+  development.
+notable_quotes:
+- '"The multiplication of happiness is the object of virtue." - Bentham'
+- '"The social state is at once so natural, so necessary, and so habitual to man..."
+  - Mill'
+related_practices:
+- Community service
+- Civic participation
+- Public advocacy
+- Social volunteering

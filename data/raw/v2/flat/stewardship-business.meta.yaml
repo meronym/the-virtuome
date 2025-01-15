@@ -1,0 +1,46 @@
+id: stewardship-business
+name: Stewardship
+tradition: business_ethics
+script:
+  old_english: stiward
+  english: stewardship
+category: management_virtue
+subcategory: responsible_leadership
+related_concepts:
+- sustainability
+- responsibility
+- guardianship
+- trusteeship
+period: modern_business
+source_texts:
+- stakeholder_theory_literature
+- sustainability_frameworks
+- corporate_governance_codes
+type: virtue
+scope: organizational
+orientation: active
+post_length: 1104
+title: Stewardship - Responsible Resource Management
+definition: Stewardship represents the responsible planning, management, and protection
+  of resources and relationships entrusted to business leaders, considering long-term
+  impacts on all stakeholders.
+key_aspects:
+- Resource responsibility
+- Long-term orientation
+- Stakeholder consideration
+- Environmental protection
+- Future generation consideration
+historical_development: Evolved from basic property management to comprehensive responsibility
+  for environmental, social, and economic impacts.
+contemporary_relevance: Critical for addressing sustainability challenges, climate
+  change, and responsible resource management in global business.
+notable_quotes:
+- '"We do not inherit the Earth from our ancestors; we borrow it from our children."
+  - Native American Proverb'
+- '"The greatest good you can do for another is not just to share your riches but
+  to reveal to him his own." - Benjamin Disraeli'
+related_practices:
+- Sustainable resource management
+- Stakeholder engagement
+- Environmental protection
+- Social responsibility initiatives

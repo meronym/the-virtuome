@@ -1,0 +1,44 @@
+id: integrity-psych
+name: Integrity
+tradition: moral_psychology
+script:
+  english: integrity
+  academic: moral integrity
+  alternative: ethical wholeness
+category: character_virtue
+subcategory: moral_coherence
+related_concepts:
+- authenticity
+- moral_consistency
+- ethical_congruence
+- value_alignment
+period: contemporary
+source_texts:
+- blasi_moral_identity
+- carter_integrity
+- peterson_character_strengths
+type: virtue
+scope: personal
+orientation: balanced
+post_length: 842
+title: Integrity - Moral Wholeness
+definition: The integration of moral values, beliefs, and actions into a coherent
+  whole, maintaining consistency between ethical principles and behavior.
+key_aspects:
+- Value-behavior alignment
+- Moral consistency
+- Authentic expression
+- Principle adherence
+- Self-integration
+historical_development: Developed through moral identity research and character strength
+  studies in positive psychology.
+contemporary_relevance: Essential for trust-building, leadership, and maintaining
+  ethical standards in organizations.
+notable_quotes:
+- '"Integrity is doing the right thing even when no one is watching." - C.S. Lewis'
+- '"Moral integrity is the cornerstone of character." - Stephen Carter'
+related_practices:
+- Value clarification
+- Consistency monitoring
+- Ethical reflection
+- Authentic expression

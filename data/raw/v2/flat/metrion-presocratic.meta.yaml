@@ -1,0 +1,44 @@
+id: metrion-presocratic
+name: Metrion
+tradition: presocratic
+script:
+  greek: μέτριον
+  transliteration: metrion
+  alternate: metron (μέτρον)
+category: ethical_principle
+subcategory: measure
+related_concepts:
+- harmonia
+- sophrosyne
+- dike
+- logos
+period: early_greek
+source_texts:
+- seven_sages_maxims
+- pythagorean_texts
+- democratic_fragments
+type: virtue
+scope: universal
+orientation: balanced
+post_length: 813
+title: Metrion (μέτριον) - Measure/Right Proportion
+definition: The principle of proper measure and right proportion in thought and action,
+  representing the mean between extremes and the appropriate scale in all things.
+key_aspects:
+- Right proportion
+- Balanced action
+- Appropriate measure
+- Limited excess
+- Harmonious restraint
+historical_development: Emerged from early Greek wisdom traditions, developed by Pre-Socratics
+  into a philosophical principle linking cosmic order with human conduct.
+contemporary_relevance: Influences modern concepts of moderation, sustainable practice,
+  and balanced living.
+notable_quotes:
+- '"Nothing in excess" - Delphic maxim'
+- '"Measure is best" - Cleobulus of Lindos'
+related_practices:
+- Self-restraint
+- Proportional action
+- Balanced judgment
+- Measured conduct

@@ -1,0 +1,44 @@
+id: shindoku-jpneoconf
+name: Shindoku
+tradition: japanese_neo_confucian
+script:
+  kanji: 慎独
+  hiragana: しんどく
+  romaji: shindoku
+category: moral_virtue
+subcategory: private_integrity
+related_concepts:
+- makoto
+- sei
+- ki
+- shushin
+period: edo_period
+source_texts:
+- neo_confucian_texts
+- ethical_treatises
+- personal_cultivation_guides
+type: virtue
+scope: personal
+orientation: reflective
+post_length: 810
+title: Shindoku (慎独) - Integrity in Private
+definition: The maintenance of moral integrity and proper conduct even when alone,
+  representing true internalization of virtue.
+key_aspects:
+- Private morality
+- Self-vigilance
+- Inner authenticity
+- Moral consistency
+- Personal integrity
+historical_development: Adapted from Chinese concept of shendu (慎独), emphasized particularly
+  in Japanese Neo-Confucian self-cultivation practices.
+contemporary_relevance: Important for personal ethics and professional integrity in
+  modern context.
+notable_quotes:
+- '"True virtue is revealed in private moments" - Neo-Confucian teaching'
+- '"Without shindoku, all other virtues are mere appearance" - Ethical treatise'
+related_practices:
+- Self-examination
+- Private reflection
+- Moral consistency
+- Personal discipline

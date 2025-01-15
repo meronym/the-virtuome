@@ -1,0 +1,48 @@
+id: constantia-stoic
+name: Constantia
+tradition: stoic
+script:
+  latin: constantia
+  greek: εὐστάθεια
+  greek_transliteration: eustatheia
+category: core_virtue
+subcategory: resilience
+related_concepts:
+- firmitas
+- stabilitas
+- fortitudo
+- patientia
+period: roman_stoic
+source_texts:
+- de_constantia_sapientis
+- de_vita_beata
+- meditations
+- enchiridion
+type: virtue
+scope: personal
+orientation: passive
+post_length: 1082
+title: Constantia - Steadfastness
+definition: Constantia represents unwavering stability of character and purpose, maintaining
+  equanimity in the face of both fortune and misfortune.
+key_aspects:
+- Inner stability regardless of external circumstances
+- Emotional equilibrium
+- Consistency between principles and actions
+- Resilience under pressure
+- Unshakeable adherence to reason
+historical_development: Particularly emphasized by Roman Stoics, especially Seneca
+  in "On the Firmness of the Wise Person." Became central to Roman conception of virtue
+  and nobility.
+contemporary_relevance: Fundamental to modern resilience training, stress management,
+  and leadership development. Essential for maintaining stability in volatile environments.
+notable_quotes:
+- '"The wise person is content with himself." - Seneca'
+- '"Like a rock, the wise person''s mind stays unmoved while the waves crash around
+  it." - Marcus Aurelius (paraphrased)'
+related_practices:
+- Regular meditation
+- Adversity training
+- Self-examination
+- Principle-centered living
+- Emotional regulation exercises

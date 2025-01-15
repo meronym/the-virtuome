@@ -1,0 +1,47 @@
+id: euthymia-presocratic
+name: Euthymia
+tradition: presocratic
+script:
+  greek: εὐθυμία
+  transliteration: euthymia
+  alternate: euthymiē (Ionic)
+category: psychological_virtue
+subcategory: wellbeing
+related_concepts:
+- ataraxia
+- galene
+- hedone
+- autarkeia
+period: early_greek
+source_texts:
+- democritus_fragments
+- ethical_maxims
+- later_testimonies
+type: virtue
+scope: individual
+orientation: balanced
+post_length: 953
+title: Euthymia (εὐθυμία) - Cheerful Tranquility
+definition: The state of well-being and cheerful tranquility achieved through wisdom
+  and moderation, particularly emphasized in Democritean ethics as the goal of human
+  life.
+key_aspects:
+- Mental tranquility
+- Reasoned joy
+- Balanced pleasure
+- Inner stability
+- Rational contentment
+historical_development: Developed by Democritus as an ethical ideal, combining elements
+  of pleasure and reason in a stable state of well-being.
+contemporary_relevance: Influences modern concepts of happiness, psychological well-being,
+  and positive mental health.
+notable_quotes:
+- '"The best thing for a man is to live his life with as much joy and as little grief
+  as possible." - Democritus'
+- '"Happiness resides not in possessions, and not in gold; happiness dwells in the
+  soul." - Democritus'
+related_practices:
+- Rational pleasure pursuit
+- Emotional regulation
+- Moderate living
+- Philosophical reflection

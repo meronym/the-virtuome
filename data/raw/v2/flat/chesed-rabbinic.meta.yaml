@@ -1,0 +1,46 @@
+id: chesed-rabbinic
+name: Chesed
+tradition: rabbinic_jewish
+script:
+  hebrew: חסד
+  transliteration: chesed/ḥesed
+  alternative: hesed
+category: moral_virtue
+subcategory: lovingkindness
+related_concepts:
+- rachamim
+- tzedakah
+- gemilut_chasadim
+- ahavat_yisrael
+period: rabbinic
+source_texts:
+- tanakh
+- talmud
+- midrash
+- mussar_works
+type: virtue
+scope: interpersonal
+orientation: active
+post_length: 805
+title: Chesed (חסד) - Lovingkindness
+definition: Active benevolence and kindness beyond obligation, emulating divine attributes
+  through concrete actions of care and support.
+key_aspects:
+- Proactive kindness
+- Divine emulation
+- Unconditional giving
+- Community building
+- Relationship nurturing
+historical_development: From biblical attribute of God to rabbinic emphasis on human
+  implementation through specific acts of kindness.
+contemporary_relevance: Fundamental to modern Jewish social services, community organization,
+  and interpersonal ethics.
+notable_quotes:
+- '"The world is built on chesed." - Psalms 89:3'
+- '"Greater is gemilut chasadim than tzedakah." - Sukkah 49b'
+related_practices:
+- Visiting sick
+- Helping poor
+- Hosting guests
+- Comforting mourners
+- Supporting community needs

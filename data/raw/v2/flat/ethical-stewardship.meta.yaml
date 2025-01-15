@@ -1,0 +1,43 @@
+id: ethical-stewardship
+name: Ethical Stewardship
+tradition: bioethics
+script:
+  english: ethical stewardship
+  latin: procuratio ethica
+category: responsibility_virtue
+subcategory: resource_management
+related_concepts:
+- sustainability
+- intergenerational_justice
+- resource_responsibility
+period: contemporary_bioethics
+source_texts:
+- environmental_bioethics
+- healthcare_sustainability
+- resource_allocation_ethics
+type: virtue
+scope: systemic
+orientation: active
+post_length: 989
+title: Ethical Stewardship
+definition: The responsible management and preservation of healthcare resources, environmental
+  considerations, and future implications of medical decisions and practices.
+key_aspects:
+- Resource responsibility
+- Environmental consciousness
+- Future consideration
+- Sustainable practice
+- System preservation
+historical_development: Emerged from environmental ethics and sustainable healthcare
+  movements, gaining prominence with recognition of healthcare's environmental impact.
+contemporary_relevance: Critical for addressing healthcare sustainability, resource
+  allocation, and environmental impact of medical practices.
+notable_quotes:
+- '"We do not inherit the Earth from our ancestors; we borrow it from our children."
+  - Applied to healthcare'
+- '"Sustainable healthcare is not an option; it is an imperative." - WHO principle'
+related_practices:
+- Sustainable healthcare
+- Resource conservation
+- Environmental impact assessment
+- Long-term planning

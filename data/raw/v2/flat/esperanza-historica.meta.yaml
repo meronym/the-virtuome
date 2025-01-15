@@ -1,0 +1,44 @@
+id: esperanza-historica
+name: Esperanza Histórica
+tradition: liberation_theology
+script:
+  spanish: Esperanza Histórica
+  portuguese: Esperança Histórica
+  latin: Spes Historica
+category: theological_virtue
+subcategory: revolutionary_hope
+related_concepts:
+- utopia_cristiana
+- reino_de_dios
+- transformacion_social
+period: modern_catholic
+source_texts:
+- theology_of_hope
+- teologia_de_la_liberacion
+- faith_in_history_and_society
+type: virtue
+scope: universal
+orientation: future_oriented
+post_length: 928
+title: Esperanza Histórica (Historical Hope)
+definition: Hope grounded in historical possibility for transformation, combining
+  theological vision with concrete social analysis and revolutionary praxis.
+key_aspects:
+- Future-oriented vision
+- Historical materialism
+- Theological optimism
+- Revolutionary possibility
+- Concrete utopia
+historical_development: Synthesized from Moltmann's theology of hope with Latin American
+  liberation praxis and Marxist analysis of historical change.
+contemporary_relevance: Sustains long-term struggle for justice, provides framework
+  for linking immediate action with ultimate vision.
+notable_quotes:
+- '"Hope is the raw material of history." - Gustavo Gutiérrez'
+- '"The future of history belongs to the poor and exploited." - Leonardo Boff'
+related_practices:
+- Utopian visioning
+- Strategic planning
+- Movement building
+- Alternative institution creation
+- Revolutionary preparation

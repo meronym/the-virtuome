@@ -1,0 +1,43 @@
+id: karteria-cynic
+name: Karteria
+tradition: cynic
+script:
+  greek: καρτερία
+  transliteration: kartería
+  latin: patientia
+category: enabling_virtue
+subcategory: endurance
+related_concepts:
+- askesis
+- autarkeia
+- eleutheria
+period: classical_greek
+source_texts:
+- cynic_accounts
+- diogenes_stories
+- philosophical_testimonials
+type: virtue
+scope: personal
+orientation: active
+post_length: 855
+title: Karteria (καρτερία) - Endurance
+definition: The capacity for physical and mental endurance in facing hardship, essential
+  for achieving Cynic freedom and self-sufficiency.
+key_aspects:
+- Physical toughness
+- Mental resilience
+- Voluntary hardship
+- Pain tolerance
+- Environmental adaptation
+historical_development: Developed from athletic and military virtue into philosophical
+  tool. Central to Cynic practice of voluntary hardship.
+contemporary_relevance: Influences modern resilience training, endurance sports philosophy,
+  and psychological hardiness development.
+notable_quotes:
+- '"The art of living is more like wrestling than dancing." - Attributed to Diogenes'
+- '"Difficulties strengthen the mind, as labor does the body." - Cynic principle'
+related_practices:
+- Cold exposure
+- Physical training
+- Hunger tolerance
+- Outdoor living

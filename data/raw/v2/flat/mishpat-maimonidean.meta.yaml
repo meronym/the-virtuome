@@ -1,0 +1,44 @@
+id: mishpat-maimonidean
+name: Mishpat
+tradition: maimonidean
+script:
+  hebrew: משפט
+  transliteration: mishpat
+  alternate: din
+category: social_virtue
+subcategory: justice
+related_concepts:
+- tzedek
+- chesed
+- emet
+period: medieval_jewish
+source_texts:
+- moreh_nevuchim
+- mishneh_torah
+- commentary_on_avot
+type: virtue
+scope: social
+orientation: active
+post_length: 802
+title: Mishpat (משפט) - Justice
+definition: The virtue of maintaining social harmony through proper judgment, combining
+  strict justice with mercy and wisdom.
+key_aspects:
+- Legal justice
+- Social equity
+- Ethical judgment
+- Balanced consideration
+- Communal harmony
+historical_development: Maimonides synthesized biblical concepts of justice with philosophical
+  reasoning and practical governance needs.
+contemporary_relevance: Essential for modern legal ethics, social justice, and communal
+  leadership.
+notable_quotes:
+- '"Justice, justice shall you pursue." - Maimonides'' interpretation'
+- '"The world stands on three things: truth, justice, and peace." - Maimonidean application'
+related_practices:
+- Legal study
+- Fair judgment
+- Community service
+- Conflict resolution
+- Ethical leadership

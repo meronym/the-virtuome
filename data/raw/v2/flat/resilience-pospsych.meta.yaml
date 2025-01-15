@@ -1,0 +1,45 @@
+id: resilience-pospsych
+name: Resilience
+tradition: positive_psychology
+script:
+  english: resilience
+  latin_root: resilire
+category: adaptive_strength
+subcategory: coping_capacity
+related_concepts:
+- post_traumatic_growth
+- hardiness
+- psychological_flexibility
+- adaptive_capacity
+period: contemporary
+source_texts:
+- resilience_in_development
+- ordinary_magic
+- handbook_of_adult_resilience
+type: virtue
+scope: individual
+orientation: adaptive
+post_length: 1013
+title: Resilience - Positive Adaptation to Adversity
+definition: Resilience is the capacity to maintain or regain psychological well-being
+  in the face of challenges, encompassing both resistance to and recovery from adversity.
+key_aspects:
+- Adaptive flexibility
+- Recovery capacity
+- Growth mindset
+- Social support utilization
+- Emotional regulation
+historical_development: Evolved from early studies of "invulnerable" children to a
+  dynamic model of positive adaptation. Expanded through research on post-traumatic
+  growth and protective factors.
+contemporary_relevance: Critical for mental health promotion, trauma recovery, and
+  professional development. Essential skill in rapidly changing environments.
+notable_quotes:
+- '"Resilience is ordinary magic." - Ann Masten'
+- '"It''s not about bouncing back, it''s about bouncing forward." - Sheryl Sandberg'
+related_practices:
+- Stress inoculation training
+- Adaptive coping strategies
+- Social support building
+- Meaning-making
+- Growth-oriented reflection

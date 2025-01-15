@@ -1,0 +1,44 @@
+id: accountability-business
+name: Accountability
+tradition: business_ethics
+script:
+  english: accountability
+  latin_root: accomptare
+category: governance_virtue
+subcategory: responsibility
+related_concepts:
+- transparency
+- responsibility
+- answerability
+- liability
+period: modern_business
+source_texts:
+- corporate_governance_codes
+- compliance_frameworks
+- stakeholder_theory
+type: virtue
+scope: individual_organizational
+orientation: active
+post_length: 934
+title: Accountability - Professional Responsibility
+definition: Accountability represents the willingness and obligation to accept responsibility
+  for actions, decisions, and consequences in business contexts.
+key_aspects:
+- Responsibility acceptance
+- Transparent reporting
+- Consequence management
+- Stakeholder responsiveness
+- Performance measurement
+historical_development: Evolved from basic financial accounting to comprehensive stakeholder
+  accountability including social and environmental impacts.
+contemporary_relevance: Critical for maintaining trust in business institutions and
+  ensuring responsible corporate behavior in global markets.
+notable_quotes:
+- '"It is not only what we do, but also what we do not do, for which we are accountable."
+  - Molière'
+- '"The buck stops here." - Harry S. Truman'
+related_practices:
+- Performance reporting
+- Stakeholder communication
+- Compliance monitoring
+- Impact assessment

@@ -1,0 +1,45 @@
+id: ji-korean-neoconfucian
+name: Ji
+tradition: korean_neoconfucian
+script:
+  hangeul: 지
+  hanja: 智
+  romanization: ji
+  classical_chinese: 智
+category: intellectual_virtue
+subcategory: wisdom
+related_concepts:
+- in
+- ui
+- seong
+- gyeong
+period: joseon_dynasty
+source_texts:
+- seonghak_sipdo
+- toegye_jeonseo
+- sagye_seokhui
+type: virtue
+scope: personal
+orientation: active
+post_length: 854
+title: Ji (지/智) - Wisdom
+definition: The virtue of moral wisdom and understanding, representing the capacity
+  to comprehend moral principles and apply them appropriately in practice.
+key_aspects:
+- Moral understanding
+- Practical wisdom
+- Ethical insight
+- Discriminating judgment
+- Integration of knowledge
+historical_development: Korean Neo-Confucians emphasized ji as practical wisdom rather
+  than mere theoretical knowledge, linking it closely with moral action.
+contemporary_relevance: Important in modern Korean approaches to education and leadership
+  development.
+notable_quotes:
+- '"Wisdom without benevolence is not true wisdom." - Korean Neo-Confucian saying'
+- '"Ji is the light that illuminates proper action." - Traditional teaching'
+related_practices:
+- Scholarly study
+- Practical judgment
+- Moral reasoning
+- Mindful decision-making

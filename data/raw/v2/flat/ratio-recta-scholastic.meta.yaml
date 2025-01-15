@@ -1,0 +1,44 @@
+id: ratio-recta-scholastic
+name: Ratio Recta
+tradition: scholastic
+script:
+  latin: ratio recta
+  greek: ὀρθὸς λόγος
+  greek_transliteration: orthos logos
+category: fundamental_principle
+subcategory: rational_virtue
+related_concepts:
+- prudentia
+- intellectus
+- discretio
+- sapientia
+period: medieval_scholastic
+source_texts:
+- summa_theologica
+- de_veritate
+- commentaria_in_ethicam
+type: virtue
+scope: intellectual
+orientation: active
+post_length: 895
+title: Ratio Recta (Right Reason)
+definition: Ratio Recta represents the proper operation of human reason in both theoretical
+  and practical matters, enabling correct judgment according to truth and good.
+key_aspects:
+- Rational discernment
+- Moral reasoning
+- Integration of principles
+- Natural law understanding
+- Truth-directed thinking
+historical_development: Developed from Aristotelian logos through patristic thought,
+  systematized in scholastic theories of practical reason and moral judgment.
+contemporary_relevance: Important for critical thinking, moral reasoning, and professional
+  judgment. Basis for rational ethics.
+notable_quotes:
+- '"Right reason is the rule and measure of human acts." - Aquinas'
+- '"The natural law is nothing else than right reason." - Medieval maxim'
+related_practices:
+- Logical analysis
+- Moral reasoning
+- Ethical deliberation
+- Rational discourse

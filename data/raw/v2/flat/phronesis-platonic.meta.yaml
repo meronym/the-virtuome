@@ -1,0 +1,45 @@
+id: phronesis-platonic
+name: Phronēsis
+tradition: platonic
+script:
+  greek: φρόνησις
+  transliteration: phronēsis
+  latin: prudentia
+category: intellectual_virtue
+subcategory: practical_wisdom
+related_concepts:
+- sophia
+- nous
+- episteme
+- techne
+period: classical_greek
+source_texts:
+- republic
+- protagoras
+- meno
+- phaedrus
+type: virtue
+scope: practical
+orientation: active
+post_length: 855
+title: Phronēsis (φρόνησις) - Practical Wisdom
+definition: Phronēsis represents the capacity for practical wisdom and good judgment,
+  bridging theoretical understanding with practical action in the world.
+key_aspects:
+- Practical judgment
+- Ethical reasoning
+- Situational wisdom
+- Decision-making
+- Applied knowledge
+historical_development: Developed from Socratic practical ethics through Platonic
+  theory of knowledge, distinguishing practical from theoretical wisdom.
+contemporary_relevance: Important for professional ethics, leadership theory, and
+  practical decision-making. Models integration of theory and practice.
+notable_quotes:
+- '"Knowledge and wisdom guide right action." - Protagoras'
+- '"The good person is the wise person." - Platonic principle'
+related_practices:
+- Ethical deliberation
+- Problem-solving
+- Leadership
+- Mentorship

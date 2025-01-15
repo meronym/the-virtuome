@@ -1,0 +1,45 @@
+id: resolution-franklin
+name: Resolution
+tradition: franklin_virtues
+script:
+  english: Resolution
+  franklin_quote: Resolve to perform what you ought; perform without fail what you
+    resolve
+category: executive_virtue
+subcategory: determination
+related_concepts:
+- industry
+- order
+- improvement
+- temperance
+period: american_enlightenment
+source_texts:
+- autobiography_of_benjamin_franklin
+- personal_virtue_system
+- letters_and_papers
+type: virtue
+scope: personal
+orientation: active
+post_length: 909
+title: Resolution - Determined Persistence
+definition: The virtue of firm determination and follow-through, converting decisions
+  into actions and maintaining commitments despite obstacles.
+key_aspects:
+- Commitment fulfillment
+- Persistent action
+- Goal achievement
+- Obstacle navigation
+- Unwavering purpose
+historical_development: Developed as a crucial component of Franklin's self-improvement
+  system, enabling the practical implementation of other virtues.
+contemporary_relevance: Essential for modern goal achievement, habit formation, and
+  personal development. Key to project management and leadership.
+notable_quotes:
+- '"Resolve not to be poor: whatever you have, spend less." - Poor Richard''s Almanack'
+- '"Energy and persistence conquer all things." - Benjamin Franklin'
+related_practices:
+- Goal setting
+- Progress tracking
+- Commitment devices
+- Accountability systems
+- Obstacle planning

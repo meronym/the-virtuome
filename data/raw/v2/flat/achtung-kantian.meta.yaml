@@ -1,0 +1,43 @@
+id: achtung-kantian
+name: Achtung
+tradition: kantian
+script:
+  german: Achtung
+  transliteration: n/a
+  latin: reverentia
+category: moral_virtue
+subcategory: moral_attitude
+related_concepts:
+- würde
+- pflicht
+- moralgesetz
+period: enlightenment
+source_texts:
+- groundwork_of_the_metaphysics_of_morals
+- critique_of_practical_reason
+type: virtue
+scope: universal
+orientation: passive
+post_length: 861
+title: Achtung (Respect)
+definition: The feeling of reverence for moral law and rational beings, representing
+  the proper attitude toward moral requirements and human dignity.
+key_aspects:
+- Moral reverence
+- Recognition of dignity
+- Rational respect
+- Universal regard
+- Moral motivation
+historical_development: Developed as the proper moral feeling in Kant's ethics, distinct
+  from empirical inclinations.
+contemporary_relevance: Essential for modern human rights discourse, professional
+  ethics, and moral education.
+notable_quotes:
+- '"Respect for the moral law is a feeling which is produced by an intellectual cause."
+  - Critique of Practical Reason'
+- '"What I recognize immediately as law for me, I recognize with respect." - Groundwork'
+related_practices:
+- Recognition of dignity
+- Ethical treatment
+- Human rights respect
+- Professional courtesy

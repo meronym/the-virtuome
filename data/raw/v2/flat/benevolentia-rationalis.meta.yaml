@@ -1,0 +1,43 @@
+id: benevolentia-rationalis
+name: Rational Benevolence
+tradition: rationalist_ethics
+script:
+  latin: benevolentia rationalis
+  french: bienveillance rationnelle
+  german: rationales Wohlwollen
+category: social_virtue
+subcategory: ethical_relation
+related_concepts:
+- caritas
+- humanitas
+- concordia
+period: enlightenment
+source_texts:
+- theodicy_leibniz
+- ethics_spinoza
+- philosophical_letters
+type: virtue
+scope: interpersonal
+orientation: active
+post_length: 832
+title: Rational Benevolence (Benevolentia Rationalis)
+definition: The virtue of reasoned care for others, expressing universal rational
+  principles through ethical action and social harmony.
+key_aspects:
+- Reasoned compassion
+- Universal goodwill
+- Ethical understanding
+- Social harmony
+- Rational care
+historical_development: Emerged from rationalist integration of ethics and reason,
+  particularly developed in Leibniz's theory of universal harmony.
+contemporary_relevance: Significant for ethical leadership, social policy, and humanitarian
+  work.
+notable_quotes:
+- '"The more we understand particular things, the more we understand God." - Spinoza'
+- '"To love is to find pleasure in the happiness of others." - Leibniz'
+related_practices:
+- Ethical reasoning
+- Social service
+- Rational philanthropy
+- Community building

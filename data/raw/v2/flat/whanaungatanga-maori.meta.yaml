@@ -1,0 +1,45 @@
+id: whanaungatanga-maori
+name: Whanaungatanga
+tradition: maori
+script:
+  maori: whanaungatanga
+  phonetic: ˌfanaʊˈŋataŋa
+category: relational_virtue
+subcategory: kinship_connection
+related_concepts:
+- aroha
+- manaakitanga
+- kotahitanga
+- whānau
+period: traditional_maori
+source_texts:
+- oral_traditions
+- whakapapa
+- tribal_histories
+type: virtue
+scope: collective
+orientation: active
+post_length: 995
+title: Whanaungatanga - Relationship Building and Maintenance
+definition: Whanaungatanga represents the principle of relationships and family connections,
+  emphasizing the importance of maintaining and honoring collective bonds.
+key_aspects:
+- Family relationships
+- Extended kinship
+- Collective identity
+- Shared responsibility
+- Intergenerational bonds
+historical_development: Derived from whānau (family), developed as a comprehensive
+  system of understanding relationships and obligations within Māori society.
+contemporary_relevance: Fundamental to Māori business practices, education, and social
+  services. Influences modern approaches to community building.
+notable_quotes:
+- '"He aha te mea nui o te ao? He tangata, he tangata, he tangata"'
+- (What is the most important thing in the world? It is people, it is people, it is
+  people)
+related_practices:
+- Whakapapa recitation
+- Family gatherings
+- Collective decision-making
+- Community support networks
+- Mentoring relationships

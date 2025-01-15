@@ -1,0 +1,45 @@
+id: digital-courage
+name: Digital Courage
+tradition: digital_ethics
+script:
+  greek: ἀνδρεία ψηφιακή
+  transliteration: andreia psephiake
+  english: digital_courage
+category: moral_virtue
+subcategory: ethical_action
+related_concepts:
+- technological_responsibility
+- digital_citizenship
+- ethical_leadership
+period: information_age
+source_texts:
+- digital_ethics_frameworks
+- whistleblower_studies
+- tech_activism_literature
+type: virtue
+scope: personal
+orientation: active
+post_length: 920
+title: Digital Courage (ἀνδρεία ψηφιακή)
+definition: Digital Courage represents the moral strength to stand up for ethical
+  principles in digital contexts and take responsible risks for ethical technology.
+key_aspects:
+- Ethical stand-taking
+- Responsible risk-taking
+- Truth-speaking in tech
+- Innovation courage
+- Moral leadership
+historical_development: Emerged from tech whistleblower cases and ethical technology
+  activism movements.
+contemporary_relevance: Critical for addressing ethical challenges in technology development
+  and maintaining human values in digital transformation.
+notable_quotes:
+- '"The only thing necessary for the triumph of unethical technology is for good developers
+  to do nothing."'
+- '"Innovation without ethics is just clever destruction."'
+related_practices:
+- Ethical whistleblowing
+- Responsible disclosure
+- Tech activism
+- Ethical development advocacy
+- Digital rights defense

@@ -1,0 +1,44 @@
+id: ethical-wisdom-psych
+name: Ethical Wisdom
+tradition: moral_psychology
+script:
+  english: ethical wisdom
+  academic: moral expertise
+  alternative: practical moral wisdom
+category: integrative_capacity
+subcategory: moral_expertise
+related_concepts:
+- practical_wisdom
+- moral_judgment
+- ethical_expertise
+- value_integration
+period: contemporary
+source_texts:
+- sternberg_wisdom
+- narvaez_moral_expertise
+- haidt_wisdom_paradox
+type: virtue
+scope: comprehensive
+orientation: balanced
+post_length: 830
+title: Ethical Wisdom - Moral Expertise
+definition: The integrated capacity to understand, judge, and act effectively in moral
+  situations, combining experience, knowledge, and intuition.
+key_aspects:
+- Experiential learning
+- Contextual judgment
+- Value integration
+- Practical application
+- Balanced perspective
+historical_development: Synthesized from wisdom research, moral expertise studies,
+  and practical ethics investigations.
+contemporary_relevance: Essential for navigating complex moral landscapes in professional
+  and personal contexts.
+notable_quotes:
+- '"Wisdom is knowing what to do next; virtue is doing it." - David Starr Jordan'
+- '"Moral expertise develops through reflection on experience." - Darcia Narvaez'
+related_practices:
+- Reflective practice
+- Mentorship
+- Case analysis
+- Ethical decision-making

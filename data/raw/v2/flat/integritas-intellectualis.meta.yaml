@@ -1,0 +1,43 @@
+id: integritas-intellectualis
+name: Intellectual Integrity
+tradition: rationalist_ethics
+script:
+  latin: integritas intellectualis
+  french: intégrité intellectuelle
+  german: intellektuelle Integrität
+category: ethical_virtue
+subcategory: intellectual_character
+related_concepts:
+- veritas
+- honestas
+- fidelitas
+period: enlightenment
+source_texts:
+- ethics_spinoza
+- meditations
+- theodicy_leibniz
+type: virtue
+scope: individual
+orientation: active
+post_length: 860
+title: Intellectual Integrity (Integritas Intellectualis)
+definition: The virtue of maintaining complete fidelity to rational truth and principles,
+  encompassing both theoretical accuracy and practical consistency.
+key_aspects:
+- Truth-seeking commitment
+- Rational consistency
+- Intellectual honesty
+- Logical coherence
+- Ethical alignment
+historical_development: Emerged from rationalist emphasis on truth and systematic
+  thinking, developed as core ethical-intellectual virtue.
+contemporary_relevance: Essential for academic integrity, scientific research, and
+  professional ethics.
+notable_quotes:
+- '"The mind''s highest good is the knowledge of God." - Spinoza'
+- '"To strive in all things for truth with good faith." - Leibniz'
+related_practices:
+- Rigorous self-examination
+- Logical consistency checks
+- Ethical reasoning
+- Truth-oriented inquiry

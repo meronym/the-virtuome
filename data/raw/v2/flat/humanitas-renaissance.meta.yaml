@@ -1,0 +1,45 @@
+id: humanitas-renaissance
+name: Humanitas
+tradition: renaissance_humanism
+script:
+  latin: humanitas
+  greek_equivalent: παιδεία
+  italian_renaissance: umanità
+category: foundational_virtue
+subcategory: human_excellence
+related_concepts:
+- dignitas
+- eruditio
+- civilitas
+- studia_humanitatis
+period: renaissance
+source_texts:
+- cicero_de_officiis
+- petrarch_letters
+- pico_dignity_of_man
+type: virtue
+scope: universal
+orientation: balanced
+post_length: 969
+title: Humanitas - Cultured Humanity
+definition: Humanitas represents the highest ideal of human cultivation, combining
+  intellectual refinement, moral excellence, and social responsibility.
+key_aspects:
+- Cultural sophistication
+- Moral development
+- Social responsibility
+- Intellectual refinement
+- Universal human potential
+historical_development: Derived from Ciceronian humanitas, transformed through Renaissance
+  reinterpretation into comprehensive ideal of human excellence. Developed by Petrarch
+  and later humanists as cornerstone of cultural program.
+contemporary_relevance: Influences modern liberal education, cultural development
+  programs, and theories of human potential.
+notable_quotes:
+- '"Man is the measure of all things." - Protagoras, via Renaissance interpretation'
+- '"Nothing human is alien to me." - Terence, humanist motto'
+related_practices:
+- Liberal arts education
+- Cultural cultivation
+- Ethical self-development
+- Social engagement

@@ -1,0 +1,43 @@
+id: chesed-mussar
+name: Chesed
+tradition: mussar
+script:
+  hebrew: חסד
+  transliteration: chesed
+  alternate: chessed
+category: interpersonal_virtue
+subcategory: loving_kindness
+related_concepts:
+- rachamim
+- ahavah
+- tzedakah
+period: mussar_movement
+source_texts:
+- chayei_adam
+- ahavat_chesed
+- michtav_meeliyahu
+type: virtue
+scope: interpersonal
+orientation: active
+post_length: 768
+title: Chesed (חסד) - Loving-kindness
+definition: Active benevolence and kindness toward others, going beyond obligation
+  to express genuine care and consideration.
+key_aspects:
+- Proactive kindness
+- Genuine concern
+- Going beyond duty
+- Emotional generosity
+- Practical helping
+historical_development: Fundamental to Jewish thought, emphasized by Mussar movement
+  as essential expression of refined character.
+contemporary_relevance: Critical for building community and maintaining human connection
+  in increasingly isolated society.
+notable_quotes:
+- '"The world is built through chesed." - Psalms 89:3'
+- '"Chesed begins where obligation ends." - Chofetz Chaim'
+related_practices:
+- Daily acts of kindness
+- Volunteer work
+- Community service
+- Visiting sick

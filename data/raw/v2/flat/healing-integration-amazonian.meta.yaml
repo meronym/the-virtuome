@@ -1,0 +1,47 @@
+id: healing-integration-amazonian
+name: Healing Integration
+tradition: amazonian_indigenous
+script:
+  note: Various terms across languages
+  exemplar_terms:
+  - language: shipibo
+    term: raomei
+  - language: quechua
+    term: hampiq
+category: healing_virtue
+subcategory: holistic_healing
+related_concepts:
+- spirit_world_integration
+- forest_wisdom
+- ecological_mindfulness
+period: traditional_amazonian
+source_texts:
+- healing_traditions
+- plant_knowledge
+- shamanic_teachings
+type: virtue
+scope: practical_spiritual
+orientation: integrative
+post_length: 887
+title: Healing Integration
+definition: Understanding of physical-spiritual healing relationships, combining plant
+  knowledge, spiritual insight, and ethical healing practices.
+key_aspects:
+- Plant medicine knowledge
+- Spiritual healing wisdom
+- Ethical treatment principles
+- Body-spirit integration
+- Community health focus
+historical_development: Evolved through generations of healing practice, combining
+  empirical plant knowledge with spiritual understanding.
+contemporary_relevance: Valuable for integrative medicine, mental health approaches,
+  and holistic healing practices.
+notable_quotes:
+- '"True healing touches both body and spirit" - Healer''s wisdom'
+- '"Every plant has its spirit and its purpose" - Traditional teaching'
+related_practices:
+- Plant medicine preparation
+- Healing ceremonies
+- Patient care rituals
+- Plant diet observances
+- Community healing circles

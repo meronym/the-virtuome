@@ -1,0 +1,48 @@
+id: largesse-chivalric
+name: Largesse
+tradition: chivalric
+script:
+  old_french: largesse
+  middle_english: largesse
+  latin: liberalitas
+category: social_virtue
+subcategory: generosity
+related_concepts:
+- munificence
+- nobility
+- generosity
+- bounty
+period: medieval_european
+source_texts:
+- romans_courtois
+- book_of_the_order_of_chivalry
+- chronicles_of_froissart
+- lais_of_marie_de_france
+type: virtue
+scope: social
+orientation: active
+post_length: 924
+title: Largesse (Noble Generosity)
+definition: Generous giving and material benevolence appropriate to noble status,
+  demonstrating magnificence through responsible distribution of wealth and resources.
+key_aspects:
+- Noble generosity
+- Appropriate giving
+- Material benevolence
+- Social responsibility
+- Magnificent display
+- Patronage
+historical_development: Evolved from warrior gift-giving traditions to become a mark
+  of noble character and social responsibility, incorporating Christian concepts of
+  charity.
+contemporary_relevance: Influences modern philanthropy, corporate social responsibility,
+  and concepts of ethical wealth management.
+notable_quotes:
+- '"A knight without largesse is a tree without fruit." - Medieval saying'
+- '"Through generosity is nobility proven." - Chrétien de Troyes'
+related_practices:
+- Gift-giving
+- Patronage of arts
+- Hosting feasts
+- Supporting dependents
+- Public beneficence

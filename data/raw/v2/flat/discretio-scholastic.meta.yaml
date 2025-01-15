@@ -1,0 +1,45 @@
+id: discretio-scholastic
+name: Discretio
+tradition: scholastic
+script:
+  latin: discretio
+  greek: διάκρισις
+  greek_transliteration: diakrisis
+category: practical_virtue
+subcategory: judgment
+related_concepts:
+- prudentia
+- consilium
+- ratio_recta
+- sapientia
+period: medieval_scholastic
+source_texts:
+- regula_benedicti
+- de_discretione
+- summa_theologica
+type: virtue
+scope: practical
+orientation: active
+post_length: 888
+title: Discretio (Discernment)
+definition: Discretio represents the capacity for spiritual and moral discrimination,
+  enabling wise judgment in complex situations through the integration of principles
+  and circumstances.
+key_aspects:
+- Spiritual discernment
+- Practical judgment
+- Balance of extremes
+- Situational wisdom
+- Integration of rules and cases
+historical_development: Evolved from monastic tradition through scholastic systematization,
+  becoming key element in moral and spiritual guidance.
+contemporary_relevance: Essential for decision-making, spiritual direction, and ethical
+  leadership. Model for practical wisdom.
+notable_quotes:
+- '"Discretion is the mother of virtues." - Benedict of Nursia'
+- '"In all things, discretion is to be observed." - Medieval maxim'
+related_practices:
+- Spiritual direction
+- Case-based reasoning
+- Moral deliberation
+- Balanced judgment

@@ -1,0 +1,45 @@
+id: jing-taoist
+name: Jìng
+tradition: taoist
+script:
+  chinese: 靜
+  pinyin: jìng
+  wade_giles: ching
+category: mental_state
+subcategory: stillness
+related_concepts:
+- xu
+- an
+- ding
+- he
+period: early_taoist
+source_texts:
+- dao_de_jing
+- zhuangzi
+- neiye
+type: virtue
+scope: personal
+orientation: passive
+post_length: 891
+title: Jìng (靜) - Stillness
+definition: The quality of inner quietude and tranquility; represents both a method
+  of cultivation and an achieved state of spiritual clarity.
+key_aspects:
+- Mental quietude
+- Emotional stability
+- Inner peace
+- Spiritual clarity
+- Meditative stillness
+historical_development: Present in early Taoist texts as both practice and goal. Later
+  developed in meditation traditions and internal alchemy practices.
+contemporary_relevance: Central to meditation practices, stress reduction techniques,
+  and contemplative traditions. Important in mental health and personal development.
+notable_quotes:
+- '"In stillness, the world rights itself." - Dao De Jing, Ch. 45'
+- '"Be still like a mountain, flow like great waters." - Traditional Taoist saying'
+related_practices:
+- Meditation
+- Quiet sitting
+- Mind cultivation
+- Contemplative practice
+- Inner observation

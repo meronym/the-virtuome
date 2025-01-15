@@ -1,0 +1,45 @@
+id: moral-courage-psych
+name: Moral Courage
+tradition: moral_psychology
+script:
+  english: moral courage
+  academic: ethical courage
+  alternative: moral fortitude
+category: character_strength
+subcategory: ethical_action
+related_concepts:
+- psychological_courage
+- moral_conviction
+- ethical_strength
+- value_action
+period: contemporary
+source_texts:
+- kidder_moral_courage
+- may_courage_act
+- bandura_moral_disengagement
+type: virtue
+scope: behavioral
+orientation: active
+post_length: 851
+title: Moral Courage - Ethical Action Strength
+definition: The capacity to act according to moral convictions despite personal risk,
+  opposition, or potential negative consequences.
+key_aspects:
+- Conviction strength
+- Action readiness
+- Risk tolerance
+- Principle adherence
+- Fear management
+historical_development: Emerged from studies of moral exemplars and research on moral
+  action barriers.
+contemporary_relevance: Critical for ethical leadership, whistleblowing, and standing
+  up against wrongdoing.
+notable_quotes:
+- '"Moral courage is the highest expression of human dignity." - Rushworth Kidder'
+- '"Courage is not the absence of fear, but rather the judgment that something else
+  is more important." - James Neil Hollingworth'
+related_practices:
+- Value affirmation
+- Risk assessment
+- Conviction building
+- Support network development

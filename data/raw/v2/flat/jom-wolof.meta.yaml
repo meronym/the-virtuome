@@ -1,0 +1,44 @@
+id: jom-wolof
+name: Jom
+tradition: west_african
+script:
+  wolof: Jom
+  pulaar: Jom
+  serer: Jom
+category: personal_virtue
+subcategory: dignity_honor
+related_concepts:
+- teranga
+- kersa
+- mun
+period: traditional_senegambian
+source_texts:
+- oral_traditions
+- wolof_proverbs
+- praise_songs
+type: virtue
+scope: personal_social
+orientation: active
+post_length: 803
+title: Jom - Dignified Honor
+definition: Jom represents the combination of personal dignity, honor, and moral courage
+  that guides behavior and social interaction.
+key_aspects:
+- Personal dignity
+- Moral courage
+- Social honor
+- Ethical integrity
+- Self-discipline
+historical_development: Central concept in Wolof ethical thought, traditionally cultivated
+  through family education and social institutions.
+contemporary_relevance: Influences modern concepts of leadership, personal development,
+  and social responsibility in West African contexts.
+notable_quotes:
+- '"Jom moy sa leppu" (Honor is everything)'
+- '"Ku amul jom amul sago" (Without honor, one has nothing)'
+related_practices:
+- Honor maintenance
+- Social responsibility
+- Leadership roles
+- Community service
+- Ethical decision-making

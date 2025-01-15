@@ -1,0 +1,44 @@
+id: tapas-vedic
+name: Tapas
+tradition: vedic
+script:
+  devanagari: तपस्
+  iast: tapas
+  vedic: तपः
+category: spiritual_practice
+subcategory: discipline
+related_concepts:
+- brahmacharya
+- yajna
+- shraddha
+period: vedic
+source_texts:
+- atharvaveda
+- upanishads
+- brahmanas
+type: virtue
+scope: individual
+orientation: active
+post_length: 782
+title: Tapas (तपस्) - Spiritual Discipline
+definition: Tapas represents spiritual discipline and austerity that generates transformative
+  power through focused effort and self-control.
+key_aspects:
+- Spiritual discipline
+- Self-control
+- Inner heat
+- Transformative power
+- Purification
+historical_development: Originally referring to ritual heat/energy, evolved to encompass
+  spiritual discipline and transformative practices.
+contemporary_relevance: Influences modern approaches to self-discipline, personal
+  development, and spiritual practice.
+notable_quotes:
+- '"Through tapas, knowledge is gained." - Upaniṣadic verse'
+- '"Tapas is the foundation of spiritual achievement." - Vedic teaching'
+related_practices:
+- Meditation
+- Fasting
+- Self-control
+- Study
+- Austerities

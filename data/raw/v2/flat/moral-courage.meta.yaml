@@ -1,0 +1,44 @@
+id: moral-courage
+name: Moral Courage
+tradition: bioethics
+script:
+  english: moral courage
+  latin: fortitudo moralis
+  greek: ἠθική ἀνδρεία
+category: ethical_virtue
+subcategory: professional_ethics
+related_concepts:
+- ethical_integrity
+- professional_responsibility
+- advocacy
+period: contemporary_bioethics
+source_texts:
+- nursing_ethics
+- medical_professionalism
+- healthcare_ethics
+type: virtue
+scope: professional
+orientation: active
+post_length: 1003
+title: Moral Courage
+definition: The capacity to maintain ethical principles and take appropriate action
+  in the face of adversity, risk, or opposition within healthcare contexts.
+key_aspects:
+- Ethical conviction
+- Professional integrity
+- Patient advocacy
+- Speaking truth to power
+- Principled action under pressure
+historical_development: Rooted in medical resistance to Nazi medical experiments,
+  developed through various healthcare rights movements and professional ethics codes.
+contemporary_relevance: Essential for addressing systemic inequities, maintaining
+  ethical standards, and protecting patient rights in complex healthcare systems.
+notable_quotes:
+- '"The only thing necessary for the triumph of evil is for good men to do nothing."
+  - Healthcare ethics adaptation'
+- '"Moral courage is the foundation of patient advocacy." - Contemporary nursing principle'
+related_practices:
+- Ethical whistleblowing
+- Patient advocacy
+- Professional integrity maintenance
+- Ethical consultation

@@ -1,0 +1,47 @@
+id: ecological-mindfulness-amazonian
+name: Ecological Mindfulness
+tradition: amazonian_indigenous
+script:
+  note: Various terms across languages
+  exemplar_terms:
+  - language: kichwa
+    term: allpa yuyay
+  - language: warao
+    term: deje sono
+category: awareness_virtue
+subcategory: ecological_awareness
+related_concepts:
+- ecological_reciprocity
+- forest_wisdom
+- spirit_world_integration
+period: traditional_amazonian
+source_texts:
+- daily_practices
+- ecological_teachings
+- community_traditions
+type: virtue
+scope: practical
+orientation: active
+post_length: 839
+title: Ecological Mindfulness
+definition: Constant awareness of environmental relationships and impacts, maintaining
+  conscious connection with ecological systems.
+key_aspects:
+- Environmental awareness
+- Impact consideration
+- Ecological sensitivity
+- Resource consciousness
+- Natural rhythm attunement
+historical_development: Developed through generations of forest dwelling, refined
+  through practical experience and spiritual teaching.
+contemporary_relevance: Critical for environmental protection, sustainable living,
+  and ecological restoration efforts.
+notable_quotes:
+- '"The mindful walker leaves no harmful trace" - Traditional teaching'
+- '"To know the forest, watch with patient eyes" - Elder wisdom'
+related_practices:
+- Careful harvesting
+- Mindful hunting
+- Resource monitoring
+- Season observation
+- Impact assessment

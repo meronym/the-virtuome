@@ -1,0 +1,45 @@
+id: harambee-african
+name: Harambee
+tradition: african_religious_ethics
+script:
+  swahili: harambee
+  related_terms:
+    kikuyu: ngwatio
+    luo: konyir
+category: action_virtue
+subcategory: collective_action
+related_concepts:
+- ujima
+- ubuntu
+- umoja
+period: traditional_modern
+source_texts:
+- oral_traditions
+- community_practices
+- national_mottos
+type: virtue
+scope: communal
+orientation: active
+post_length: 836
+title: Harambee - Pulling Together
+definition: The practice and spirit of pooling resources, joining efforts, and working
+  together for common community goals.
+key_aspects:
+- Collective effort
+- Resource pooling
+- Mutual aid
+- Community mobilization
+- Shared achievement
+historical_development: Traditional practice that became national principle in Kenya
+  and influenced other African nations' development approaches.
+contemporary_relevance: Used in community development, fundraising, and social projects.
+  Model for cooperative economic development.
+notable_quotes:
+- '"One finger cannot lift a stone." - African proverb'
+- '"Harambee! Let us pull together!" - Community rallying cry'
+related_practices:
+- Community fundraising
+- Collective labor projects
+- Cooperative ventures
+- Community development
+- Mutual support systems

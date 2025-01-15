@@ -1,0 +1,45 @@
+id: shushin-jpneoconf
+name: Shūshin
+tradition: japanese_neo_confucian
+script:
+  kanji: 修身
+  hiragana: しゅうしん
+  romaji: shūshin
+category: foundational_principle
+subcategory: self_development
+related_concepts:
+- gaku
+- kei
+- makoto
+- shindoku
+period: edo_period
+source_texts:
+- dōjikyō
+- seikyo_yoroku
+- shōgaku_kun
+type: virtue
+scope: personal
+orientation: active
+post_length: 978
+title: Shūshin (修身) - Self-cultivation
+definition: The fundamental practice of moral self-cultivation through disciplined
+  study, reflection, and action, serving as the foundation for all other virtues.
+key_aspects:
+- Systematic self-improvement
+- Integration of learning and practice
+- Character development
+- Moral refinement
+- Personal discipline
+historical_development: Central to Japanese Neo-Confucian thought, particularly emphasized
+  by the Hayashi school and later standardized in domain schools (hankō).
+contemporary_relevance: Influences modern Japanese education and corporate training
+  philosophies. Relevant to personal development and leadership training.
+notable_quotes:
+- '"Self-cultivation is the root of all learning" - Hayashi Razan'
+- '"Without self-cultivation, no other virtue can be properly developed" - Kaibara
+  Ekken'
+related_practices:
+- Daily moral reflection
+- Systematic study of classics
+- Regular self-examination
+- Practical moral training

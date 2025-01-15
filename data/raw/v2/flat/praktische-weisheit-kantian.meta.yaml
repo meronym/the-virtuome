@@ -1,0 +1,44 @@
+id: praktische-weisheit-kantian
+name: Praktische Weisheit
+tradition: kantian
+script:
+  german: Praktische Weisheit
+  transliteration: n/a
+  greek_root: φρόνησις
+category: intellectual_virtue
+subcategory: moral_judgment
+related_concepts:
+- praktische_vernunft
+- urteilskraft
+- klugheit
+period: enlightenment
+source_texts:
+- metaphysics_of_morals
+- critique_of_judgment
+- anthropology
+type: virtue
+scope: practical
+orientation: active
+post_length: 912
+title: Praktische Weisheit (Moral Wisdom)
+definition: The developed capacity for moral judgment that integrates theoretical
+  understanding with practical application, enabling sound ethical decision-making.
+key_aspects:
+- Practical judgment
+- Moral insight
+- Integration of theory and practice
+- Ethical discernment
+- Experiential knowledge
+historical_development: Emerged from Kant's consideration of how moral principles
+  are applied in concrete situations, bridging theory and practice.
+contemporary_relevance: Essential for professional ethics, moral education, and practical
+  decision-making in complex situations.
+notable_quotes:
+- '"Judgment is the faculty of thinking the particular as contained under the universal."
+  - Critique of Judgment'
+- '"Experience is the mother of judgment." - Anthropology'
+related_practices:
+- Ethical deliberation
+- Case analysis
+- Moral reflection
+- Practical judgment

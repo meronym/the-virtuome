@@ -1,0 +1,52 @@
+id: pietas-roman-stoic
+name: Pietas
+tradition: roman_stoic
+script:
+  latin: pietas
+  transliteration: pietas
+category: duty_virtue
+subcategory: reverent_duty
+related_concepts:
+- officium
+- fides
+- religio
+- humanitas
+period: imperial_rome
+source_texts:
+- de_officiis
+- epistulae_morales
+- meditations
+type: virtue
+scope: universal
+orientation: active
+post_length: 868
+title: Pietas - Dutifulness
+definition: Pietas represents reverent fulfillment of duties to gods, family, society,
+  and cosmic order, combining religious devotion with social responsibility and philosophical
+  understanding.
+key_aspects:
+- Religious reverence
+- Family duty
+- Social responsibility
+- Cosmic alignment
+- Ethical obligation
+historical_development: Traditional Roman virtue incorporated into Stoic philosophy,
+  connecting personal duty with cosmic order and rational understanding.
+contemporary_relevance: '- Family values
+
+  - Social responsibility
+
+  - Professional ethics
+
+  - Environmental ethics
+
+  - Civic duty'
+notable_quotes:
+- '"We are born for cooperation." - Marcus Aurelius'
+- '"Live according to Nature." - Seneca'
+related_practices:
+- Fulfillment of responsibilities
+- Family care
+- Civic engagement
+- Religious observance
+- Environmental stewardship

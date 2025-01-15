@@ -1,0 +1,47 @@
+id: loyalty-chivalric
+name: Loyauté
+tradition: chivalric
+script:
+  old_french: loyauté
+  middle_english: leaute
+  latin: fidelitas
+category: relational_virtue
+subcategory: fidelity
+related_concepts:
+- fealty
+- service
+- devotion
+- faithfulness
+period: medieval_european
+source_texts:
+- feudal_oaths
+- arthurian_romances
+- chanson_de_roland
+- livre_des_fais
+type: virtue
+scope: relational
+orientation: active
+post_length: 830
+title: Loyauté (Loyalty)
+definition: Unwavering faithfulness and dedicated service to lord, cause, or ideal,
+  forming the foundational bond of feudal and chivalric relationships.
+key_aspects:
+- Feudal fealty
+- Personal faithfulness
+- Dedicated service
+- Steadfast devotion
+- Mutual obligation
+- Sacred commitment
+historical_development: Emerged from Germanic warrior bonds, formalized in feudal
+  relationships, and elevated through religious and romantic ideals.
+contemporary_relevance: Influences modern concepts of organizational loyalty, professional
+  commitment, and relationship fidelity.
+notable_quotes:
+- '"Loyalty binds me." - Richard III''s motto'
+- '"Better death than false loyalty." - Chivalric maxim'
+related_practices:
+- Oath-taking
+- Faithful service
+- Mutual protection
+- Steadfast support
+- Honorable conduct

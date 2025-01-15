@@ -1,0 +1,58 @@
+id: constantia-roman-stoic
+name: Constantia
+tradition: roman_stoic
+script:
+  latin: constantia
+  greek: εὐστάθεια
+  greek_transliteration: eustatheia
+category: cardinal_virtue
+subcategory: mental_firmness
+related_concepts:
+- patientia
+- fortitudo
+- temperantia
+- disciplina
+period: imperial_rome
+source_texts:
+- de_constantia_sapientis
+- epistulae_morales
+- meditations
+- discourses
+type: virtue
+scope: personal
+orientation: active
+post_length: 1234
+title: Constantia - Steadfastness
+definition: Constantia represents unwavering mental firmness and emotional stability
+  in the face of external circumstances, combining rational acceptance with resilient
+  action.
+key_aspects:
+- Emotional stability
+- Mental firmness
+- Resilience against fortune
+- Rational consistency
+- Inner tranquility
+historical_development: While present in Greek Stoicism, Constantia gained particular
+  prominence in Roman Stoic thought, especially through Seneca's "De Constantia Sapientis."
+  The concept was developed as a practical virtue essential for navigating the political
+  dangers and social upheavals of Imperial Rome.
+contemporary_relevance: '- Psychological resilience
+
+  - Emotional regulation
+
+  - Crisis management
+
+  - Personal stability in changing circumstances
+
+  - Professional steadfastness'
+notable_quotes:
+- '"The wise man is neither raised up by prosperity nor cast down by adversity." -
+  Seneca'
+- '"Like a well-fortified cliff that waves continuously break against without moving
+  it." - Marcus Aurelius'
+related_practices:
+- Daily preparation for adversity
+- Evening self-examination
+- Negative visualization (praemeditatio malorum)
+- Rational self-dialogue
+- Practice of indifference to externals

@@ -1,0 +1,44 @@
+id: autonomie-kantian
+name: Autonomie
+tradition: kantian
+script:
+  german: Autonomie
+  transliteration: n/a
+  greek_root: αὐτονομία
+category: foundational_virtue
+subcategory: moral_agency
+related_concepts:
+- freiheit
+- würde
+- vernunft
+period: enlightenment
+source_texts:
+- groundwork_of_the_metaphysics_of_morals
+- critique_of_practical_reason
+type: virtue
+scope: individual
+orientation: active
+post_length: 917
+title: Autonomie (Autonomy)
+definition: The capacity for self-legislation of moral law, representing the foundation
+  of human dignity and the basis for moral agency.
+key_aspects:
+- Moral self-legislation
+- Rational independence
+- Freedom of will
+- Source of dignity
+- Moral responsibility
+historical_development: Developed as a key concept in Kant's moral philosophy, connecting
+  freedom, reason, and moral law.
+contemporary_relevance: Fundamental to modern concepts of human rights, personal responsibility,
+  and moral education.
+notable_quotes:
+- '"Autonomy of the will is the sole principle of all moral laws and of duties in
+  accordance with them." - Critique of Practical Reason'
+- '"Autonomy is therefore the ground of the dignity of human nature and of every rational
+  nature." - Groundwork'
+related_practices:
+- Self-determination
+- Rational decision-making
+- Moral self-legislation
+- Independent judgment

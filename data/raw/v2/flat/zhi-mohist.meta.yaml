@@ -1,0 +1,44 @@
+id: zhi-mohist
+name: Zhī
+tradition: mohist
+script:
+  chinese: 知
+  pinyin: zhī
+  wade_giles: chih
+category: intellectual_virtue
+subcategory: practical_wisdom
+related_concepts:
+- shanxian
+- zhineng
+- gongli
+period: warring_states
+source_texts:
+- mohist_canon
+- mohist_dialectics
+type: virtue
+scope: practical
+orientation: active
+post_length: 986
+title: Zhī (知) - Practical Wisdom
+definition: Practical wisdom in Mohist thought emphasizes empirical knowledge, technical
+  competence, and the ability to determine beneficial courses of action through rational
+  analysis.
+key_aspects:
+- Empirical observation
+- Logical reasoning
+- Technical competence
+- Practical problem-solving
+- Result-oriented thinking
+historical_development: Developed through Mohist emphasis on practical knowledge and
+  their proto-scientific approach to understanding reality, distinct from both Confucian
+  moral wisdom and Daoist intuitive knowledge.
+contemporary_relevance: Aligns with modern emphasis on evidence-based decision making
+  and technical expertise in problem-solving.
+notable_quotes:
+- '"Knowledge must be practical and beneficial" - Mohist principle'
+- '"True understanding comes from verification through experience" - Mohist Canon'
+related_practices:
+- Empirical testing
+- Technical training
+- Practical experimentation
+- Result measurement

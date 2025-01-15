@@ -1,0 +1,42 @@
+id: shanxian-mohist
+name: Shàngxián
+tradition: mohist
+script:
+  chinese: 尚賢
+  pinyin: shàngxián
+  wade_giles: shang-hsien
+category: social_principle
+subcategory: meritocratic_virtue
+related_concepts:
+- zhi
+- zhineng
+- gongli
+period: warring_states
+source_texts:
+- mozi
+- mohist_political_writings
+type: virtue
+scope: social
+orientation: active
+post_length: 890
+title: Shàngxián (尚賢) - Meritocratic Virtue
+definition: The principle of promoting and rewarding people based on demonstrated
+  ability and moral character rather than social status or family connections.
+key_aspects:
+- Merit-based advancement
+- Skill recognition
+- Performance evaluation
+- Equal opportunity
+- Talent cultivation
+historical_development: Developed as a critique of hereditary privilege and Confucian
+  emphasis on family status, advocating for a more meritocratic social order.
+contemporary_relevance: Influences modern meritocratic systems, civil service examinations,
+  and professional advancement structures.
+notable_quotes:
+- '"Elevate the worthy and employ the capable" - Mozi'
+- '"The state prospers when merit determines rank" - Mohist principle'
+related_practices:
+- Objective assessment
+- Skill-based promotion
+- Performance evaluation
+- Technical certification

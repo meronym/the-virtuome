@@ -1,0 +1,44 @@
+id: hwahap-korean-buddhist
+name: Hwahap
+tradition: korean_buddhist
+script:
+  hangeul: 화합
+  hanja: 和合
+  romanization: hwahap
+category: social_virtue
+subcategory: harmony
+related_concepts:
+- hoetong
+- sangsaeng
+- muae
+period: three_kingdoms_to_present
+source_texts:
+- korean_vinaya_texts
+- community_guidelines
+- temple_regulations
+type: virtue
+scope: collective
+orientation: active
+post_length: 971
+title: Hwahap (화합) - Harmonious Integration
+definition: Hwahap represents the principle and practice of harmonious integration,
+  both in social relationships and in reconciling different approaches to practice.
+key_aspects:
+- Social harmony
+- Doctrinal integration
+- Community cohesion
+- Balanced relationships
+- Conflict resolution
+historical_development: Emerged from Korean Buddhism's need to integrate multiple
+  traditions and maintain community harmony, particularly important during periods
+  of state persecution.
+contemporary_relevance: Critical for modern Buddhist communities and interfaith dialogue,
+  offering models for social harmony and conflict resolution.
+notable_quotes:
+- '"Harmony in the sangha is the greatest blessing" - Korean temple teaching'
+- '"Through harmony we find the middle way" - Traditional saying'
+related_practices:
+- Community consensus building
+- Integrated practice methods
+- Conflict resolution protocols
+- Collective ceremonies

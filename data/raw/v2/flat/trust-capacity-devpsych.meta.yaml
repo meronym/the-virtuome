@@ -1,0 +1,49 @@
+id: trust-capacity-devpsych
+name: Trust Capacity
+tradition: developmental_psychology
+script:
+  psychological_term: trust capacity
+  related_terms:
+  - basic trust
+  - secure attachment
+  - trust vs mistrust
+category: foundational_capacity
+subcategory: emotional_development
+related_concepts:
+- attachment_security
+- emotional_safety
+- interpersonal_trust
+- basic_safety
+period: modern_psychology
+source_texts:
+- childhood_and_society
+- attachment_and_loss
+- patterns_of_attachment
+type: developmental_virtue
+scope: interpersonal
+orientation: receptive
+post_length: 1169
+title: Trust Capacity - Foundation of Psychological Development
+definition: Trust capacity represents the fundamental ability to form and maintain
+  a basic sense of safety and confidence in self, others, and the world, developing
+  initially through early attachment relationships.
+key_aspects:
+- Basic sense of safety
+- Ability to form secure attachments
+- Confidence in relationship reliability
+- Emotional security foundation
+- Openness to experience
+historical_development: First systematically described by Erikson as the first psychosocial
+  crisis (trust vs. mistrust), later elaborated by attachment theorists (Bowlby, Ainsworth)
+  and contemporary developmental researchers.
+contemporary_relevance: Fundamental to mental health, relationship formation, and
+  lifelong development. Critical for therapeutic work and early intervention programs.
+notable_quotes:
+- '"The first component of a healthy personality is a basic sense of trust." - Erik
+  Erikson'
+- '"Trust is the basis for all human relationship and interaction." - John Bowlby'
+related_practices:
+- Responsive caregiving
+- Emotional attunement
+- Secure base provision
+- Consistent relationship building

@@ -1,0 +1,46 @@
+id: humilitas-medieval-catholic
+name: Humilitas
+tradition: medieval_catholic
+script:
+  latin: humilitas
+  greek: ταπεινοφροσύνη
+  greek_transliteration: tapeinophrosyne
+category: monastic_virtue
+subcategory: fundamental_disposition
+related_concepts:
+- obedientia
+- modestia
+- simplicitas
+- reverentia
+period: medieval_christian
+source_texts:
+- regula_benedicti
+- moralia_in_job
+- de_gradibus_humilitatis
+- summa_theologica
+type: virtue
+scope: personal
+orientation: passive
+post_length: 893
+title: Humilitas (Humility)
+definition: Humilitas represents the fundamental virtue of proper self-knowledge and
+  submission to divine order, considered the foundation of all spiritual progress.
+key_aspects:
+- True self-knowledge
+- Recognition of divine order
+- Foundation of spiritual life
+- Antidote to pride
+- Proper relationship to authority
+historical_development: Systematized in Benedict's Rule (12 degrees of humility),
+  elaborated by Bernard of Clairvaux, integrated into scholastic framework by Aquinas.
+contemporary_relevance: Influences discussions of authentic leadership, psychological
+  well-being, and spiritual development.
+notable_quotes:
+- '"The first degree of humility is constant awareness of God''s presence" - Rule
+  of Benedict'
+- '"Humility is truth" - Bernard of Clairvaux'
+related_practices:
+- Self-examination
+- Confession
+- Obedience to superiors
+- Manual labor

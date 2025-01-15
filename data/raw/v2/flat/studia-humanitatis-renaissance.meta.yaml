@@ -1,0 +1,44 @@
+id: studia-humanitatis-renaissance
+name: Studia Humanitatis
+tradition: renaissance_humanism
+script:
+  latin: studia_humanitatis
+  italian_renaissance: studi umanistici
+category: educational_virtue
+subcategory: liberal_learning
+related_concepts:
+- eruditio
+- eloquentia
+- sapientia
+- doctrina
+period: renaissance
+source_texts:
+- bruni_studies
+- vergerio_education
+- guarino_method
+type: virtue
+scope: individual
+orientation: active
+post_length: 906
+title: Studia Humanitatis - Liberal Learning
+definition: Studia Humanitatis represents the systematic pursuit of human excellence
+  through liberal education, combining intellectual, moral, and cultural development.
+key_aspects:
+- Liberal education
+- Cultural formation
+- Moral development
+- Intellectual growth
+- Personal cultivation
+historical_development: Developed from classical liberal arts into comprehensive Renaissance
+  educational program integrating literature, history, moral philosophy, and rhetoric.
+contemporary_relevance: Foundational for liberal arts education, cultural studies,
+  and personal development programs.
+notable_quotes:
+- '"Studies perfect nature and are perfected by experience." - Bacon'
+- '"Learning makes a man fit company for himself." - Vergerio'
+related_practices:
+- Classical study
+- Literary analysis
+- Moral education
+- Cultural cultivation
+- Historical research

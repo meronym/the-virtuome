@@ -1,0 +1,45 @@
+id: zhi-confucian
+name: Zhì
+tradition: confucian
+script:
+  chinese: 智
+  pinyin: zhì
+  wade_giles: chih4
+category: cardinal_virtue
+subcategory: wisdom
+related_concepts:
+- ren
+- yi
+- li
+- xin
+period: classical_confucian
+source_texts:
+- analects
+- mencius
+- great_learning
+type: virtue
+scope: universal
+orientation: active
+post_length: 850
+title: Zhì (智) - Wisdom
+definition: Zhì represents moral wisdom and discernment, the ability to understand
+  principles and apply them appropriately in different situations.
+key_aspects:
+- Moral understanding
+- Practical wisdom
+- Ethical judgment
+- Knowledge integration
+- Situational discernment
+historical_development: Initially linked to practical wisdom, later developed in Neo-Confucianism
+  as philosophical understanding of principle (li).
+contemporary_relevance: Essential in leadership, education, and ethical decision-making.
+  Important for professional development.
+notable_quotes:
+- '"Knowledge without wisdom is wasted learning." - Confucian saying'
+- '"The wise find pleasure in water, the virtuous find pleasure in hills." - Analects
+  6.23'
+related_practices:
+- Study of classics
+- Moral reflection
+- Practical judgment
+- Mentorship

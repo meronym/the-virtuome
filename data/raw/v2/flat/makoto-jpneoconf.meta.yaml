@@ -1,0 +1,43 @@
+id: makoto-jpneoconf
+name: Makoto
+tradition: japanese_neo_confucian
+script:
+  kanji: 誠
+  hiragana: まこと
+  romaji: makoto
+category: moral_virtue
+subcategory: sincerity
+related_concepts:
+- shin
+- chu
+- gi
+- sei
+period: edo_period
+source_texts:
+- neo_confucian_texts
+- samurai_codes
+- merchant_precepts
+type: virtue
+scope: personal
+orientation: active
+post_length: 812
+title: Makoto (誠) - Sincerity
+definition: Absolute sincerity and authenticity in thought, word, and deed, representing
+  the unity of inner conviction and outer expression.
+key_aspects:
+- Authentic behavior
+- True intention
+- Moral integrity
+- Genuine expression
+- Wholehearted dedication
+historical_development: Japanese interpretation of Chinese concept of cheng (誠), emphasized
+  particularly in samurai ethics and merchant codes.
+contemporary_relevance: Valued in modern Japanese business ethics and personal relationships.
+notable_quotes:
+- '"Without makoto, all virtues are merely external forms" - Neo-Confucian saying'
+- '"True makoto manifests naturally in action" - Merchant house precept'
+related_practices:
+- Truth-speaking
+- Promise-keeping
+- Authentic self-expression
+- Wholehearted engagement

@@ -1,0 +1,55 @@
+id: humanitas-roman-stoic
+name: Humanitas
+tradition: roman_stoic
+script:
+  latin: humanitas
+  greek: φιλανθρωπία
+  greek_transliteration: philanthropia
+category: social_virtue
+subcategory: human_fellowship
+related_concepts:
+- clementia
+- benevolentia
+- societas
+- caritas
+period: imperial_rome
+source_texts:
+- de_clementia
+- de_beneficiis
+- meditations
+- epistulae_morales
+type: virtue
+scope: universal
+orientation: active
+post_length: 959
+title: Humanitas - Humanity
+definition: Humanitas represents refined human nature expressing itself through education,
+  culture, and benevolence, combining intellectual development with moral refinement
+  and social responsibility.
+key_aspects:
+- Cultural refinement
+- Universal brotherhood
+- Social responsibility
+- Ethical cultivation
+- Benevolent action
+historical_development: Distinctly Roman development combining Greek philosophical
+  philanthropy with Roman social values and educational ideals. Particularly emphasized
+  by Seneca and Marcus Aurelius.
+contemporary_relevance: '- Cultural education
+
+  - Global citizenship
+
+  - Social responsibility
+
+  - Humanitarian ethics
+
+  - Professional ethics'
+notable_quotes:
+- '"We are members of one great body." - Seneca'
+- '"What brings benefit to the hive brings benefit to the bee." - Marcus Aurelius'
+related_practices:
+- Educational pursuit
+- Cultural engagement
+- Social service
+- Mentorship
+- Humanitarian action

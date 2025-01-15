@@ -1,0 +1,44 @@
+id: moral-self-regulation-psych
+name: Moral Self-Regulation
+tradition: moral_psychology
+script:
+  english: moral self-regulation
+  academic: ethical self-control
+  alternative: moral volition
+category: executive_capacity
+subcategory: behavioral_control
+related_concepts:
+- self-control
+- willpower
+- moral_implementation
+- ethical_discipline
+period: contemporary
+source_texts:
+- baumeister_self_regulation
+- bandura_moral_agency
+- mischel_self_control
+type: capacity
+scope: behavioral
+orientation: active
+post_length: 782
+title: Moral Self-Regulation - Ethical Control Capacity
+definition: The ability to monitor, control, and adjust one's behavior to align with
+  moral standards and ethical goals.
+key_aspects:
+- Behavioral control
+- Goal maintenance
+- Impulse management
+- Value alignment
+- Action monitoring
+historical_development: Emerged from self-regulation research and studies of moral
+  behavior implementation.
+contemporary_relevance: Critical for maintaining ethical behavior under pressure and
+  resisting moral disengagement.
+notable_quotes:
+- '"Self-control is the chief element in self-respect." - Roy Baumeister'
+- '"Moral action requires both the will and the way." - Albert Bandura'
+related_practices:
+- Goal setting
+- Progress monitoring
+- Impulse control
+- Implementation planning

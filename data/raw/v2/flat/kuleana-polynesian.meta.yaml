@@ -1,0 +1,44 @@
+id: kuleana-polynesian
+name: Kuleana
+tradition: polynesian
+script:
+  hawaiian: kuleana
+  maori: kawenga
+  samoan: tiute
+category: social_responsibility
+subcategory: duty
+related_concepts:
+- mana
+- pono
+- malama
+period: traditional_polynesian
+source_texts:
+- oral_traditions
+- customary_law
+- family_traditions
+type: virtue
+scope: personal_collective
+orientation: active
+post_length: 840
+title: Kuleana - Responsibility/Privilege
+definition: Kuleana represents the inseparable connection between rights and responsibilities,
+  encompassing both privilege and duty in social roles.
+key_aspects:
+- Sacred duty
+- Earned privilege
+- Social responsibility
+- Personal authority
+- Reciprocal obligation
+historical_development: Evolved from traditional social organization systems, defining
+  roles and responsibilities within family and community structures.
+contemporary_relevance: Guides modern Indigenous governance, environmental stewardship,
+  and cultural preservation efforts.
+notable_quotes:
+- '"I ka nānā no a ''ike" (By observing, one learns)'
+- '"He kuleana ko kākou" (We all have responsibilities)'
+related_practices:
+- Land stewardship
+- Family obligations
+- Community service
+- Cultural preservation
+- Leadership duties

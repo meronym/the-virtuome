@@ -1,0 +1,45 @@
+id: hikmah-muasirah-modern-islamic
+name: Ḥikmah Muʿāṣirah
+tradition: modern_islamic
+script:
+  arabic: حكمة معاصرة
+  transliteration: ḥikmah muʿāṣirah
+category: intellectual_virtue
+subcategory: contemporary_wisdom
+related_concepts:
+- fiqh_waqi
+- basira
+- fahm
+- fiqh_awlawiyyat
+period: modern_islamic
+source_texts:
+- contemporary_islamic_thought
+- modern_usul_works
+- islamic_bioethics
+- technology_ethics_literature
+type: virtue
+scope: intellectual
+orientation: balanced
+post_length: 882
+title: Ḥikmah Muʿāṣirah (حكمة معاصرة) - Contemporary Wisdom
+definition: The ability to apply traditional wisdom to modern challenges while developing
+  new ethical insights appropriate to contemporary contexts.
+key_aspects:
+- Contextual understanding
+- Ethical innovation
+- Technological wisdom
+- Cultural synthesis
+- Practical judgment
+historical_development: Classical concept of wisdom (hikmah) developed to address
+  modern challenges while maintaining Islamic principles.
+contemporary_relevance: Essential for addressing bioethics, artificial intelligence,
+  environmental challenges, and social change.
+notable_quotes:
+- '"He gives wisdom to whom He wills" - Quran 2:269'
+- '"Wisdom is the lost property of the believer" - Prophetic tradition'
+related_practices:
+- Ethical consultation
+- Technology assessment
+- Bioethical reasoning
+- Cultural dialogue
+- Policy development

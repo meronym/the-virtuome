@@ -1,0 +1,44 @@
+id: qin-early-chinese
+name: Qín
+tradition: early_chinese_wisdom
+script:
+  chinese: 勤
+  pinyin: qín
+  wade_giles: ch'in2
+category: practical_virtue
+subcategory: diligence
+related_concepts:
+- li
+- jing
+- de
+- yi
+period: early_chinese
+source_texts:
+- agricultural_texts
+- book_of_documents
+- early_records
+type: virtue
+scope: practical
+orientation: active
+post_length: 760
+title: Qín (勤) - Diligence
+definition: Qín represents dedicated effort and persevering industry, particularly
+  in practical affairs and timely action according to natural patterns.
+key_aspects:
+- Sustained effort
+- Timely action
+- Practical focus
+- Persistent work
+- Natural timing
+historical_development: Emerged from agricultural necessity, became broader virtue
+  of dedicated effort in all worthwhile endeavors.
+contemporary_relevance: Influences Chinese work ethic, business practices, and approaches
+  to achievement.
+notable_quotes:
+- '"Diligence compensates for clumsiness" - Traditional saying'
+- '"In diligence lies abundance" - Agricultural maxim'
+related_practices:
+- Agricultural timing
+- Persistent effort
+- Skilled practice
+- Time management

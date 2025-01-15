@@ -1,0 +1,47 @@
+id: distributive-justice-amazonian
+name: Distributive Justice
+tradition: amazonian_indigenous
+script:
+  note: Multiple terms across languages
+  exemplar_terms:
+  - language: guarani
+    term: jopói
+  - language: shuar
+    term: yurumak
+category: social_virtue
+subcategory: resource_sharing
+related_concepts:
+- communal_harmony
+- ecological_reciprocity
+- ancestral_responsibility
+period: traditional_amazonian
+source_texts:
+- community_practices
+- sharing_traditions
+- social_organization
+type: virtue
+scope: communal
+orientation: balanced
+post_length: 792
+title: Distributive Justice
+definition: Fair sharing of resources and responsibilities within the community, ensuring
+  collective wellbeing through equitable distribution.
+key_aspects:
+- Resource sharing
+- Fair distribution
+- Collective responsibility
+- Need recognition
+- Balanced exchange
+historical_development: Evolved through practical experience of maintaining sustainable
+  communities in forest environments.
+contemporary_relevance: Important for social justice, economic equality, and sustainable
+  resource management models.
+notable_quotes:
+- '"True wealth is in sharing" - Traditional wisdom'
+- '"When all share, none go hungry" - Community teaching'
+related_practices:
+- Hunt sharing
+- Communal food distribution
+- Work sharing
+- Resource pooling
+- Collective decision-making

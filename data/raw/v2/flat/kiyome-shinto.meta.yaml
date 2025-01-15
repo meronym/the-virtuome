@@ -1,0 +1,44 @@
+id: kiyome-shinto
+name: Kiyome
+tradition: shinto
+script:
+  japanese: 清め
+  kanji: 清め
+  hiragana: きよめ
+  romaji: kiyome
+category: ritual_virtue
+subcategory: purification
+related_concepts:
+- harae
+- misogi
+- akaki
+period: ancient_japanese
+source_texts:
+- engishiki
+- norito
+- shrine_practices
+type: virtue
+scope: universal
+orientation: active
+post_length: 869
+title: Kiyome (清め) - Purification
+definition: Kiyome represents both physical and spiritual purification, the continuous
+  process of maintaining ritual and personal purity necessary for communion with kami.
+key_aspects:
+- Physical cleanliness
+- Spiritual purity
+- Ritual purification
+- Environmental cleanliness
+- Mental clarity
+historical_development: Foundational to early Shinto practices, developed through
+  systematic ritual codification while maintaining spontaneous aspects.
+contemporary_relevance: Influences modern Japanese hygiene practices, environmental
+  ethics, and workplace organization principles.
+notable_quotes:
+- '"Kiyoki kokoro de kamigami ni mukau" (Approach the kami with a pure heart)'
+- '"Kegare wo harau" (Sweep away impurity)'
+related_practices:
+- Misogi (water purification)
+- Temizu (hand washing)
+- Salt purification
+- Shrine cleaning

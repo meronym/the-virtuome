@@ -1,0 +1,46 @@
+id: pietas-roman
+name: Pietas
+tradition: roman_civic
+script:
+  latin: pietas
+  adjectival: pius
+category: foundational_virtue
+subcategory: duty
+related_concepts:
+- fides
+- religio
+- officium
+- devotio
+period: republican_imperial
+source_texts:
+- aeneid
+- de_natura_deorum
+- de_officiis
+- imperial_inscriptions
+type: virtue
+scope: universal
+orientation: active
+post_length: 928
+title: Pietas - Dutiful Respect
+definition: Pietas represents proper fulfillment of duties to gods, family, and state,
+  embodying the interconnected nature of Roman religious, familial, and civic obligations.
+key_aspects:
+- Religious devotion
+- Family loyalty
+- Patriotic duty
+- Ancestral respect
+- Social obligation
+historical_development: Central to Roman identity from earliest times, exemplified
+  in founding myths and historical accounts. Became political virtue under Augustus.
+contemporary_relevance: Informs modern discussions of civic duty, family values, and
+  religious freedom. Relevant to questions of citizenship and social responsibility.
+notable_quotes:
+- '"The man who is truly good and wise will bear all misfortunes through pietas."
+  - Cicero'
+- '"Here is pius Aeneas." - Virgil, Aeneid'
+related_practices:
+- Religious rituals
+- Family obligations
+- Ancestor veneration
+- Civic ceremonies
+- Public worship

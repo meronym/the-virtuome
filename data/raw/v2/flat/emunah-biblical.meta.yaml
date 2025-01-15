@@ -1,0 +1,46 @@
+id: emunah-biblical
+name: Emunah
+tradition: biblical_jewish
+script:
+  hebrew: אמונה
+  transliteration: emunah
+  alt_transliteration: emuna
+category: spiritual_virtue
+subcategory: faithfulness
+related_concepts:
+- bitachon
+- emet
+- yirah
+- chesed
+period: biblical
+source_texts:
+- torah
+- nevi'im
+- ketuvim
+- tehillim
+type: virtue
+scope: universal
+orientation: active
+post_length: 878
+title: Emunah (אמונה) - Faithfulness/Trust
+definition: Active faith and trustworthiness, encompassing both religious faith and
+  interpersonal reliability. Foundation of covenant relationship.
+key_aspects:
+- Religious faith
+- Personal trustworthiness
+- Covenant loyalty
+- Steadfast commitment
+- Reliable action
+historical_development: Central to covenant theology, developed through historical
+  narratives and prophetic literature, exemplified in psalms.
+contemporary_relevance: Essential for building trust in relationships, institutions,
+  and communities. Models faithful commitment in unstable times.
+notable_quotes:
+- '"The righteous shall live by their faith" (Habakkuk 2:4)'
+- '"Your faithfulness endures to all generations" (Psalms 119:90)'
+related_practices:
+- Promise keeping
+- Covenant loyalty
+- Religious observance
+- Trustworthy conduct
+- Faithful relationships

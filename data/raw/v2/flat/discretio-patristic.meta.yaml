@@ -1,0 +1,44 @@
+id: discretio-patristic
+name: Discretio
+tradition: patristic_christian
+script:
+  latin: discretio
+  greek: διάκρισις
+  greek_transliteration: diakrisis
+category: wisdom_virtue
+subcategory: spiritual_discernment
+related_concepts:
+- prudentia
+- sapientia
+- consilium
+period: patristic
+source_texts:
+- conferences_of_cassian
+- ladder_of_divine_ascent
+- practical_treatises
+- desert_fathers
+type: virtue
+scope: practical
+orientation: active
+post_length: 845
+title: Discretio (διάκρισις) - Discernment
+definition: Discretio represents the ability to distinguish between spirits and make
+  wise choices in spiritual matters, considered essential for guidance and growth.
+key_aspects:
+- Spiritual perception
+- Wise judgment
+- Balance in action
+- Interior guidance
+- Community wisdom
+historical_development: Developed through desert spirituality and monastic experience,
+  particularly systematized by John Cassian.
+contemporary_relevance: Essential for decision-making, spiritual direction, and maintaining
+  balance in modern spiritual life.
+notable_quotes:
+- '"Discretion is the mother of all virtues." - Abba Anthony'
+- '"Without discretion, even virtue becomes vice." - John Cassian'
+related_practices:
+- Spiritual direction
+- Community consultation
+- Prayer for guidance
+- Examination of conscience

@@ -1,0 +1,43 @@
+id: dikaiosyne-pythagorean
+name: Dikaiosyne
+tradition: pythagorean
+script:
+  greek: δικαιοσύνη
+  transliteration: dikaiosyne
+  latin: iustitia
+category: moral_virtue
+subcategory: justice
+related_concepts:
+- isotes
+- nomos
+- harmonia
+period: ancient_greek
+source_texts:
+- pythagorean_verses
+- philolaus_writings
+- archytas_fragments
+type: virtue
+scope: universal
+orientation: balanced
+post_length: 804
+title: Dikaiosyne (δικαιοσύνη) - Justice
+definition: The Pythagorean conception of justice as mathematical equality and reciprocity,
+  manifesting in both cosmic order and human relations.
+key_aspects:
+- Mathematical equality
+- Reciprocal relationships
+- Cosmic balance
+- Fair exchange
+- Social harmony
+historical_development: Developed from earlier Greek concepts but uniquely interpreted
+  through mathematical principles and cosmic order.
+contemporary_relevance: Influences modern theories of justice, equality, and social
+  organization.
+notable_quotes:
+- '"Justice is equality in a square number." - Pythagorean saying'
+- '"Justice is repayment in equal measure." - Attributed to Pythagorean teaching'
+related_practices:
+- Fair dealing
+- Community sharing
+- Equal distribution
+- Balanced exchange

@@ -1,0 +1,44 @@
+id: adab-persian
+name: Adab
+tradition: persian_islamic
+script:
+  arabic: أدب
+  persian: ادب
+  transliteration: adab
+category: cultural_virtue
+subcategory: refinement
+related_concepts:
+- tahdhib
+- muruwwah
+- husn_muasharat
+period: islamic_golden_age
+source_texts:
+- gulistan
+- bustan
+- qabusnamah
+- akhlaq_nasiri
+type: virtue
+scope: personal_social
+orientation: active
+post_length: 989
+title: Adab (ادب) - Refined Behavior
+definition: Adab represents comprehensive refinement of character, encompassing proper
+  conduct, cultural sophistication, and ethical behavior in all aspects of life.
+key_aspects:
+- Cultural refinement
+- Ethical conduct
+- Literary cultivation
+- Social grace
+- Educational excellence
+historical_development: Evolved from pre-Islamic Arabian concept through Persian cultural
+  refinement, becoming central to Islamic civilization's educational and ethical system.
+contemporary_relevance: Influences modern Islamic education, cultural studies, and
+  professional ethics. Important in discussions of cultural literacy and moral education.
+notable_quotes:
+- '"Adab is the collection of all virtues." - Classical Persian saying'
+- '"Without adab, knowledge is like a fire without light." - Traditional saying'
+related_practices:
+- Study of literature and poetry
+- Cultivation of proper etiquette
+- Practice of arts and sciences
+- Ethical self-development

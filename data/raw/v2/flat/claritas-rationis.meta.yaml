@@ -1,0 +1,44 @@
+id: claritas-rationis
+name: Rational Clarity
+tradition: rationalist_ethics
+script:
+  latin: claritas rationis
+  french: clarté rationnelle
+  german: rationale Klarheit
+category: foundational_virtue
+subcategory: intellectual_capacity
+related_concepts:
+- methodus
+- distinctio
+- perspicuitas
+period: enlightenment
+source_texts:
+- discourse_on_method
+- meditations
+- ethics_spinoza
+type: virtue
+scope: individual
+orientation: active
+post_length: 934
+title: Rational Clarity (Claritas Rationis)
+definition: The fundamental capacity to form and recognize clear and distinct ideas,
+  serving as the foundation for all rational thought and virtue.
+key_aspects:
+- Clear perception of ideas
+- Distinction between true and false
+- Mental precision
+- Cognitive accuracy
+- Foundational discernment
+historical_development: Established by Descartes as the cornerstone of his method,
+  developed by later rationalists into a comprehensive theory of mental clarity.
+contemporary_relevance: Essential for critical thinking, scientific methodology, and
+  clear communication in modern contexts.
+notable_quotes:
+- '"All which I clearly and distinctly perceive is true." - Descartes'
+- '"The order and connection of ideas is the same as the order and connection of things."
+  - Spinoza'
+related_practices:
+- Systematic doubt
+- Methodical analysis
+- Conceptual differentiation
+- Mental focus exercises

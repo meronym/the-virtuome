@@ -1,0 +1,44 @@
+id: studiositas-scholastic
+name: Studiositas
+tradition: scholastic
+script:
+  latin: studiositas
+  greek: φιλομάθεια
+  greek_transliteration: philomatheia
+category: moral_virtue
+subcategory: intellectual_discipline
+related_concepts:
+- curiositas
+- temperantia
+- docilitas
+- prudentia
+period: medieval_scholastic
+source_texts:
+- summa_theologica
+- de_magistro
+- de_disciplina_scholarium
+type: virtue
+scope: personal
+orientation: active
+post_length: 896
+title: Studiositas (Studiousness)
+definition: Studiositas is the virtuous regulation of the desire for knowledge, directing
+  intellectual curiosity toward truth while avoiding both deficiency and excess.
+key_aspects:
+- Ordered desire for knowledge
+- Intellectual discipline
+- Balanced inquiry
+- Pursuit of truth
+- Moral formation through study
+historical_development: Developed distinctively in scholastic thought as bridge between
+  intellectual and moral virtues, particularly emphasized in university context.
+contemporary_relevance: Important for educational ethics, intellectual formation,
+  and lifelong learning. Model for responsible knowledge pursuit.
+notable_quotes:
+- '"Studiousness moderates the desire for knowledge." - Aquinas'
+- '"Learn in order to teach." - Peter Lombard'
+related_practices:
+- Disciplined study
+- Intellectual humility
+- Methodical inquiry
+- Balanced learning

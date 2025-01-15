@@ -1,0 +1,42 @@
+id: vigilance-ethique-existentialist
+name: Vigilance Éthique
+tradition: existentialist_ethics
+script:
+  french: vigilance éthique
+category: reflective_virtue
+subcategory: ethical_awareness
+related_concepts:
+- authenticite
+- responsabilite
+- lucidite
+period: twentieth_century
+source_texts:
+- ethics_of_ambiguity
+- being_and_nothingness
+- notebooks_for_an_ethics
+type: virtue
+scope: personal
+orientation: reflective
+post_length: 895
+title: Vigilance Éthique (Ethical Vigilance)
+definition: The existentialist virtue of maintaining constant moral awareness and
+  critical ethical reflection in the absence of absolute values.
+key_aspects:
+- Continuous ethical reflection
+- Moral awareness
+- Critical examination
+- Value consciousness
+- Situational sensitivity
+historical_development: Emerged from existentialist critique of traditional ethics,
+  particularly developed in Beauvoir's ethical writings.
+contemporary_relevance: Crucial for ethical navigation in complex modern situations
+  lacking clear moral guidelines.
+notable_quotes:
+- '"Ethics is not a collection of prohibitions and rules but an active consciousness."
+  - Beauvoir'
+- '"One must make oneself responsible for inventing rules." - Ethics of Ambiguity'
+related_practices:
+- Regular ethical reflection
+- Situation analysis
+- Value examination
+- Moral deliberation

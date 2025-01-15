@@ -1,0 +1,43 @@
+id: contextual-wisdom-care
+name: Contextual Wisdom
+tradition: care_ethics
+script:
+  english: contextual wisdom
+  etymology: Latin "contextus" + Greek "sophia"
+category: cognitive_virtue
+subcategory: practical_wisdom
+related_concepts:
+- situational_judgment
+- practical_wisdom
+- moral_perception
+period: contemporary
+source_texts:
+- gilligan_different_voice
+- ruddick_maternal_thinking
+- held_ethics_of_care
+type: virtue
+scope: practical
+orientation: balanced
+post_length: 909
+title: Contextual Wisdom - Situated Moral Understanding
+definition: The capacity to understand and navigate complex care situations with sensitivity
+  to their unique contexts, relationships, and needs.
+key_aspects:
+- Situational understanding
+- Balanced judgment
+- Practical reasoning
+- Experiential knowledge
+- Contextual sensitivity
+historical_development: Emerged from care ethics' critique of abstract principle-based
+  reasoning, emphasizing situated understanding.
+contemporary_relevance: Essential for navigating complex care decisions in professional,
+  personal, and institutional contexts.
+notable_quotes:
+- '"Moral problems are problems of interpretation in context." - Margaret Urban Walker'
+- '"The details and context always matter." - Carol Gilligan'
+related_practices:
+- Situational analysis
+- Contextual assessment
+- Experience integration
+- Balanced decision-making
+- Practical reasoning

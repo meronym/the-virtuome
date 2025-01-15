@@ -1,0 +1,50 @@
+id: self-regulation-devpsych
+name: Self-Regulation
+tradition: developmental_psychology
+script:
+  psychological_term: self-regulation
+  related_terms:
+  - executive function
+  - emotional regulation
+  - behavioral control
+category: executive_capacity
+subcategory: behavioral_control
+related_concepts:
+- impulse_control
+- attention_regulation
+- emotional_regulation
+- behavioral_inhibition
+period: modern_psychology
+source_texts:
+- handbook_self_regulation
+- development_of_self_regulation
+- emotional_development
+type: developmental_virtue
+scope: individual
+orientation: active
+post_length: 1078
+title: Self-Regulation - Mastery of Internal States
+definition: Self-regulation represents the capacity to monitor and modulate cognition,
+  emotion, and behavior to effectively respond to environmental demands and achieve
+  personal goals.
+key_aspects:
+- Emotional regulation
+- Behavioral control
+- Attention management
+- Impulse inhibition
+- Goal-directed persistence
+historical_development: Emerged from multiple theoretical traditions including cognitive
+  psychology, neuroscience, and developmental studies. Significantly influenced by
+  research on executive functions.
+contemporary_relevance: Critical for academic success, social functioning, and mental
+  health. Key focus of educational and intervention programs.
+notable_quotes:
+- '"Self-regulation is the key to successful development across the lifespan." - Roy
+  Baumeister'
+- '"The capacity to regulate attention, emotion, and behavior forms the foundation
+  for all other learning." - Mary Rothbart'
+related_practices:
+- Mindfulness exercises
+- Emotion coaching
+- Self-monitoring strategies
+- Goal-setting activities

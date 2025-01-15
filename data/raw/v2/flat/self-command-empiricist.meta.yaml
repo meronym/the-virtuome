@@ -1,0 +1,45 @@
+id: self-command-empiricist
+name: Self-Command
+tradition: empiricist_ethics
+script:
+  english: self-command
+  latin: imperium sui
+category: personal_virtue
+subcategory: self_regulation
+related_concepts:
+- practical_judgment
+- moral_sentiment
+- temperance
+period: enlightenment
+source_texts:
+- smith_moral_sentiments
+- locke_education
+- hume_treatise
+type: virtue
+scope: personal
+orientation: active
+post_length: 965
+title: Self-Command
+definition: The capacity to regulate one's passions and actions through understanding
+  and experience, balancing personal interests with social good.
+key_aspects:
+- Emotional regulation
+- Impulse control
+- Rational restraint
+- Character development
+- Balanced judgment
+historical_development: Central to empiricist moral psychology and education theory,
+  particularly developed by Smith and Locke.
+contemporary_relevance: Foundation for emotional intelligence, self-regulation, and
+  character education.
+notable_quotes:
+- '"The man who acts according to the rules of perfect prudence, of strict justice,
+  and of proper benevolence, may be said to be perfectly virtuous." - Adam Smith'
+- '"Self-command is not only itself a great virtue, but from it all the other virtues
+  seem to derive their principal lustre." - Adam Smith'
+related_practices:
+- Self-reflection
+- Emotional management
+- Habit formation
+- Character building
+- Prudent action

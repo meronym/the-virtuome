@@ -1,0 +1,43 @@
+id: chugi-bushido
+name: Chūgi
+tradition: bushido
+script:
+  japanese: 忠義
+  kanji: 忠義
+  romaji: chūgi
+category: cardinal_virtue
+subcategory: loyalty
+related_concepts:
+- chūsei (忠誠, fidelity)
+- gimu (義務, duty)
+- hōkō (奉公, service)
+period: feudal_japan
+source_texts:
+- hagakure
+- bushido_shoshinshu
+- various_house_codes
+type: virtue
+scope: relational
+orientation: active
+post_length: 861
+title: Chūgi (忠義) - Loyalty
+definition: Chūgi represents unwavering loyalty combined with righteous service, expressing
+  dedication to lord, cause, or principle through ethical conduct.
+key_aspects:
+- Unwavering dedication
+- Ethical service
+- Principled loyalty
+- Dutiful action
+- Faithful commitment
+historical_development: Evolved from feudal obligations into a broader ethical principle
+  combining loyalty with righteousness and wisdom.
+contemporary_relevance: Informs organizational loyalty, professional ethics, and commitment
+  to principles in modern contexts.
+notable_quotes:
+- '"True loyalty includes the courage to correct one''s lord." - Samurai principle'
+- '"Loyalty without righteousness becomes mere subservience." - Bushido teaching'
+related_practices:
+- Faithful service
+- Ethical dedication
+- Principled commitment
+- Constructive criticism

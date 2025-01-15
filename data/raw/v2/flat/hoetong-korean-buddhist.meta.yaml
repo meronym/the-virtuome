@@ -1,0 +1,43 @@
+id: hoetong-korean-buddhist
+name: Hoetong
+tradition: korean_buddhist
+script:
+  hangeul: 회통
+  hanja: 會通
+  romanization: hoetong
+category: integrative_virtue
+subcategory: synthesis
+related_concepts:
+- hwahap
+- ilsim
+- tongchal
+period: unified_silla_to_present
+source_texts:
+- wonhyo_writings
+- korean_syntheses
+- modern_interpretations
+type: virtue
+scope: universal
+orientation: balanced
+post_length: 790
+title: Hoetong (회통) - Reconciliation/Synthesis
+definition: Hoetong represents the capacity for creative synthesis and reconciliation
+  of seemingly opposing viewpoints or practices.
+key_aspects:
+- Doctrinal reconciliation
+- Practical integration
+- Creative synthesis
+- Harmonious understanding
+- Inclusive wisdom
+historical_development: Characteristic of Korean Buddhist thought since Wonhyo, particularly
+  important in integrating different Buddhist traditions.
+contemporary_relevance: Essential for interfaith dialogue and integration of traditional
+  wisdom with modern challenges.
+notable_quotes:
+- '"All teachings return to one truth"'
+- '"Different paths, same mountain peak"'
+related_practices:
+- Comparative study
+- Integrative practice
+- Interfaith dialogue
+- Adaptive teaching

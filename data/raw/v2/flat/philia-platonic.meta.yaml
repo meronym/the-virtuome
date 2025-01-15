@@ -1,0 +1,44 @@
+id: philia-platonic
+name: Philia
+tradition: platonic
+script:
+  greek: φιλία
+  transliteration: philia
+  latin: amicitia
+category: social_virtue
+subcategory: friendship
+related_concepts:
+- eros
+- agape
+- koinonia
+period: classical_greek
+source_texts:
+- lysis
+- phaedrus
+- symposium
+- republic
+type: virtue
+scope: interpersonal
+orientation: reciprocal
+post_length: 854
+title: Philia (φιλία) - Philosophical Friendship
+definition: Philia represents the bond between souls united in pursuit of wisdom and
+  truth, fundamental to philosophical development and dialogue.
+key_aspects:
+- Intellectual fellowship
+- Mutual improvement
+- Shared pursuit
+- Spiritual friendship
+- Educational bond
+historical_development: Developed from general friendship to specific philosophical
+  relationship through Socratic practice and Academy structure.
+contemporary_relevance: Important for educational theory, mentorship, and intellectual
+  community. Models collaborative learning and growth.
+notable_quotes:
+- '"Friends have all things in common." - Republic'
+- '"In company we are more able to find truth." - Platonic principle'
+related_practices:
+- Philosophical dialogue
+- Collaborative learning
+- Mentorship
+- Intellectual community

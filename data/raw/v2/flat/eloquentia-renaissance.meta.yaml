@@ -1,0 +1,43 @@
+id: eloquentia-renaissance
+name: Eloquentia
+tradition: renaissance_humanism
+script:
+  latin: eloquentia
+  italian_renaissance: eloquenza
+category: expressive_virtue
+subcategory: wise_speech
+related_concepts:
+- sapientia
+- urbanitas
+- prudentia
+- decorum
+period: renaissance
+source_texts:
+- cicero_de_oratore
+- quintilian_institutes
+- valla_elegantiae
+type: virtue
+scope: individual_social
+orientation: active
+post_length: 798
+title: Eloquentia - True Eloquence
+definition: Eloquentia represents the union of wisdom and expression, combining deep
+  understanding with the ability to communicate effectively and persuasively.
+key_aspects:
+- Wise speech
+- Persuasive power
+- Ethical expression
+- Cultural refinement
+- Social effectiveness
+historical_development: Revived from classical rhetorical tradition, transformed by
+  humanists into ideal of wisdom united with expression.
+contemporary_relevance: Important for public speaking, leadership communication, and
+  cultural dialogue.
+notable_quotes:
+- '"Wisdom without eloquence is of little help to society." - Cicero'
+- '"Speech is the mirror of the soul." - Valla'
+related_practices:
+- Rhetorical training
+- Literary composition
+- Public speaking
+- Diplomatic discourse

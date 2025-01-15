@@ -1,0 +1,47 @@
+id: integrity-protestant
+name: Integrity
+tradition: protestant_ethics
+script:
+  german: Rechtschaffenheit
+  latin: integritas
+  english: integrity
+category: moral_virtue
+subcategory: character
+related_concepts:
+- honesty
+- authenticity
+- truthfulness
+- consistency
+period: reformation_and_post
+source_texts:
+- protestant_confessions
+- reformation_writings
+- puritan_character_studies
+- protestant_ethics_texts
+type: virtue
+scope: universal
+orientation: active
+post_length: 1000
+title: Integrity (Rechtschaffenheit)
+definition: The Protestant virtue of moral wholeness and consistency between faith
+  and action, characterized by truthfulness and authenticity in all aspects of life.
+key_aspects:
+- Unity of belief and practice
+- Moral consistency
+- Truthfulness in all dealings
+- Personal authenticity
+- Ethical reliability
+historical_development: Developed through Protestant emphasis on personal holiness
+  and the integration of faith into all areas of life.
+contemporary_relevance: Critical for personal and professional ethics, particularly
+  important in leadership and public life.
+notable_quotes:
+- '"A Christian is perfectly free lord of all, subject to none. A Christian is a perfectly
+  dutiful servant of all, subject to all." - Martin Luther'
+- '"Integrity is doing the right thing even when no one is watching." - Reformed maxim'
+related_practices:
+- Honest communication
+- Promise keeping
+- Ethical business practices
+- Transparent leadership
+- Moral consistency

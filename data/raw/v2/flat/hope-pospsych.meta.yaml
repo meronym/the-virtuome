@@ -1,0 +1,48 @@
+id: hope-pospsych
+name: Hope
+tradition: positive_psychology
+script:
+  english: hope
+  scientific: hope_theory
+category: cognitive_strength
+subcategory: future_orientation
+related_concepts:
+- optimism
+- self_efficacy
+- agency
+- pathways_thinking
+period: contemporary
+source_texts:
+- handbook_of_hope
+- making_hope_happen
+- positive_psychology_handbook
+type: virtue
+scope: individual
+orientation: active
+post_length: 1103
+title: Hope - Goal-Directed Thinking and Agency
+definition: Hope represents the capacity to envision positive future outcomes combined
+  with the belief in one's ability to achieve them, incorporating both pathways thinking
+  and agency.
+key_aspects:
+- Goal-oriented thinking
+- Agency beliefs
+- Pathways generation
+- Perseverance
+- Future orientation
+historical_development: Developed through Snyder's Hope Theory (1991), distinguishing
+  hope from simple optimism by emphasizing both will and ways. Enhanced through research
+  on goal-setting and achievement motivation.
+contemporary_relevance: Essential component in resilience training, therapeutic interventions,
+  and educational programs. Key predictor of academic and professional success.
+notable_quotes:
+- '"Hope theory represents one of the most sophisticated and well-researched frameworks
+  in positive psychology." - Shane Lopez'
+- '"Hope is not just an emotion; it''s a dynamic cognitive motivational system." -
+  C.R. Snyder'
+related_practices:
+- Goal-setting exercises
+- Pathways mapping
+- Agency building
+- Hope scaling
+- Future visualization

@@ -1,0 +1,45 @@
+id: dikaiosyne-presocratic
+name: Dikaiosynē
+tradition: presocratic
+script:
+  greek: δικαιοσύνη
+  transliteration: dikaiosynē
+  alternate: dikē (δίκη)
+category: moral_virtue
+subcategory: justice
+related_concepts:
+- harmonia
+- metron
+- nomos
+- cosmos
+period: early_greek
+source_texts:
+- pythagorean_texts
+- heraclitus_fragments
+- orphic_teachings
+type: virtue
+scope: universal
+orientation: balanced
+post_length: 888
+title: Dikaiosynē (δικαιοσύνη) - Justice/Right Order
+definition: The principle of justice and right order that governs both cosmic processes
+  and human conduct, representing the proper arrangement and balance in all things.
+key_aspects:
+- Cosmic order
+- Natural justice
+- Right proportion
+- Social harmony
+- Ethical balance
+historical_development: Evolved from early Greek concept of dikē (natural/divine justice)
+  to philosophical principle of universal order in Pre-Socratic thought.
+contemporary_relevance: Influences modern concepts of justice, natural law, and environmental
+  ethics.
+notable_quotes:
+- '"The sun will not overstep its measures; if it does, the Erinyes, ministers of
+  Justice, will find it out." - Heraclitus'
+- '"Justice is the harmony of the soul." - Pythagorean doctrine'
+related_practices:
+- Ethical conduct
+- Fair dealing
+- Social harmony
+- Natural alignment

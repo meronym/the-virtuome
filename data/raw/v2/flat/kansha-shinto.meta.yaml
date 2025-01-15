@@ -1,0 +1,44 @@
+id: kansha-shinto
+name: Kansha
+tradition: shinto
+script:
+  japanese: 感謝
+  kanji: 感謝
+  hiragana: かんしゃ
+  romaji: kansha
+category: attitudinal_virtue
+subcategory: gratitude
+related_concepts:
+- makoto
+- kei
+- wa
+period: traditional_japanese
+source_texts:
+- norito
+- shrine_practices
+- folk_traditions
+type: virtue
+scope: universal
+orientation: receptive
+post_length: 850
+title: Kansha (感謝) - Deep Gratitude
+definition: Kansha represents profound gratitude toward kami, nature, ancestors, and
+  fellow humans, recognizing the interconnected web of blessings that sustain life.
+key_aspects:
+- Sacred appreciation
+- Natural thankfulness
+- Ancestral recognition
+- Daily gratitude
+- Humble recognition
+historical_development: Developed through agricultural and community practices, strengthened
+  through ritual observances and seasonal celebrations.
+contemporary_relevance: Central to modern Shinto practice and Japanese cultural values,
+  influences environmental awareness and social relationships.
+notable_quotes:
+- '"Kansha no kokoro" (The heart of gratitude)'
+- '"Megumi ni kansha" (Gratitude for blessings)'
+related_practices:
+- First shrine visit of year
+- Harvest thanksgiving
+- Daily offerings
+- Gratitude rituals

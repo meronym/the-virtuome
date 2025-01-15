@@ -1,0 +1,46 @@
+id: kunu-babylonian
+name: Kūnu
+tradition: babylonian
+script:
+  akkadian: 𒆪𒉡
+  transliteration: ku-nu
+  sumerian_cognate: gin
+category: personal_virtue
+subcategory: reliability
+related_concepts:
+- kittu
+- takalu
+- amanu
+period: babylonian
+source_texts:
+- wisdom_literature
+- commercial_contracts
+- legal_documents
+- personal_letters
+type: virtue
+scope: individual
+orientation: active
+post_length: 884
+title: Kūnu (Steadfastness/Reliability)
+definition: Kūnu represents personal reliability and steadfastness in conduct, encompassing
+  both moral consistency and dependability in actions and commitments.
+key_aspects:
+- Personal integrity
+- Reliable conduct
+- Consistent behavior
+- Trustworthiness
+- Commitment fulfillment
+historical_development: Originally a term for physical stability, developed into a
+  moral concept emphasizing personal reliability and trustworthiness in social and
+  commercial contexts.
+contemporary_relevance: Relates to modern business ethics and personal integrity in
+  professional relationships.
+notable_quotes:
+- '"A man''s word must be as steady as stone" - Commercial Text'
+- '"In steadfastness lies honor" - Wisdom Text'
+related_practices:
+- Contract fulfillment
+- Promise keeping
+- Professional reliability
+- Personal consistency
+- Reputation building

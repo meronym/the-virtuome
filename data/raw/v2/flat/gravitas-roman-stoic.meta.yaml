@@ -1,0 +1,51 @@
+id: gravitas-roman-stoic
+name: Gravitas
+tradition: roman_stoic
+script:
+  latin: gravitas
+  transliteration: gravitas
+category: character_virtue
+subcategory: serious_purpose
+related_concepts:
+- dignitas
+- severitas
+- constantia
+- auctoritas
+period: imperial_rome
+source_texts:
+- epistulae_morales
+- meditations
+- discourses
+type: virtue
+scope: personal_social
+orientation: active
+post_length: 879
+title: Gravitas - Serious Purpose
+definition: Gravitas represents seriousness of purpose and weight of character, combining
+  philosophical depth with practical responsibility and measured conduct.
+key_aspects:
+- Serious purpose
+- Depth of character
+- Measured conduct
+- Moral weight
+- Philosophical maturity
+historical_development: A distinctly Roman virtue, incorporated into Stoic philosophy
+  as an expression of philosophical maturity and serious engagement with life's duties.
+contemporary_relevance: '- Professional demeanor
+
+  - Leadership presence
+
+  - Ethical seriousness
+
+  - Decision-making
+
+  - Personal development'
+notable_quotes:
+- '"Life is serious business." - Seneca'
+- '"Approach each action as if it were your last." - Marcus Aurelius'
+related_practices:
+- Thoughtful deliberation
+- Measured speech
+- Considered action
+- Philosophical reflection
+- Responsible conduct

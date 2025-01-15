@@ -1,0 +1,44 @@
+id: temperance-franklin
+name: Temperance
+tradition: franklin_virtues
+script:
+  english: Temperance
+  franklin_quote: Eat not to dullness; drink not to elevation
+category: foundational_virtue
+subcategory: self_control
+related_concepts:
+- moderation
+- order
+- resolution
+- prudence
+period: american_enlightenment
+source_texts:
+- autobiography_of_benjamin_franklin
+- poor_richards_almanack
+- personal_virtues_list
+type: virtue
+scope: personal
+orientation: restraint
+post_length: 909
+title: Temperance - Self-Control
+definition: The foundational virtue of moderation and self-control, particularly in
+  physical appetites but extending to all aspects of life requiring restraint.
+key_aspects:
+- Appetite control
+- Emotional regulation
+- Balanced living
+- Conscious moderation
+- Physical discipline
+historical_development: Listed first among Franklin's virtues as the foundation for
+  all others, reflecting both Protestant values and Enlightenment rationality.
+contemporary_relevance: Critical for modern health, wellness, and personal development.
+  Relevant to addiction recovery and lifestyle management.
+notable_quotes:
+- '"To lengthen thy life, lessen thy meals." - Poor Richard''s Almanack'
+- '"Be sober and temperate, and you will be healthy." - attributed to Franklin'
+related_practices:
+- Mindful eating
+- Emotional regulation
+- Impulse control
+- Habit formation
+- Health management

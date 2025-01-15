@@ -1,0 +1,44 @@
+id: docilitas-scholastic
+name: Docilitas
+tradition: scholastic
+script:
+  latin: docilitas
+  greek: εὐμάθεια
+  greek_transliteration: eumatheia
+category: intellectual_virtue
+subcategory: learning_disposition
+related_concepts:
+- studiositas
+- humilitas
+- prudentia
+- disciplina
+period: medieval_scholastic
+source_texts:
+- de_magistro
+- summa_theologica
+- de_eruditione
+type: virtue
+scope: personal
+orientation: receptive
+post_length: 862
+title: Docilitas (Teachability)
+definition: Docilitas represents the virtuous disposition to learn from others and
+  experience, combining intellectual humility with active receptivity to truth.
+key_aspects:
+- Openness to learning
+- Intellectual humility
+- Active receptivity
+- Recognition of authority
+- Progressive development
+historical_development: Developed in scholastic educational theory as essential disposition
+  for both intellectual and moral formation.
+contemporary_relevance: Important for education theory, professional development,
+  and lifelong learning. Model for intellectual humility.
+notable_quotes:
+- '"The teachable person is ready to learn from all." - Aquinas'
+- '"Docility is the path to wisdom." - Hugh of St. Victor'
+related_practices:
+- Active listening
+- Seeking guidance
+- Learning from experience
+- Intellectual apprenticeship

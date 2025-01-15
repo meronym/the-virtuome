@@ -1,0 +1,44 @@
+id: diakrisis-neoplatonic
+name: Diakrisis
+tradition: neoplatonic
+script:
+  greek: διάκρισις
+  transliteration: diakrisis
+  latin: discretio
+category: intellectual_virtue
+subcategory: spiritual_discrimination
+related_concepts:
+- phronesis
+- sophia
+- nous
+- katharsis
+period: late_classical
+source_texts:
+- enneads
+- on_abstinence
+- elements_of_theology
+type: virtue
+scope: practical
+orientation: discriminative
+post_length: 842
+title: Diakrisis (διάκρισις) - Spiritual Discrimination
+definition: Diakrisis represents the capacity for subtle spiritual and intellectual
+  discrimination, enabling proper discernment in both contemplative and practical
+  spheres.
+key_aspects:
+- Spiritual discernment
+- Intellectual clarity
+- Practical wisdom
+- Right judgment
+- Inner discrimination
+historical_development: Developed as essential complement to contemplative practice
+  in Neo-Platonic system.
+contemporary_relevance: Important for modern spiritual practice and ethical decision-making.
+notable_quotes:
+- '"The wise soul discriminates between appearances and reality." - Plotinus'
+- '"Through diakrisis, we separate the true from the apparent." - Porphyry'
+related_practices:
+- Philosophical analysis
+- Spiritual discernment
+- Ethical judgment
+- Meditative discrimination

@@ -1,0 +1,44 @@
+id: magnanimitas-renaissance
+name: Magnanimitas
+tradition: renaissance_humanism
+script:
+  latin: magnanimitas
+  greek_equivalent: μεγαλοψυχία
+  italian_renaissance: magnanimità
+category: moral_virtue
+subcategory: nobility_spirit
+related_concepts:
+- virtus
+- fortitudo
+- liberalitas
+- dignitas
+period: renaissance
+source_texts:
+- aristotle_ethics
+- cicero_duties
+- pontano_magnanimity
+type: virtue
+scope: individual
+orientation: active
+post_length: 787
+title: Magnanimitas - Greatness of Soul
+definition: Magnanimitas represents nobility of spirit and greatness of character,
+  combining high ambition with moral excellence and generosity.
+key_aspects:
+- Noble ambition
+- Moral courage
+- Generous spirit
+- Leadership quality
+- Ethical excellence
+historical_development: Transformed from Aristotelian megalopsychia through Christian
+  and humanist interpretation into Renaissance ideal of noble character.
+contemporary_relevance: Important for leadership ethics, personal development, and
+  moral courage.
+notable_quotes:
+- '"Great souls have great purposes." - Renaissance saying'
+- '"True nobility lies in excellence of character." - Pontano'
+related_practices:
+- Ethical leadership
+- Generous patronage
+- Moral courage
+- Public service

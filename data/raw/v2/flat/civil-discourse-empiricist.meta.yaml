@@ -1,0 +1,43 @@
+id: civil-discourse-empiricist
+name: Civil Discourse
+tradition: empiricist_ethics
+script:
+  english: civil discourse
+  latin: colloquium civile
+category: social_virtue
+subcategory: communication
+related_concepts:
+- social_perspicacity
+- public_utility
+- rational_debate
+period: enlightenment
+source_texts:
+- locke_toleration
+- hume_essays
+- smith_moral_sentiments
+type: virtue
+scope: social
+orientation: active
+post_length: 830
+title: Civil Discourse
+definition: The capacity for reasoned, respectful dialogue aimed at shared understanding
+  and social learning through the exchange of experiences and views.
+key_aspects:
+- Reasoned discussion
+- Respectful exchange
+- Evidence-based argument
+- Public deliberation
+- Collaborative inquiry
+historical_development: Emerged from Enlightenment coffee house culture and emphasis
+  on public reasoning and debate.
+contemporary_relevance: Critical for democratic process, public discourse, and conflict
+  resolution.
+notable_quotes:
+- '"In a dialogue, both sides are willing to change." - David Bohm'
+- '"Reading and conversation are the best means of cultivating reason." - John Locke'
+related_practices:
+- Public debate
+- Reasoned argument
+- Active listening
+- Collaborative discussion
+- Evidence-based dialogue

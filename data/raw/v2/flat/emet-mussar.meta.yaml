@@ -1,0 +1,43 @@
+id: emet-mussar
+name: Emet
+tradition: mussar
+script:
+  hebrew: אמת
+  transliteration: emet
+  alternate: emes
+category: foundational_virtue
+subcategory: truth_integrity
+related_concepts:
+- yosher
+- tzedek
+- temimut
+period: mussar_movement
+source_texts:
+- sefat_emet
+- mei_hashiloach
+- sfat_tamim
+type: virtue
+scope: universal
+orientation: active
+post_length: 786
+title: Emet (אמת) - Truth
+definition: Absolute commitment to truth in thought, speech, and action, including
+  honest self-reflection and genuine relationship with reality.
+key_aspects:
+- Intellectual honesty
+- Self-truth
+- Speech integrity
+- Reality alignment
+- Authentic living
+historical_development: Central to Jewish tradition, emphasized by Mussar movement
+  as essential for genuine spiritual growth.
+contemporary_relevance: Critical in age of misinformation and self-deception, foundation
+  for authentic personal development.
+notable_quotes:
+- '"The seal of the Holy One is truth." - Talmud'
+- '"Without truth, there can be no genuine growth." - Rabbi Israel Salanter'
+related_practices:
+- Regular self-examination
+- Truth in speech
+- Reality checking
+- Authentic expression

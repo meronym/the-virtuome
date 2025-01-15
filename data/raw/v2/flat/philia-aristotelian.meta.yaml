@@ -1,0 +1,59 @@
+id: philia-aristotelian
+name: Philia
+tradition: aristotelian
+script:
+  greek: φιλία
+  transliteration: philia
+  latin: amicitia
+category: moral_virtue
+subcategory: friendship
+related_concepts:
+- dikaiosyne
+- eunoia
+- koinonia
+- agape
+period: classical_greek
+source_texts:
+- nicomachean_ethics
+- eudemian_ethics
+- magna_moralia
+type: virtue
+scope: relational
+orientation: active
+post_length: 1092
+title: Philia (φιλία) - Friendship/Sociability
+definition: The virtue of forming and maintaining excellent relationships, particularly
+  those based on mutual recognition of virtue, encompassing various forms of human
+  association and love.
+key_aspects:
+- Mutual goodwill
+- Shared virtue
+- Active benevolence
+- Character friendship
+- Social harmony
+- Reciprocal care
+historical_development: Expanded from basic notions of friendship to Aristotle's comprehensive
+  analysis of human relationships and their role in the good life.
+contemporary_relevance: '- Social psychology
+
+  - Community building
+
+  - Professional relationships
+
+  - Digital communities
+
+  - Educational relationships
+
+  - Social networking'
+notable_quotes:
+- '"Without friends no one would choose to live, though they had all other goods."
+  - Nicomachean Ethics, VIII.1'
+- '"Perfect friendship is the friendship of men who are good, and alike in virtue."
+  - Nicomachean Ethics, VIII.3'
+related_practices:
+- Building friendships
+- Community participation
+- Mentoring relationships
+- Social service
+- Mutual support
+- Collaborative projects

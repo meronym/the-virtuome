@@ -1,0 +1,45 @@
+id: obedientia-medieval-catholic
+name: Obedientia
+tradition: medieval_catholic
+script:
+  latin: obedientia
+  greek: ὑπακοή
+  greek_transliteration: hypakoē
+category: monastic_virtue
+subcategory: religious_discipline
+related_concepts:
+- humilitas
+- stabilitas
+- fidelitas
+- disciplina
+period: medieval_christian
+source_texts:
+- regula_benedicti
+- de_obedientia
+- summa_theologica
+- de_praecepto_et_dispensatione
+type: virtue
+scope: personal_social
+orientation: passive
+post_length: 862
+title: Obedientia (Obedience)
+definition: Obedientia represents willing submission to legitimate authority, understood
+  as participation in divine order and essential for spiritual growth.
+key_aspects:
+- Submission to authority
+- Divine order participation
+- Community harmony
+- Spiritual formation
+- Will transformation
+historical_development: Central to monastic life through Benedict's Rule, developed
+  in scholastic thought as expression of divine order, elaborated in mystical tradition.
+contemporary_relevance: Influences religious life, organizational hierarchy, and discussions
+  of authority and freedom.
+notable_quotes:
+- '"The first degree of obedience is prompt obedience" - Rule of Benedict'
+- '"Better to obey God than men" - Medieval principle'
+related_practices:
+- Monastic observance
+- hierarchical respect
+- Community life
+- Rule following

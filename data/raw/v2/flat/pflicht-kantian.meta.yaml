@@ -1,0 +1,44 @@
+id: pflicht-kantian
+name: Pflicht
+tradition: kantian
+script:
+  german: Pflicht
+  transliteration: n/a
+  latin: officium
+category: moral_virtue
+subcategory: obligation
+related_concepts:
+- guter_wille
+- kategorischer_imperativ
+- moralgesetz
+period: enlightenment
+source_texts:
+- groundwork_of_the_metaphysics_of_morals
+- metaphysics_of_morals
+- critique_of_practical_reason
+type: virtue
+scope: universal
+orientation: active
+post_length: 932
+title: Pflicht (Duty)
+definition: The necessity of an action from respect for moral law, representing the
+  binding force of moral requirements on rational beings.
+key_aspects:
+- Moral necessity
+- Respect for law
+- Universal obligation
+- Rational requirement
+- Categorical nature
+historical_development: Central to Kant's ethical theory, developed through analysis
+  of moral motivation and the nature of moral requirements.
+contemporary_relevance: Influences modern discussions of moral obligation, professional
+  ethics, and institutional responsibility.
+notable_quotes:
+- '"Duty is the necessity of acting from respect for the law." - Groundwork'
+- '"An action from duty has its moral worth not in the purpose to be attained by it
+  but in the maxim in accordance with which it is decided upon." - Groundwork'
+related_practices:
+- Obligation fulfillment
+- Moral decision-making
+- Professional responsibility
+- Ethical compliance

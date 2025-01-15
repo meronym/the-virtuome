@@ -1,0 +1,45 @@
+id: ye-korean-neoconfucian
+name: Ye
+tradition: korean_neoconfucian
+script:
+  hangeul: 예
+  hanja: 禮
+  romanization: ye
+  classical_chinese: 禮
+category: social_virtue
+subcategory: ritual_propriety
+related_concepts:
+- in
+- ui
+- hyo
+- jong
+period: joseon_dynasty
+source_texts:
+- garye
+- saryepyeollam
+- yeongje_yorok
+type: virtue
+scope: social
+orientation: active
+post_length: 854
+title: Ye (예/禮) - Propriety/Ritual
+definition: The virtue of proper conduct and ritual appropriateness, governing social
+  interactions and ceremonial behavior in accordance with moral principles.
+key_aspects:
+- Ritual correctness
+- Social harmony
+- Proper relationships
+- Ceremonial dignity
+- Cultural continuity
+historical_development: Extensively developed in Korean Neo-Confucianism with particular
+  attention to family rituals and social ceremonies, creating distinctive Korean forms.
+contemporary_relevance: Continues to influence modern Korean social etiquette and
+  ceremonial practices.
+notable_quotes:
+- '"Ritual is the vessel of moral principle." - Korean interpretation'
+- '"Without ye, society loses its order." - Neo-Confucian teaching'
+related_practices:
+- Family ceremonies
+- Social etiquette
+- Ancestral rites
+- Educational protocols

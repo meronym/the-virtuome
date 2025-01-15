@@ -1,0 +1,59 @@
+id: andreia-aristotelian
+name: Andreia
+tradition: aristotelian
+script:
+  greek: ἀνδρεία
+  transliteration: andreia
+  latin: fortitudo
+category: moral_virtue
+subcategory: courage
+related_concepts:
+- phronesis
+- sophrosyne
+- megalopsychia
+- thymos
+period: classical_greek
+source_texts:
+- nicomachean_ethics
+- eudemian_ethics
+- rhetoric
+type: virtue
+scope: personal
+orientation: active
+post_length: 1046
+title: Andreia (ἀνδρεία) - Courage
+definition: The mean between cowardice and recklessness, primarily concerning fear
+  and confidence in facing noble death and similar dangers, guided by reason for the
+  sake of what is noble.
+key_aspects:
+- Rational fear management
+- Noble purpose
+- Appropriate confidence
+- Endurance of pain
+- Right motivation
+- Steadfastness
+historical_development: Evolved from martial courage in Homeric tradition to Aristotle's
+  broader ethical conception including moral courage and endurance for noble ends.
+contemporary_relevance: '- Military ethics
+
+  - Professional risk-taking
+
+  - Moral courage
+
+  - Civil disobedience
+
+  - Medical ethics
+
+  - Educational courage'
+notable_quotes:
+- '"The courageous person acts for the sake of what is noble." - Nicomachean Ethics,
+  III.7'
+- '"Courage is the first of human virtues because it makes all others possible." -
+  Attributed to Aristotelian tradition'
+related_practices:
+- Risk assessment
+- Pain endurance
+- Standing for principles
+- Protecting others
+- Facing fears
+- Military service

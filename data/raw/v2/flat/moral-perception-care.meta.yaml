@@ -1,0 +1,44 @@
+id: moral-perception-care
+name: Moral Perception
+tradition: care_ethics
+script:
+  english: moral perception
+  etymology: Latin "moralis" + "percipere"
+category: cognitive_virtue
+subcategory: ethical_awareness
+related_concepts:
+- ethical_sensitivity
+- moral_awareness
+- situational_understanding
+period: contemporary
+source_texts:
+- held_ethics_of_care
+- walker_moral_understandings
+- tronto_moral_boundaries
+type: virtue
+scope: cognitive
+orientation: receptive
+post_length: 875
+title: Moral Perception - Ethical Awareness
+definition: The capacity to recognize and understand the moral dimensions and ethical
+  implications of care situations and relationships.
+key_aspects:
+- Ethical sensitivity
+- Moral awareness
+- Situational understanding
+- Value recognition
+- Responsibility awareness
+historical_development: Emerged from care ethics' emphasis on concrete moral situations
+  and rejection of abstract principle-only approaches.
+contemporary_relevance: Critical for professional ethics, institutional care, and
+  personal moral development.
+notable_quotes:
+- '"Moral perception is seeing the moral dimension of situations." - Margaret Urban
+  Walker'
+- '"Care requires seeing and responding to needs." - Joan Tronto'
+related_practices:
+- Ethical reflection
+- Moral deliberation
+- Situation analysis
+- Value consideration
+- Responsibility recognition

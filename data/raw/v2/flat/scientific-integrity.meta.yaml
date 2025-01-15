@@ -1,0 +1,43 @@
+id: scientific-integrity
+name: Scientific Integrity
+tradition: bioethics
+script:
+  english: scientific integrity
+  latin: integritas scientifica
+category: research_virtue
+subcategory: research_ethics
+related_concepts:
+- research_honesty
+- methodological_rigor
+- data_integrity
+period: modern_science
+source_texts:
+- research_ethics_guidelines
+- scientific_integrity_frameworks
+- responsible_conduct_research
+type: virtue
+scope: professional
+orientation: active
+post_length: 872
+title: Scientific Integrity
+definition: Unwavering commitment to honesty, accuracy, and rigor in medical research
+  and scientific practice, including data collection, analysis, and reporting.
+key_aspects:
+- Research honesty
+- Methodological rigor
+- Data accuracy
+- Transparent reporting
+- Ethical conduct
+historical_development: Emerged from research misconduct cases, developed through
+  establishment of research integrity guidelines and frameworks.
+contemporary_relevance: Critical for maintaining trust in medical science and ensuring
+  reliable evidence base for practice.
+notable_quotes:
+- '"The truth of science requires rigorous honesty." - Richard Feynman adaptation'
+- '"Scientific integrity is the foundation of medical progress." - Research ethics
+  principle'
+related_practices:
+- Protocol adherence
+- Data verification
+- Peer review
+- Transparent reporting

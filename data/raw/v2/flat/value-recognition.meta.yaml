@@ -1,0 +1,44 @@
+id: value-recognition
+name: Wertnehmung
+tradition: phenomenological_ethics
+script:
+  german: Wertnehmung
+  transliteration: Wertnehmung
+category: perceptual_virtue
+subcategory: value_perception
+related_concepts:
+- value_feeling
+- moral_intuition
+- ethical_insight
+period: early_20th_century
+source_texts:
+- formalism_in_ethics
+- nature_of_sympathy
+- on_feeling_and_value
+type: virtue
+scope: perceptual
+orientation: active-receptive
+post_length: 970
+title: Wertnehmung (Value-Recognition)
+definition: The capacity to directly perceive and recognize moral values in their
+  objective reality, combining emotional sensitivity with cognitive insight.
+key_aspects:
+- Direct value perception
+- Emotional attunement
+- Value objectivity
+- Moral sensitivity
+- Intuitive understanding
+historical_development: Developed primarily by Max Scheler as central to his material
+  value ethics, building on Husserl's phenomenology of consciousness.
+contemporary_relevance: Important for moral education, ethical development, and professional
+  ethics where value sensitivity is crucial.
+notable_quotes:
+- '"Values are given in value-feeling, just as colors are given in seeing." - Max
+  Scheler'
+- '"The heart has its reasons which reason knows nothing of." - Pascal (often cited
+  in phenomenological ethics)'
+related_practices:
+- Value meditation
+- Ethical case analysis
+- Moral sensitivity training
+- Emotional intelligence development

@@ -1,0 +1,42 @@
+id: radical-responsibility
+name: Verantwortung
+tradition: phenomenological_ethics
+script:
+  german: Verantwortung
+  transliteration: Verantwortung
+category: ethical_virtue
+subcategory: responsibility
+related_concepts:
+- accountability
+- response-ability
+- ethical_agency
+period: early_20th_century
+source_texts:
+- being_and_time
+- totality_and_infinity
+- ethics_of_ambiguity
+type: virtue
+scope: ethical
+orientation: active
+post_length: 840
+title: Verantwortung (Radical Responsibility)
+definition: The fundamental capacity and obligation to respond authentically to ethical
+  demands, encompassing both accountability and response-ability.
+key_aspects:
+- Ethical accountability
+- Response capability
+- Situation awareness
+- Decision ownership
+- Moral agency
+historical_development: Emerged from phenomenological analyses of moral agency and
+  ethical responsibility, particularly in post-war continental philosophy.
+contemporary_relevance: Essential for professional ethics, environmental responsibility,
+  and global citizenship.
+notable_quotes:
+- '"Responsibility precedes freedom." - Levinas'
+- '"We are condemned to be free and therefore responsible." - Sartre'
+related_practices:
+- Ethical decision-making
+- Accountability practices
+- Responsible action
+- Moral reflection

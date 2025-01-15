@@ -1,0 +1,45 @@
+id: synesis-presocratic
+name: Synesis
+tradition: presocratic
+script:
+  greek: σύνεσις
+  transliteration: synesis
+  alternate: syniēmi (συνίημι)
+category: intellectual_virtue
+subcategory: understanding
+related_concepts:
+- sophia
+- nous
+- logos
+- phronesis
+period: early_greek
+source_texts:
+- heraclitus_fragments
+- democratic_writings
+- empedocles_texts
+type: virtue
+scope: individual
+orientation: active
+post_length: 875
+title: Synesis (σύνεσις) - Understanding/Intelligence
+definition: Active comprehension and intelligent grasp of reality, particularly emphasized
+  by Heraclitus as the capacity to understand the logos (universal principle) in all
+  things.
+key_aspects:
+- Active comprehension
+- Intelligent awareness
+- Practical understanding
+- Unified perception
+- Dynamic insight
+historical_development: Developed from basic comprehension to philosophical understanding
+  of universal principles in Pre-Socratic thought.
+contemporary_relevance: Influences modern concepts of holistic understanding, systems
+  thinking, and integrated knowledge.
+notable_quotes:
+- '"Understanding is common to all." - Heraclitus'
+- '"Those who hear and understand are wise." - Heraclitean doctrine'
+related_practices:
+- Attentive observation
+- Reflective thinking
+- Pattern recognition
+- Integrated learning

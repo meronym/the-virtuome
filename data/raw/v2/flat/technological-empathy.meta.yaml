@@ -1,0 +1,45 @@
+id: technological-empathy
+name: Technological Empathy
+tradition: digital_ethics
+script:
+  greek: συμπάθεια τεχνολογική
+  transliteration: sympatheia technologike
+  english: technological_empathy
+category: relational_virtue
+subcategory: human_centered_computing
+related_concepts:
+- user_experience_ethics
+- human_centered_design
+- digital_accessibility
+period: information_age
+source_texts:
+- human_computer_interaction
+- ethical_design_principles
+- accessibility_standards
+type: virtue
+scope: interpersonal
+orientation: active
+post_length: 997
+title: Technological Empathy (συμπάθεια τεχνολογική)
+definition: Technological Empathy represents the capacity to understand and consider
+  human impacts of technical decisions, maintaining human connection through digital
+  mediation.
+key_aspects:
+- Human-centered design thinking
+- User impact consideration
+- Accessibility awareness
+- Cultural sensitivity
+- Digital inclusion
+historical_development: Evolved from human-computer interaction studies and ethical
+  design movements, enhanced by increasing focus on accessibility and digital inclusion.
+contemporary_relevance: Essential for ethical technology design, accessible digital
+  services, and inclusive technological development.
+notable_quotes:
+- '"Design is not just what it looks like. Design is how it works." - Steve Jobs'
+- '"Technology should work for people, not the other way around."'
+related_practices:
+- Accessibility testing
+- User experience research
+- Inclusive design
+- Cultural impact assessment
+- Empathetic programming

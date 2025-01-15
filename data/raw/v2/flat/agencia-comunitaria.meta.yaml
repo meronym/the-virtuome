@@ -1,0 +1,45 @@
+id: agencia-comunitaria
+name: Agencia Comunitaria
+tradition: liberation_theology
+script:
+  spanish: Agencia Comunitaria
+  portuguese: Agência Comunitária
+  latin: Actio Communitaria
+category: social_virtue
+subcategory: collective_empowerment
+related_concepts:
+- solidaridad_liberadora
+- praxis_liberadora
+- democracia_de_base
+period: modern_catholic
+source_texts:
+- ecclesiogenesis
+- church_charism_and_power
+- base_communities_documents
+type: virtue
+scope: communal
+orientation: active
+post_length: 1045
+title: Agencia Comunitaria (Communal Agency)
+definition: The collective capacity and responsibility to act as subjects of history
+  rather than objects, manifesting in democratic participation and shared leadership.
+key_aspects:
+- Collective decision-making
+- Shared leadership
+- Democratic participation
+- Community self-determination
+- Mutual empowerment
+historical_development: Emerged from base Christian communities' experiences, theoretically
+  developed through liberation theology's emphasis on the church of the poor.
+contemporary_relevance: Models alternative organizational structures, influences social
+  movements and community organizing methods.
+notable_quotes:
+- '"The people themselves are the agents of their own liberation." - Leonardo Boff'
+- '"The church is not truly church unless it is a church of the poor acting as subjects
+  of their own history." - Jon Sobrino'
+related_practices:
+- Base community organizing
+- Collective decision processes
+- Shared leadership structures
+- Popular assemblies
+- Participatory planning

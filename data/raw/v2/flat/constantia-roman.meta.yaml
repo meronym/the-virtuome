@@ -1,0 +1,45 @@
+id: constantia-roman
+name: Constantia
+tradition: roman_civic
+script:
+  latin: constantia
+  related: constans
+category: character_virtue
+subcategory: steadfastness
+related_concepts:
+- fortitudo
+- patientia
+- perseverantia
+- firmitas
+period: republican_imperial
+source_texts:
+- de_constantia_sapientis
+- de_officiis
+- meditations
+- letters_seneca
+type: virtue
+scope: personal
+orientation: active
+post_length: 879
+title: Constantia - Steadfastness
+definition: Constantia represents unwavering steadfastness in character and purpose,
+  combining mental firmness with moral consistency and reliable conduct.
+key_aspects:
+- Mental firmness
+- Moral consistency
+- Reliable conduct
+- Perseverance
+- Emotional stability
+historical_development: Developed significantly under Stoic influence, became crucial
+  for Roman leadership ideal. Important in both public and private spheres.
+contemporary_relevance: Influences modern concepts of resilience, consistency, and
+  emotional stability. Important in leadership and character development.
+notable_quotes:
+- '"Constancy is the foundation of virtues." - Seneca'
+- '"In all things, constancy and stability." - Traditional maxim'
+related_practices:
+- Crisis management
+- Leadership stability
+- Character building
+- Emotional control
+- Duty persistence

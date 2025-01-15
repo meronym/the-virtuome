@@ -1,0 +1,43 @@
+id: wurde-kantian
+name: Würde
+tradition: kantian
+script:
+  german: Würde
+  transliteration: n/a
+  latin: dignitas
+category: foundational_virtue
+subcategory: moral_status
+related_concepts:
+- autonomie
+- achtung
+- menschheit
+period: enlightenment
+source_texts:
+- groundwork_of_the_metaphysics_of_morals
+- metaphysics_of_morals
+- critique_of_practical_reason
+type: virtue
+scope: universal
+orientation: passive
+post_length: 748
+title: Würde (Dignity)
+definition: The absolute inner worth possessed by rational beings, serving as the
+  foundation for moral status and rights.
+key_aspects:
+- Absolute worth
+- Rational nature
+- Moral status
+- Universal value
+- Human uniqueness
+historical_development: Central to Kant's conception of human moral status and the
+  basis for his ethical framework.
+contemporary_relevance: Fundamental to human rights, medical ethics, and social justice
+  discussions.
+notable_quotes:
+- '"In the kingdom of ends everything has either a price or a dignity." - Groundwork'
+- '"Humanity itself is a dignity." - Metaphysics of Morals'
+related_practices:
+- Human rights respect
+- Ethical treatment
+- Personal dignity maintenance
+- Recognition of worth

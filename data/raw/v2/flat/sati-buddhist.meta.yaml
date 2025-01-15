@@ -1,0 +1,47 @@
+id: sati-buddhist
+name: Sati
+tradition: buddhist
+script:
+  pali: सति
+  sanskrit: स्मृति
+  chinese: 念
+  tibetan: དྲན་པ་
+  transliteration: sati/smṛti
+category: mental_factor
+subcategory: awareness
+related_concepts:
+- sampajanna
+- appamada
+- samma_sati
+period: early_buddhist
+source_texts:
+- satipatthana_sutta
+- anapanasati_sutta
+- abhidhamma
+type: virtue
+scope: individual
+orientation: receptive
+post_length: 931
+title: Sati (सति) - Mindfulness
+definition: Sati represents clear, non-judgmental awareness of present-moment experience,
+  including body, feelings, mind states, and mental objects.
+key_aspects:
+- Present-moment awareness
+- Non-judgmental observation
+- Sustained attention
+- Clear comprehension
+- Embodied presence
+historical_development: Central to early Buddhist meditation practices, particularly
+  in the development of the four foundations of mindfulness, later integrated into
+  all Buddhist traditions.
+contemporary_relevance: Foundational to modern mindfulness movement, widely applied
+  in psychology, healthcare, education, and professional development.
+notable_quotes:
+- '"Mindfulness is the way to the Deathless" - Buddha'
+- '"Mindfulness is the guardian of the mind" - Traditional saying'
+related_practices:
+- Breath awareness
+- Body scanning
+- Walking meditation
+- Daily life mindfulness
+- Contemplative observation

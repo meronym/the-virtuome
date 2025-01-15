@@ -1,0 +1,43 @@
+id: eruditio-renaissance
+name: Eruditio
+tradition: renaissance_humanism
+script:
+  latin: eruditio
+  italian_renaissance: erudizione
+category: intellectual_virtue
+subcategory: learned_excellence
+related_concepts:
+- doctrina
+- sapientia
+- eloquentia
+- ingenium
+period: renaissance
+source_texts:
+- bruni_study_literature
+- vergerio_noble_manners
+- erasmus_education
+type: virtue
+scope: individual
+orientation: active
+post_length: 870
+title: Eruditio - Learned Excellence
+definition: Eruditio represents comprehensive learning and cultural sophistication,
+  combining knowledge of classical sources with critical judgment and practical wisdom.
+key_aspects:
+- Classical learning
+- Critical judgment
+- Cultural literacy
+- Intellectual depth
+- Practical application
+historical_development: Developed from medieval scholasticism into humanist ideal
+  of comprehensive learning, emphasizing both breadth and practical application.
+contemporary_relevance: Influences modern concepts of liberal education, lifelong
+  learning, and cultural literacy.
+notable_quotes:
+- '"Without learning, life is but the shadow of death." - Petrarch'
+- '"Learning adorns prosperity and provides refuge in adversity." - Bruni'
+related_practices:
+- Classical study
+- Literary analysis
+- Historical research
+- Cultural engagement

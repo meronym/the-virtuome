@@ -1,0 +1,44 @@
+id: public-utility-empiricist
+name: Public Utility
+tradition: empiricist_ethics
+script:
+  english: public utility
+  latin: utilitas publica
+category: social_virtue
+subcategory: collective_good
+related_concepts:
+- social_harmony
+- benevolent_industry
+- civic_duty
+period: enlightenment
+source_texts:
+- hume_enquiry
+- smith_moral_sentiments
+- bentham_principles
+type: virtue
+scope: social
+orientation: active
+post_length: 866
+title: Public Utility
+definition: The disposition and capacity to consider and promote the collective good
+  through actions that maximize social benefit and welfare.
+key_aspects:
+- Social benefit focus
+- Collective welfare
+- Practical outcomes
+- Common good
+- Social harmony
+historical_development: Developed from empiricist focus on observable outcomes and
+  social consequences, later influential in utilitarian thought.
+contemporary_relevance: Foundational for public policy, social planning, and corporate
+  social responsibility.
+notable_quotes:
+- '"The public good is the highest law." - Empiricist maxim'
+- '"That action is best, which procures the greatest happiness for the greatest numbers."
+  - Francis Hutcheson'
+related_practices:
+- Policy analysis
+- Social impact assessment
+- Community service
+- Public welfare promotion
+- Collective problem-solving

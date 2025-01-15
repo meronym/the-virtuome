@@ -1,0 +1,42 @@
+id: qunli-mohist
+name: Qún lì
+tradition: mohist
+script:
+  chinese: 群利
+  pinyin: qún lì
+  wade_giles: ch'ün-li
+category: social_virtue
+subcategory: collective_benefit
+related_concepts:
+- jianai
+- gongyi
+- jieyong
+period: warring_states
+source_texts:
+- mozi
+- mohist_social_writings
+type: virtue
+scope: collective
+orientation: active
+post_length: 841
+title: Qún lì (群利) - Collective Benefit
+definition: The principle of promoting actions and policies that maximize benefit
+  for the entire community, emphasizing shared prosperity over individual gain.
+key_aspects:
+- Collective welfare
+- Shared prosperity
+- Community good
+- Social benefit
+- Universal advantage
+historical_development: Developed as a practical criterion for evaluating actions
+  and policies, focused on measurable benefits to society as a whole.
+contemporary_relevance: Influences modern concepts of public good, social welfare,
+  and utilitarian ethics.
+notable_quotes:
+- '"The greatest good benefits all equally" - Mohist principle'
+- '"Judge actions by their benefit to the community" - Mozi'
+related_practices:
+- Public welfare programs
+- Community development
+- Social impact assessment
+- Collective decision-making

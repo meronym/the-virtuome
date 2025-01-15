@@ -1,0 +1,45 @@
+id: prudentia-medieval-catholic
+name: Prudentia
+tradition: medieval_catholic
+script:
+  latin: prudentia
+  greek: φρόνησις
+  greek_transliteration: phronesis
+category: cardinal_virtue
+subcategory: practical_wisdom
+related_concepts:
+- sapientia
+- consilium
+- discretio
+- ratio_practica
+period: medieval_christian
+source_texts:
+- summa_theologica
+- sententia_libri_ethicorum
+- de_prudentia
+- speculum_morale
+type: virtue
+scope: practical
+orientation: active
+post_length: 823
+title: Prudentia (Prudence)
+definition: Prudentia represents right reason applied to action, the virtue that enables
+  correct judgment about what should be done in particular circumstances.
+key_aspects:
+- Practical wisdom
+- Moral discernment
+- Right judgment
+- Integration of experience
+- Guidance of action
+historical_development: Synthesized Aristotelian phronesis with Christian moral thought,
+  developed systematically by scholastics, particularly Aquinas.
+contemporary_relevance: Essential for ethical decision-making, professional ethics,
+  and moral leadership.
+notable_quotes:
+- '"Prudence is right reason in action" - Thomas Aquinas'
+- '"The prudent man considers both the path and the goal" - Medieval maxim'
+related_practices:
+- Moral deliberation
+- Consultation
+- Experience reflection
+- Strategic planning

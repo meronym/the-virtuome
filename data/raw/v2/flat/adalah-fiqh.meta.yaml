@@ -1,0 +1,46 @@
+id: adalah-fiqh
+name: Adalah
+tradition: islamic_jurisprudence
+script:
+  arabic: عدالة
+  transliteration: ʿadālah
+category: legal_virtue
+subcategory: justice
+related_concepts:
+- qist
+- mizan
+- insaf
+- haqq
+period: islamic_classical
+source_texts:
+- quran
+- usul_al_fiqh
+- al_mustasfa
+- al_muwafaqat
+type: virtue
+scope: universal
+orientation: balanced
+post_length: 962
+title: Adalah (عدالة) - Justice/Balance
+definition: Adalah represents comprehensive justice and balance in legal reasoning
+  and application, combining moral uprightness with equitable judgment.
+key_aspects:
+- Equitable judgment
+- Moral uprightness
+- Balanced consideration
+- Impartial application
+- Social equity
+historical_development: Foundational concept in Islamic law, developed from Quranic
+  principles through juristic tradition, particularly elaborated in usul al-fiqh literature.
+contemporary_relevance: Central to modern Islamic legal theory, judicial practice,
+  and social justice movements. Essential for contemporary legal reform and application.
+notable_quotes:
+- '"O you who believe, be upholders of justice (qist), witnesses for Allah" - Quran
+  4:135'
+- '"The closest to Allah is the just leader" - Prophetic Hadith'
+related_practices:
+- Judicial deliberation
+- Legal reasoning
+- Conflict resolution
+- Social legislation
+- Ethical governance

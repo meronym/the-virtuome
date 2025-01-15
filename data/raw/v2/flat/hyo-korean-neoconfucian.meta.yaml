@@ -1,0 +1,45 @@
+id: hyo-korean-neoconfucian
+name: Hyo
+tradition: korean_neoconfucian
+script:
+  hangeul: 효
+  hanja: 孝
+  romanization: hyo
+  classical_chinese: 孝
+category: social_virtue
+subcategory: filial_piety
+related_concepts:
+- in
+- ye
+- seong
+- chung
+period: joseon_dynasty
+source_texts:
+- samgang_haengsildo
+- hyogyeong
+- garye
+type: virtue
+scope: familial
+orientation: active
+post_length: 827
+title: Hyo (효/孝) - Filial Piety
+definition: The virtue of reverent care and respect for parents and ancestors, serving
+  as the foundation for all social relationships and moral development.
+key_aspects:
+- Parental respect
+- Ancestral reverence
+- Family harmony
+- Generational continuity
+- Moral foundation
+historical_development: Given particular emphasis in Korean Neo-Confucianism, becoming
+  a defining characteristic of Korean social structure and family relations.
+contemporary_relevance: Continues to influence modern Korean family values and social
+  relationships.
+notable_quotes:
+- '"All virtue begins with hyo." - Korean saying'
+- '"The family is the first school of moral cultivation." - Neo-Confucian teaching'
+related_practices:
+- Care for parents
+- Ancestral rites
+- Family maintenance
+- Generational teaching

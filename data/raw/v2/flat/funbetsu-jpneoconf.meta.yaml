@@ -1,0 +1,44 @@
+id: funbetsu-jpneoconf
+name: Funbetsu
+tradition: japanese_neo_confucian
+script:
+  kanji: 分別
+  hiragana: ふんべつ
+  romaji: funbetsu
+category: intellectual_virtue
+subcategory: moral_judgment
+related_concepts:
+- chi
+- kei
+- gaku
+- shin
+period: edo_period
+source_texts:
+- practical_learning_texts
+- merchant_house_rules
+- domain_school_teachings
+type: virtue
+scope: personal
+orientation: active
+post_length: 830
+title: Funbetsu (分別) - Moral Discrimination
+definition: The capacity for proper moral judgment and discernment in practical situations,
+  combining wisdom with appropriate action.
+key_aspects:
+- Practical wisdom
+- Moral judgment
+- Situational awareness
+- Social discretion
+- Appropriate timing
+historical_development: Developed as a practical application of Neo-Confucian wisdom
+  in Japanese context, particularly emphasized in merchant and samurai education.
+contemporary_relevance: Important in Japanese business decision-making and professional
+  conduct.
+notable_quotes:
+- '"Without funbetsu, knowledge remains mere theory" - Merchant teaching'
+- '"True wisdom manifests as proper discrimination" - Domain school text'
+related_practices:
+- Careful deliberation
+- Contextual judgment
+- Strategic thinking
+- Social awareness

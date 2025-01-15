@@ -1,0 +1,44 @@
+id: sapientia-scholastic
+name: Sapientia
+tradition: scholastic
+script:
+  latin: sapientia
+  greek: σοφία
+  greek_transliteration: sophia
+category: intellectual_virtue
+subcategory: theoretical_wisdom
+related_concepts:
+- scientia
+- intellectus
+- prudentia
+- contemplatio
+period: medieval_scholastic
+source_texts:
+- de_veritate
+- summa_theologica
+- de_reductione_artium
+type: virtue
+scope: universal
+orientation: contemplative
+post_length: 914
+title: Sapientia (Wisdom)
+definition: Sapientia represents the highest form of knowledge, understanding reality
+  through its ultimate causes and ordering all other knowledge to the highest truth.
+key_aspects:
+- Contemplation of divine truth
+- Integration of knowledge
+- Judgment by highest causes
+- Unity of faith and reason
+- Intellectual perfection
+historical_development: Developed from Greek sophia through Christian Platonism, systematically
+  elaborated in scholastic synthesis of faith and reason.
+contemporary_relevance: Important for interdisciplinary integration, philosophical
+  theology, and educational theory. Model for integrative thinking.
+notable_quotes:
+- '"Wisdom is knowledge of divine things." - Aquinas'
+- '"Wisdom is the most perfect of the sciences." - Albert the Great'
+related_practices:
+- Philosophical contemplation
+- Theological study
+- Intellectual prayer
+- Teaching and mentoring

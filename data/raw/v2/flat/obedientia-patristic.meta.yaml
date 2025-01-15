@@ -1,0 +1,44 @@
+id: obedientia-patristic
+name: Obedientia
+tradition: patristic_christian
+script:
+  latin: obedientia
+  greek: ὑπακοή
+  greek_transliteration: hypakoē
+category: religious_virtue
+subcategory: submission
+related_concepts:
+- humilitas
+- disciplina
+- reverentia
+period: patristic
+source_texts:
+- regula_benedicti
+- moralia_in_job
+- homilies_on_samuel
+- pastoral_rule
+type: virtue
+scope: personal
+orientation: passive
+post_length: 864
+title: Obedientia (ὑπακοή) - Obedience
+definition: Obedientia represents willing submission to legitimate authority as participation
+  in divine order, essential for spiritual formation and community life.
+key_aspects:
+- Willing submission
+- Spiritual formation
+- Community order
+- Divine imitation
+- Interior freedom
+historical_development: Developed through monastic experience and episcopal structure,
+  transformed Classical emphasis on autonomy.
+contemporary_relevance: Important for organizational leadership, spiritual formation,
+  and authentic freedom in community.
+notable_quotes:
+- '"The first degree of humility is obedience without delay." - Benedict'
+- '"Obedience is the mother of success, wedded to safety." - Aeschylus (cited by Fathers)'
+related_practices:
+- Spiritual direction
+- Community rules
+- Liturgical discipline
+- Hierarchical respect

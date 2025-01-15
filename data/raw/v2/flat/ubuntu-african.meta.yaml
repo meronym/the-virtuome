@@ -1,0 +1,48 @@
+id: ubuntu-african
+name: Ubuntu
+tradition: african_religious_ethics
+script:
+  xhosa: ubuntu
+  zulu: ubuntu
+  shona: unhu
+  ndebele: ubuntu
+category: foundational_virtue
+subcategory: human_interconnectedness
+related_concepts:
+- ukama
+- ujima
+- harambee
+- simunye
+period: traditional_african
+source_texts:
+- oral_traditions
+- proverbs
+- ritual_practices
+type: virtue
+scope: universal
+orientation: relational
+post_length: 1071
+title: Ubuntu - Human Interconnectedness
+definition: The fundamental understanding that a person is a person through other
+  persons; the recognition of human interdependence and mutual becoming.
+key_aspects:
+- Mutual recognition of humanity
+- Collective self-understanding
+- Reciprocal dignity
+- Communal solidarity
+- Shared responsibility
+historical_development: Foundational concept in African philosophy, preserved through
+  oral traditions and communal practices. Later articulated in post-colonial African
+  philosophy and political thought.
+contemporary_relevance: Central to African approaches to reconciliation, conflict
+  resolution, and social justice. Influential in global discussions of community ethics
+  and human rights.
+notable_quotes:
+- '"I am because we are, and since we are, therefore I am." - John Mbiti'
+- '"Umuntu ngumuntu ngabantu." (A person is a person through persons) - Zulu proverb'
+related_practices:
+- Communal decision-making
+- Shared resource management
+- Collective problem-solving
+- Community celebrations
+- Conflict resolution circles

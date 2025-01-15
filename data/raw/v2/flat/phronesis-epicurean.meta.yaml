@@ -1,0 +1,46 @@
+id: phronesis-epicurean
+name: Phronēsis
+tradition: epicurean
+script:
+  greek: φρόνησις
+  transliteration: phronēsis
+  latin: prudentia
+category: fundamental_virtue
+subcategory: wisdom
+related_concepts:
+- sophia
+- hedone
+- logismos
+period: hellenistic
+source_texts:
+- letter_to_menoeceus
+- principal_doctrines
+- de_rerum_natura
+type: virtue
+scope: universal
+orientation: active
+post_length: 1199
+title: Phronēsis (φρόνησις) - Practical Wisdom
+definition: The foundational virtue in Epicurean ethics, representing the capacity
+  for rational calculation of pleasure and pain, and wise decision-making in pursuit
+  of sustainable happiness.
+key_aspects:
+- Rational judgment of pleasures and pains
+- Calculation of long-term consequences
+- Discrimination between necessary and unnecessary desires
+- Understanding of natural causes
+- Application of philosophical principles to daily life
+historical_development: Central to Epicurus's ethical system, developed as the chief
+  virtue from which all other virtues derive. Later elaborated by Lucretius and other
+  Epicureans.
+contemporary_relevance: Influences modern decision-making frameworks, cognitive behavioral
+  therapy, and rational approaches to lifestyle choices and happiness.
+notable_quotes:
+- '"It is impossible to live pleasantly without living prudently, honorably, and justly."
+  - Epicurus, Principal Doctrines'
+- '"Prudence is the beginning and end of blessed living." - Letter to Menoeceus'
+related_practices:
+- Systematic evaluation of desires
+- Cost-benefit analysis of choices
+- Study of natural philosophy
+- Regular self-examination

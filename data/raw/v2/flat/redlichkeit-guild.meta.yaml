@@ -1,0 +1,45 @@
+id: redlichkeit-guild
+name: Redlichkeit
+tradition: guild_ethics
+script:
+  middle_high_german: redelîchkeit
+  modern_german: Redlichkeit
+  latin: probitas
+category: moral_virtue
+subcategory: integrity
+related_concepts:
+- ehrenhaftigkeit
+- pflichtbewusstsein
+- treue
+period: medieval_european
+source_texts:
+- guild_regulations
+- market_ordinances
+- quality_standards
+type: virtue
+scope: professional
+orientation: active
+post_length: 913
+title: Redlichkeit (Professional Integrity)
+definition: Redlichkeit represents professional integrity in all aspects of craft
+  practice, including honest dealing, quality work, and truthful representation of
+  products and skills.
+key_aspects:
+- Honest dealing
+- Quality assurance
+- Truth in craft
+- Fair pricing
+- Material integrity
+historical_development: Developed as essential principle for maintaining guild reputation
+  and market trust. Became central to professional ethics.
+contemporary_relevance: Fundamental to modern business ethics, professional standards,
+  and quality control. Critical in consumer protection discussions.
+notable_quotes:
+- '"Better no sale than false measure." - Guild principle'
+- '"Honor in trade brings prosperity to all." - Medieval market saying'
+related_practices:
+- Quality inspections
+- Price regulation
+- Material certification
+- Work verification
+- Customer guarantees

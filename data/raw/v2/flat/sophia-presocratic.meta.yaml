@@ -1,0 +1,47 @@
+id: sophia-presocratic
+name: Sophia
+tradition: presocratic
+script:
+  greek: σοφία
+  transliteration: sophia
+  alternate: sophiē (Ionic)
+category: intellectual_virtue
+subcategory: wisdom
+related_concepts:
+- nous
+- episteme
+- phronesis
+- aletheia
+period: early_greek
+source_texts:
+- heraclitus_fragments
+- pythagorean_texts
+- empedocles_fragments
+type: virtue
+scope: universal
+orientation: contemplative
+post_length: 1068
+title: Sophia (σοφία) - Wisdom
+definition: The highest form of understanding that unites knowledge of cosmic principles
+  with human conduct; the capacity to comprehend and align with the fundamental nature
+  of reality.
+key_aspects:
+- Universal comprehension
+- Integration of cosmic and human understanding
+- Unity of knowledge and being
+- Transcendent insight
+- Practical manifestation
+historical_development: Originally connected to practical wisdom and craft knowledge,
+  developed by Pre-Socratics into philosophical wisdom encompassing both cosmic understanding
+  and human conduct.
+contemporary_relevance: Influences modern discussions of wisdom traditions, holistic
+  knowledge, and the integration of theoretical and practical understanding.
+notable_quotes:
+- '"The wise is one thing, to know the thought by which all things are steered through
+  all things." - Heraclitus'
+- '"Wisdom is the most precise of all sciences." - attributed to Thales'
+related_practices:
+- Philosophical contemplation
+- Natural observation
+- Ethical reflection
+- Teaching and dialogue

@@ -1,0 +1,45 @@
+id: devotio-medieval-catholic
+name: Devotio
+tradition: medieval_catholic
+script:
+  latin: devotio
+  greek: εὐλάβεια
+  greek_transliteration: eulabeia
+category: spiritual_virtue
+subcategory: religious_affection
+related_concepts:
+- pietas
+- reverentia
+- religio
+- cultus
+period: medieval_christian
+source_texts:
+- de_imitatione_christi
+- de_spiritualibus_ascensionibus
+- summa_theologica
+- meditationes_vitae_christi
+type: virtue
+scope: personal
+orientation: active
+post_length: 827
+title: Devotio (Devotion)
+definition: Devotio represents the virtue of religious dedication and spiritual fervor,
+  combining emotional attachment with disciplined practice in religious observance.
+key_aspects:
+- Religious dedication
+- Spiritual fervor
+- Disciplined practice
+- Affective piety
+- Interior disposition
+historical_development: Evolved through monastic tradition, systematized in scholastic
+  thought, flourished in devotio moderna movement.
+contemporary_relevance: Influences personal spirituality, liturgical participation,
+  and religious practice.
+notable_quotes:
+- '"Devotion is the principal act of religion" - Thomas Aquinas'
+- '"What profits knowledge without the fear of God?" - Thomas à Kempis'
+related_practices:
+- Liturgical participation
+- Personal prayer
+- Spiritual reading
+- Devotional exercises

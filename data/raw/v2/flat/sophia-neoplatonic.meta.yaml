@@ -1,0 +1,44 @@
+id: sophia-neoplatonic
+name: Sophia
+tradition: neoplatonic
+script:
+  greek: σοφία
+  transliteration: sophia
+  latin: sapientia
+category: intellectual_virtue
+subcategory: divine_wisdom
+related_concepts:
+- nous
+- episteme
+- phronesis
+- theoria
+period: late_classical
+source_texts:
+- enneads
+- elements_of_theology
+- commentary_on_parmenides
+type: virtue
+scope: universal
+orientation: contemplative
+post_length: 836
+title: Sophia (σοφία) - Divine Wisdom
+definition: Sophia represents the highest form of wisdom, uniting intellectual understanding
+  with spiritual insight and divine knowledge.
+key_aspects:
+- Divine understanding
+- Unified knowledge
+- Transcendent wisdom
+- Intellectual perfection
+- Spiritual comprehension
+historical_development: Transformed from classical Greek conception through Neo-Platonic
+  synthesis with mystical and theological elements.
+contemporary_relevance: Influences modern approaches to wisdom traditions and integral
+  understanding.
+notable_quotes:
+- '"Wisdom is the vision of what exists in the Intellectual Principle." - Plotinus'
+- '"Through sophia, the soul knows both itself and its causes." - Proclus'
+related_practices:
+- Philosophical study
+- Contemplative practice
+- Intellectual ascent
+- Divine sciences

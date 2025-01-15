@@ -1,0 +1,44 @@
+id: digital-citizenship
+name: Digital Citizenship
+tradition: global_ethics
+script:
+  chinese: 数字公民
+  sanskrit: डिजिटल_नागरिकता
+  arabic: المواطنة_الرقمية
+category: technological_virtue
+subcategory: digital_ethics
+related_concepts:
+- cyber_ethics
+- digital_responsibility
+- online_stewardship
+period: contemporary
+source_texts:
+- digital_ethics_frameworks
+- internet_citizenship_guidelines
+- cyber_ethics_literature
+type: virtue
+scope: digital
+orientation: active
+post_length: 983
+title: Digital Citizenship - Ethical Digital Engagement
+definition: The virtue of responsible and ethical engagement in digital spaces, combining
+  technical competence with moral awareness and commitment to fostering healthy online
+  communities.
+key_aspects:
+- Digital responsibility
+- Online ethics awareness
+- Virtual community building
+- Information literacy
+- Cyber-stewardship
+historical_development: Emerged with digital technologies and internet culture, evolved
+  through cybersecurity and digital ethics discussions.
+contemporary_relevance: Essential for navigating digital transformation, addressing
+  online misinformation, and building healthy virtual communities.
+notable_quotes:
+- '"The digital world is not virtual - it''s real" - Digital Ethics Summit'
+- '"With great connectivity comes great responsibility" - Modern adaptation'
+related_practices:
+- Digital literacy education
+- Responsible social media use
+- Online community building
+- Digital privacy protection

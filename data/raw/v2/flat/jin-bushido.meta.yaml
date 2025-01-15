@@ -1,0 +1,46 @@
+id: jin-bushido
+name: Jin
+tradition: bushido
+script:
+  japanese: 仁
+  kanji: 仁
+  romaji: jin
+  classical_chinese: 仁
+category: cardinal_virtue
+subcategory: benevolence
+related_concepts:
+- gi (義, righteousness)
+- nasake (情け, compassion)
+- dōjō (同情, sympathy)
+period: feudal_japan
+source_texts:
+- hagakure
+- bushido_shoshinshu
+- gorin_no_sho
+type: virtue
+scope: interpersonal
+orientation: balanced
+post_length: 898
+title: Jin (仁) - Benevolence
+definition: Jin represents the virtue of benevolence and compassion, tempering martial
+  power with humanity and wisdom.
+key_aspects:
+- Compassionate strength
+- Wise mercy
+- Protective care
+- Universal benevolence
+- Humane leadership
+historical_development: Adapted from Confucian ren (仁), integrated into samurai ethics
+  as the proper use of martial power. Emphasized by daimyo and scholars as essential
+  for legitimate leadership.
+contemporary_relevance: Crucial for ethical leadership, conflict resolution, and balanced
+  use of power in modern contexts.
+notable_quotes:
+- '"The benevolent warrior''s arms serve to nurture peace." - Bushido principle'
+- '"To practice jin is to protect all beings with the heart of a parent." - Samurai
+  teaching'
+related_practices:
+- Protection of subordinates
+- Merciful judgment
+- Compassionate leadership
+- Balanced use of power

@@ -1,0 +1,45 @@
+id: tapu-polynesian
+name: Tapu/Kapu
+tradition: polynesian
+script:
+  maori: tapu
+  hawaiian: kapu
+  samoan: tapu
+  tongan: tapu
+category: sacred_restriction
+subcategory: spiritual_law
+related_concepts:
+- mana
+- noa
+- mauri
+period: traditional_polynesian
+source_texts:
+- oral_traditions
+- religious_practices
+- social_laws
+type: virtue
+scope: universal
+orientation: restrictive
+post_length: 825
+title: Tapu/Kapu - Sacred Restriction/Protection
+definition: Tapu/Kapu represents sacred prohibition and protection, governing behavior
+  through spiritual and social restrictions that maintain proper order.
+key_aspects:
+- Sacred protection
+- Spiritual restriction
+- Social order
+- Environmental preservation
+- Personal conduct
+historical_development: Ancient system of religious and social prohibitions that regulated
+  society and protected resources.
+contemporary_relevance: Influences modern conservation practices, cultural preservation,
+  and sacred site protection.
+notable_quotes:
+- '"He wahi tapu" (A sacred place)'
+- '"E mālama i ke kapu" (Observe the sacred restrictions)'
+related_practices:
+- Sacred site protection
+- Resource conservation
+- Ritual observance
+- Cultural preservation
+- Environmental management

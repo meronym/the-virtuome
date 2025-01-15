@@ -1,0 +1,44 @@
+id: pflichtbewusstsein-guild
+name: Pflichtbewusstsein
+tradition: guild_ethics
+script:
+  middle_high_german: pfliht
+  modern_german: Pflichtbewusstsein
+  latin: officium_conscientiae
+category: moral_virtue
+subcategory: duty_consciousness
+related_concepts:
+- ehrenhaftigkeit
+- treue
+- gemeinschaftsgeist
+period: medieval_european
+source_texts:
+- guild_regulations
+- duty_codes
+- obligation_records
+type: virtue
+scope: professional
+orientation: active
+post_length: 821
+title: Pflichtbewusstsein (Duty Consciousness)
+definition: Pflichtbewusstsein represents acute awareness and fulfillment of professional
+  obligations, encompassing both technical and moral responsibilities.
+key_aspects:
+- Professional obligation
+- Social responsibility
+- Moral awareness
+- Standard maintenance
+- Duty fulfillment
+historical_development: Emerged from medieval concepts of social obligation, developed
+  into comprehensive professional ethics.
+contemporary_relevance: Fundamental to modern professional ethics, corporate responsibility,
+  and quality standards.
+notable_quotes:
+- '"Duty guides the master''s hand." - Guild maxim'
+- '"In obligation lies our strength." - Traditional saying'
+related_practices:
+- Quality control
+- Professional standards
+- Social obligations
+- Civic duties
+- Guild service

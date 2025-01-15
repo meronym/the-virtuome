@@ -1,0 +1,45 @@
+id: xin-confucian
+name: Xìn
+tradition: confucian
+script:
+  chinese: 信
+  pinyin: xìn
+  wade_giles: hsin4
+category: cardinal_virtue
+subcategory: trustworthiness
+related_concepts:
+- ren
+- yi
+- li
+- zhong
+period: classical_confucian
+source_texts:
+- analects
+- doctrine_of_mean
+- mencius
+type: virtue
+scope: social
+orientation: active
+post_length: 796
+title: Xìn (信) - Trustworthiness
+definition: Xìn represents trustworthiness and sincerity in word and deed, the foundation
+  of meaningful relationships and social harmony.
+key_aspects:
+- Keeping promises
+- Honest speech
+- Reliable conduct
+- Sincere intention
+- Moral integrity
+historical_development: Basic virtue in early Confucianism, developed as essential
+  for social relationships and governance.
+contemporary_relevance: Crucial in business relationships, international relations,
+  and personal trust-building.
+notable_quotes:
+- '"I do not know how a person can be acceptable who is untrustworthy in word." -
+  Analects 2.22'
+- '"Without trust, we cannot stand." - Analects 12.7'
+related_practices:
+- Promise keeping
+- Honest communication
+- Relationship building
+- Social responsibility

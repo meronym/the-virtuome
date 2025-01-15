@@ -1,0 +1,44 @@
+id: aletheia-presocratic
+name: Alētheia
+tradition: presocratic
+script:
+  greek: ἀλήθεια
+  transliteration: alētheia
+  alternate: alētheiē (Ionic)
+category: epistemic_virtue
+subcategory: truth
+related_concepts:
+- sophia
+- logos
+- nous
+- episteme
+period: early_greek
+source_texts:
+- parmenides_poem
+- heraclitus_fragments
+- empedocles_writings
+type: virtue
+scope: universal
+orientation: revelatory
+post_length: 795
+title: Alētheia (ἀλήθεια) - Truth/Unconcealment
+definition: The disclosure or unconcealment of reality, representing both cosmic truth
+  and the human virtue of truthfulness and authentic understanding.
+key_aspects:
+- Unconcealment
+- Genuine disclosure
+- Authentic understanding
+- Reality manifestation
+- Truth-seeking
+historical_development: Developed from basic notion of truth to philosophical concept
+  of reality's self-showing in Pre-Socratic thought.
+contemporary_relevance: Influences modern concepts of truth, authenticity, and phenomenological
+  understanding.
+notable_quotes:
+- '"Nature loves to hide." - Heraclitus'
+- '"It is necessary to speak and think what is." - Parmenides'
+related_practices:
+- Truth-seeking
+- Philosophical inquiry
+- Authentic living
+- Reality contemplation

@@ -1,0 +1,44 @@
+id: sapientia-activa-neostoic
+name: Sapientia Activa
+tradition: neo_stoic
+script:
+  latin: sapientia_activa
+  classical_equivalent: πρακτική_σοφία
+  transliteration_greek: praktike_sophia
+category: intellectual_virtue
+subcategory: practical_wisdom
+related_concepts:
+- prudentia
+- ratio_christiana
+- eruditio
+period: early_modern
+source_texts:
+- manuductio_lipsius
+- de_sapientia_charron
+- neo_stoic_educational_texts
+type: virtue
+scope: intellectual_practical
+orientation: active
+post_length: 901
+title: Sapientia Activa - Active Wisdom
+definition: The virtue of applying theoretical knowledge to practical affairs, representing
+  the Neo-Stoic ideal of educated action in both private and public spheres.
+key_aspects:
+- Practical application of knowledge
+- Educated action
+- Theoretical-practical synthesis
+- Wise governance
+- Applied learning
+historical_development: Developed as a Neo-Stoic response to the need for practically
+  applicable wisdom in governance and public life.
+contemporary_relevance: Vital for educational leadership, professional development,
+  and evidence-based practice in various fields.
+notable_quotes:
+- '"True wisdom manifests in action." - Lipsius'
+- '"Knowledge without application is like a sword without an arm." - Du Vair'
+related_practices:
+- Applied research
+- Professional development
+- Policy implementation
+- Educational leadership
+- Practical scholarship

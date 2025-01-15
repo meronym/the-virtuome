@@ -1,0 +1,54 @@
+id: disciplina-roman-stoic
+name: Disciplina
+tradition: roman_stoic
+script:
+  latin: disciplina
+  transliteration: disciplina
+category: practical_virtue
+subcategory: self_regulation
+related_concepts:
+- temperantia
+- constantia
+- exercitatio
+- ratio
+period: imperial_rome
+source_texts:
+- discourses
+- epistulae_morales
+- meditations
+type: virtue
+scope: personal
+orientation: active
+post_length: 1099
+title: Disciplina - Self-Discipline
+definition: Disciplina represents the systematic practice of self-regulation and ordered
+  living, combining theoretical understanding with practical implementation through
+  daily habits and exercises.
+key_aspects:
+- Systematic self-regulation
+- Daily practice
+- Habit formation
+- Rational control
+- Structured development
+historical_development: While self-discipline was present in Greek philosophy, Roman
+  Stoics developed it into a systematic practice, influenced by Roman military and
+  civic discipline. Epictetus particularly emphasized its role in philosophical progress.
+contemporary_relevance: '- Personal development methods
+
+  - Habit formation techniques
+
+  - Professional self-management
+
+  - Educational practices
+
+  - Leadership development'
+notable_quotes:
+- '"No man is free who is not master of himself." - Epictetus'
+- '"Waste no more time arguing about what a good man should be. Be one." - Marcus
+  Aurelius'
+related_practices:
+- Morning preparation
+- Evening review
+- Regular philosophical exercises
+- Physical training
+- Controlled discomfort practices

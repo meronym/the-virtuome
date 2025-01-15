@@ -1,0 +1,44 @@
+id: chu-jpneoconf
+name: Chū
+tradition: japanese_neo_confucian
+script:
+  kanji: 忠
+  hiragana: ちゅう
+  romaji: chū
+category: social_virtue
+subcategory: loyalty
+related_concepts:
+- giri
+- ko
+- shin
+- makoto
+period: edo_period
+source_texts:
+- samurai_codes
+- domain_regulations
+- neo_confucian_commentaries
+type: virtue
+scope: social
+orientation: active
+post_length: 828
+title: Chū (忠) - Loyalty
+definition: Unwavering loyalty and dedicated service to one's lord, family, and social
+  obligations, expressing the proper alignment of personal duty with social order.
+key_aspects:
+- Absolute fidelity
+- Devoted service
+- Personal sacrifice
+- Social obligation
+- Moral dedication
+historical_development: Transformed from Chinese concept through samurai ethics and
+  Neo-Confucian interpretation during Edo period.
+contemporary_relevance: Influences modern Japanese corporate loyalty and organizational
+  relationships.
+notable_quotes:
+- '"Loyalty is the foundation of proper service" - Samurai precept'
+- '"True loyalty encompasses both wisdom and courage" - Domain school teaching'
+related_practices:
+- Dedicated service
+- Organizational commitment
+- Personal sacrifice
+- Faithful execution of duty

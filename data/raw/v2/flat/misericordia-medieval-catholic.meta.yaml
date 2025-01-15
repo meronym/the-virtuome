@@ -1,0 +1,45 @@
+id: misericordia-medieval-catholic
+name: Misericordia
+tradition: medieval_catholic
+script:
+  latin: misericordia
+  greek: ἔλεος
+  greek_transliteration: eleos
+category: social_virtue
+subcategory: divine_attribute
+related_concepts:
+- caritas
+- clementia
+- pietas
+- compassio
+period: medieval_christian
+source_texts:
+- summa_theologica
+- dialogus_misericordiae
+- regula_pastoralis
+- vita_sanctorum
+type: virtue
+scope: universal
+orientation: active
+post_length: 840
+title: Misericordia (Mercy)
+definition: Misericordia represents both divine attribute and human virtue, expressing
+  compassionate response to suffering and need, balanced with justice.
+key_aspects:
+- Compassionate response
+- Divine imitation
+- Social responsibility
+- Practical charity
+- Justice balance
+historical_development: Developed from Biblical tradition through patristic teaching,
+  systematized in scholastic thought, embodied in medieval charitable institutions.
+contemporary_relevance: Influences humanitarian ethics, social justice movements,
+  and approaches to criminal justice.
+notable_quotes:
+- '"Mercy without justice is the mother of dissolution" - Aquinas'
+- '"The proper effect of mercy is to succor misery" - Medieval maxim'
+related_practices:
+- Works of mercy
+- Hospital service
+- Prisoner visitation
+- Almsgiving

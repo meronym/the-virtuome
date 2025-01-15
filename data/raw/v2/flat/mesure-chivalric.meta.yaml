@@ -1,0 +1,47 @@
+id: mesure-chivalric
+name: Mesure
+tradition: chivalric
+script:
+  old_french: mesure
+  middle_english: measure
+  latin: moderatio
+category: regulatory_virtue
+subcategory: moderation
+related_concepts:
+- temperance
+- wisdom
+- discretion
+- balance
+period: medieval_european
+source_texts:
+- roman_courtois
+- book_of_chivalry
+- chronicles_of_charny
+- treatises_on_nobility
+type: virtue
+scope: universal
+orientation: balanced
+post_length: 837
+title: Mesure (Measure/Moderation)
+definition: The virtue of proper balance and wise moderation that guides the application
+  of all other virtues, ensuring appropriate action in all circumstances.
+key_aspects:
+- Balanced judgment
+- Wise restraint
+- Appropriate action
+- Tactical wisdom
+- Social discretion
+- Emotional control
+historical_development: Emerged as regulatory virtue balancing martial impulses with
+  social requirements and Christian ethics.
+contemporary_relevance: Influences modern concepts of emotional intelligence, professional
+  judgment, and balanced leadership.
+notable_quotes:
+- '"In all things, measure is treasure." - Medieval proverb'
+- '"Without measure, no virtue stands." - Chivalric teaching'
+related_practices:
+- Self-control
+- Wise judgment
+- Appropriate action
+- Balanced behavior
+- Strategic thinking

@@ -1,0 +1,44 @@
+id: dignitas-renaissance
+name: Dignitas
+tradition: renaissance_humanism
+script:
+  latin: dignitas
+  italian_renaissance: dignità
+category: foundational_virtue
+subcategory: human_worth
+related_concepts:
+- humanitas
+- libertas
+- excellentia
+- virtus
+period: renaissance
+source_texts:
+- pico_dignity_of_man
+- manetti_dignity_excellence
+- ficino_platonic_theology
+type: virtue
+scope: universal
+orientation: active
+post_length: 904
+title: Dignitas - Human Dignity
+definition: Dignitas represents the inherent worth and potential of human nature,
+  emphasizing humanity's unique capacity for self-determination and excellence.
+key_aspects:
+- Human worth
+- Self-determination
+- Moral capacity
+- Creative potential
+- Universal value
+historical_development: Transformed from Roman social concept to universal human attribute
+  through Renaissance humanism, particularly in Pico's work. Synthesized Christian
+  and classical views of human nature.
+contemporary_relevance: Foundational for human rights theory, personal development
+  philosophy, and educational theory.
+notable_quotes:
+- '"O great marvel and wonderful dignity!" - Pico della Mirandola'
+- '"Man is made in the image of God, but has the power to perfect himself." - Ficino'
+related_practices:
+- Self-cultivation
+- Moral development
+- Creative expression
+- Intellectual pursuit

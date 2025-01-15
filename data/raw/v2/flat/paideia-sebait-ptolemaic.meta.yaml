@@ -1,0 +1,46 @@
+id: paideia-sebait-ptolemaic
+name: Paideia-Sebait
+tradition: ptolemaic_synthesis
+script:
+  greek: παιδεία
+  egyptian_hieroglyphs: 𓋴𓃀𓇋𓏏
+  coptic: ⲡⲁⲓⲇⲉⲓⲁ-ⲥⲃⲱ
+  transliteration: paideia-sebait
+category: educational_virtue
+subcategory: transformative_learning
+related_concepts:
+- sophia-maat
+- gnosis-sia
+- synkresis
+period: ptolemaic_egypt
+source_texts:
+- alexandria_educational_texts
+- temple_teaching_manuals
+- scribal_instructions
+type: developmental_virtue
+scope: personal_cultural
+orientation: active
+post_length: 998
+title: Paideia-Sebait (παιδεία-𓋴𓃀𓇋𓏏) - Transformative Education
+definition: The synthesis of Greek educational ideals with Egyptian wisdom teaching,
+  representing comprehensive cultural and personal development through integrated
+  learning.
+key_aspects:
+- Holistic personal development
+- Cultural transmission
+- Practical wisdom
+- Spiritual formation
+- Intellectual excellence
+historical_development: Evolved through integration of Greek educational philosophy
+  with Egyptian scribal and priestly training traditions in Ptolemaic institutions.
+contemporary_relevance: Influences modern approaches to holistic education and cultural
+  literacy; relevant to discussions of educational philosophy.
+notable_quotes:
+- '"Through learning we become divine" - Alexandrian teaching text'
+- '"Knowledge of both ways makes the complete person" - Temple instruction'
+related_practices:
+- Integrated curriculum development
+- Bilingual education
+- Cultural studies
+- Spiritual formation
+- Character education

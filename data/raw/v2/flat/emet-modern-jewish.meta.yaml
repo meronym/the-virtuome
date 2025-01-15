@@ -1,0 +1,45 @@
+id: emet-modern-jewish
+name: Emet
+tradition: modern_jewish
+script:
+  hebrew: אמת
+  transliteration: emet
+  literal_translation: truth
+category: intellectual_virtue
+subcategory: truth
+related_concepts:
+- yosher
+- tzedek
+- daat
+- kavod_habriyot
+period: modern_jewish
+source_texts:
+- talmudic_literature
+- modern_jewish_thought
+- academic_scholarship
+type: virtue
+scope: universal
+orientation: active
+post_length: 733
+title: Emet (אמת) - Truth
+definition: Commitment to truth in thought, speech, and action, combining intellectual
+  honesty with moral truth-seeking.
+key_aspects:
+- Intellectual honesty
+- Moral truth
+- Faithful witness
+- Scientific inquiry
+- Ethical transparency
+historical_development: Traditional religious concept expanded to embrace scientific
+  truth and academic integrity.
+contemporary_relevance: Essential for academic scholarship, journalism, and public
+  discourse.
+notable_quotes:
+- '"The seal of God is truth." - Talmud'
+- '"Truth, though love, for truth and love are one." - Martin Buber'
+related_practices:
+- Academic integrity
+- Honest communication
+- Historical preservation
+- Scientific research
+- Public testimony

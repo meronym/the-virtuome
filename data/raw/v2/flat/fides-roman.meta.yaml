@@ -1,0 +1,45 @@
+id: fides-roman
+name: Fides
+tradition: roman_civic
+script:
+  latin: fides
+  adjective: fidēlis
+category: social_virtue
+subcategory: trust
+related_concepts:
+- pietas
+- honestus
+- constantia
+- gravitas
+period: republican_imperial
+source_texts:
+- de_officiis
+- de_amicitia
+- diplomatic_treaties
+- legal_documents
+type: virtue
+scope: interpersonal
+orientation: active
+post_length: 917
+title: Fides - Faithfulness and Reliability
+definition: Fides represents trustworthiness and mutual faith in relationships, both
+  personal and public, serving as the foundation for Roman social and political relationships.
+key_aspects:
+- Personal trustworthiness
+- Public reliability
+- Contract loyalty
+- Alliance maintenance
+- Word-keeping
+historical_development: Ancient concept deified as goddess Fides, crucial in international
+  relations and private contracts. Fundamental to Roman business and diplomacy.
+contemporary_relevance: Essential to modern concepts of contract law, international
+  relations, and business ethics. Basis for concepts of good faith and trust.
+notable_quotes:
+- '"Faith is the foundation of justice." - Cicero'
+- '"Without faith, all human society would collapse." - Livy'
+related_practices:
+- Contract making
+- Oath taking
+- Alliance building
+- Public promises
+- Business agreements

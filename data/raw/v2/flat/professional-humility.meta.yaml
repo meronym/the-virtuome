@@ -1,0 +1,44 @@
+id: professional-humility
+name: Professional Humility
+tradition: bioethics
+script:
+  english: professional humility
+  latin: humilitas professionalis
+category: character_virtue
+subcategory: professional_ethics
+related_concepts:
+- intellectual_humility
+- collaborative_practice
+- learning_mindset
+period: contemporary_medicine
+source_texts:
+- medical_professionalism
+- collaborative_care
+- error_prevention
+type: virtue
+scope: professional
+orientation: balanced
+post_length: 925
+title: Professional Humility
+definition: Recognition of one's limitations, openness to learning, and willingness
+  to collaborate and learn from others in healthcare practice.
+key_aspects:
+- Self-awareness
+- Learning orientation
+- Collaborative spirit
+- Error recognition
+- Growth mindset
+historical_development: Emerged from patient safety movement and recognition of limits
+  of individual expertise in complex healthcare.
+contemporary_relevance: Essential for team-based care, error prevention, and continuous
+  professional development.
+notable_quotes:
+- '"The first step in the acquisition of wisdom is silence, the second listening,
+  the third memory, the fourth practice, the fifth teaching others." - Medical education
+  principle'
+- '"Humility is the awareness that there is always more to learn." - Healthcare wisdom'
+related_practices:
+- Team collaboration
+- Error acknowledgment
+- Continuous learning
+- Mentorship

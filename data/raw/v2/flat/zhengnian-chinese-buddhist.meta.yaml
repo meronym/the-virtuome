@@ -1,0 +1,46 @@
+id: zhengnian-chinese-buddhist
+name: Zhengnian
+tradition: chinese_buddhist
+script:
+  chinese: 正念
+  pinyin: zhèngnián
+  sanskrit_equivalent: samyak-smṛti
+category: mental_virtue
+subcategory: mindful_awareness
+related_concepts:
+- zhenzhi
+- zhengding
+- zhengzhi
+- zhengjian
+period: chinese_buddhist_development
+source_texts:
+- chan_texts
+- pure_land_writings
+- meditation_manuals
+- vinaya_texts
+type: virtue
+scope: individual
+orientation: balanced
+post_length: 949
+title: Zhengnian (正念) - Right Mindfulness
+definition: Zhengnian represents correct, sustained awareness that maintains clear
+  knowing of present experience while harmonizing meditation and daily activity.
+key_aspects:
+- Clear present-moment awareness
+- Integration of formal practice and daily life
+- Balance of relaxation and alertness
+- Continuous mindful presence
+- Natural attention
+historical_development: Transformed from Indian Buddhist mindfulness through Chan
+  emphasis on constant practice and unity of meditation and action.
+contemporary_relevance: Fundamental to modern mindfulness movements and contemporary
+  Buddhist practice approaches.
+notable_quotes:
+- '"In walking, standing, sitting and lying down, always maintain this mind" - Chan
+  master Hanshan'
+- '"Every moment is an opportunity for practice" - Master Sheng Yen'
+related_practices:
+- Walking meditation
+- Working meditation
+- Mindful daily activities
+- Breath awareness

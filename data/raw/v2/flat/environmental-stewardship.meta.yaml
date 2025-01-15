@@ -1,0 +1,44 @@
+id: environmental-stewardship
+name: Environmental Stewardship
+tradition: environmental_ethics
+script:
+  latin: custodia ambientalis
+  english: environmental stewardship
+category: practical_virtue
+subcategory: ecological_care
+related_concepts:
+- ecological_wisdom
+- intergenerational_justice
+- environmental_solidarity
+period: modern_environmental
+source_texts:
+- sand_county_almanac
+- environmental_ethics_literature
+- stewardship_principles
+type: virtue
+scope: universal
+orientation: active
+post_length: 1018
+title: Environmental Stewardship
+definition: Environmental stewardship represents active care and responsible management
+  of natural systems, combining practical conservation with long-term sustainability
+  planning.
+key_aspects:
+- Responsible resource management
+- Active environmental protection
+- Conservation leadership
+- Sustainable practice implementation
+- Ecological restoration
+historical_development: Evolved from religious concepts of stewardship to secular
+  environmental management principles, strongly influenced by conservation movement.
+contemporary_relevance: Essential for environmental protection, resource conservation,
+  and sustainable development practices globally.
+notable_quotes:
+- '"We do not inherit the Earth from our ancestors; we borrow it from our children."
+  - Native American Proverb'
+- '"Conservation is a state of harmony between men and land." - Aldo Leopold'
+related_practices:
+- Conservation management
+- Sustainable resource use
+- Habitat restoration
+- Environmental education

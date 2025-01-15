@@ -1,0 +1,43 @@
+id: professional-accountability
+name: Professional Accountability
+tradition: professional_ethics
+script:
+  latin_root: accomptare
+  modern_usage: accountability
+category: responsibility_virtue
+subcategory: professional_responsibility
+related_concepts:
+- transparency
+- responsibility
+- answerability
+- professional_duty
+period: modern_professional
+source_texts:
+- professional_standards
+- accountability_frameworks
+- ethical_codes
+type: virtue
+scope: professional_societal
+orientation: active
+post_length: 831
+title: Professional Accountability
+definition: Professional accountability represents the willing acceptance of responsibility
+  for professional actions and decisions, including transparency and openness to scrutiny.
+key_aspects:
+- Responsibility acceptance
+- Transparent practice
+- Scrutiny openness
+- Standard adherence
+- Impact awareness
+historical_development: Evolved from personal responsibility to modern frameworks
+  of professional accountability and transparency.
+contemporary_relevance: Essential for maintaining public trust and professional legitimacy
+  in complex modern contexts.
+notable_quotes:
+- '"With great power comes great responsibility."'
+- '"Accountability is the hallmark of professional practice."'
+related_practices:
+- Documentation
+- Transparent communication
+- Performance review
+- Public reporting

@@ -1,0 +1,48 @@
+id: growth_mindset-pospsych
+name: Growth Mindset
+tradition: positive_psychology
+script:
+  english: growth_mindset
+  alternative: developmental_orientation
+category: cognitive_strength
+subcategory: learning_orientation
+related_concepts:
+- incremental_theory
+- learning_orientation
+- developmental_perspective
+- malleability_belief
+period: contemporary
+source_texts:
+- mindset
+- self_theories
+- handbook_of_competence_and_motivation
+type: virtue
+scope: developmental
+orientation: active
+post_length: 1144
+title: Growth Mindset - Belief in Development Potential
+definition: Growth Mindset represents the belief that abilities and intelligence can
+  be developed through effort, learning, and persistence, contrasting with fixed mindset
+  beliefs in unchangeable traits.
+key_aspects:
+- Development belief
+- Effort appreciation
+- Challenge embracing
+- Learning orientation
+- Failure resilience
+historical_development: Developed through Carol Dweck's research on achievement motivation
+  and self-theories. Integrated into positive psychology's emphasis on human potential
+  and development.
+contemporary_relevance: Fundamental to educational practice, professional development,
+  and personal growth. Key factor in achievement and resilience across domains.
+notable_quotes:
+- '"The passion for stretching yourself and sticking to it, even (or especially) when
+  it''s not going well, is the hallmark of the growth mindset." - Carol Dweck'
+- '"In a growth mindset, challenges are exciting rather than threatening." - Carol
+  Dweck'
+related_practices:
+- Challenge seeking
+- Effort reframing
+- Learning goal setting
+- Process feedback
+- Developmental reflection

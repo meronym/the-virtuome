@@ -1,0 +1,46 @@
+id: gevura-rabbinic
+name: Gevura
+tradition: rabbinic_jewish
+script:
+  hebrew: גבורה
+  transliteration: gevura
+  alternative: gevurah
+category: character_virtue
+subcategory: self_discipline
+related_concepts:
+- hitgabrut
+- meshilut
+- kavash_et_yitzro
+- azut
+period: rabbinic
+source_texts:
+- pirkei_avot
+- talmud
+- midrash
+- mussar_literature
+type: virtue
+scope: personal
+orientation: active
+post_length: 787
+title: Gevura (גבורה) - Self-Discipline
+definition: Spiritual and moral strength, particularly in mastering one's inclinations
+  and maintaining ethical conduct despite challenges.
+key_aspects:
+- Self-control
+- Moral courage
+- Inner strength
+- Ethical persistence
+- Spiritual fortitude
+historical_development: From biblical military strength to rabbinic emphasis on moral
+  and spiritual strength.
+contemporary_relevance: Critical for maintaining ethical standards and religious commitment
+  in modern society.
+notable_quotes:
+- '"Who is mighty? One who conquers their inclination." - Pirkei Avot 4:1'
+- '"There is no might like the might of Torah." - Midrash'
+related_practices:
+- Impulse control
+- Ethical steadfastness
+- Religious commitment
+- Character development
+- Moral courage

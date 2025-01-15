@@ -1,0 +1,47 @@
+id: caritas-patristic
+name: Caritas
+tradition: patristic_christian
+script:
+  latin: caritas
+  greek: ἀγάπη
+  greek_transliteration: agapē
+category: theological_virtue
+subcategory: foundational_virtue
+related_concepts:
+- fides
+- spes
+- misericordia
+- dilectio
+period: patristic
+source_texts:
+- de_doctrina_christiana
+- commentary_on_1_john
+- confessiones
+- city_of_god
+type: virtue
+scope: universal
+orientation: active
+post_length: 1078
+title: Caritas (ἀγάπη) - Divine Love
+definition: Caritas represents divine love both received and given, the foundational
+  virtue that orders and perfects all other virtues in Patristic thought.
+key_aspects:
+- Divine gift and human response
+- Unifying force of moral life
+- Source of all virtuous action
+- Bridge between God and neighbor
+- Transformative power
+historical_development: Developed from New Testament agapē through Patristic synthesis
+  with Classical philosophy, particularly by Augustine who established it as the organizing
+  principle of Christian ethics.
+contemporary_relevance: Fundamental to Christian social teaching, humanitarian ethics,
+  and interfaith dialogue. Provides framework for addressing modern social issues.
+notable_quotes:
+- '"Love, and do what you will." - Augustine'
+- '"Love is itself the fulfillment of all our works. There is the goal; that is why
+  we run: we run toward it, and once we reach it, in it we shall find rest." - Augustine'
+related_practices:
+- Contemplative prayer
+- Works of mercy
+- Community service
+- Liturgical worship

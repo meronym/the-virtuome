@@ -1,0 +1,45 @@
+id: moral-reasoning-psych
+name: Moral Reasoning
+tradition: moral_psychology
+script:
+  english: moral reasoning
+  academic: moral judgment capacity
+  alternative: ethical reasoning
+category: cognitive_capacity
+subcategory: ethical_judgment
+related_concepts:
+- critical_thinking
+- moral_judgment
+- ethical_decision_making
+- principled_reasoning
+period: contemporary
+source_texts:
+- kohlberg_moral_development
+- greene_moral_tribes
+- haidt_righteous_mind
+type: capacity
+scope: cognitive
+orientation: active
+post_length: 916
+title: Moral Reasoning - Ethical Judgment Capacity
+definition: The cognitive capacity to analyze moral situations, apply ethical principles,
+  and reach justified moral conclusions through systematic thinking.
+key_aspects:
+- Logical analysis
+- Principle application
+- Value integration
+- Consequence evaluation
+- Ethical justification
+historical_development: Evolved from Kohlberg's stage theory through dual-process
+  models to current integrative approaches.
+contemporary_relevance: Critical for addressing complex ethical challenges in technology,
+  bioethics, and global issues.
+notable_quotes:
+- '"Moral reasoning is the process of determining right from wrong in a given situation."
+  - Lawrence Kohlberg'
+- '"The power to reason is the ability to weigh alternatives." - Joshua Greene'
+related_practices:
+- Ethical dilemma analysis
+- Moral decision frameworks
+- Value clarification
+- Principle-based reasoning

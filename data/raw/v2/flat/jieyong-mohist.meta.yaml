@@ -1,0 +1,43 @@
+id: jieyong-mohist
+name: Jiéyòng
+tradition: mohist
+script:
+  chinese: 節用
+  pinyin: jiéyòng
+  wade_giles: chieh-yung
+category: practical_virtue
+subcategory: frugal_efficiency
+related_concepts:
+- qinlao
+- qunli
+- zhi
+period: warring_states
+source_texts:
+- mozi
+- mohist_economic_writings
+type: virtue
+scope: practical
+orientation: restraint
+post_length: 880
+title: Jiéyòng (節用) - Frugal Efficiency
+definition: The virtue of resourceful and efficient use of materials and wealth, emphasizing
+  practical utility and sustainable consumption for collective benefit.
+key_aspects:
+- Resource optimization
+- Economic efficiency
+- Sustainable use
+- Practical thrift
+- Waste prevention
+historical_development: Developed as part of Mohist criticism of luxury and waste
+  in contemporary society, particularly targeting elaborate Confucian rituals and
+  aristocratic excess.
+contemporary_relevance: Relates to modern sustainability, resource management, and
+  efficient economic practices.
+notable_quotes:
+- '"Use resources for benefit, not display" - Mohist principle'
+- '"Moderation in consumption benefits the whole society" - Mozi'
+related_practices:
+- Resource conservation
+- Efficient production
+- Sustainable consumption
+- Economic planning

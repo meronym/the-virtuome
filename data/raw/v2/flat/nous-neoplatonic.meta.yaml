@@ -1,0 +1,44 @@
+id: nous-neoplatonic
+name: Nous
+tradition: neoplatonic
+script:
+  greek: νοῦς
+  transliteration: nous
+  latin: intellectus
+category: intellectual_virtue
+subcategory: divine_intelligence
+related_concepts:
+- sophia
+- theoria
+- henosis
+- logos
+period: late_classical
+source_texts:
+- enneads
+- elements_of_theology
+- platonic_theology
+type: virtue
+scope: universal
+orientation: contemplative
+post_length: 794
+title: Nous (νοῦς) - Divine Intelligence
+definition: Nous represents pure intellectual intuition and divine intelligence, the
+  faculty of direct noetic vision of reality and truth.
+key_aspects:
+- Direct intellectual vision
+- Divine intelligence
+- Unitive knowledge
+- Transcendent understanding
+- Pure thought
+historical_development: Developed from Platonic and Aristotelian concepts through
+  Plotinus's articulation of the hypostases.
+contemporary_relevance: Influences contemporary discussions of consciousness, intuition,
+  and higher cognition.
+notable_quotes:
+- '"Nous is both thinker and thought." - Plotinus'
+- '"In Nous, all things exist simultaneously." - Proclus'
+related_practices:
+- Noetic contemplation
+- Intellectual purification
+- Divine mathematics
+- Metaphysical meditation

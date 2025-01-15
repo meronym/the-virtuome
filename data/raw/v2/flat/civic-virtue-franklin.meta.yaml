@@ -1,0 +1,45 @@
+id: civic-virtue-franklin
+name: Civic Virtue
+tradition: franklin_virtues
+script:
+  english: Civic Virtue
+  franklin_quote: The good we can do together exceeds the good we can do alone
+category: social_virtue
+subcategory: public_service
+related_concepts:
+- justice
+- sincerity
+- improvement
+- prudence
+period: american_enlightenment
+source_texts:
+- autobiography_of_benjamin_franklin
+- political_writings
+- civic_documents
+type: virtue
+scope: social
+orientation: active
+post_length: 929
+title: Civic Virtue - Public Spirit
+definition: The virtue of active citizenship and public service, combining individual
+  excellence with commitment to community welfare and social progress.
+key_aspects:
+- Public service
+- Community engagement
+- Social responsibility
+- Collective improvement
+- Democratic participation
+historical_development: Demonstrated through Franklin's extensive public service,
+  founding of civic institutions, and political philosophy.
+contemporary_relevance: Essential for democratic citizenship, community leadership,
+  and social entrepreneurship. Key to addressing modern social challenges.
+notable_quotes:
+- '"The noblest question in the world is: What good may I do in it?" - Poor Richard''s
+  Almanack'
+- '"Well done is better than well said." - Poor Richard''s Almanack'
+related_practices:
+- Community service
+- Civic participation
+- Institution building
+- Public leadership
+- Social innovation

@@ -1,0 +1,44 @@
+id: wa-jpneoconf
+name: Wa
+tradition: japanese_neo_confucian
+script:
+  kanji: 和
+  hiragana: わ
+  romaji: wa
+category: social_principle
+subcategory: harmony
+related_concepts:
+- giri
+- kei
+- true
+- rei
+period: edo_period
+source_texts:
+- jūshichijō_kenpō
+- domain_regulations
+- neo_confucian_commentaries
+type: virtue
+scope: communal
+orientation: balanced
+post_length: 837
+title: Wa (和) - Harmony
+definition: The principle of maintaining social harmony through proper relationships,
+  mutual consideration, and appropriate behavior in all contexts.
+key_aspects:
+- Social cohesion
+- Conflict avoidance
+- Group solidarity
+- Balanced relationships
+- Collective wellbeing
+historical_development: Ancient Japanese concept reinterpreted through Neo-Confucian
+  lens, becoming central to Edo period social organization.
+contemporary_relevance: Fundamental to modern Japanese corporate culture, social relations,
+  and conflict resolution.
+notable_quotes:
+- '"Harmony is to be valued" (和を以って貴しと為す) - Seventeen Article Constitution'
+- '"Without wa, society cannot function properly" - Hayashi Razan'
+related_practices:
+- Consensus building
+- Group decision-making
+- Conflict mediation
+- Maintaining workplace harmony

@@ -1,0 +1,43 @@
+id: adaptive-expertise
+name: Adaptive Expertise
+tradition: professional_ethics
+script:
+  modern_term: adaptive_expertise
+  related_latin: adaptare + expertus
+category: developmental_virtue
+subcategory: professional_adaptation
+related_concepts:
+- learning_agility
+- innovation
+- resilience
+- flexibility
+period: contemporary_professional
+source_texts:
+- professional_development_literature
+- learning_theory
+- innovation_studies
+type: virtue
+scope: professional
+orientation: active
+post_length: 789
+title: Adaptive Expertise
+definition: Adaptive expertise represents the capacity to effectively respond to new
+  challenges and contexts while maintaining professional standards and ethical practice.
+key_aspects:
+- Learning agility
+- Innovation capacity
+- Ethical adaptation
+- Context responsiveness
+- Professional growth
+historical_development: Emerged from modern understanding of expertise development
+  and professional adaptation needs.
+contemporary_relevance: Critical for professional effectiveness in rapidly changing
+  technological and social contexts.
+notable_quotes:
+- '"The expert of tomorrow is the learner of today."'
+- '"Adaptability is the new stability."'
+related_practices:
+- Continuous learning
+- Innovation development
+- Change management
+- Professional development

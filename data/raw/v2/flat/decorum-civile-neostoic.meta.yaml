@@ -1,0 +1,44 @@
+id: decorum-civile-neostoic
+name: Decorum Civile
+tradition: neo_stoic
+script:
+  latin: decorum_civile
+  classical_equivalent: πρέπον_πολιτικόν
+  transliteration_greek: prepon_politikon
+category: social_virtue
+subcategory: civic_behavior
+related_concepts:
+- civilitas
+- urbanitas
+- moderatio
+period: early_modern
+source_texts:
+- de_constantia_lipsius
+- court_manuals
+- neo_stoic_social_texts
+type: virtue
+scope: social
+orientation: active
+post_length: 830
+title: Decorum Civile - Civil Propriety
+definition: The virtue of maintaining appropriate social conduct and dignity in public
+  life, combining personal refinement with civic responsibility.
+key_aspects:
+- Social grace
+- Public dignity
+- Cultural refinement
+- Civic politeness
+- Professional demeanor
+historical_development: Evolved from classical concepts of decorum, adapted for early
+  modern court society and civic life.
+contemporary_relevance: Important for professional ethics, diplomatic relations, and
+  civil discourse in modern society.
+notable_quotes:
+- '"Civil society requires both inner virtue and outer grace." - Lipsius'
+- '"Decorum is the visible manifestation of wisdom." - Du Vair'
+related_practices:
+- Professional etiquette
+- Diplomatic protocol
+- Public speaking
+- Social leadership
+- Cultural mediation

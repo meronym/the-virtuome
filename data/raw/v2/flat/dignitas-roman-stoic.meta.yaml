@@ -1,0 +1,54 @@
+id: dignitas-roman-stoic
+name: Dignitas
+tradition: roman_stoic
+script:
+  latin: dignitas
+  transliteration: dignitas
+category: social_virtue
+subcategory: personal_worth
+related_concepts:
+- gravitas
+- auctoritas
+- honor
+- decorum
+period: imperial_rome
+source_texts:
+- de_officiis
+- epistulae_morales
+- meditations
+- discourses
+type: virtue
+scope: personal_social
+orientation: balanced
+post_length: 951
+title: Dignitas - Dignity
+definition: Dignitas represents personal worth and self-respect manifested through
+  appropriate conduct, combining inner nobility with proper external behavior and
+  social responsibility.
+key_aspects:
+- Personal worth
+- Self-respect
+- Proper conduct
+- Social standing
+- Moral authority
+historical_development: While rooted in Republican Roman values, Stoic philosophers
+  developed dignitas into a philosophical virtue combining inner worth with social
+  responsibility and proper conduct.
+contemporary_relevance: '- Professional ethics
+
+  - Personal integrity
+
+  - Leadership presence
+
+  - Human rights
+
+  - Social responsibility'
+notable_quotes:
+- '"A person''s dignity is set by their character, not their position." - Seneca'
+- '"Do nothing against your dignity." - Marcus Aurelius'
+related_practices:
+- Maintaining appropriate bearing
+- Ethical decision-making
+- Professional conduct
+- Self-respect practices
+- Social responsibility

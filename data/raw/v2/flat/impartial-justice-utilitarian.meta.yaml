@@ -1,0 +1,43 @@
+id: impartial-justice-utilitarian
+name: Impartial Justice
+tradition: utilitarian_ethics
+script:
+  english: impartial justice
+  latin: iustitia aequalis
+category: moral_virtue
+subcategory: fairness
+related_concepts:
+- rational_benevolence
+- universal_consideration
+- equal_treatment
+period: 19th_century
+source_texts:
+- utilitarianism_mill
+- principles_morals_legislation_bentham
+- methods_of_ethics_sidgwick
+type: virtue
+scope: universal
+orientation: balanced
+post_length: 945
+title: Impartial Justice
+definition: The capacity to consider and weigh all interests equally, transcending
+  personal bias and social prejudice in moral calculation and action.
+key_aspects:
+- Equal consideration of interests
+- Freedom from personal bias
+- Universal moral perspective
+- Objective evaluation
+- Fair distribution of benefits
+historical_development: Developed from Enlightenment ideals of equality, refined through
+  utilitarian emphasis on impartial calculation of welfare.
+contemporary_relevance: Essential for modern policy-making, global ethics, and fair
+  resource distribution.
+notable_quotes:
+- '"All inequalities which have no special utility to justify them are injustices."
+  - J.S. Mill'
+- '"Every person to count for one, nobody for more than one." - Henry Sidgwick'
+related_practices:
+- Blind decision-making processes
+- Universal welfare consideration
+- Equitable resource distribution
+- Impartial policy development

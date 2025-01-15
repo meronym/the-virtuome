@@ -1,0 +1,42 @@
+id: qinlao-mohist
+name: Qínláo
+tradition: mohist
+script:
+  chinese: 勤勞
+  pinyin: qínláo
+  wade_giles: ch'in-lao
+category: practical_virtue
+subcategory: productive_diligence
+related_concepts:
+- jieyong
+- zhi
+- qunli
+period: warring_states
+source_texts:
+- mozi
+- mohist_economic_writings
+type: virtue
+scope: individual
+orientation: active
+post_length: 831
+title: Qínláo (勤勞) - Productive Diligence
+definition: The virtue of industrious effort directed toward practical and beneficial
+  outcomes, emphasizing productive work over ritual or theoretical pursuits.
+key_aspects:
+- Productive effort
+- Practical results
+- Skilled labor
+- Economic contribution
+- Useful activity
+historical_development: Developed in opposition to Confucian emphasis on ritual refinement,
+  focusing instead on practical productivity and tangible results.
+contemporary_relevance: Influences modern work ethic and productivity-focused approaches
+  to social contribution.
+notable_quotes:
+- '"Labor that produces benefit is virtuous" - Mohist principle'
+- '"Diligence in useful work benefits all" - Mozi'
+related_practices:
+- Skilled craftsmanship
+- Productive labor
+- Technical improvement
+- Result measurement

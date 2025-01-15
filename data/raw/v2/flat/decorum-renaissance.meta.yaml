@@ -1,0 +1,43 @@
+id: decorum-renaissance
+name: Decorum
+tradition: renaissance_humanism
+script:
+  latin: decorum
+  italian_renaissance: decoro
+category: behavioral_virtue
+subcategory: appropriate_conduct
+related_concepts:
+- civilitas
+- urbanitas
+- moderatio
+- elegantia
+period: renaissance
+source_texts:
+- cicero_duties
+- castiglione_courtier
+- della_casa_galateo
+type: virtue
+scope: social
+orientation: balanced
+post_length: 769
+title: Decorum - Propriety
+definition: Decorum represents the virtue of appropriate behavior and judgment, combining
+  social grace with ethical consideration and situational awareness.
+key_aspects:
+- Appropriate conduct
+- Social grace
+- Ethical judgment
+- Cultural refinement
+- Situational wisdom
+historical_development: Evolved from classical rhetorical concept through courtly
+  culture into comprehensive principle of social and ethical conduct.
+contemporary_relevance: Important for professional ethics, social skills, and cultural
+  competence.
+notable_quotes:
+- '"Grace in all things." - Castiglione'
+- '"Propriety is the mother of virtue." - Renaissance maxim'
+related_practices:
+- Social etiquette
+- Cultural adaptation
+- Ethical conduct
+- Artistic judgment

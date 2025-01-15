@@ -1,0 +1,43 @@
+id: feigong-mohist
+name: Fēigōng
+tradition: mohist
+script:
+  chinese: 非攻
+  pinyin: fēigōng
+  wade_giles: fei-kung
+category: social_principle
+subcategory: defensive_peace
+related_concepts:
+- jianai
+- qunli
+- gongyi
+period: warring_states
+source_texts:
+- mozi
+- mohist_political_writings
+type: virtue
+scope: social
+orientation: restraint
+post_length: 865
+title: Fēigōng (非攻) - Peaceful Order
+definition: The principle of opposing aggressive warfare while maintaining defensive
+  capabilities, emphasizing the preservation of peace and social stability through
+  rational means.
+key_aspects:
+- Conflict prevention
+- Defensive preparation
+- Cost-benefit analysis
+- Social stability
+- Strategic peace
+historical_development: Emerged during the violent Warring States period as a rational
+  approach to preventing unnecessary warfare and promoting social stability.
+contemporary_relevance: Influences modern peace studies, defensive military doctrine,
+  and conflict resolution theory.
+notable_quotes:
+- '"War brings no benefit and great harm" - Mozi'
+- '"Defense is justified, aggression is not" - Mohist principle'
+related_practices:
+- Defensive preparation
+- Conflict mediation
+- Peace maintenance
+- Strategic deterrence

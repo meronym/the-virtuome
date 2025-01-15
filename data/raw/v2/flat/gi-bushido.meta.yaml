@@ -1,0 +1,47 @@
+id: gi-bushido
+name: Gi
+tradition: bushido
+script:
+  japanese: 義
+  kanji: 義
+  romaji: gi
+  classical_chinese: 義
+category: cardinal_virtue
+subcategory: moral_principle
+related_concepts:
+- seigi (正義, justice)
+- giri (義理, moral obligation)
+- meiyo (名誉, honor)
+period: feudal_japan
+source_texts:
+- hagakure
+- bushido_shoshinshu
+- gorin_no_sho
+type: virtue
+scope: universal
+orientation: active
+post_length: 961
+title: Gi (義) - Righteousness
+definition: Gi represents the fundamental moral principle of choosing and acting on
+  what is right and just, regardless of personal consequences.
+key_aspects:
+- Moral discernment
+- Right decision-making
+- Justice in action
+- Ethical judgment
+- Moral courage
+historical_development: Developed from Chinese concept of yi (義), integrated with
+  samurai ethics and Japanese cultural values. Emphasized in key bushido texts as
+  foundational to warrior conduct.
+contemporary_relevance: Guides ethical decision-making in modern leadership, business
+  ethics, and personal moral development.
+notable_quotes:
+- '"To know what is right and not do it is want of courage." - Confucian principle
+  adopted in Bushido'
+- '"The way of the warrior is found in death" - Hagakure (contextualizing righteous
+  action)'
+related_practices:
+- Ethical decision-making
+- Standing up for justice
+- Protecting the weak
+- Maintaining principles under pressure

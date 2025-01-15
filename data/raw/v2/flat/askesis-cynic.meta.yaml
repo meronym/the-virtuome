@@ -1,0 +1,44 @@
+id: askesis-cynic
+name: Askesis
+tradition: cynic
+script:
+  greek: ἄσκησις
+  transliteration: áskēsis
+  latin: exercitium
+category: methodological_virtue
+subcategory: training
+related_concepts:
+- karteria
+- autarkeia
+- eleutheria
+period: classical_greek
+source_texts:
+- diogenes_accounts
+- cynic_epistles
+- epictetus_discourses
+type: virtue
+scope: personal
+orientation: active
+post_length: 896
+title: Askesis (ἄσκησις) - Training/Practice
+definition: The systematic practice of physical and mental training to develop virtue
+  and freedom from conventional needs and desires.
+key_aspects:
+- Physical hardship
+- Mental discipline
+- Voluntary discomfort
+- Practical exercise
+- Habit formation
+historical_development: Transformed from athletic training into philosophical practice.
+  Cynics developed specific exercises like embracing statues in winter or rolling
+  in hot sand.
+contemporary_relevance: Influences modern concepts of character development, resilience
+  training, and voluntary hardship for personal growth.
+notable_quotes:
+- '"In a rich man''s house there is no place to spit but in his face." - Diogenes'
+- '"Training and exercise prepare us for life''s obstacles." - Cynic principle'
+related_practices:
+- Cold exposure
+- Simple living
+- Physical endurance
+- Minimal possession

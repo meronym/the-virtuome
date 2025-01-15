@@ -1,0 +1,44 @@
+id: theoria-neoplatonic
+name: Theōria
+tradition: neoplatonic
+script:
+  greek: θεωρία
+  transliteration: theōria
+  latin: contemplatio
+category: contemplative_virtue
+subcategory: spiritual_vision
+related_concepts:
+- nous
+- sophia
+- henosis
+- noesis
+period: late_classical
+source_texts:
+- enneads
+- elements_of_theology
+- platonic_theology
+type: virtue
+scope: universal
+orientation: active_contemplative
+post_length: 952
+title: Theōria (θεωρία) - Contemplative Vision
+definition: Theōria represents the highest form of contemplative vision, a direct
+  intellectual-spiritual perception of reality that transcends ordinary rational thought.
+key_aspects:
+- Direct intellectual intuition
+- Spiritual perception
+- Unified vision of reality
+- Transcendent understanding
+- Active contemplation
+historical_development: Developed from Platonic contemplation through Plotinus's systematic
+  articulation of contemplative ascent, further refined by later Neo-Platonists.
+contemporary_relevance: Influences modern approaches to contemplative practice, meditation,
+  and philosophical method.
+notable_quotes:
+- '"The soul''s vision comes to be that of the intelligible world." - Plotinus, Enneads'
+- '"Through theōria, the soul becomes what it contemplates." - Proclus'
+related_practices:
+- Philosophical meditation
+- Contemplative silence
+- Intellectual purification
+- Noetic ascent
