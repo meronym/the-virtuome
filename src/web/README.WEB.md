@@ -261,11 +261,12 @@ data/
     ├── v1/              # Raw v1 virtue dataset
     │   ├── flat/        # Flat list of v1 virtue files
     │   │   └── *.md     # Individual virtue files
-    │   └── tree.json    # Complete hierarchical organization of v1 virtues
+    │   └── tree.json    # Hierarchical organization of v1 virtues
     └── v2/                  # Raw v2 virtue dataset
-        └── flat/            # Flat list of v2 virtue files
-            ├── *.md         # Individual virtue files
-            └── *.meta.yaml  # Parsed virtue metadata (only for v2)
+        ├── flat/            # Flat list of v2 virtue files
+        │   ├── *.md         # Individual virtue files
+        │   └── *.meta.yaml  # Parsed virtue metadata (only for v2)
+        └── tree.json        # Hierarchical organization of v2 virtues
 ```
 
 ### Virtue Content Format
