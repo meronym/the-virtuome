@@ -257,11 +257,57 @@ data/
 │   │   │       └── hdbscan-umap-*.json
 │   ├── openai/
 │   └── cohere/
-└── raw/v1/                # Raw virtue content
-    ├── flat/              # Flattened virtue files
-    │   └── *.md          # Individual virtue files
-    └── tree.json         # Complete hierarchical tree structure
+└── raw/
+    ├── v1/              # Raw v1 virtue dataset
+    │   ├── flat/        # Flat list of v1 virtue files
+    │   │   └── *.md     # Individual virtue files
+    │   └── tree.json    # Complete hierarchical organization of v1 virtues
+    └── v2/                  # Raw v2 virtue dataset
+        └── flat/            # Flat list of v2 virtue files
+            ├── *.md         # Individual virtue files
+            └── *.meta.yaml  # Parsed virtue metadata (only for v2)
 ```
+
+### Virtue Content Format
+```markdown
+---
+id: virtue-identifier
+virtue: Virtue Name
+tradition: Tradition Name
+category: Category
+---
+
+# Detailed content in markdown format
+```
+
+### Virtue Metadata Format (v2)
+The `*.meta.yaml` files contain structured metadata extracted from the markdown content:
+
+```yaml
+# Original frontmatter fields
+id: virtue-identifier
+virtue: Virtue Name
+tradition: Tradition Name
+category: Category
+
+# Content-derived fields
+post_length: 1234
+title: "Full Virtue Title"
+definition: "Complete definition text"
+key_aspects:
+  - "Aspect 1"
+  - "Aspect 2"
+  - "Aspect 3"
+notable_quotes:
+  - "Quote 1 with attribution"
+  - "Quote 2 with attribution"
+related_practices:
+  - "Practice 1"
+  - "Practice 2"
+# Additional structured sections...
+```
+
+These metadata files provide a structured, machine-readable format for virtue content that will enable enhanced filtering, searching, and display capabilities in future iterations of the web interface.
 
 ### Tree Structure Format
 The `tree.json` file provides a complete hierarchical view of all virtues, organized by period, tradition, and school:
@@ -298,18 +344,6 @@ The `tree.json` file provides a complete hierarchical view of all virtues, organ
 ```
 
 Each node in the tree has a `type` ("period", "tradition", "school", or "virtue") and a `name`. Non-leaf nodes have a `children` array containing their child nodes. This structure enables hierarchical navigation and filtering of virtues in the visualization system.
-
-### Virtue Content Format
-```markdown
----
-id: virtue-identifier
-virtue: Virtue Name
-tradition: Tradition Name
-category: Category
----
-
-# Detailed content in markdown format
-```
 
 ### Cluster Data Format
 The `hdbscan-*.json` files contain clustering results:
