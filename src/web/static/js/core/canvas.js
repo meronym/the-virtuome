@@ -1,10 +1,11 @@
 import { TreeVisualizer } from '../data/tree.js';
 
 export class CanvasRenderer {
-    constructor(canvas, transform) {
+    constructor(canvas, transform, dataLoader) {
         this.canvas = canvas;
         this.ctx = canvas.getContext('2d');
         this.transform = transform;
+        this.dataLoader = dataLoader;  // Store dataLoader reference
         this.points = null;
         this.clusters = null;
         this.hoveredPoint = null;
@@ -181,17 +182,51 @@ export class CanvasRenderer {
 
     drawLabel(x, y, pointId, radius) {
         const ctx = this.ctx;
-        const labelPadding = 6;  // Increased padding
-        const labelHeight = 24;   // Increased height for larger font
+        const labelPadding = 10;  // Increased padding for larger text
+        const labelHeight = 64;   // Increased height for three rows
+        const rowGap = 4;        // Gap between rows
         
-        // Use larger font
-        ctx.font = '14px system-ui, -apple-system, sans-serif';  // System font for better rendering
-        ctx.textAlign = 'left';
-        ctx.textBaseline = 'middle';
+        // Get virtue metadata if available
+        let titleText = pointId;
+        let traditionText = '';
+        let descriptionText = '';
+        if (this.dataLoader && this.dataLoader.hasMetadata(pointId)) {
+            const metadata = this.dataLoader.getMetadata(pointId);
+            if (metadata) {
+                if (metadata.title) {
+                    titleText = metadata.title;
+                }
+                if (metadata.tradition) {
+                    traditionText = metadata.tradition;
+                }
+                if (metadata.definition) {
+                    // Truncate description if too long
+                    descriptionText = metadata.definition.length > 120 ? 
+                        metadata.definition.substring(0, 117) + '...' : 
+                        metadata.definition;
+                }
+            }
+        }
         
-        // Measure text for background
-        const metrics = ctx.measureText(pointId);
-        const labelWidth = metrics.width + labelPadding * 2;
+        // Set up fonts with increased sizes
+        const titleFont = '600 16px system-ui, -apple-system, sans-serif';     // Larger, bold title
+        const traditionFont = '400 13px system-ui, -apple-system, sans-serif'; // Medium subtitle
+        const descFont = '400 13px system-ui, -apple-system, sans-serif';      // Medium description
+        
+        // Measure text for all rows
+        ctx.font = titleFont;
+        const titleMetrics = ctx.measureText(titleText);
+        ctx.font = traditionFont;
+        const traditionMetrics = ctx.measureText(traditionText || ' ');
+        ctx.font = descFont;
+        const descMetrics = ctx.measureText(descriptionText || ' ');
+        
+        // Calculate total width needed
+        const labelWidth = Math.max(
+            titleMetrics.width,
+            traditionMetrics.width,
+            descMetrics.width
+        ) + labelPadding * 2;
         
         // Check if we're in dark mode
         const isDarkMode = document.documentElement.classList.contains('dark');
@@ -203,6 +238,12 @@ export class CanvasRenderer {
         const textColor = isDarkMode ? 
             'rgba(255, 255, 255, 0.95)' : 
             'rgba(0, 0, 0, 0.95)';
+        const traditionColor = isDarkMode ?
+            'rgba(255, 255, 255, 0.6)' :
+            'rgba(0, 0, 0, 0.6)';
+        const descColor = isDarkMode ?
+            'rgba(255, 255, 255, 0.8)' :
+            'rgba(0, 0, 0, 0.8)';
         const borderColor = isDarkMode ?
             'rgba(255, 255, 255, 0.2)' :
             'rgba(0, 0, 0, 0.1)';
@@ -212,11 +253,11 @@ export class CanvasRenderer {
         ctx.strokeStyle = borderColor;
         ctx.lineWidth = 1;
         
-        const labelX = x + radius + 6;
+        const labelX = x + radius + 10;  // Slightly increased offset
         const labelY = y - labelHeight/2;
         
         // Draw background with rounded corners
-        const cornerRadius = 4;
+        const cornerRadius = 6;  // Slightly larger corners
         ctx.beginPath();
         ctx.moveTo(labelX + cornerRadius, labelY);
         ctx.lineTo(labelX + labelWidth - cornerRadius, labelY);
@@ -239,9 +280,26 @@ export class CanvasRenderer {
         ctx.shadowColor = 'transparent';  // Reset shadow before stroke
         ctx.stroke();
         
-        // Draw text
+        // Draw title text
         ctx.fillStyle = textColor;
-        ctx.fillText(pointId, labelX + labelPadding, y);
+        ctx.font = titleFont;
+        ctx.textAlign = 'left';
+        ctx.textBaseline = 'middle';
+        ctx.fillText(titleText, labelX + labelPadding, y - rowGap - 12);  // Move up for three rows
+        
+        // Draw tradition text if available
+        if (traditionText) {
+            ctx.fillStyle = traditionColor;  // More muted color for tradition
+            ctx.font = traditionFont;
+            ctx.fillText(traditionText, labelX + labelPadding, y);  // Center row
+        }
+        
+        // Draw description text if available
+        if (descriptionText) {
+            ctx.fillStyle = descColor;
+            ctx.font = descFont;
+            ctx.fillText(descriptionText, labelX + labelPadding, y + rowGap + 12);  // Bottom row
+        }
     }
 
     render() {

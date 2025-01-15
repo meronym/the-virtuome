@@ -7,6 +7,7 @@ class TreeVisualizer {
         this.nodeElements = new Map(); // Store references to node elements
         this.pinnedNodes = new Set(); // Track pinned nodes
         this.highlightedNode = null; // Track currently highlighted node
+        this.details = new DetailsPanel();
     }
 
     async loadTree() {
@@ -234,7 +235,7 @@ class TreeVisualizer {
         }).join('')}</ul>`;
     }
 
-    highlightNode(nodeName) {
+    async highlightNode(nodeName) {
         // If the same node is already highlighted, don't do anything
         if (this.highlightedNode === nodeName) {
             return;
@@ -251,19 +252,16 @@ class TreeVisualizer {
             }
         }
 
-        // Store currently highlighted node
+        // Store new highlighted node
         this.highlightedNode = nodeName;
 
-        // Add new highlight
-        const nodeId = this.nodeElements.get(nodeName);
-        if (nodeId) {
-            const element = document.getElementById(nodeId);
+        if (nodeName) {
+            // Find and highlight new node
+            const element = document.getElementById(`tree-node-${nodeName}`);
             if (element) {
                 const color = this.colorMap.get(nodeName);
                 if (color) {
-                    // Create a lighter version of the color for the background
                     const bgColor = `hsla(${color.h}, ${Math.min(color.s + 10, 100)}%, ${Math.min(color.l + 25, 95)}%, 0.2)`;
-                    // Use the shared text color calculation
                     const textColor = this.getTextColor(color);
                     
                     element.classList.add('highlighted');
@@ -272,11 +270,37 @@ class TreeVisualizer {
                     if (span) {
                         span.style.color = textColor;
                     }
-                } else {
-                    element.classList.add('highlighted');
                 }
-                // Only scroll into view when the highlighted node actually changes
-                element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+                // Scroll node into view
+                const treePanel = document.getElementById('tree-panel');
+                if (treePanel) {
+                    // Expand all parent <ul> elements to ensure the node is visible
+                    let parent = element.parentElement;
+                    while (parent && parent !== treePanel) {
+                        if (parent.tagName === 'UL') {
+                            parent.style.display = 'block';
+                        }
+                        parent = parent.parentElement;
+                    }
+
+                    // Get the element's position relative to the tree panel
+                    const elementRect = element.getBoundingClientRect();
+                    const treePanelRect = treePanel.getBoundingClientRect();
+                    
+                    // Calculate relative position and adjust scroll
+                    const relativeTop = elementRect.top - treePanelRect.top + treePanel.scrollTop;
+                    const targetScroll = relativeTop - (treePanelRect.height / 2) + (elementRect.height / 2);
+                    
+                    // Smooth scroll to position
+                    treePanel.scrollTo({
+                        top: Math.max(0, targetScroll),
+                        behavior: 'smooth'
+                    });
+                }
+
+                // Show virtue details
+                this.details.showVirtue(nodeName);
             }
         }
     }

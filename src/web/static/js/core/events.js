@@ -59,6 +59,8 @@ export class EventHandler {
             if (point !== this.renderer.hoveredPoint) {
                 this.renderer.hoveredPoint = point;
                 this.canvas.style.cursor = point ? 'pointer' : 'grab';
+                // Emit hover event
+                this.renderer.emit('pointsChanged', { type: 'hover', point });
                 this.renderer.render();
             }
         }

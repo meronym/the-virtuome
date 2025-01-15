@@ -2,6 +2,7 @@ from flask import Flask, send_from_directory, jsonify, make_response, send_file
 from flask_cors import CORS
 import os
 import argparse
+import yaml  # Add PyYAML import
 
 # Add argument parser
 parser = argparse.ArgumentParser(description='Start the Flask server with a specific data version')
@@ -99,6 +100,25 @@ def serve_cluster_data(version, provider, projection_type, filename):
         return send_file(path)
     else:
         return f'Cluster data not found at {path}', 404
+
+# Serve virtue metadata
+@app.route('/data/virtue/<virtue_id>/metadata')
+def serve_virtue_metadata(virtue_id):
+    try:
+        # Ensure no directory traversal
+        if '..' in virtue_id or '/' in virtue_id:
+            return jsonify({'error': 'Invalid virtue ID'}), 400
+            
+        metadata_path = os.path.join(RAW_DATA_DIR, f"{virtue_id}.meta.yaml")
+        if not os.path.exists(metadata_path):
+            return jsonify({'error': 'Virtue metadata not found'}), 404
+            
+        with open(metadata_path, 'r') as f:
+            metadata = yaml.safe_load(f)
+            
+        return jsonify(metadata)
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
     # Ensure data directories exist
