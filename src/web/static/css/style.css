@@ -112,6 +112,34 @@ select {
     color: var(--text-color);
 }
 
+.clustering-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.clustering-controls input {
+    width: 80px;
+    padding: 0.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background: var(--details-bg);
+    color: var(--text-color);
+}
+
+.clustering-controls button {
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background: var(--details-bg);
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.clustering-controls button:hover {
+    background: var(--tree-hover-bg);
+}
+
 main {
     flex: 1;
     position: relative;

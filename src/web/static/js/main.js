@@ -51,6 +51,9 @@ class App {
         this.typeSelect = document.getElementById('projection');
         this.variantSelect = document.getElementById('variant');
         this.zoomInfo = document.getElementById('zoom-info');
+        this.fooInput = document.getElementById('foo');
+        this.barInput = document.getElementById('bar');
+        this.generateClustersButton = document.getElementById('generate-clusters');
         
         // Setup event listeners
         this.providerSelect.addEventListener('change', () => {
@@ -67,6 +70,11 @@ class App {
         this.variantSelect.addEventListener('change', () => {
             this.state.setVariant(this.variantSelect.value);
             this.loadCurrentDataset();
+        });
+
+        // Setup clustering controls
+        this.generateClustersButton.addEventListener('click', () => {
+            this.generateClusters();
         });
     }
     
@@ -232,6 +240,46 @@ class App {
         const clusterToggle = document.getElementById('show-clusters');
         clusterToggle.parentElement.style.display = clusters ? 'block' : 'none';
         clusterToggle.checked = false;
+    }
+
+    async generateClusters() {
+        const { provider } = this.state.getState();
+        const foo = parseFloat(this.fooInput.value);
+        const bar = parseFloat(this.barInput.value);
+
+        try {
+            const response = await fetch('/api/cluster', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    provider,
+                    foo,
+                    bar
+                })
+            });
+
+            if (!response.ok) {
+                throw new Error('Failed to generate clusters');
+            }
+
+            const clusters = await response.json();
+            
+            // Update visualization with new clusters
+            this.renderer.setData(this.renderer.points, clusters);
+            
+            // Show clusters
+            const clusterToggle = document.getElementById('show-clusters');
+            if (clusterToggle) {
+                clusterToggle.parentElement.style.display = 'block';
+                clusterToggle.checked = true;
+            }
+            this.renderer.toggleClusters(true);
+        } catch (error) {
+            console.error('Failed to generate clusters:', error);
+            this.showError('Failed to generate clusters');
+        }
     }
 }
 

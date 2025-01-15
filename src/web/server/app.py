@@ -1,8 +1,9 @@
-from flask import Flask, send_from_directory, jsonify, make_response, send_file
+from flask import Flask, send_from_directory, jsonify, make_response, send_file, request
 from flask_cors import CORS
 import os
 import argparse
 import yaml  # Add PyYAML import
+import json
 
 # Add argument parser
 parser = argparse.ArgumentParser(description='Start the Flask server with a specific data version')
@@ -117,6 +118,40 @@ def serve_virtue_metadata(virtue_id):
             metadata = yaml.safe_load(f)
             
         return jsonify(metadata)
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+# Dynamic clustering endpoint
+@app.route('/api/cluster', methods=['POST'])
+def generate_clusters():
+    try:
+        # Get parameters from request
+        data = request.get_json()
+        provider = data.get('provider')
+        foo = float(data.get('foo', 0))
+        bar = float(data.get('bar', 0))
+        
+        # Get the current points from the provider's data
+        provider_dir = os.path.join(DATA_DIR, provider)
+        with open(os.path.join(provider_dir, 'pca', 'pca.json'), 'r') as f:
+            points_data = json.load(f)
+            
+        # Randomly assign points to 10 clusters (0-9)
+        import random
+        NUM_CLUSTERS = 10
+        clusters = {
+            'points': {point_id: {'cluster': random.randint(0, NUM_CLUSTERS-1)}
+                      for point_id in points_data['points'].keys()},
+            'metadata': {
+                'num_clusters': NUM_CLUSTERS,
+                'params': {
+                    'foo': foo,
+                    'bar': bar
+                }
+            }
+        }
+        
+        return jsonify(clusters)
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
