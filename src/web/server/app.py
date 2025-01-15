@@ -271,6 +271,50 @@ def generate_clusters():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
+# Generate UMAP projection dynamically
+@app.route('/api/generate_umap', methods=['POST'])
+def generate_umap():
+    try:
+        # Get parameters from request
+        data = request.get_json()
+        if not data:
+            return jsonify({'error': 'No JSON data provided'}), 400
+            
+        provider = data.get('provider')
+        if not provider:
+            return jsonify({'error': 'Provider parameter is required'}), 400
+            
+        umap_n = int(data.get('umap_n', 10))
+        umap_d = float(data.get('umap_d', 0.1))
+        
+        # Load embeddings
+        identifiers, embeddings = load_embeddings(args.version, provider)
+        
+        # Generate UMAP
+        coords = reduce_dimensions_umap(
+            embeddings,
+            n_neighbors=umap_n,
+            min_dist=umap_d
+        )
+        
+        # Format response
+        points = {}
+        for idx, identifier in enumerate(identifiers):
+            points[identifier] = {
+                'x': float(coords[idx, 0]),
+                'y': float(coords[idx, 1])
+            }
+            
+        response = {
+            'points': points,
+            'version': args.version
+        }
+        
+        return jsonify(response)
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
 if __name__ == '__main__':
     # Ensure data directories exist
     for dir_path in [DATA_DIR, RAW_DATA_DIR]:

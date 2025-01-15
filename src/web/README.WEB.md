@@ -2,17 +2,21 @@
 
 ## Overview
 
-The web visualization system provides an interactive 2D visualization of virtue embeddings from multiple AI providers. It allows users to explore and compare different dimensionality reduction techniques (PCA and UMAP) applied to these embeddings, with detailed virtue content and metadata available through an interactive side panel and enhanced hover labels. The system includes a hierarchical tree visualization that shows the organizational structure of virtues and provides color coordination between the tree and the embedding space.
+The web visualization system provides an interactive 2D visualization of virtue embeddings from multiple AI providers. It features dynamic UMAP dimensionality reduction with configurable parameters, allowing real-time exploration of different embedding projections. The system includes clustering capabilities, detailed virtue content display, and a hierarchical tree visualization that shows the organizational structure of virtues with color coordination between the tree and the embedding space.
 
 ## Core Features
 
 - Interactive 2D canvas visualization
 - Multiple data provider support (Voyage AI, OpenAI, Cohere)
-- Multiple projection types (PCA, UMAP with variants)
-- Dynamic clustering system with:
-  - Real-time UMAP dimensionality reduction
-  - HDBSCAN clustering with configurable parameters
+- Dynamic UMAP projection system with:
+  - Real-time UMAP computation
+  - Configurable parameters (neighbors, min_dist)
   - Interactive parameter controls in dedicated sidebar
+  - Visual feedback during computation
+  - Automatic viewport fitting for new projections
+- Dynamic clustering system with:
+  - HDBSCAN clustering with configurable parameters
+  - Interactive parameter controls
   - Labeled form inputs with descriptive names
   - Visual feedback during computation
   - Cluster statistics display
@@ -60,21 +64,21 @@ The web visualization system provides an interactive 2D visualization of virtue 
 ```
 src/web/
 ├── server/
-│   └── app.py                 # Flask development server with metadata and clustering endpoints
+│   └── app.py                 # Flask development server with UMAP, clustering, and metadata endpoints
 ├── static/
 │   ├── css/
-│   │   └── style.css          # Core styles including clustering UI
+│   │   └── style.css          # Core styles including parameter UI
 │   ├── js/
 │   │   ├── core/              # Core visualization components
 │   │   │   ├── transform.js   # Viewport transformations
 │   │   │   ├── canvas.js      # Canvas rendering with metadata labels
 │   │   │   └── events.js      # Event handling with metadata loading
 │   │   ├── data/              # Data management
-│   │   │   ├── loader.js      # Data and metadata loading/caching
+│   │   │   ├── loader.js      # Dynamic data loading/caching
 │   │   │   ├── details.js     # Details panel with metadata display
 │   │   │   ├── tree.js        # Tree visualization with metadata sync
 │   │   │   └── state.js       # Application state with metadata tracking
-│   │   └── main.js            # Application entry point with clustering logic
+│   │   └── main.js            # Application entry point with parameter handling
 │   └── index.html             # Main HTML template
 └── README.WEB.md              # This documentation
 ```
@@ -83,26 +87,24 @@ src/web/
 
 ### DataLoader (`js/data/loader.js`)
 Manages data loading and caching:
+- Dynamic UMAP generation
 - Dataset metadata loading
-- JSON file caching
-- UMAP variant parsing
-- Provider/projection type management
 - Virtue metadata caching and loading
 - Automatic metadata state management
 - Shared metadata instance across components
 
-### ClusteringSystem (`js/main.js`)
-Manages dynamic clustering functionality:
-- Parameter validation and handling
-- Real-time UMAP and HDBSCAN computation
+### ParameterSystem (`js/main.js`)
+Manages the parameter controls:
+- Provider selection
+- UMAP parameter configuration
+- HDBSCAN parameter configuration
+- Real-time visualization updates
 - Loading state management
-- Cluster visualization updates
-- Statistics display
 - Error handling and recovery
 - Dedicated sidebar interface with:
   - Labeled form inputs
-  - Grouped UMAP/HDBSCAN parameters
-  - Cluster visibility toggle
+  - Grouped parameter sections
+  - Generate buttons for UMAP/clusters
   - Results info display
 
 ### DetailsPanel (`js/data/details.js`)
@@ -136,7 +138,7 @@ Manages the hierarchical tree with:
 
 ### AppState (`js/data/state.js`)
 Manages application state including:
-- Current provider/projection settings
+- Current provider settings
 - Selected and hovered virtue tracking
 - Metadata loading state
 - Event system for metadata updates

@@ -17,8 +17,6 @@ class App {
         this.themeManager = new ThemeManager();
         this.details = new DetailsPanel(this.dataLoader);
         this.currentProvider = null;
-        this.currentProjection = null;
-        this.currentVariant = null;
         
         // Initialize event handler after renderer
         this.events = new EventHandler(this.canvas, this.transform, this.renderer, this.dataLoader);
@@ -37,7 +35,6 @@ class App {
             await this.loadCurrentDataset();
             
             // Update UI
-            this.updateVariantSelect();
             this.updateZoomInfo();
         } catch (error) {
             console.error('Failed to initialize app:', error);
@@ -47,16 +44,14 @@ class App {
     
     setupUI() {
         // Get UI elements
-        this.providerSelect = document.getElementById('provider');
-        this.typeSelect = document.getElementById('projection');
-        this.variantSelect = document.getElementById('variant');
+        this.providerSelect = document.getElementById('provider-select');
+        this.umapNInput = document.getElementById('umap_n');
+        this.umapDInput = document.getElementById('umap_d');
+        this.generateUmapButton = document.getElementById('generate-umap');
         this.zoomInfo = document.getElementById('zoom-info');
-        
-        // Clustering controls
         this.clusteringSidebar = document.getElementById('clustering-sidebar');
-        this.uDimInput = document.getElementById('u_dim');
-        this.uNInput = document.getElementById('u_n');
-        this.uDInput = document.getElementById('u_d');
+        
+        // HDBSCAN controls
         this.hdbsMinClusterSizeInput = document.getElementById('hdbs_min_cluster_size');
         this.hdbsMinSamplesInput = document.getElementById('hdbs_min_samples');
         this.hdbsMethodSelect = document.getElementById('hdbs_method');
@@ -70,36 +65,24 @@ class App {
         
         // Add clustering button to header
         const clusteringBtn = document.createElement('button');
-        clusteringBtn.textContent = 'Clustering';
+        clusteringBtn.textContent = 'Parameters';
         clusteringBtn.classList.add('clustering-toggle');
         clusteringBtn.addEventListener('click', () => this.toggleClusteringSidebar());
         document.getElementById('controls').appendChild(clusteringBtn);
         
-        // Setup event listeners
+        // Provider selection
         this.providerSelect.addEventListener('change', () => {
-            this.state.setProvider(this.providerSelect.value);
             this.loadCurrentDataset();
         });
         
-        this.typeSelect.addEventListener('change', () => {
-            this.state.setType(this.typeSelect.value);
-            this.updateVariantSelect();
-            this.loadCurrentDataset();
+        // UMAP generation
+        this.generateUmapButton.addEventListener('click', async () => {
+            await this.generateUmap();
         });
         
-        this.variantSelect.addEventListener('change', () => {
-            this.state.setVariant(this.variantSelect.value);
-            this.loadCurrentDataset();
-        });
-
-        // Setup clustering controls
-        this.generateClustersButton.addEventListener('click', () => {
-            this.generateClusters();
-        });
-        
-        // Close clustering sidebar on escape key
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape') this.hideClusteringSidebar();
+        // Cluster generation
+        this.generateClustersButton.addEventListener('click', async () => {
+            await this.generateClusters();
         });
     }
     
@@ -151,92 +134,25 @@ class App {
     }
     
     async loadCurrentDataset() {
-        const { provider, type, variant } = this.state.getState();
-        
+        const provider = this.providerSelect.value;
+        await this.loadDataset(provider);
+    }
+    
+    async loadDataset(provider) {
         try {
-            // Strip .json from variant if present
-            const cleanVariant = variant ? variant.replace(/\.json$/, '') : '';
+            const data = await this.dataLoader.loadDataset(provider);
             
-            const data = await this.dataLoader.loadDataset(provider, type, cleanVariant);
-            
-            // Try to load cluster data if available
-            const clusters = await this.dataLoader.loadClusters(
-                provider, 
-                type, 
-                cleanVariant
-            ).catch(() => null);
-            
-            // Update visualization
-            this.renderer.setData(data.points, clusters);
-            
-            // Update cluster toggle visibility
-            const clusterToggle = document.getElementById('show-clusters');
-            if (clusterToggle) {
-                clusterToggle.parentElement.style.display = clusters ? 'block' : 'none';
-                clusterToggle.checked = false;
-            }
+            // Set data in renderer and render
+            this.renderer.setData(data.points);
             
             // Fit points to canvas
             const rect = this.canvas.getBoundingClientRect();
             this.transform.fitPoints(Object.values(data.points), rect.width, rect.height);
+            
+            this.renderer.render();
         } catch (error) {
             console.error('Failed to load dataset:', error);
             this.showError('Failed to load dataset');
-        }
-    }
-    
-    updateVariantSelect() {
-        const { provider, type } = this.state.getState();
-        const variants = this.dataLoader.getAvailableVariants(provider, type);
-        
-        // Clear existing options
-        this.variantSelect.innerHTML = '';
-        
-        if (type === 'umap' && variants.length > 0) {
-            // Add default option
-            const defaultOption = document.createElement('option');
-            defaultOption.value = '';
-            defaultOption.textContent = 'Default';
-            this.variantSelect.appendChild(defaultOption);
-            
-            // Sort variants by N and d
-            const sortedVariants = [...variants].sort((a, b) => {
-                const matchA = a.match(/umap-n(\d+)-d([\d.]+)\.json/);
-                const matchB = b.match(/umap-n(\d+)-d([\d.]+)\.json/);
-                
-                if (!matchA || !matchB) return 0;
-                
-                const nA = parseInt(matchA[1]);
-                const nB = parseInt(matchB[1]);
-                
-                if (nA !== nB) return nA - nB;
-                
-                const dA = parseFloat(matchA[2]);
-                const dB = parseFloat(matchB[2]);
-                return dA - dB;
-            });
-            
-            // Add variant options
-            for (const variant of sortedVariants) {
-                const option = document.createElement('option');
-                option.value = variant;
-                
-                // Parse parameters from filename for display
-                const match = variant.match(/umap-n(\d+)-d([\d.]+)\.json/);
-                if (match) {
-                    const n = match[1];
-                    const d = match[2];  // Use exact value from filename
-                    option.textContent = `n=${n}, d=${d}`;
-                } else {
-                    option.textContent = variant.replace(/\.json$/, '');
-                }
-                
-                this.variantSelect.appendChild(option);
-            }
-            
-            this.variantSelect.disabled = false;
-        } else {
-            this.variantSelect.disabled = true;
         }
     }
     
@@ -257,107 +173,106 @@ class App {
         });
     }
 
-    async loadDataset(provider, projectionType, variant = '') {
-        this.currentProvider = provider;
-        this.currentProjection = projectionType;
-        this.currentVariant = variant;
-
-        const data = await this.dataLoader.loadDataset(provider, projectionType, variant);
-        
-        // Try to load cluster data if available
-        const clusters = await this.dataLoader.loadClusters(
-            provider, 
-            projectionType, 
-            variant
-        ).catch(() => null);
-
-        // Update visualization
-        this.renderer.setData(data.points, clusters);
-        
-        // Update cluster toggle visibility
-        const clusterToggle = document.getElementById('show-clusters');
-        const toggleLabel = clusterToggle.closest('.cluster-toggle');
-        if (toggleLabel) {
-            toggleLabel.style.display = clusters ? 'flex' : 'none';
-            clusterToggle.checked = false;
+    async generateUmap() {
+        try {
+            this.generateUmapButton.classList.add('loading');
+            this.generateUmapButton.disabled = true;
+            
+            const provider = this.providerSelect.value;
+            const umap_n = parseInt(this.umapNInput.value);
+            const umap_d = parseFloat(this.umapDInput.value);
+            
+            const response = await fetch('/api/generate_umap', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    provider,
+                    umap_n,
+                    umap_d
+                })
+            });
+            
+            if (!response.ok) {
+                throw new Error('Failed to generate UMAP');
+            }
+            
+            const data = await response.json();
+            
+            // Update the data loader and renderer
+            this.dataLoader.setCurrentData(data);
+            this.renderer.setData(data.points);
+            
+            // Fit points to canvas
+            const rect = this.canvas.getBoundingClientRect();
+            this.transform.fitPoints(Object.values(data.points), rect.width, rect.height);
+            
+            this.renderer.render();
+            
+        } catch (error) {
+            console.error('Failed to generate UMAP:', error);
+            this.showError('Failed to generate UMAP projection');
+        } finally {
+            this.generateUmapButton.classList.remove('loading');
+            this.generateUmapButton.disabled = false;
         }
     }
 
     async generateClusters() {
-        const { provider } = this.state.getState();
-        
-        // Get all parameter values
-        const params = {
-            u_dim: parseInt(this.uDimInput.value),
-            u_n: parseInt(this.uNInput.value),
-            u_d: parseFloat(this.uDInput.value),
-            hdbs_min_cluster_size: parseInt(this.hdbsMinClusterSizeInput.value),
-            hdbs_min_samples: parseInt(this.hdbsMinSamplesInput.value),
-            hdbs_method: this.hdbsMethodSelect.value,
-            hdbs_epsilon: parseFloat(this.hdbsEpsilonInput.value)
-        };
-
-        // Validate parameters
-        if (params.u_dim < 1 || params.u_n < 1 || params.u_d < 0 ||
-            params.hdbs_min_cluster_size < 1 || params.hdbs_min_samples < 1 ||
-            params.hdbs_epsilon < 0) {
-            this.showError('Invalid parameter values');
-            return;
-        }
-
-        // Clear previous info
-        this.clusterInfo.textContent = '';
-
-        // Disable all inputs and show loading state
-        const inputs = [
-            this.uDimInput, this.uNInput, this.uDInput,
-            this.hdbsMinClusterSizeInput, this.hdbsMinSamplesInput,
-            this.hdbsMethodSelect, this.hdbsEpsilonInput
-        ];
-        inputs.forEach(input => input.disabled = true);
-        this.generateClustersButton.disabled = true;
-        this.generateClustersButton.classList.add('loading');
-
         try {
+            // Disable inputs and show loading state
+            this.generateClustersButton.classList.add('loading');
+            this.generateClustersButton.disabled = true;
+            this.clusterInfo.textContent = '';
+            
+            const provider = this.providerSelect.value;
+            const params = {
+                provider,
+                u_dim: 2,  // We're always using 2D for visualization
+                u_n: parseInt(this.umapNInput.value),
+                u_d: parseFloat(this.umapDInput.value),
+                hdbs_min_cluster_size: parseInt(this.hdbsMinClusterSizeInput.value),
+                hdbs_min_samples: parseInt(this.hdbsMinSamplesInput.value),
+                hdbs_method: this.hdbsMethodSelect.value,
+                hdbs_epsilon: parseFloat(this.hdbsEpsilonInput.value)
+            };
+            
             const response = await fetch('/api/cluster', {
                 method: 'POST',
                 headers: {
-                    'Content-Type': 'application/json',
+                    'Content-Type': 'application/json'
                 },
-                body: JSON.stringify({
-                    provider,
-                    ...params
-                })
+                body: JSON.stringify(params)
             });
-
+            
             if (!response.ok) {
                 throw new Error('Failed to generate clusters');
             }
-
+            
             const clusters = await response.json();
             
             // Update visualization with new clusters
             this.renderer.setData(this.renderer.points, clusters);
             
             // Show clusters
-            const clusterToggle = document.getElementById('show-clusters');
-            if (clusterToggle) {
-                clusterToggle.parentElement.style.display = 'block';
-                clusterToggle.checked = true;
+            const showClustersCheckbox = document.getElementById('show-clusters');
+            if (showClustersCheckbox) {
+                showClustersCheckbox.parentElement.style.display = 'block';
+                showClustersCheckbox.checked = true;
             }
             this.renderer.toggleClusters(true);
-
+            
             // Update info box
             this.clusterInfo.textContent = `Found ${clusters.metadata.num_clusters} clusters, ${clusters.metadata.noise_points} noise points`;
+            
         } catch (error) {
             console.error('Failed to generate clusters:', error);
             this.showError('Failed to generate clusters');
             this.clusterInfo.textContent = 'Clustering failed';
         } finally {
-            // Re-enable all inputs and remove loading state
-            inputs.forEach(input => input.disabled = false);
-            this.generateClustersButton.disabled = false;
             this.generateClustersButton.classList.remove('loading');
+            this.generateClustersButton.disabled = false;
         }
     }
 }
