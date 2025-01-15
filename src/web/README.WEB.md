@@ -9,9 +9,16 @@ The web visualization system provides an interactive 2D visualization of virtue 
 - Interactive 2D canvas visualization
 - Multiple data provider support (Voyage AI, OpenAI, Cohere)
 - Multiple projection types (PCA, UMAP with variants)
+- HDBSCAN clustering visualization with:
+  - Distinct cluster colors
+  - Noise point identification
+  - Toggle between cluster and tree-based coloring
 - Pan and zoom navigation
 - Point selection and hover effects with visual feedback
-- Point identification labels on hover
+- Theme-aware point labels with:
+  - System font rendering
+  - Light/dark mode adaptation
+  - Rounded corners and subtle shadows
 - Detailed virtue content display in sliding panel
 - Hierarchical tree visualization with color coordination
 - Symmetrical interaction between tree and canvas
@@ -92,11 +99,20 @@ Key features:
     - Darker border of the same hue
     - Subtle outer ring
   - Pin-highlighted: Subtle halo effect showing hierarchical relationships
+  - Cluster mode: Distinct colors per cluster with noise point identification
+- Theme-aware labels with:
+  - System font stack
+  - Dark/light mode adaptation
+  - Rounded corners and shadows
+  - Optimal contrast and readability
 - High DPI support
 - Automatic resize handling
 - Event emission for state changes
-- Three-pass rendering for optimal visual hierarchy
-- Color coordination with tree hierarchy
+- Three-pass rendering for optimal visual hierarchy:
+  1. Halos for pinned nodes
+  2. Point bodies
+  3. Hover labels (always on top)
+- Color coordination with tree hierarchy or cluster assignment
 - Interactive point selection with tree synchronization
 
 #### EventHandler (`js/core/events.js`)
@@ -230,7 +246,9 @@ data/
 │   ├── voyage/
 │   │   ├── embeddings/
 │   │   ├── pca/
-│   │   └── umap/
+│   │   ├── umap/
+│   │   │   └── clusters/  # HDBSCAN clustering results
+│   │   │       └── hdbscan-umap-*.json
 │   ├── openai/
 │   └── cohere/
 └── raw/v1/                # Raw virtue content
@@ -286,6 +304,29 @@ category: Category
 
 # Detailed content in markdown format
 ```
+
+### Cluster Data Format
+The `hdbscan-*.json` files contain clustering results:
+
+```json
+{
+  "points": {
+    "virtue-id": {
+      "cluster": 0  // -1 for noise points
+    }
+  },
+  "metadata": {
+    "num_clusters": 5,
+    "noise_points": 10
+  }
+}
+```
+
+This format enables:
+- Distinct visualization of clusters
+- Identification of noise points
+- Cluster statistics tracking
+- Toggle between cluster and tree-based coloring
 
 ## Implementation Details
 
