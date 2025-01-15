@@ -1,162 +1,134 @@
 // Details panel manager
 export class DetailsPanel {
     constructor(dataLoader) {
-        this.panel = document.getElementById('details');
-        this.content = this.panel.querySelector('.content');
-        this.closeBtn = this.panel.querySelector('.close');
         this.dataLoader = dataLoader;
+        this.panel = document.getElementById('virtue-preview');
+        this.content = this.panel.querySelector('.content');
         
-        this.closeBtn.addEventListener('click', () => this.hide());
-        
-        // Close on escape key
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape') this.hide();
-        });
+        // Initialize state
+        this.currentVirtueId = null;
+        this.isLoading = false;
+        this.isVisible = false;
     }
     
     async showVirtue(virtueId) {
-        console.log('Showing virtue:', virtueId);
+        if (!virtueId) {
+            this.hide();
+            return;
+        }
+        
+        this.currentVirtueId = virtueId;
+        this.show();
+        
         try {
-            // Show loading state
+            this.isLoading = true;
             this.content.innerHTML = '<div class="loading">Loading...</div>';
-            this.show();
             
-            // Load virtue content
-            const response = await fetch(`/data/virtue/${virtueId}`);
-            if (!response.ok) {
-                throw new Error(`Failed to load virtue: ${response.statusText}`);
-            }
-            const data = await response.json();
-            
-            // Extract frontmatter and content
-            const frontmatter = this._extractFrontmatter(data.content);
-            const mainContent = data.content.replace(/^---[\s\S]*?---/, '').trim();
-            
-            // Try to get metadata from cache first, if not available, load it
-            let metadata = this.dataLoader.getMetadata(virtueId);
+            const metadata = await this.dataLoader.loadVirtueMetadata(virtueId);
             if (!metadata) {
-                metadata = await this.dataLoader.loadVirtueMetadata(virtueId);
+                throw new Error('Failed to load virtue metadata');
             }
             
-            // Format the content with metadata
-            this.content.innerHTML = `
-                <div class="virtue-header">
-                    <h1>${metadata?.title || frontmatter.virtue || virtueId}</h1>
-                    ${metadata?.tradition ? `<h2 class="tradition">${metadata.tradition}</h2>` : ''}
-                </div>
-                <div class="virtue-metadata">
-                    ${metadata?.definition ? `
-                        <div class="definition">
-                            <h3>Definition</h3>
-                            <p>${metadata.definition}</p>
-                        </div>
-                    ` : ''}
-                    ${metadata?.key_aspects?.length ? `
-                        <div class="key-aspects">
-                            <h3>Key Aspects</h3>
-                            <ul>
-                                ${metadata.key_aspects.map(aspect => `<li>${aspect}</li>`).join('')}
-                            </ul>
-                        </div>
-                    ` : ''}
-                </div>
-                <div class="virtue-content">
-                    ${this._formatContent(mainContent)}
-                </div>
-            `;
-            
-            // Add styles if not already present
-            if (!document.querySelector('#details-panel-styles')) {
-                const styles = document.createElement('style');
-                styles.id = 'details-panel-styles';
-                styles.textContent = `
-                    .virtue-header { margin-bottom: 1.5rem; }
-                    .virtue-header h1 { margin-bottom: 0.5rem; }
-                    .virtue-header .tradition { 
-                        color: var(--text-muted);
-                        font-weight: normal;
-                        margin-top: 0;
-                    }
-                    .virtue-metadata {
-                        background: var(--bg-subtle);
-                        border-radius: 8px;
-                        padding: 1rem;
-                        margin-bottom: 1.5rem;
-                    }
-                    .virtue-metadata h3 {
-                        font-size: 1rem;
-                        margin: 0 0 0.5rem 0;
-                    }
-                    .virtue-metadata .definition {
-                        margin-bottom: 1rem;
-                    }
-                    .virtue-metadata .definition p {
-                        margin: 0;
-                    }
-                    .virtue-metadata .key-aspects ul {
-                        margin: 0;
-                        padding-left: 1.5rem;
-                    }
-                    .virtue-metadata .key-aspects li {
-                        margin: 0.25rem 0;
-                    }
-                `;
-                document.head.appendChild(styles);
+            // Only update if this is still the current virtue
+            if (this.currentVirtueId === virtueId) {
+                this.renderVirtue(metadata);
             }
-            
         } catch (error) {
-            console.error('Error loading virtue:', error);
+            console.error('Failed to load virtue details:', error);
             this.content.innerHTML = `
                 <div class="error">
-                    <h3>Error Loading Virtue Data</h3>
-                    <p>${error.message}</p>
+                    <h3>Error</h3>
+                    <p>Failed to load virtue details</p>
                 </div>
             `;
+        } finally {
+            this.isLoading = false;
         }
     }
     
-    _extractFrontmatter(content) {
-        const match = content.match(/^---([\s\S]*?)---/);
-        if (!match) return {};
+    renderVirtue(metadata) {
+        const content = `
+            <div class="virtue-header">
+                <h1>${metadata.name}</h1>
+                <h2>${metadata.tradition}</h2>
+            </div>
+            <div class="virtue-content">
+                <h2>Definition</h2>
+                <p>${metadata.definition}</p>
+                ${this.renderKeyAspects(metadata)}
+                ${this.renderHistoricalDevelopment(metadata)}
+                ${this.renderContemporaryRelevance(metadata)}
+                ${this.renderNotableQuotes(metadata)}
+                ${this.renderRelatedPractices(metadata)}
+            </div>
+        `;
         
-        const frontmatter = {};
-        const lines = match[1].trim().split('\n');
-        
-        for (const line of lines) {
-            const [key, ...valueParts] = line.split(':');
-            if (key && valueParts.length) {
-                frontmatter[key.trim()] = valueParts.join(':').trim();
-            }
-        }
-        
-        return frontmatter;
+        this.content.innerHTML = content;
     }
     
-    _formatContent(content) {
-        return content
-            // Headers
-            .replace(/^# (.*$)/gm, '<h1>$1</h1>')
-            .replace(/^## (.*$)/gm, '<h2>$1</h2>')
-            .replace(/^### (.*$)/gm, '<h3>$1</h3>')
-            // Lists
-            .replace(/^\* (.*$)/gm, '<li>$1</li>')
-            .replace(/^- (.*$)/gm, '<li>$1</li>')
-            .replace(/(<li>.*<\/li>\n?)+/g, '<ul>$&</ul>')
-            // Paragraphs
-            .replace(/\n\n/g, '</p><p>')
-            .replace(/^(?!<[hpul])/gm, '<p>')
-            .replace(/([^>])$/gm, '$1</p>')
-            // Clean up
-            .replace(/<p>\s*<\/p>/g, '');
+    renderKeyAspects(metadata) {
+        if (!metadata.key_aspects?.length) return '';
+        
+        return `
+            <h2>Key Aspects</h2>
+            <ul>
+                ${metadata.key_aspects.map(aspect => `<li>${aspect}</li>`).join('')}
+            </ul>
+        `;
+    }
+    
+    renderHistoricalDevelopment(metadata) {
+        if (!metadata.historical_development) return '';
+        
+        return `
+            <h2>Historical Development</h2>
+            <p>${metadata.historical_development}</p>
+        `;
+    }
+    
+    renderContemporaryRelevance(metadata) {
+        if (!metadata.contemporary_relevance) return '';
+        
+        return `
+            <h2>Contemporary Relevance</h2>
+            <p>${metadata.contemporary_relevance}</p>
+        `;
+    }
+    
+    renderNotableQuotes(metadata) {
+        if (!metadata.notable_quotes?.length) return '';
+        
+        return `
+            <h2>Notable Quotes</h2>
+            <ul>
+                ${metadata.notable_quotes.map(quote => `<li>${quote}</li>`).join('')}
+            </ul>
+        `;
+    }
+    
+    renderRelatedPractices(metadata) {
+        if (!metadata.related_practices?.length) return '';
+        
+        return `
+            <h2>Related Practices</h2>
+            <ul>
+                ${metadata.related_practices.map(practice => `<li>${practice}</li>`).join('')}
+            </ul>
+        `;
     }
     
     show() {
-        console.log('Showing details panel'); // Debug log
-        this.panel.classList.add('visible');
+        if (!this.isVisible) {
+            this.panel.classList.remove('hidden');
+            this.isVisible = true;
+        }
     }
     
     hide() {
-        console.log('Hiding details panel'); // Debug log
-        this.panel.classList.remove('visible');
+        if (this.isVisible) {
+            this.panel.classList.add('hidden');
+            this.isVisible = false;
+            this.currentVirtueId = null;
+        }
     }
 } 

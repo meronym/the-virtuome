@@ -122,35 +122,39 @@ select {
 
 .clustering-controls .param-group {
     display: flex;
-    align-items: center;
-    gap: 0.5rem;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background: var(--bg-color);
+}
+
+.clustering-controls .param-group > label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 0.25rem;
+}
+
+.clustering-controls .input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.clustering-controls .input-group label {
+    font-size: 0.8rem;
+    color: var(--text-color-secondary);
+}
+
+.clustering-controls input,
+.clustering-controls select {
+    width: 100%;
     padding: 0.5rem;
     border: 1px solid var(--border-color);
     border-radius: 4px;
-    background: var(--details-bg);
-}
-
-.clustering-controls .param-group label {
-    font-size: 0.8rem;
-    color: var(--text-color-secondary);
-    margin-right: 0.5rem;
-}
-
-.clustering-controls input {
-    width: 60px;
-    padding: 0.25rem 0.5rem;
-    border: 1px solid var(--border-color);
-    border-radius: 4px;
-    background: var(--details-bg);
-    color: var(--text-color);
-    font-size: 0.9rem;
-}
-
-.clustering-controls select {
-    padding: 0.25rem 0.5rem;
-    border: 1px solid var(--border-color);
-    border-radius: 4px;
-    background: var(--details-bg);
+    background: var(--bg-color);
     color: var(--text-color);
     font-size: 0.9rem;
 }
@@ -217,14 +221,170 @@ main {
     flex: 1;
     position: relative;
     overflow: hidden;
-    margin-left: 300px;
+}
+
+#left-panel {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-color);
+    border-right: 1px solid var(--border-color);
+    z-index: 1;
+}
+
+#virtue-preview {
+    padding: 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+    background: var(--header-bg);
+    overflow-y: auto;
+    max-height: 40vh;
+}
+
+#virtue-preview.hidden {
+    display: none;
+}
+
+#virtue-preview .content {
+    line-height: 1.6;
+}
+
+#virtue-preview h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+#virtue-preview h2 {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    color: var(--text-color-secondary);
+}
+
+#virtue-preview p {
+    margin: 0.5rem 0;
+}
+
+#tree-panel {
+    flex: 1;
+    overflow-y: auto;
+    background: var(--tree-bg);
+    padding: 20px;
+    font-size: 14px;
+    scroll-behavior: smooth;
+}
+
+#tree-panel ul {
+    list-style: none;
+    padding-left: 15px;
+    margin: 0;
+}
+
+#tree-panel > ul {
+    padding-left: 0;
+}
+
+#tree-panel li {
+    position: relative;
+    padding: 4px 0;
+    margin: 2px 0;
+    min-height: 24px;
+    opacity: var(--tree-text-opacity);
+}
+
+#tree-panel li span {
+    cursor: pointer;
+    transition: all 0.2s ease;
+    padding: 2px 0;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+#tree-panel li span:hover {
+    color: var(--hover-color, inherit);
+    opacity: var(--tree-text-hover-opacity);
+    filter: brightness(var(--tree-text-hover-brightness));
+}
+
+#tree-panel .color-dot {
+    position: absolute;
+    left: -15px;
+    top: 8px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+}
+
+#tree-panel .color-dot:hover {
+    transform: scale(1.2);
+}
+
+#tree-panel .pin-icon {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    font-size: 10px;
+    line-height: 1;
+    filter: drop-shadow(0 1px 1px rgba(0,0,0,0.3));
+    pointer-events: none;  /* Prevent pin from interfering with dot clicks */
+}
+
+#tree-panel li.highlighted {
+    background-color: var(--tree-hover-bg);
+    opacity: var(--tree-text-selected-opacity);
+}
+
+#tree-panel li.highlighted span {
+    filter: brightness(var(--tree-text-selected-brightness));
+}
+
+/* Add styles for pinned nodes */
+#tree-panel li.pinned {
+    background-color: var(--tree-pinned-bg);
+}
+
+#tree-panel li.pinned-descendant {
+    background-color: var(--tree-pinned-descendant);
+}
+
+/* Ensure highlighted state takes precedence and combines with pinned states */
+#tree-panel li.highlighted.pinned,
+#tree-panel li.highlighted.pinned-descendant {
+    background-color: var(--tree-hover-bg);
+    opacity: var(--tree-text-selected-opacity);
+}
+
+#tree-panel li.highlighted.pinned span,
+#tree-panel li.highlighted.pinned-descendant span {
+    filter: brightness(var(--tree-text-selected-brightness));
+}
+
+/* Adjust spacing for nested lists */
+#tree-panel ul ul {
+    margin: 2px 0 2px 8px;
+}
+
+/* Maintain proper spacing for top-level items */
+#tree-panel > ul > li {
+    margin: 8px 0;
+}
+
+/* Ensure proper text wrapping */
+#tree-panel li span:not(.color-dot) {
+    display: inline-block;
+    padding-left: 4px;
+    max-width: 100%;
 }
 
 #visualization {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
+    left: 300px;
+    right: 0;
     height: 100%;
     cursor: grab;
 }
@@ -411,120 +571,174 @@ main {
     }
 } 
 
-/* Tree Panel Styles */
-#tree-panel {
-    position: fixed;
-    left: 0;
-    top: 60px;
-    bottom: 0;
-    width: 300px;
-    background: var(--tree-bg);
-    border-right: 1px solid var(--border-color);
-    overflow-y: auto;
-    padding: 20px;
-    font-size: 14px;
-    scroll-behavior: smooth;
+#clustering-sidebar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: var(--details-width);
+    height: 100%;
+    background: var(--details-bg);
+    box-shadow: -2px 0 5px var(--details-shadow);
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
 }
 
-#tree-panel ul {
-    list-style: none;
-    padding-left: 15px;
+#clustering-sidebar.visible {
+    transform: translateX(0);
+}
+
+.sidebar-header {
+    padding: 1rem;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar-header h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-color);
     margin: 0;
 }
 
-#tree-panel > ul {
-    padding-left: 0;
+.clustering-controls {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    overflow-y: auto;
 }
 
-#tree-panel li {
-    position: relative;
-    padding: 4px 0;
-    margin: 2px 0;
-    min-height: 24px;
-    opacity: var(--tree-text-opacity);
+.clustering-controls .param-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background: var(--bg-color);
 }
 
-#tree-panel li span {
+.clustering-controls .param-group label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text-color-secondary);
+}
+
+.clustering-controls input,
+.clustering-controls select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-size: 0.9rem;
+}
+
+.clustering-controls .controls-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.clustering-controls button {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background: var(--details-bg);
+    color: var(--text-color);
     cursor: pointer;
-    transition: all 0.2s ease;
-    padding: 2px 0;
-    white-space: normal;
-    word-wrap: break-word;
+    font-weight: 500;
+    transition: background 0.2s ease;
 }
 
-#tree-panel li span:hover {
-    color: var(--hover-color, inherit);
-    opacity: var(--tree-text-hover-opacity);
-    filter: brightness(var(--tree-text-hover-brightness));
+.clustering-controls button:hover {
+    background: var(--tree-hover-bg);
 }
 
-#tree-panel .color-dot {
-    position: absolute;
-    left: -15px;
-    top: 8px;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    transition: all 0.2s ease;
+.cluster-info {
+    font-size: 0.9rem;
+    color: var(--text-color-secondary);
+    text-align: center;
+    padding: 0.5rem;
+    min-height: 1.5rem;
+    border-top: 1px solid var(--border-color);
 }
 
-#tree-panel .color-dot:hover {
-    transform: scale(1.2);
+.close {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.2s ease;
 }
 
-#tree-panel .pin-icon {
-    position: absolute;
-    top: -8px;
-    right: -8px;
-    font-size: 10px;
-    line-height: 1;
-    filter: drop-shadow(0 1px 1px rgba(0,0,0,0.3));
-    pointer-events: none;  /* Prevent pin from interfering with dot clicks */
+.close:hover {
+    opacity: 1;
 }
 
-#tree-panel li.highlighted {
-    background-color: var(--tree-hover-bg);
-    opacity: var(--tree-text-selected-opacity);
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #clustering-sidebar {
+        width: 100%;
+        height: 50%;
+        top: 50%;
+        transform: translateY(100%);
+    }
+    
+    #clustering-sidebar.visible {
+        transform: translateY(0);
+    }
+    
+    #virtue-preview {
+        max-height: 30vh;
+    }
+} 
+
+.clustering-toggle {
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background: var(--details-bg);
+    color: var(--text-color);
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.2s ease;
 }
 
-#tree-panel li.highlighted span {
-    filter: brightness(var(--tree-text-selected-brightness));
+.clustering-toggle:hover {
+    background: var(--tree-hover-bg);
+} 
+
+.cluster-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border-top: 1px solid var(--border-color);
+    color: var(--text-color);
+    font-size: 0.9rem;
+    cursor: pointer;
 }
 
-/* Add styles for pinned nodes */
-#tree-panel li.pinned {
-    background-color: var(--tree-pinned-bg);
+.cluster-toggle input[type="checkbox"] {
+    width: auto;
+    cursor: pointer;
 }
 
-#tree-panel li.pinned-descendant {
-    background-color: var(--tree-pinned-descendant);
-}
-
-/* Ensure highlighted state takes precedence and combines with pinned states */
-#tree-panel li.highlighted.pinned,
-#tree-panel li.highlighted.pinned-descendant {
-    background-color: var(--tree-hover-bg);
-    opacity: var(--tree-text-selected-opacity);
-}
-
-#tree-panel li.highlighted.pinned span,
-#tree-panel li.highlighted.pinned-descendant span {
-    filter: brightness(var(--tree-text-selected-brightness));
-}
-
-/* Adjust spacing for nested lists */
-#tree-panel ul ul {
-    margin: 2px 0 2px 8px;
-}
-
-/* Maintain proper spacing for top-level items */
-#tree-panel > ul > li {
-    margin: 8px 0;
-}
-
-/* Ensure proper text wrapping */
-#tree-panel li span:not(.color-dot) {
-    display: inline-block;
-    padding-left: 4px;
-    max-width: 100%;
+/* Update cluster info to remove border since toggle has it */
+.cluster-info {
+    font-size: 0.9rem;
+    color: var(--text-color-secondary);
+    text-align: center;
+    padding: 0.5rem;
+    min-height: 1.5rem;
 } 

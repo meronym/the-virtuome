@@ -53,6 +53,7 @@ class App {
         this.zoomInfo = document.getElementById('zoom-info');
         
         // Clustering controls
+        this.clusteringSidebar = document.getElementById('clustering-sidebar');
         this.uDimInput = document.getElementById('u_dim');
         this.uNInput = document.getElementById('u_n');
         this.uDInput = document.getElementById('u_d');
@@ -62,6 +63,17 @@ class App {
         this.hdbsEpsilonInput = document.getElementById('hdbs_epsilon');
         this.generateClustersButton = document.getElementById('generate-clusters');
         this.clusterInfo = document.getElementById('cluster-info');
+        
+        // Setup clustering sidebar close button
+        const closeClusteringBtn = this.clusteringSidebar.querySelector('.close');
+        closeClusteringBtn.addEventListener('click', () => this.hideClusteringSidebar());
+        
+        // Add clustering button to header
+        const clusteringBtn = document.createElement('button');
+        clusteringBtn.textContent = 'Clustering';
+        clusteringBtn.classList.add('clustering-toggle');
+        clusteringBtn.addEventListener('click', () => this.toggleClusteringSidebar());
+        document.getElementById('controls').appendChild(clusteringBtn);
         
         // Setup event listeners
         this.providerSelect.addEventListener('change', () => {
@@ -84,6 +96,33 @@ class App {
         this.generateClustersButton.addEventListener('click', () => {
             this.generateClusters();
         });
+        
+        // Close clustering sidebar on escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') this.hideClusteringSidebar();
+        });
+    }
+    
+    toggleClusteringSidebar() {
+        if (this.clusteringSidebar.classList.contains('visible')) {
+            this.hideClusteringSidebar();
+        } else {
+            this.showClusteringSidebar();
+        }
+    }
+    
+    showClusteringSidebar() {
+        this.clusteringSidebar.classList.remove('hidden');
+        setTimeout(() => {
+            this.clusteringSidebar.classList.add('visible');
+        }, 10);
+    }
+    
+    hideClusteringSidebar() {
+        this.clusteringSidebar.classList.remove('visible');
+        setTimeout(() => {
+            this.clusteringSidebar.classList.add('hidden');
+        }, 300); // Match transition duration
     }
     
     setupEventListeners() {
@@ -211,18 +250,9 @@ class App {
     }
     
     setupControls() {
-        // Add cluster toggle control
-        const clusterToggle = document.createElement('div');
-        clusterToggle.className = 'control-group';
-        clusterToggle.innerHTML = `
-            <label>
-                <input type="checkbox" id="show-clusters">
-                Show Clusters
-            </label>
-        `;
-        document.getElementById('controls').appendChild(clusterToggle);
-
-        document.getElementById('show-clusters').addEventListener('change', (e) => {
+        // Setup cluster toggle
+        const showClustersCheckbox = document.getElementById('show-clusters');
+        showClustersCheckbox.addEventListener('change', (e) => {
             this.renderer.toggleClusters(e.target.checked);
         });
     }
@@ -246,8 +276,11 @@ class App {
         
         // Update cluster toggle visibility
         const clusterToggle = document.getElementById('show-clusters');
-        clusterToggle.parentElement.style.display = clusters ? 'block' : 'none';
-        clusterToggle.checked = false;
+        const toggleLabel = clusterToggle.closest('.cluster-toggle');
+        if (toggleLabel) {
+            toggleLabel.style.display = clusters ? 'flex' : 'none';
+            clusterToggle.checked = false;
+        }
     }
 
     async generateClusters() {

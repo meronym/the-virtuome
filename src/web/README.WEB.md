@@ -12,9 +12,11 @@ The web visualization system provides an interactive 2D visualization of virtue 
 - Dynamic clustering system with:
   - Real-time UMAP dimensionality reduction
   - HDBSCAN clustering with configurable parameters
-  - Interactive parameter controls for both algorithms
+  - Interactive parameter controls in dedicated sidebar
+  - Labeled form inputs with descriptive names
   - Visual feedback during computation
   - Cluster statistics display
+  - Toggle for cluster visualization
 - Dynamic virtue metadata loading and display:
   - Automatic metadata fetching on hover and selection
   - Rich hover labels with title, tradition, and description
@@ -35,7 +37,7 @@ The web visualization system provides an interactive 2D visualization of virtue 
   - System font rendering
   - Light/dark mode adaptation
   - Rounded corners and subtle shadows
-- Detailed virtue content display in sliding panel:
+- Detailed virtue content display in left panel preview:
   - Rich metadata presentation (title, tradition, definition)
   - Key aspects and characteristics
   - Full virtue content with formatted text
@@ -97,10 +99,15 @@ Manages dynamic clustering functionality:
 - Cluster visualization updates
 - Statistics display
 - Error handling and recovery
+- Dedicated sidebar interface with:
+  - Labeled form inputs
+  - Grouped UMAP/HDBSCAN parameters
+  - Cluster visibility toggle
+  - Results info display
 
 ### DetailsPanel (`js/data/details.js`)
-Manages the virtue details panel with:
-- Rich metadata display:
+Manages the virtue preview panel with:
+- Rich metadata display in left panel:
   - Title and tradition header
   - Definition section
   - Key aspects list

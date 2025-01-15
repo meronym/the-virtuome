@@ -19,26 +19,6 @@
                 <option value="umap">UMAP</option>
             </select>
             <select id="variant" disabled></select>
-            <div class="clustering-controls">
-                <div class="param-group">
-                    <label>UMAP</label>
-                    <input type="number" id="u_dim" placeholder="dim" value="2" min="1" step="1">
-                    <input type="number" id="u_n" placeholder="n" value="10" min="1" step="1">
-                    <input type="number" id="u_d" placeholder="d" value="0.1" min="0" step="0.1">
-                </div>
-                <div class="param-group">
-                    <label>HDBSCAN</label>
-                    <input type="number" id="hdbs_min_cluster_size" placeholder="min cluster size" value="5" min="1" step="1">
-                    <input type="number" id="hdbs_min_samples" placeholder="min samples" value="3" min="1" step="1">
-                    <select id="hdbs_method">
-                        <option value="leaf">leaf</option>
-                        <option value="eom">eom</option>
-                    </select>
-                    <input type="number" id="hdbs_epsilon" placeholder="epsilon" value="0.0" min="0" step="0.1">
-                </div>
-                <button id="generate-clusters">Generate Clusters</button>
-                <div id="cluster-info" class="cluster-info"></div>
-            </div>
             <div class="theme-switch">
                 <button id="theme-toggle" aria-label="Toggle dark mode">
                     <span class="theme-icon">🌞</span>
@@ -48,11 +28,65 @@
         </header>
         
         <main>
-            <div id="tree-panel"></div>
+            <div id="left-panel">
+                <div id="virtue-preview" class="hidden">
+                    <div class="content"></div>
+                </div>
+                <div id="tree-panel"></div>
+            </div>
             <canvas id="visualization"></canvas>
-            <aside id="details" class="hidden">
-                <div class="content"></div>
-                <button class="close">&times;</button>
+            <aside id="clustering-sidebar" class="hidden">
+                <div class="sidebar-header">
+                    <h3>Clustering Parameters</h3>
+                    <button class="close" aria-label="Close clustering panel">&times;</button>
+                </div>
+                <div class="clustering-controls">
+                    <div class="param-group">
+                        <label>UMAP</label>
+                        <div class="input-group">
+                            <label for="u_dim">Dimensions</label>
+                            <input type="number" id="u_dim" value="2" min="1" step="1">
+                        </div>
+                        <div class="input-group">
+                            <label for="u_n">Neighbors</label>
+                            <input type="number" id="u_n" value="10" min="1" step="1">
+                        </div>
+                        <div class="input-group">
+                            <label for="u_d">Min Distance</label>
+                            <input type="number" id="u_d" value="0.1" min="0" step="0.1">
+                        </div>
+                    </div>
+                    <div class="param-group">
+                        <label>HDBSCAN</label>
+                        <div class="input-group">
+                            <label for="hdbs_min_cluster_size">Min Cluster Size</label>
+                            <input type="number" id="hdbs_min_cluster_size" value="5" min="1" step="1">
+                        </div>
+                        <div class="input-group">
+                            <label for="hdbs_min_samples">Min Samples</label>
+                            <input type="number" id="hdbs_min_samples" value="3" min="1" step="1">
+                        </div>
+                        <div class="input-group">
+                            <label for="hdbs_method">Method</label>
+                            <select id="hdbs_method">
+                                <option value="leaf">leaf</option>
+                                <option value="eom">eom</option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <label for="hdbs_epsilon">Epsilon</label>
+                            <input type="number" id="hdbs_epsilon" value="0.0" min="0" step="0.1">
+                        </div>
+                    </div>
+                    <div class="controls-footer">
+                        <button id="generate-clusters">Generate Clusters</button>
+                        <div id="cluster-info" class="cluster-info"></div>
+                        <label class="cluster-toggle">
+                            <input type="checkbox" id="show-clusters">
+                            Show Clusters
+                        </label>
+                    </div>
+                </div>
             </aside>
         </main>
     </div>
@@ -66,7 +100,7 @@
             
             // Listen for point selection changes
             const canvas = document.getElementById('visualization');
-            const renderer = canvas.__renderer; // Access the renderer instance
+            const renderer = canvas.__renderer;
             
             if (renderer) {
                 renderer.on('pointsChanged', ({ type, point }) => {
