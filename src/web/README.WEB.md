@@ -9,6 +9,12 @@ The web visualization system provides an interactive 2D visualization of virtue 
 - Interactive 2D canvas visualization
 - Multiple data provider support (Voyage AI, OpenAI, Cohere)
 - Multiple projection types (PCA, UMAP with variants)
+- Dynamic clustering system with:
+  - Real-time UMAP dimensionality reduction
+  - HDBSCAN clustering with configurable parameters
+  - Interactive parameter controls for both algorithms
+  - Visual feedback during computation
+  - Cluster statistics display
 - Dynamic virtue metadata loading and display:
   - Automatic metadata fetching on hover and selection
   - Rich hover labels with title, tradition, and description
@@ -20,6 +26,7 @@ The web visualization system provides an interactive 2D visualization of virtue 
   - Noise point identification (excluded from cluster visualization)
   - Dynamic cluster size scaling with zoom level
   - Toggle between cluster and tree-based coloring
+  - Real-time cluster generation with custom parameters
 - Pan and zoom navigation
 - Point selection and hover effects with visual feedback
 - Theme-aware point labels with:
@@ -51,10 +58,10 @@ The web visualization system provides an interactive 2D visualization of virtue 
 ```
 src/web/
 ├── server/
-│   └── app.py                 # Flask development server with metadata endpoints
+│   └── app.py                 # Flask development server with metadata and clustering endpoints
 ├── static/
 │   ├── css/
-│   │   └── style.css          # Core styles
+│   │   └── style.css          # Core styles including clustering UI
 │   ├── js/
 │   │   ├── core/              # Core visualization components
 │   │   │   ├── transform.js   # Viewport transformations
@@ -65,7 +72,7 @@ src/web/
 │   │   │   ├── details.js     # Details panel with metadata display
 │   │   │   ├── tree.js        # Tree visualization with metadata sync
 │   │   │   └── state.js       # Application state with metadata tracking
-│   │   └── main.js            # Application entry point
+│   │   └── main.js            # Application entry point with clustering logic
 │   └── index.html             # Main HTML template
 └── README.WEB.md              # This documentation
 ```
@@ -81,6 +88,15 @@ Manages data loading and caching:
 - Virtue metadata caching and loading
 - Automatic metadata state management
 - Shared metadata instance across components
+
+### ClusteringSystem (`js/main.js`)
+Manages dynamic clustering functionality:
+- Parameter validation and handling
+- Real-time UMAP and HDBSCAN computation
+- Loading state management
+- Cluster visualization updates
+- Statistics display
+- Error handling and recovery
 
 ### DetailsPanel (`js/data/details.js`)
 Manages the virtue details panel with:

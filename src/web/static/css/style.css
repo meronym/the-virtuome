@@ -115,16 +115,44 @@ select {
 .clustering-controls {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 0.5rem;
 }
 
-.clustering-controls input {
-    width: 80px;
+.clustering-controls .param-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
     padding: 0.5rem;
     border: 1px solid var(--border-color);
     border-radius: 4px;
     background: var(--details-bg);
+}
+
+.clustering-controls .param-group label {
+    font-size: 0.8rem;
+    color: var(--text-color-secondary);
+    margin-right: 0.5rem;
+}
+
+.clustering-controls input {
+    width: 60px;
+    padding: 0.25rem 0.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background: var(--details-bg);
     color: var(--text-color);
+    font-size: 0.9rem;
+}
+
+.clustering-controls select {
+    padding: 0.25rem 0.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background: var(--details-bg);
+    color: var(--text-color);
+    font-size: 0.9rem;
 }
 
 .clustering-controls button {
@@ -162,6 +190,18 @@ select {
     border-right-color: transparent;
     border-radius: 50%;
     animation: button-loading-spinner 0.75s linear infinite;
+}
+
+.cluster-info {
+    font-size: 0.9rem;
+    color: var(--text-color-secondary);
+    padding: 0.5rem;
+    border-left: 2px solid var(--border-color);
+    min-width: 150px;
+}
+
+.cluster-info:empty {
+    display: none;
 }
 
 @keyframes button-loading-spinner {

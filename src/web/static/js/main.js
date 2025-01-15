@@ -51,9 +51,17 @@ class App {
         this.typeSelect = document.getElementById('projection');
         this.variantSelect = document.getElementById('variant');
         this.zoomInfo = document.getElementById('zoom-info');
-        this.fooInput = document.getElementById('foo');
-        this.barInput = document.getElementById('bar');
+        
+        // Clustering controls
+        this.uDimInput = document.getElementById('u_dim');
+        this.uNInput = document.getElementById('u_n');
+        this.uDInput = document.getElementById('u_d');
+        this.hdbsMinClusterSizeInput = document.getElementById('hdbs_min_cluster_size');
+        this.hdbsMinSamplesInput = document.getElementById('hdbs_min_samples');
+        this.hdbsMethodSelect = document.getElementById('hdbs_method');
+        this.hdbsEpsilonInput = document.getElementById('hdbs_epsilon');
         this.generateClustersButton = document.getElementById('generate-clusters');
+        this.clusterInfo = document.getElementById('cluster-info');
         
         // Setup event listeners
         this.providerSelect.addEventListener('change', () => {
@@ -244,12 +252,36 @@ class App {
 
     async generateClusters() {
         const { provider } = this.state.getState();
-        const foo = parseFloat(this.fooInput.value);
-        const bar = parseFloat(this.barInput.value);
+        
+        // Get all parameter values
+        const params = {
+            u_dim: parseInt(this.uDimInput.value),
+            u_n: parseInt(this.uNInput.value),
+            u_d: parseFloat(this.uDInput.value),
+            hdbs_min_cluster_size: parseInt(this.hdbsMinClusterSizeInput.value),
+            hdbs_min_samples: parseInt(this.hdbsMinSamplesInput.value),
+            hdbs_method: this.hdbsMethodSelect.value,
+            hdbs_epsilon: parseFloat(this.hdbsEpsilonInput.value)
+        };
 
-        // Disable inputs and show loading state
-        this.fooInput.disabled = true;
-        this.barInput.disabled = true;
+        // Validate parameters
+        if (params.u_dim < 1 || params.u_n < 1 || params.u_d < 0 ||
+            params.hdbs_min_cluster_size < 1 || params.hdbs_min_samples < 1 ||
+            params.hdbs_epsilon < 0) {
+            this.showError('Invalid parameter values');
+            return;
+        }
+
+        // Clear previous info
+        this.clusterInfo.textContent = '';
+
+        // Disable all inputs and show loading state
+        const inputs = [
+            this.uDimInput, this.uNInput, this.uDInput,
+            this.hdbsMinClusterSizeInput, this.hdbsMinSamplesInput,
+            this.hdbsMethodSelect, this.hdbsEpsilonInput
+        ];
+        inputs.forEach(input => input.disabled = true);
         this.generateClustersButton.disabled = true;
         this.generateClustersButton.classList.add('loading');
 
@@ -261,8 +293,7 @@ class App {
                 },
                 body: JSON.stringify({
                     provider,
-                    foo,
-                    bar
+                    ...params
                 })
             });
 
@@ -282,13 +313,16 @@ class App {
                 clusterToggle.checked = true;
             }
             this.renderer.toggleClusters(true);
+
+            // Update info box
+            this.clusterInfo.textContent = `Found ${clusters.metadata.num_clusters} clusters, ${clusters.metadata.noise_points} noise points`;
         } catch (error) {
             console.error('Failed to generate clusters:', error);
             this.showError('Failed to generate clusters');
+            this.clusterInfo.textContent = 'Clustering failed';
         } finally {
-            // Re-enable inputs and remove loading state
-            this.fooInput.disabled = false;
-            this.barInput.disabled = false;
+            // Re-enable all inputs and remove loading state
+            inputs.forEach(input => input.disabled = false);
             this.generateClustersButton.disabled = false;
             this.generateClustersButton.classList.remove('loading');
         }
