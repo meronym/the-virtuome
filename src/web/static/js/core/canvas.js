@@ -14,7 +14,8 @@ export class CanvasRenderer {
         this.listeners = new Map();
         this.animationFrame = null;
         this.pointRadius = 4;  // Base point radius
-        this.clusterRadius = 16;  // Base cluster radius in screen pixels (6x point radius)
+        this.clusterRadius = 2;  // Base cluster radius at 100% zoom
+        this.baseZoom = 100;  // Baseline zoom level (100%)
         
         // Generate initial set of cluster colors
         this.generateClusterColors(20);  // Pre-generate some colors
@@ -74,41 +75,24 @@ export class CanvasRenderer {
     
     generateClusterColors(n) {
         // Generate visually distinct colors using HSL
-        this.clusterColors = Array.from({length: n}, (_, i) => {
+        this.clusterColors = Array.from({length: Math.max(n, 1)}, (_, i) => {
             const hue = (i * 137.508) % 360; // Golden angle in degrees
             return {
-                fill: `hsla(${hue}, 70%, 60%, 0.2)`,  // More opaque for better visibility
-                stroke: `hsla(${hue}, 70%, 60%, 0.3)`   // Slightly more visible edges
+                fill: `hsla(${hue}, 70%, 60%, 0.25)`  // Slightly more opaque since we're not using stroke
             };
         });
-        // Add color for noise points (-1)
-        this.clusterColors[-1] = {
-            fill: 'rgba(150, 150, 150, 0.05)',
-            stroke: 'rgba(150, 150, 150, 0.1)'
-        };
     }
     
-    drawClusterBackground(x, y, cluster) {
-        const ctx = this.ctx;
-        // Use data coordinates directly - no need to divide by scale
-        const radius = this.clusterRadius;
-        
-        ctx.beginPath();
-        ctx.arc(x, y, radius, 0, Math.PI * 2);
-        
-        const colors = this.clusterColors[cluster] || this.clusterColors[-1];  // Fallback to noise colors
-        ctx.fillStyle = colors.fill;
-        ctx.strokeStyle = colors.stroke;
-        ctx.lineWidth = 0.001;  // Very thin line in data coordinates
-        
-        ctx.fill();
-        ctx.stroke();
+    setSelectedPoint(pointId) {
+        this.selectedPoint = pointId;
+        this.render();
     }
     
     setData(points, clusters = null) {
         this.points = points;
         this.clusters = clusters;
-        if (clusters && clusters.metadata.num_clusters > this.clusterColors.length) {
+        if (clusters) {
+            // Always regenerate colors when clusters change to ensure we have enough
             this.generateClusterColors(clusters.metadata.num_clusters);
         }
         this.render();
@@ -281,33 +265,38 @@ export class CanvasRenderer {
             
             // First pass: Draw cluster backgrounds if enabled
             if (this.showClusters && this.clusters) {
+                // Calculate zoom-adjusted radius
+                const currentZoom = this.transform.scale * 100;  // Convert scale to percentage
+                const zoomFactor = currentZoom / this.baseZoom;
+                const scaledRadius = this.clusterRadius * Math.sqrt(zoomFactor);  // Use sqrt for smoother scaling
+                
                 for (const [id, point] of pointEntries) {
+                    const cluster = this.clusters.points[id]?.cluster ?? -1;
+                    
+                    // Skip noise points (cluster -1)
+                    if (cluster === -1) continue;
+                    
+                    // Skip if no color is defined for this cluster
+                    if (!this.clusterColors[cluster]) continue;
+                    
                     // Convert to screen coordinates like we do for points
                     const [screenX, screenY] = this.transform.toScreen(point.x, point.y);
                     
                     // Use wider padding for cluster backgrounds
-                    const padding = this.clusterRadius;  // No need to scale padding
+                    const padding = scaledRadius;
                     if (screenX < -padding || screenX > width + padding ||
                         screenY < -padding || screenY > height + padding) {
                         continue;
                     }
-
-                    const cluster = this.clusters.points[id]?.cluster ?? -1;
                     
                     // Draw cluster background in screen coordinates
                     const ctx = this.ctx;
-                    const radius = this.clusterRadius;  // No need to scale radius
                     
                     ctx.beginPath();
-                    ctx.arc(screenX, screenY, radius, 0, Math.PI * 2);
+                    ctx.arc(screenX, screenY, scaledRadius, 0, Math.PI * 2);
                     
-                    const colors = this.clusterColors[cluster] || this.clusterColors[-1];
-                    ctx.fillStyle = colors.fill;
-                    ctx.strokeStyle = colors.stroke;
-                    ctx.lineWidth = 0.5;  // Thinner line for subtler edges
-                    
+                    ctx.fillStyle = this.clusterColors[cluster].fill;
                     ctx.fill();
-                    ctx.stroke();
                 }
             }
             

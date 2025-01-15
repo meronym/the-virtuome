@@ -10,8 +10,9 @@ The web visualization system provides an interactive 2D visualization of virtue 
 - Multiple data provider support (Voyage AI, OpenAI, Cohere)
 - Multiple projection types (PCA, UMAP with variants)
 - HDBSCAN clustering visualization with:
-  - Distinct cluster colors
-  - Noise point identification
+  - Distinct cluster colors with semi-transparent fills
+  - Noise point identification (excluded from cluster visualization)
+  - Dynamic cluster size scaling with zoom level
   - Toggle between cluster and tree-based coloring
 - Pan and zoom navigation
 - Point selection and hover effects with visual feedback
@@ -99,7 +100,11 @@ Key features:
     - Darker border of the same hue
     - Subtle outer ring
   - Pin-highlighted: Subtle halo effect showing hierarchical relationships
-  - Cluster mode: Distinct colors per cluster with noise point identification
+  - Cluster mode: 
+    - Distinct semi-transparent colors per cluster
+    - Dynamic radius scaling with zoom level
+    - Noise point exclusion
+    - Smooth transitions between cluster and tree coloring
 - Theme-aware labels with:
   - System font stack
   - Dark/light mode adaptation
@@ -108,10 +113,11 @@ Key features:
 - High DPI support
 - Automatic resize handling
 - Event emission for state changes
-- Three-pass rendering for optimal visual hierarchy:
-  1. Halos for pinned nodes
-  2. Point bodies
-  3. Hover labels (always on top)
+- Multi-pass rendering for optimal visual hierarchy:
+  1. Cluster backgrounds (when enabled)
+  2. Halos for pinned nodes
+  3. Point bodies
+  4. Hover labels (always on top)
 - Color coordination with tree hierarchy or cluster assignment
 - Interactive point selection with tree synchronization
 
