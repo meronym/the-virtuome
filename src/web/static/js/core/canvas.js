@@ -359,43 +359,42 @@ export class CanvasRenderer {
             }
             
             // Second pass: Draw halos for pinned nodes' descendants
-            for (const [id, point] of pointEntries) {
-                const [screenX, screenY] = this.transform.toScreen(point.x, point.y);
+            const treeViz = document.querySelector('#tree-panel')?.__treeViz;
+            if (treeViz && this.points) {
+                this.ctx.save();
+                this.ctx.lineWidth = 3; // Increased from default
+                this.ctx.lineCap = 'round';
+                this.ctx.lineJoin = 'round';
                 
-                // Skip points outside viewport with padding
-                const padding = 8; // Larger padding for halos
-                if (screenX < -padding || screenX > width + padding ||
-                    screenY < -padding || screenY > height + padding) {
-                    continue;
-                }
-
-                // Check if this point is a descendant of any pinned node
-                const treeViz = document.querySelector('#tree-panel')?.__treeViz;
-                if (treeViz) {
+                const padding = 10; // Increased padding for halos
+                
+                for (const [id, point] of Object.entries(this.points)) {
+                    // Skip points that aren't descendants of pinned nodes
                     const pinnedAncestor = treeViz.getMostSpecificPinnedAncestor(id);
-                    if (pinnedAncestor) {
-                        const haloColor = treeViz.colorMap.get(pinnedAncestor.node.name);
-                        if (haloColor) {
-                            // Draw halo
-                            this.ctx.beginPath();
-                            this.ctx.arc(screenX, screenY, 8, 0, Math.PI * 2);
-                            this.ctx.strokeStyle = `hsla(${haloColor.h}, ${haloColor.s}%, ${haloColor.l}%, 0.5)`;
-                            this.ctx.lineWidth = 4;
-                            
-                            // Add glow effect
-                            this.ctx.shadowColor = `hsla(${haloColor.h}, ${haloColor.s}%, ${haloColor.l}%, 0.4)`;
-                            this.ctx.shadowBlur = 8;
-                            this.ctx.shadowOffsetX = 0;
-                            this.ctx.shadowOffsetY = 0;
-                            
-                            this.ctx.stroke();
-                            
-                            // Reset shadow for other elements
-                            this.ctx.shadowBlur = 0;
-                            this.ctx.shadowColor = 'transparent';
-                        }
+                    if (!pinnedAncestor) continue;
+                    
+                    // Get screen coordinates
+                    const [x, y] = this.transform.toScreen(point.x, point.y);
+                    
+                    // Get color from ancestor
+                    const haloColor = treeViz.colorMap.get(pinnedAncestor.node.name);
+                    if (haloColor) {
+                        // Draw halo
+                        this.ctx.beginPath();
+                        this.ctx.arc(x, y, this.pointRadius + padding, 0, Math.PI * 2);
+                        
+                        // Increased opacity for better visibility
+                        this.ctx.strokeStyle = `hsla(${haloColor.h}, ${haloColor.s}%, ${haloColor.l}%, 0.7)`;
+                        
+                        // Add glow effect
+                        this.ctx.shadowBlur = 8;
+                        this.ctx.shadowColor = `hsla(${haloColor.h}, ${haloColor.s}%, ${haloColor.l}%, 0.6)`;
+                        
+                        this.ctx.stroke();
                     }
                 }
+                
+                this.ctx.restore();
             }
             
             // Third pass: Draw all points (without labels)
