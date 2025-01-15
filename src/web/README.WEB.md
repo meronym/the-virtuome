@@ -13,6 +13,8 @@ The web visualization system provides an interactive 2D visualization of virtue 
   - Automatic metadata fetching on hover and selection
   - Rich hover labels with title, tradition, and description
   - Synchronized metadata state between tree and canvas
+  - Efficient metadata caching system
+  - Shared metadata handling across components
 - HDBSCAN clustering visualization with:
   - Distinct cluster colors with semi-transparent fills
   - Noise point identification (excluded from cluster visualization)
@@ -26,7 +28,12 @@ The web visualization system provides an interactive 2D visualization of virtue 
   - System font rendering
   - Light/dark mode adaptation
   - Rounded corners and subtle shadows
-- Detailed virtue content display in sliding panel
+- Detailed virtue content display in sliding panel:
+  - Rich metadata presentation (title, tradition, definition)
+  - Key aspects and characteristics
+  - Full virtue content with formatted text
+  - Theme-aware styling
+  - Synchronized state with tree and canvas
 - Hierarchical tree visualization with:
   - Color coordination with canvas points
   - Interactive node highlighting
@@ -55,7 +62,7 @@ src/web/
 │   │   │   └── events.js      # Event handling with metadata loading
 │   │   ├── data/              # Data management
 │   │   │   ├── loader.js      # Data and metadata loading/caching
-│   │   │   ├── details.js     # Details panel management
+│   │   │   ├── details.js     # Details panel with metadata display
 │   │   │   ├── tree.js        # Tree visualization with metadata sync
 │   │   │   └── state.js       # Application state with metadata tracking
 │   │   └── main.js            # Application entry point
@@ -65,28 +72,7 @@ src/web/
 
 ## Component Documentation
 
-### Server (`server/app.py`)
-
-The Flask server handles:
-- Static file serving
-- Data file serving with caching
-- Dataset enumeration API
-- Virtue content serving
-- Virtue metadata serving
-- Raw data serving for tree structure
-- Version-specific data serving via CLI argument
-
-Key endpoints:
-- `/` - Serves the main application
-- `/data/datasets` - Lists available datasets
-- `/data/<provider>/<path>` - Serves data files
-- `/data/virtue/<virtue_id>` - Serves virtue content from raw data
-- `/data/virtue/<virtue_id>/metadata` - Serves parsed virtue metadata
-- `/data/raw/<version>/<path>` - Serves raw data files including tree structure
-
-### Core Components
-
-#### DataLoader (`js/data/loader.js`)
+### DataLoader (`js/data/loader.js`)
 Manages data loading and caching:
 - Dataset metadata loading
 - JSON file caching
@@ -94,27 +80,25 @@ Manages data loading and caching:
 - Provider/projection type management
 - Virtue metadata caching and loading
 - Automatic metadata state management
+- Shared metadata instance across components
 
-#### AppState (`js/data/state.js`)
-Manages application state including:
-- Current provider/projection settings
-- Selected and hovered virtue tracking
-- Metadata loading state
-- Event system for metadata updates
-- URL parameter synchronization
+### DetailsPanel (`js/data/details.js`)
+Manages the virtue details panel with:
+- Rich metadata display:
+  - Title and tradition header
+  - Definition section
+  - Key aspects list
+  - Full virtue content
+- Theme-aware styling with:
+  - Subtle backgrounds
+  - Hierarchical typography
+  - Consistent spacing
+- Metadata integration:
+  - Efficient cache utilization
+  - Synchronized state
+  - Shared instance management
 
-#### CanvasRenderer (`js/core/canvas.js`)
-Handles canvas rendering with:
-- Dynamic point label generation using metadata
-- Rich hover labels with three-row layout:
-  - Emphasized title (16px, bold)
-  - Tradition subtitle (13px, muted)
-  - Description text (13px, truncated)
-- Theme-aware label styling
-- Automatic metadata loading on hover
-- Synchronized selection state with tree
-
-#### TreeVisualizer (`js/data/tree.js`)
+### TreeVisualizer (`js/data/tree.js`)
 Manages the hierarchical tree with:
 - Automatic metadata loading on node selection
 - Smart scrolling behavior:
@@ -125,47 +109,35 @@ Manages the hierarchical tree with:
 - Pin-based relationship exploration
 - Synchronized highlighting with canvas
 - Color coordination across components
+- Shared metadata handling with details panel
 
-### Data Structure
-
-Expected data directory structure:
-```
-data/
-├── processed/v2/           # Processed embeddings & analysis
-│   ├── voyage/
-│   │   ├── embeddings/
-│   │   ├── pca/
-│   │   ├── umap/
-│   │   │   └── clusters/  # HDBSCAN clustering results
-│   │   │       └── hdbscan-umap-*.json
-│   ├── openai/
-│   └── cohere/
-└── raw/
-    └── v2/                  # Raw v2 virtue dataset
-        ├── flat/            # Flat list of v2 virtue files
-        │   ├── *.md         # Individual virtue files
-        │   └── *.meta.yaml  # Parsed virtue metadata
-        └── tree.json        # Hierarchical organization of virtues
-```
+### AppState (`js/data/state.js`)
+Manages application state including:
+- Current provider/projection settings
+- Selected and hovered virtue tracking
+- Metadata loading state
+- Event system for metadata updates
+- URL parameter synchronization
+- Shared metadata coordination
 
 ### Virtue Metadata Format
 The `*.meta.yaml` files contain structured metadata:
 
 ```yaml
-# Original frontmatter fields
+# Core fields
 id: virtue-identifier
-virtue: Virtue Name
+name: Virtue Name
 tradition: Tradition Name
 category: Category
-
-# Content-derived fields
-post_length: 1234
-title: "Full Virtue Title"
 definition: "Complete definition text"
+
+# Content fields
 key_aspects:
   - "Aspect 1"
   - "Aspect 2"
-key_quotes:
+historical_development: "Historical context..."
+contemporary_relevance: "Modern applications..."
+notable_quotes:
   - "Quote 1"
   - "Quote 2"
 related_practices:
@@ -181,6 +153,7 @@ related_practices:
 - Theme preference persistence
 - Cached data and metadata loading
 - Synchronized tree and canvas state
+- Shared metadata instances across components
 
 ### Performance Optimizations
 - Point culling outside viewport
@@ -190,6 +163,7 @@ related_practices:
 - Touch event optimization
 - Two-pass rendering for layered elements
 - Smart metadata loading on interaction
+- Efficient metadata caching system
 
 ### Mobile Support
 - Responsive layout adjustments

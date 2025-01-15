@@ -1,11 +1,10 @@
 import { DetailsPanel } from '../data/details.js';
 
 export class EventHandler {
-    constructor(canvas, transform, renderer) {
+    constructor(canvas, transform, renderer, dataLoader) {
         this.canvas = canvas;
         this.transform = transform;
         this.renderer = renderer;
-        this.details = new DetailsPanel();
         this.isDragging = false;
         this.lastX = 0;
         this.lastY = 0;
@@ -34,7 +33,6 @@ export class EventHandler {
             // If clicking on a point, select it
             this.renderer.selectedPoint = point;
             this.renderer.emit('pointsChanged', { type: 'select', point });
-            this.details.showVirtue(point);
         } else {
             // Otherwise start dragging
             this.isDragging = true;
@@ -77,7 +75,6 @@ export class EventHandler {
                 if (point) {
                     this.renderer.selectedPoint = point;
                     this.renderer.emit('pointsChanged', { type: 'select', point });
-                    this.details.showVirtue(point);
                 }
             }
         }

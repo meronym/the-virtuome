@@ -1,13 +1,14 @@
 import { DetailsPanel } from './details.js';
 
 class TreeVisualizer {
-    constructor() {
+    constructor(dataLoader, detailsPanel) {
         this.treeData = null;
         this.colorMap = new Map();
         this.nodeElements = new Map(); // Store references to node elements
         this.pinnedNodes = new Set(); // Track pinned nodes
         this.highlightedNode = null; // Track currently highlighted node
-        this.details = new DetailsPanel();
+        this.dataLoader = dataLoader;
+        this.details = detailsPanel;
     }
 
     async loadTree() {
@@ -298,9 +299,6 @@ class TreeVisualizer {
                         behavior: 'smooth'
                     });
                 }
-
-                // Show virtue details
-                this.details.showVirtue(nodeName);
             }
         }
     }
@@ -339,9 +337,8 @@ class TreeVisualizer {
                         if (renderer) {
                             renderer.setSelectedPoint(virtueName);
                         }
-                        // Show virtue details
-                        const details = new DetailsPanel();
-                        details.showVirtue(virtueName);
+                        // Use the shared details panel instance
+                        this.details.showVirtue(virtueName);
                     }
                 });
             }

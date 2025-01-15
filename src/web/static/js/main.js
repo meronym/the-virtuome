@@ -1,26 +1,27 @@
 import { ViewportTransform } from '/static/js/core/transform.js';
 import { CanvasRenderer } from '/static/js/core/canvas.js';
 import { EventHandler } from '/static/js/core/events.js';
-import { DataLoader } from '/static/js/data/loader.js';
+import { DataLoader } from './data/loader.js';
 import { AppState } from '/static/js/data/state.js';
 import { TreeVisualizer } from '/static/js/data/tree.js';
 import { ThemeManager } from '/static/js/data/theme.js';
+import { DetailsPanel } from '/static/js/data/details.js';
 
 class App {
     constructor() {
         this.state = new AppState();
-        this.loader = new DataLoader();
+        this.dataLoader = new DataLoader();
         this.transform = new ViewportTransform();
         this.canvas = document.getElementById('visualization');
-        this.renderer = new CanvasRenderer(this.canvas, this.transform, this.loader);
+        this.renderer = new CanvasRenderer(this.canvas, this.transform, this.dataLoader);
         this.themeManager = new ThemeManager();
-        this.dataLoader = new DataLoader();
+        this.details = new DetailsPanel(this.dataLoader);
         this.currentProvider = null;
         this.currentProjection = null;
         this.currentVariant = null;
         
         // Initialize event handler after renderer
-        this.events = new EventHandler(this.canvas, this.transform, this.renderer);
+        this.events = new EventHandler(this.canvas, this.transform, this.renderer, this.dataLoader);
         
         this.setupUI();
         this.setupEventListeners();
@@ -30,7 +31,7 @@ class App {
     async initialize() {
         try {
             // Initialize data loader
-            await this.loader.initialize();
+            await this.dataLoader.initialize();
             
             // Load initial dataset
             await this.loadCurrentDataset();
@@ -80,8 +81,13 @@ class App {
             this.renderer.on('pointsChanged', async ({ type, point }) => {
                 // Load metadata when point is hovered or selected
                 if (point && (type === 'hover' || type === 'select')) {
-                    await this.state.setHoveredVirtue(type === 'hover' ? point : null, this.loader);
-                    await this.state.setSelectedVirtue(type === 'select' ? point : null, this.loader);
+                    await this.state.setHoveredVirtue(type === 'hover' ? point : null, this.dataLoader);
+                    await this.state.setSelectedVirtue(type === 'select' ? point : null, this.dataLoader);
+                    
+                    // Show details panel for selected points
+                    if (type === 'select') {
+                        this.details.showVirtue(point);
+                    }
                 }
                 
                 this.renderer.render();
@@ -96,10 +102,10 @@ class App {
             // Strip .json from variant if present
             const cleanVariant = variant ? variant.replace(/\.json$/, '') : '';
             
-            const data = await this.loader.loadDataset(provider, type, cleanVariant);
+            const data = await this.dataLoader.loadDataset(provider, type, cleanVariant);
             
             // Try to load cluster data if available
-            const clusters = await this.loader.loadClusters(
+            const clusters = await this.dataLoader.loadClusters(
                 provider, 
                 type, 
                 cleanVariant
@@ -126,7 +132,7 @@ class App {
     
     updateVariantSelect() {
         const { provider, type } = this.state.getState();
-        const variants = this.loader.getAvailableVariants(provider, type);
+        const variants = this.dataLoader.getAvailableVariants(provider, type);
         
         // Clear existing options
         this.variantSelect.innerHTML = '';
@@ -210,10 +216,10 @@ class App {
         this.currentProjection = projectionType;
         this.currentVariant = variant;
 
-        const data = await this.loader.loadDataset(provider, projectionType, variant);
+        const data = await this.dataLoader.loadDataset(provider, projectionType, variant);
         
         // Try to load cluster data if available
-        const clusters = await this.loader.loadClusters(
+        const clusters = await this.dataLoader.loadClusters(
             provider, 
             projectionType, 
             variant
@@ -234,7 +240,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     const app = new App();
     await app.initialize();
     
-    const treeViz = new TreeVisualizer();
+    // Use the app's DataLoader instance instead of creating a new one
+    const treeViz = new TreeVisualizer(app.dataLoader, app.details);
     await treeViz.loadTree();
     
     // Store TreeVisualizer instance on the tree panel element
@@ -243,38 +250,34 @@ document.addEventListener('DOMContentLoaded', async () => {
     
     // Listen for point selection changes
     const canvas = document.getElementById('visualization');
-    const renderer = canvas.__renderer; // Access the renderer instance
+    const renderer = canvas.__renderer;
     
     if (renderer) {
         renderer.on('pointsChanged', async ({ type, point }) => {
-            // Handle both hover and select events
             if (type === 'select' && point) {
-                // When a point is selected in the canvas
-                await app.state.setSelectedVirtue(point, app.loader);
-                await treeViz.highlightNode(point);  // Ensure this is awaited
+                await app.state.setSelectedVirtue(point, app.dataLoader);
+                await treeViz.highlightNode(point);
+                app.details.showVirtue(point);
             } else if (type === 'hover' && point) {
-                // When a point is hovered in the canvas
-                await app.state.setHoveredVirtue(point, app.loader);
+                await app.state.setHoveredVirtue(point, app.dataLoader);
             }
         });
     }
     
     // Add click handlers to tree nodes
     treePanel.addEventListener('click', async (e) => {
-        // Check if clicked on a node span or color dot
         const nodeSpan = e.target.closest('span');
         if (nodeSpan) {
             const li = nodeSpan.closest('li');
             if (li) {
                 const nodeId = li.id.replace('tree-node-', '');
-                // If clicked on color dot, toggle pin
                 if (nodeSpan.classList.contains('color-dot')) {
                     treeViz.toggleNodePin(nodeId);
                 } else {
-                    // Otherwise highlight node and load metadata
-                    await app.state.setSelectedVirtue(nodeId, app.loader);
-                    await treeViz.highlightNode(nodeId);  // Ensure this is awaited
+                    await app.state.setSelectedVirtue(nodeId, app.dataLoader);
+                    await treeViz.highlightNode(nodeId);
                     renderer.setSelectedPoint(nodeId);
+                    app.details.showVirtue(nodeId);
                 }
             }
         }
