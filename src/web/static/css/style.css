@@ -236,38 +236,6 @@ main {
     z-index: 1;
 }
 
-#virtue-preview {
-    padding: 1.5rem;
-    border-bottom: 1px solid var(--border-color);
-    background: var(--header-bg);
-    overflow-y: auto;
-    max-height: 40vh;
-}
-
-#virtue-preview.hidden {
-    display: none;
-}
-
-#virtue-preview .content {
-    line-height: 1.6;
-}
-
-#virtue-preview h1 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    color: var(--text-color);
-}
-
-#virtue-preview h2 {
-    font-size: 1.2rem;
-    margin: 1rem 0;
-    color: var(--text-color-secondary);
-}
-
-#virtue-preview p {
-    margin: 0.5rem 0;
-}
-
 #tree-panel {
     flex: 1;
     overflow-y: auto;
@@ -275,6 +243,93 @@ main {
     padding: 20px;
     font-size: 14px;
     scroll-behavior: smooth;
+    order: -1;
+}
+
+#virtue-preview {
+    padding: 1.25rem;
+    border-top: 1px solid var(--border-color);
+    border-bottom: none;
+    background: var(--header-bg);
+    overflow-y: auto;
+    height: 35vh;
+    min-height: 35vh;
+    font-size: 14px;
+    line-height: 1.5;
+    order: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#virtue-preview.hidden {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color-secondary);
+    font-style: italic;
+}
+
+#virtue-preview.hidden::before {
+    content: "No virtue selected";
+}
+
+#virtue-preview.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color-secondary);
+    font-style: italic;
+}
+
+#virtue-preview.loading::before {
+    content: "Loading...";
+}
+
+#virtue-preview .content {
+    line-height: 1.5;
+    flex: 1;
+}
+
+#virtue-preview h1 {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+    color: var(--text-color);
+    font-weight: 600;
+    letter-spacing: -0.01em;
+}
+
+#virtue-preview h2 {
+    font-size: 1rem;
+    margin: 0.75rem 0 0.5rem;
+    color: var(--text-color-secondary);
+    font-weight: 500;
+}
+
+#virtue-preview p {
+    margin: 0.5rem 0;
+    font-size: 14px;
+    color: var(--text-color);
+    opacity: var(--tree-text-opacity);
+}
+
+#virtue-preview ul {
+    list-style: none;
+    padding-left: 0.75rem;
+    margin: 0.5rem 0;
+}
+
+#virtue-preview li {
+    position: relative;
+    padding: 0.25rem 0;
+    font-size: 14px;
+    opacity: var(--tree-text-opacity);
+}
+
+#virtue-preview li:before {
+    content: "•";
+    position: absolute;
+    left: -0.75rem;
+    color: var(--text-color-secondary);
 }
 
 #tree-panel ul {
