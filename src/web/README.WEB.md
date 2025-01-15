@@ -11,7 +11,7 @@ The web visualization system provides an interactive 2D visualization of virtue 
 - Dynamic UMAP projection system with:
   - Real-time UMAP computation
   - Configurable parameters (neighbors, min_dist)
-  - Interactive parameter controls in dedicated sidebar
+  - Interactive parameter controls in dedicated settings panel
   - Visual feedback during computation
   - Automatic viewport fitting for new projections
 - Dynamic clustering system with:
@@ -33,13 +33,16 @@ The web visualization system provides an interactive 2D visualization of virtue 
   - Dynamic cluster size scaling with zoom level
   - Toggle between cluster and tree-based coloring
   - Real-time cluster generation with custom parameters
-- Pan and zoom navigation
+- Pan and zoom navigation with:
+  - Real-time zoom level display
+  - Smooth zoom transitions
+  - Viewport-aware navigation
 - Point selection and hover effects with visual feedback
 - Theme-aware point labels with:
   - Multi-row layout with title emphasis
   - Tradition and description display
   - System font rendering
-  - Light/dark mode adaptation
+  - Light/dark mode adaptation with dedicated theme toggle
   - Rounded corners and subtle shadows
 - Detailed virtue content display in left panel preview:
   - Rich metadata presentation (title, tradition, definition)
@@ -67,7 +70,7 @@ src/web/
 │   └── app.py                 # Flask development server with UMAP, clustering, and metadata endpoints
 ├── static/
 │   ├── css/
-│   │   └── style.css          # Core styles including parameter UI
+│   │   └── style.css          # Core styles including settings panel and theme system
 │   ├── js/
 │   │   ├── core/              # Core visualization components
 │   │   │   ├── transform.js   # Viewport transformations
@@ -84,6 +87,23 @@ src/web/
 ```
 
 ## Component Documentation
+
+### Settings Panel (`index.html`, `style.css`)
+Manages the application settings and controls:
+- Fixed position panel on right side
+- System controls section with:
+  - Theme toggle button
+  - Real-time zoom level display
+- Dataset selection and configuration
+- UMAP parameter controls
+- Clustering parameter controls
+- Visual feedback for operations
+- Mobile-responsive layout
+- Theme-aware styling with:
+  - Consistent spacing
+  - Visual grouping
+  - Clear section hierarchy
+  - Compact but readable inputs
 
 ### DataLoader (`js/data/loader.js`)
 Manages data loading and caching:

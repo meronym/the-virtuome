@@ -49,7 +49,6 @@ class App {
         this.umapDInput = document.getElementById('umap_d');
         this.generateUmapButton = document.getElementById('generate-umap');
         this.zoomInfo = document.getElementById('zoom-info');
-        this.clusteringSidebar = document.getElementById('clustering-sidebar');
         
         // HDBSCAN controls
         this.hdbsMinClusterSizeInput = document.getElementById('hdbs_min_cluster_size');
@@ -59,16 +58,11 @@ class App {
         this.generateClustersButton = document.getElementById('generate-clusters');
         this.clusterInfo = document.getElementById('cluster-info');
         
-        // Setup clustering sidebar close button
-        const closeClusteringBtn = this.clusteringSidebar.querySelector('.close');
-        closeClusteringBtn.addEventListener('click', () => this.hideClusteringSidebar());
-        
-        // Add clustering button to header
-        const clusteringBtn = document.createElement('button');
-        clusteringBtn.textContent = 'Parameters';
-        clusteringBtn.classList.add('clustering-toggle');
-        clusteringBtn.addEventListener('click', () => this.toggleClusteringSidebar());
-        document.getElementById('controls').appendChild(clusteringBtn);
+        // Handle mobile settings panel visibility
+        if (window.innerWidth <= 768) {
+            const settingsPanel = document.getElementById('settings-panel');
+            settingsPanel.classList.add('visible');
+        }
         
         // Provider selection
         this.providerSelect.addEventListener('change', () => {
@@ -84,28 +78,6 @@ class App {
         this.generateClustersButton.addEventListener('click', async () => {
             await this.generateClusters();
         });
-    }
-    
-    toggleClusteringSidebar() {
-        if (this.clusteringSidebar.classList.contains('visible')) {
-            this.hideClusteringSidebar();
-        } else {
-            this.showClusteringSidebar();
-        }
-    }
-    
-    showClusteringSidebar() {
-        this.clusteringSidebar.classList.remove('hidden');
-        setTimeout(() => {
-            this.clusteringSidebar.classList.add('visible');
-        }, 10);
-    }
-    
-    hideClusteringSidebar() {
-        this.clusteringSidebar.classList.remove('visible');
-        setTimeout(() => {
-            this.clusteringSidebar.classList.add('hidden');
-        }, 300); // Match transition duration
     }
     
     setupEventListeners() {

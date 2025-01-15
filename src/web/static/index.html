@@ -8,15 +8,6 @@
 </head>
 <body>
     <div id="app">
-        <header id="controls">
-            <div class="theme-switch">
-                <button id="theme-toggle" aria-label="Toggle dark mode">
-                    <span class="theme-icon">🌞</span>
-                </button>
-            </div>
-            <div id="zoom-info"></div>
-        </header>
-        
         <main>
             <div id="left-panel">
                 <div id="virtue-preview" class="hidden">
@@ -25,12 +16,19 @@
                 <div id="tree-panel"></div>
             </div>
             <canvas id="visualization"></canvas>
-            <aside id="clustering-sidebar" class="hidden">
+            <aside id="settings-panel">
                 <div class="sidebar-header">
-                    <h3>Parameters</h3>
-                    <button class="close" aria-label="Close panel">&times;</button>
+                    <h3>Settings</h3>
                 </div>
-                <div class="clustering-controls">
+                <div class="settings-controls">
+                    <div class="param-group system-controls">
+                        <div class="theme-switch">
+                            <button id="theme-toggle" aria-label="Toggle dark mode">
+                                <span class="theme-icon">🌞</span>
+                            </button>
+                        </div>
+                        <div id="zoom-info"></div>
+                    </div>
                     <div class="param-group">
                         <label>Dataset</label>
                         <div class="input-group">
